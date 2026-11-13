@@ -18,7 +18,7 @@ codeql-ssf-npm-analysis/
 │   ├── pre-post-source-sink-exec.ql
 │   └── credential-harvest-exfil.ql
 ├── confusion_matrix/                   # Evaluation metric scripts (Recall, FPR, McNemar tests)
-├── dataset-list/                       # Corpus reference lists (Discovery, Validation, Temporal)
+├── corpora/                            # Corpus reference lists (Discovery, Validation, Temporal)
 ├── guarddog/                           # GuardDog benchmark scan runners and baseline configs
 ├── helper/                             # Utility modules and environment helpers
 ├── make-dataset/                       # Dataset hygiene, parsing, and preprocessing pipelines
