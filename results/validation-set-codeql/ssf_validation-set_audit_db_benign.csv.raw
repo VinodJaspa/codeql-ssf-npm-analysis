@@ -1,0 +1,1101 @@
+package,version,label,source_type,node_modules_present,database_status,build_time_seconds,query_time_seconds,queries_processed,queries_failed,package_time_seconds,error_message
+@bahmutov/all-paths,0.0.0-development,benign,npm-tarball,False,success,8.974,83.755,10,0,92.737,
+@bahmutov/all-paths,1.0.1,benign,npm-tarball,False,success,8.956,84.689,10,0,93.654,
+@bahmutov/all-paths,1.0.2,benign,npm-tarball,False,success,8.939,84.955,10,0,93.905,
+@bahmutov/data-driven,1.0.0,benign,npm-tarball,False,success,6.318,88.161,10,0,94.486,
+@csstools/postcss-progressive-custom-properties,1.0.0,benign,npm-tarball,False,failed,2.722,0.0,0,0,2.729,"data/resarch-dataset/benign_packages/@csstools/postcss-progressive-custom-properties/1.0.0/package/dist/index.cjs (56 ms)
+[2026-10-30 15:57:21] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/@csstools/postcss-progressive-custom-properties/1.0.0/package/dist/index.mjs (58 ms)
+[2026-10-30 15:57:21] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/@csstools/postcss-progressive-custom-properties/1.0.0/package/package.json (77 ms)
+[2026-10-30 15:57:21] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_@csstools__postcss-progressive-custom-properties_1.0.0.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/@csstools/postcss-progressive-custom-properties/1.0.0/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_@csstools__postcss-progressive-custom-properties_1.0.0.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+@csstools/postcss-progressive-custom-properties,3.1.0,benign,npm-tarball,False,failed,2.776,0.0,0,0,2.779,"data/resarch-dataset/benign_packages/@csstools/postcss-progressive-custom-properties/3.1.0/package/dist/index.cjs (36 ms)
+[2026-10-30 15:57:21] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/@csstools/postcss-progressive-custom-properties/3.1.0/package/dist/index.mjs (39 ms)
+[2026-10-30 15:57:21] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/@csstools/postcss-progressive-custom-properties/3.1.0/package/package.json (40 ms)
+[2026-10-30 15:57:21] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_@csstools__postcss-progressive-custom-properties_3.1.0.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/@csstools/postcss-progressive-custom-properties/3.1.0/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_@csstools__postcss-progressive-custom-properties_3.1.0.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+@csstools/postcss-progressive-custom-properties,5.1.4,benign,npm-tarball,False,failed,2.476,0.0,0,0,2.479,"enign_packages/@csstools/postcss-progressive-custom-properties/5.1.4/package/dist/index.mjs: File appears to be minified.
+[2026-10-30 15:57:23] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/@csstools/postcss-progressive-custom-properties/5.1.4/package/dist/index.mjs (44 ms)
+[2026-10-30 15:57:23] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/@csstools/postcss-progressive-custom-properties/5.1.4/package/package.json (55 ms)
+[2026-10-30 15:57:23] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_@csstools__postcss-progressive-custom-properties_5.1.4.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/@csstools/postcss-progressive-custom-properties/5.1.4/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_@csstools__postcss-progressive-custom-properties_5.1.4.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+@cypress/request,2.88.10,benign,npm-tarball,False,success,8.342,90.864,10,0,99.22,
+@cypress/request,3.0.1,benign,npm-tarball,False,success,8.962,90.764,10,0,99.734,
+@cypress/request,4.0.1,benign,npm-tarball,False,success,7.882,91.355,10,0,99.244,
+@delon/util,1.0.0-beta.10,benign,npm-tarball,False,success,8.382,87.285,10,0,95.693,
+@delon/util,17.0.1,benign,npm-tarball,False,success,10.133,89.712,10,0,99.935,
+@delon/util,9.5.5,benign,npm-tarball,False,success,8.729,91.702,10,0,100.497,
+@discordjs/collection,0.1.0,benign,npm-tarball,False,success,7.581,88.106,10,0,95.691,
+@discordjs/collection,1.5.2-dev.1687047087-75d91b5.0,benign,npm-tarball,False,success,8.744,87.099,10,0,95.849,
+@discordjs/collection,3.0.0-pr-11602.1789066132-275cd4b42,benign,npm-tarball,False,success,9.048,86.398,10,0,95.455,
+@fastify/error,2.0.0,benign,npm-tarball,False,success,8.283,86.41,10,0,94.703,
+@fastify/error,3.4.0,benign,npm-tarball,False,success,8.456,86.982,10,0,95.45,
+@fastify/error,4.2.1,benign,npm-tarball,False,success,8.112,89.319,10,0,97.447,
+@felte/common,0.1.1,benign,npm-tarball,False,failed,2.202,0.0,0,0,2.208,"0 16:03:49] [build-stderr] Skipping file /data/resarch-dataset/benign_packages/@felte/common/0.1.1/package/dist/index.js: File appears to be minified.
+[2026-10-30 16:03:49] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/@felte/common/0.1.1/package/dist/index.js (46 ms)
+[2026-10-30 16:03:49] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/@felte/common/0.1.1/package/dist/index.mjs (40 ms)
+[2026-10-30 16:03:49] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/@felte/common/0.1.1/package/package.json (58 ms)
+[2026-10-30 16:03:49] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_@felte__common_0.1.1.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/@felte/common/0.1.1/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_@felte__common_0.1.1.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+@felte/common,1.0.0-next.1,benign,npm-tarball,False,success,8.764,89.131,10,0,97.971,
+@felte/common,1.1.9,benign,npm-tarball,False,success,8.335,88.643,10,0,97.045,
+@mobily/ts-belt,1.0.0,benign,npm-tarball,False,success,9.366,89.446,10,0,98.895,
+@mobily/ts-belt,2.0.0-rc.9,benign,npm-tarball,False,success,9.74,90.134,10,0,99.913,
+@mobily/ts-belt,4.0.0-rc.5,benign,npm-tarball,False,success,10.381,91.667,10,0,102.094,
+@playwright-testing-library/test,4.0.0-beta.10,benign,npm-tarball,False,success,13.025,97.708,10,0,110.754,
+@playwright-testing-library/test,4.3.0-beta.1,benign,npm-tarball,False,success,12.916,99.753,10,0,112.693,
+@playwright-testing-library/test,4.5.0,benign,npm-tarball,False,success,14.519,97.808,10,0,112.358,
+@sanity/asset-utils,1.0.0,benign,npm-tarball,False,success,8.026,88.785,10,0,96.822,
+@sanity/asset-utils,1.3.0,benign,npm-tarball,False,success,8.86,89.262,10,0,98.139,
+@sanity/asset-utils,2.3.0,benign,npm-tarball,False,success,10.309,87.623,10,0,97.945,
+@sanity/timed-out,4.0.2,benign,npm-tarball,False,success,7.476,86.493,10,0,93.971,
+@sindresorhus/is,0.1.0,benign,npm-tarball,False,success,7.889,86.257,10,0,94.149,
+@sindresorhus/is,4.1.0,benign,npm-tarball,False,success,8.984,85.507,10,0,94.501,
+@sindresorhus/is,8.1.0,benign,npm-tarball,False,success,7.589,86.354,10,0,93.949,
+@stdlib/assert-has-float32array-support,0.0.1,benign,npm-tarball,False,success,7.556,87.175,10,0,94.736,
+@stdlib/assert-has-float32array-support,0.0.8,benign,npm-tarball,False,success,9.544,84.18,10,0,93.731,
+@stdlib/assert-has-float32array-support,0.2.3,benign,npm-tarball,False,success,7.056,86.44,10,0,93.503,
+@stdlib/assert-has-float64array-support,0.0.1,benign,npm-tarball,False,success,8.104,85.87,10,0,93.978,
+@stdlib/assert-has-float64array-support,0.0.8,benign,npm-tarball,False,success,9.125,85.997,10,0,95.134,
+@stdlib/assert-has-float64array-support,0.2.3,benign,npm-tarball,False,success,7.269,88.199,10,0,95.473,
+@stdlib/assert-has-node-buffer-support,0.0.1,benign,npm-tarball,False,success,8.218,87.755,10,0,95.977,
+@stdlib/assert-has-node-buffer-support,0.0.8,benign,npm-tarball,False,success,8.921,85.436,10,0,94.362,
+@stdlib/assert-has-node-buffer-support,0.2.3,benign,npm-tarball,False,success,7.085,87.446,10,0,94.541,
+@stdlib/assert-has-own-property,0.0.1,benign,npm-tarball,False,success,8.074,85.752,10,0,93.83,
+@stdlib/assert-has-own-property,0.0.7,benign,npm-tarball,False,success,9.246,85.779,10,0,95.03,
+@stdlib/assert-has-own-property,0.2.3,benign,npm-tarball,False,success,7.569,86.698,10,0,94.277,
+@stdlib/assert-has-symbol-support,0.0.1,benign,npm-tarball,False,success,7.773,85.419,10,0,93.196,
+@stdlib/assert-has-symbol-support,0.0.8,benign,npm-tarball,False,success,9.137,84.445,10,0,93.592,
+@stdlib/assert-has-symbol-support,0.2.3,benign,npm-tarball,False,success,7.053,87.49,10,0,94.549,
+@stdlib/assert-has-tostringtag-support,0.0.1,benign,npm-tarball,False,success,7.597,87.011,10,0,94.613,
+@stdlib/assert-has-tostringtag-support,0.0.8,benign,npm-tarball,False,success,9.068,86.321,10,0,95.399,
+@stdlib/assert-has-tostringtag-support,0.2.3,benign,npm-tarball,False,success,7.052,87.01,10,0,94.069,
+@stdlib/assert-has-uint16array-support,0.0.1,benign,npm-tarball,False,success,7.548,85.869,10,0,93.422,
+@stdlib/assert-has-uint16array-support,0.0.8,benign,npm-tarball,False,success,8.838,84.558,10,0,93.405,
+@stdlib/assert-has-uint16array-support,0.2.3,benign,npm-tarball,False,success,7.085,86.255,10,0,93.345,
+@stdlib/assert-has-uint32array-support,0.0.1,benign,npm-tarball,False,success,7.416,85.818,10,0,93.246,
+@stdlib/assert-has-uint32array-support,0.0.8,benign,npm-tarball,False,success,8.981,84.899,10,0,93.886,
+@stdlib/assert-has-uint32array-support,0.2.3,benign,npm-tarball,False,success,7.186,87.853,10,0,95.046,
+@stdlib/assert-has-uint8array-support,0.0.1,benign,npm-tarball,False,success,7.379,86.805,10,0,94.19,
+@stdlib/assert-has-uint8array-support,0.0.8,benign,npm-tarball,False,success,8.971,85.149,10,0,94.131,
+@stdlib/assert-has-uint8array-support,0.2.3,benign,npm-tarball,False,success,7.478,87.348,10,0,94.833,
+@stdlib/assert-is-array,0.0.1,benign,npm-tarball,False,success,7.366,86.011,10,0,93.384,
+@stdlib/assert-is-array,0.0.7,benign,npm-tarball,False,success,9.496,84.998,10,0,94.503,
+@stdlib/assert-is-array,0.2.3,benign,npm-tarball,False,success,7.257,87.046,10,0,94.311,
+@stdlib/assert-is-big-endian,0.0.1,benign,npm-tarball,False,success,7.626,87.637,10,0,95.271,
+@stdlib/assert-is-big-endian,0.0.7,benign,npm-tarball,False,success,9.079,86.055,10,0,95.148,
+@stdlib/assert-is-big-endian,0.2.3,benign,npm-tarball,False,success,7.508,86.876,10,0,94.39,
+@stdlib/assert-is-boolean,0.0.1,benign,npm-tarball,False,success,7.339,86.202,10,0,93.546,
+@stdlib/assert-is-boolean,0.0.8,benign,npm-tarball,False,success,9.501,85.275,10,0,94.786,
+@stdlib/assert-is-boolean,0.2.3,benign,npm-tarball,False,success,7.51,88.507,10,0,96.025,
+@stdlib/assert-is-buffer,0.0.1,benign,npm-tarball,False,success,7.425,87.652,10,0,95.09,
+@stdlib/assert-is-buffer,0.0.8,benign,npm-tarball,False,success,10.05,86.146,10,0,96.205,
+@stdlib/assert-is-buffer,0.2.3,benign,npm-tarball,False,success,7.819,87.507,10,0,95.332,
+@stdlib/assert-is-float32array,0.0.1,benign,npm-tarball,False,success,7.734,87.792,10,0,95.537,
+@stdlib/assert-is-float32array,0.0.8,benign,npm-tarball,False,success,9.799,85.88,10,0,95.684,
+@stdlib/assert-is-float32array,0.2.3,benign,npm-tarball,False,success,7.686,87.122,10,0,94.814,
+@stdlib/assert-is-float64array,0.0.1,benign,npm-tarball,False,success,7.804,88.277,10,0,96.085,
+@stdlib/assert-is-float64array,0.0.8,benign,npm-tarball,False,success,10.194,85.702,10,0,95.905,
+@stdlib/assert-is-float64array,0.2.3,benign,npm-tarball,False,success,7.509,87.544,10,0,95.063,
+@stdlib/assert-is-function,0.0.1,benign,npm-tarball,False,success,7.842,87.116,10,0,94.963,
+@stdlib/assert-is-function,0.0.8,benign,npm-tarball,False,success,9.709,86.114,10,0,95.829,
+@stdlib/assert-is-function,0.2.3,benign,npm-tarball,False,success,7.493,89.032,10,0,96.532,
+@stdlib/assert-is-little-endian,0.0.1,benign,npm-tarball,False,success,8.074,88.5,10,0,96.584,
+@stdlib/assert-is-little-endian,0.0.7,benign,npm-tarball,False,success,9.541,87.406,10,0,96.956,
+@stdlib/assert-is-little-endian,0.2.3,benign,npm-tarball,False,success,7.779,87.302,10,0,95.091,
+@stdlib/assert-is-number,0.0.1,benign,npm-tarball,False,success,8.204,87.857,10,0,96.067,
+@stdlib/assert-is-number,0.0.7,benign,npm-tarball,False,success,9.974,86.667,10,0,96.651,
+@stdlib/assert-is-number,0.2.3,benign,npm-tarball,False,success,7.396,88.037,10,0,95.442,
+@stdlib/assert-is-object,0.0.1,benign,npm-tarball,False,success,7.556,87.53,10,0,95.095,
+@stdlib/assert-is-object,0.0.8,benign,npm-tarball,False,success,9.599,87.116,10,0,96.719,
+@stdlib/assert-is-object,0.2.3,benign,npm-tarball,False,success,7.639,87.945,10,0,95.589,
+@stdlib/assert-is-object-like,0.0.1,benign,npm-tarball,False,success,7.934,87.234,10,0,95.173,
+@stdlib/assert-is-object-like,0.0.8,benign,npm-tarball,False,success,9.206,86.844,10,0,96.056,
+@stdlib/assert-is-object-like,0.2.3,benign,npm-tarball,False,success,7.827,87.929,10,0,95.763,
+@stdlib/assert-is-plain-object,0.0.1,benign,npm-tarball,False,success,7.732,87.416,10,0,95.158,
+@stdlib/assert-is-plain-object,0.0.7,benign,npm-tarball,False,success,9.177,87.582,10,0,96.768,
+@stdlib/assert-is-plain-object,0.2.3,benign,npm-tarball,False,success,7.853,88.602,10,0,96.461,
+@stdlib/assert-is-regexp,0.0.1,benign,npm-tarball,False,success,7.809,88.593,10,0,96.406,
+@stdlib/assert-is-regexp,0.0.7,benign,npm-tarball,False,success,9.097,87.686,10,0,96.787,
+@stdlib/assert-is-regexp,0.2.3,benign,npm-tarball,False,success,7.974,88.086,10,0,96.065,
+@stdlib/assert-is-regexp-string,0.0.1,benign,npm-tarball,False,success,8.021,88.591,10,0,96.62,
+@stdlib/assert-is-regexp-string,0.0.8,benign,npm-tarball,False,success,9.108,86.755,10,0,95.869,
+@stdlib/assert-is-regexp-string,0.2.3,benign,npm-tarball,False,success,7.967,87.719,10,0,95.694,
+@stdlib/assert-is-string,0.0.1,benign,npm-tarball,False,success,7.87,88.664,10,0,96.539,
+@stdlib/assert-is-string,0.0.8,benign,npm-tarball,False,success,8.942,87.993,10,0,96.943,
+@stdlib/assert-is-string,0.2.3,benign,npm-tarball,False,success,8.124,88.29,10,0,96.421,
+@stdlib/assert-is-uint16array,0.0.1,benign,npm-tarball,False,success,7.859,88.401,10,0,96.264,
+@stdlib/assert-is-uint16array,0.0.8,benign,npm-tarball,False,success,8.457,87.465,10,0,95.93,
+@stdlib/assert-is-uint16array,0.2.3,benign,npm-tarball,False,success,7.907,87.993,10,0,95.907,
+@stdlib/assert-is-uint32array,0.0.1,benign,npm-tarball,False,success,7.681,87.731,10,0,95.419,
+@stdlib/assert-is-uint32array,0.0.8,benign,npm-tarball,False,success,8.57,87.097,10,0,95.673,
+@stdlib/assert-is-uint32array,0.2.3,benign,npm-tarball,False,success,7.681,88.016,10,0,95.702,
+@stdlib/assert-is-uint8array,0.0.1,benign,npm-tarball,False,success,8.019,87.68,10,0,95.704,
+@stdlib/assert-is-uint8array,0.0.8,benign,npm-tarball,False,success,8.596,87.477,10,0,96.079,
+@stdlib/assert-is-uint8array,0.2.3,benign,npm-tarball,False,success,7.995,88.256,10,0,96.257,
+@stdlib/cli-ctor,0.0.1,benign,npm-tarball,False,success,8.247,88.059,10,0,96.328,
+@stdlib/cli-ctor,0.1.1,benign,npm-tarball,False,success,8.501,88.533,10,0,97.045,
+@stdlib/cli-ctor,0.2.3,benign,npm-tarball,False,success,7.943,89.119,10,0,97.07,
+@stdlib/math-base-assert-is-infinite,0.0.1,benign,npm-tarball,False,success,8.167,88.001,10,0,96.181,
+@stdlib/math-base-assert-is-infinite,0.0.8,benign,npm-tarball,False,success,8.553,88.599,10,0,97.159,
+@stdlib/math-base-assert-is-infinite,0.2.3,benign,npm-tarball,False,success,8.273,89.266,10,0,97.546,
+@stdlib/math-base-assert-is-nan,0.0.1,benign,npm-tarball,False,success,8.347,87.753,10,0,96.112,
+@stdlib/math-base-assert-is-nan,0.0.8,benign,npm-tarball,False,success,8.516,89.654,10,0,98.181,
+@stdlib/math-base-assert-is-nan,0.2.3,benign,npm-tarball,False,success,8.61,88.17,10,0,96.788,
+@stdlib/number-float64-base-exponent,0.0.1,benign,npm-tarball,False,success,8.332,88.58,10,0,96.918,
+@stdlib/number-float64-base-exponent,0.1.0,benign,npm-tarball,False,success,7.596,88.047,10,0,95.651,
+@stdlib/number-float64-base-exponent,0.2.3,benign,npm-tarball,False,success,8.753,88.321,10,0,97.08,
+@stdlib/number-float64-base-from-words,0.0.1,benign,npm-tarball,False,success,8.484,88.872,10,0,97.365,
+@stdlib/number-float64-base-from-words,0.1.0,benign,npm-tarball,False,success,8.657,87.965,10,0,96.636,
+@stdlib/number-float64-base-from-words,0.2.3,benign,npm-tarball,False,success,8.023,88.199,10,0,96.229,
+@stdlib/number-float64-base-get-high-word,0.0.1,benign,npm-tarball,False,success,8.211,89.288,10,0,97.515,
+@stdlib/number-float64-base-get-high-word,0.1.0,benign,npm-tarball,False,success,8.92,87.994,10,0,96.928,
+@stdlib/number-float64-base-get-high-word,0.2.3,benign,npm-tarball,False,success,7.96,89.061,10,0,97.029,
+@stdlib/number-float64-base-normalize,0.0.1,benign,npm-tarball,False,success,8.219,88.481,10,0,96.704,
+@stdlib/number-float64-base-normalize,0.0.9,benign,npm-tarball,False,success,8.787,88.815,10,0,97.611,
+@stdlib/number-float64-base-normalize,0.2.4,benign,npm-tarball,False,success,8.536,88.973,10,0,97.523,
+@stdlib/number-float64-base-to-float32,0.0.1,benign,npm-tarball,False,success,7.643,89.748,10,0,97.395,
+@stdlib/number-float64-base-to-float32,0.0.7,benign,npm-tarball,False,success,7.959,88.479,10,0,96.45,
+@stdlib/number-float64-base-to-float32,0.2.3,benign,npm-tarball,False,success,8.238,88.978,10,0,97.222,
+@stdlib/number-float64-base-to-words,0.0.1,benign,npm-tarball,False,success,7.912,89.497,10,0,97.417,
+@stdlib/number-float64-base-to-words,0.0.7,benign,npm-tarball,False,success,9.222,88.784,10,0,98.016,
+@stdlib/number-float64-base-to-words,0.2.3,benign,npm-tarball,False,success,7.996,88.271,10,0,96.281,
+@stdlib/os-byte-order,0.0.1,benign,npm-tarball,False,success,7.934,90.488,10,0,98.427,
+@stdlib/os-byte-order,0.0.7,benign,npm-tarball,False,success,8.331,87.021,10,0,95.364,
+@stdlib/os-byte-order,0.2.3,benign,npm-tarball,False,success,7.743,88.628,10,0,96.377,
+@stdlib/os-float-word-order,0.0.1,benign,npm-tarball,False,success,7.584,87.524,10,0,95.114,
+@stdlib/os-float-word-order,0.0.7,benign,npm-tarball,False,success,8.598,88.959,10,0,97.565,
+@stdlib/os-float-word-order,0.2.3,benign,npm-tarball,False,success,7.639,88.473,10,0,96.119,
+@stdlib/process-cwd,0.0.1,benign,npm-tarball,False,success,8.018,88.723,10,0,96.748,
+@stdlib/process-cwd,0.0.8,benign,npm-tarball,False,success,8.086,89.146,10,0,97.238,
+@stdlib/process-cwd,0.2.3,benign,npm-tarball,False,success,7.824,87.125,10,0,94.956,
+@stdlib/process-read-stdin,0.0.1,benign,npm-tarball,False,success,7.918,89.052,10,0,96.976,
+@stdlib/process-read-stdin,0.0.7,benign,npm-tarball,False,success,8.455,89.374,10,0,97.835,
+@stdlib/process-read-stdin,0.2.3,benign,npm-tarball,False,success,7.833,89.552,10,0,97.393,
+@stdlib/string-lowercase,0.0.1,benign,npm-tarball,False,success,8.132,88.77,10,0,96.91,
+@stdlib/string-lowercase,0.0.8,benign,npm-tarball,False,success,8.309,87.806,10,0,96.12,
+@stdlib/string-lowercase,0.3.1,benign,npm-tarball,False,success,7.282,89.465,10,0,96.751,
+@stdlib/string-replace,0.0.1,benign,npm-tarball,False,success,8.223,89.052,10,0,97.281,
+@stdlib/string-replace,0.0.7,benign,npm-tarball,False,success,8.436,88.756,10,0,97.201,
+@stdlib/string-replace,0.2.3,benign,npm-tarball,False,success,7.446,90.002,10,0,97.457,
+@stdlib/utils-constructor-name,0.0.1,benign,npm-tarball,False,success,8.174,87.568,10,0,95.748,
+@stdlib/utils-constructor-name,0.0.8,benign,npm-tarball,False,success,8.609,89.221,10,0,97.838,
+@stdlib/utils-constructor-name,0.2.3,benign,npm-tarball,False,success,7.513,89.051,10,0,96.57,
+@stdlib/utils-convert-path,0.0.1,benign,npm-tarball,False,success,8.133,89.034,10,0,97.173,
+@stdlib/utils-convert-path,0.0.8,benign,npm-tarball,False,success,8.476,88.524,10,0,97.007,
+@stdlib/utils-convert-path,0.2.3,benign,npm-tarball,False,success,7.457,88.195,10,0,95.658,
+@stdlib/utils-define-nonenumerable-read-only-property,0.0.1,benign,npm-tarball,False,success,8.04,88.142,10,0,96.193,
+@stdlib/utils-define-nonenumerable-read-only-property,0.0.6,benign,npm-tarball,False,success,8.187,88.34,10,0,96.535,
+@stdlib/utils-define-nonenumerable-read-only-property,0.2.3,benign,npm-tarball,False,success,7.557,89.098,10,0,96.661,
+@stdlib/utils-define-property,0.0.1,benign,npm-tarball,False,success,8.035,88.571,10,0,96.613,
+@stdlib/utils-define-property,0.0.6,benign,npm-tarball,False,success,8.384,89.177,10,0,97.57,
+@stdlib/utils-define-property,0.2.5,benign,npm-tarball,False,success,7.314,88.484,10,0,95.809,
+@stdlib/utils-escape-regexp-string,0.0.1,benign,npm-tarball,False,success,8.489,87.792,10,0,96.286,
+@stdlib/utils-escape-regexp-string,0.0.8,benign,npm-tarball,False,success,7.871,88.596,10,0,96.474,
+@stdlib/utils-escape-regexp-string,0.2.3,benign,npm-tarball,False,success,7.634,89.54,10,0,97.179,
+@stdlib/utils-get-prototype-of,0.0.1,benign,npm-tarball,False,success,8.572,88.475,10,0,97.051,
+@stdlib/utils-get-prototype-of,0.0.7,benign,npm-tarball,False,success,8.066,88.705,10,0,96.781,
+@stdlib/utils-get-prototype-of,0.2.3,benign,npm-tarball,False,success,7.46,88.807,10,0,96.276,
+@stdlib/utils-global,0.0.1,benign,npm-tarball,False,success,8.299,88.321,10,0,96.625,
+@stdlib/utils-global,0.0.7,benign,npm-tarball,False,success,8.057,89.79,10,0,97.853,
+@stdlib/utils-global,0.2.3,benign,npm-tarball,False,success,7.871,89.4,10,0,97.283,
+@stdlib/utils-native-class,0.0.1,benign,npm-tarball,False,success,7.965,87.585,10,0,95.555,
+@stdlib/utils-native-class,0.0.8,benign,npm-tarball,False,success,7.652,87.91,10,0,95.568,
+@stdlib/utils-native-class,0.2.3,benign,npm-tarball,False,success,7.206,88.567,10,0,95.78,
+@stdlib/utils-next-tick,0.0.1,benign,npm-tarball,False,success,7.919,87.561,10,0,95.485,
+@stdlib/utils-next-tick,0.0.2,benign,npm-tarball,False,success,7.356,88.52,10,0,95.88,
+@stdlib/utils-next-tick,0.2.3,benign,npm-tarball,False,success,7.208,88.584,10,0,95.848,
+@stdlib/utils-noop,0.0.1,benign,npm-tarball,False,success,7.84,87.863,10,0,95.709,
+@stdlib/utils-noop,0.0.14,benign,npm-tarball,False,success,7.601,90.228,10,0,97.835,
+@stdlib/utils-noop,0.2.3,benign,npm-tarball,False,success,7.424,89.488,10,0,96.919,
+@stdlib/utils-regexp-from-string,0.0.1,benign,npm-tarball,False,success,7.518,88.569,10,0,96.09,
+@stdlib/utils-regexp-from-string,0.0.8,benign,npm-tarball,False,success,7.904,90.763,10,0,98.672,
+@stdlib/utils-regexp-from-string,0.2.3,benign,npm-tarball,False,success,7.766,89.994,10,0,97.769,
+@stdlib/utils-type-of,0.0.1,benign,npm-tarball,False,success,7.89,89.351,10,0,97.248,
+@stdlib/utils-type-of,0.0.8,benign,npm-tarball,False,success,8.07,89.874,10,0,97.95,
+@stdlib/utils-type-of,0.2.3,benign,npm-tarball,False,success,7.91,88.731,10,0,96.65,
+@swan-io/boxed,0.1.0,benign,npm-tarball,False,success,8.056,89.689,10,0,97.759,
+@swan-io/boxed,0.6.2,benign,npm-tarball,False,failed,2.879,0.0,0,0,2.891,"uild-stderr] Skipping file /data/resarch-dataset/benign_packages/@swan-io/boxed/0.6.2/package/dist/Boxed.esm.js: File appears to be minified.
+[2026-10-30 17:38:59] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/@swan-io/boxed/0.6.2/package/dist/Boxed.esm.js (45 ms)
+[2026-10-30 17:38:59] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/@swan-io/boxed/0.6.2/package/dist/Boxed.js (41 ms)
+[2026-10-30 17:38:59] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/@swan-io/boxed/0.6.2/package/package.json (62 ms)
+[2026-10-30 17:38:59] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_@swan-io__boxed_0.6.2.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/@swan-io/boxed/0.6.2/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_@swan-io__boxed_0.6.2.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+@swan-io/boxed,3.2.1,benign,npm-tarball,False,failed,2.189,0.0,0,0,2.202,"02] [build-stderr] Skipping file /data/resarch-dataset/benign_packages/@swan-io/boxed/3.2.1/package/dist/Boxed.mjs: File appears to be minified.
+[2026-10-30 17:39:02] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/@swan-io/boxed/3.2.1/package/dist/Boxed.mjs (33 ms)
+[2026-10-30 17:39:02] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/@swan-io/boxed/3.2.1/package/dist/Boxed.js (33 ms)
+[2026-10-30 17:39:02] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/@swan-io/boxed/3.2.1/package/package.json (45 ms)
+[2026-10-30 17:39:02] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_@swan-io__boxed_3.2.1.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/@swan-io/boxed/3.2.1/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_@swan-io__boxed_3.2.1.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+@ungap/promise-all-settled,0.1.1,benign,npm-tarball,False,success,8.026,90.595,10,0,98.625,
+@ungap/promise-all-settled,1.1.0,benign,npm-tarball,False,success,7.855,89.218,10,0,97.078,
+@ungap/promise-all-settled,1.1.2,benign,npm-tarball,False,success,8.126,90.375,10,0,98.506,
+always-error,1.0.0,benign,npm-tarball,False,success,7.917,89.574,10,0,97.493,
+am-i-a-dependency,1.0.0,benign,npm-tarball,False,success,7.34,90.305,10,0,97.647,
+am-i-a-dependency,1.1.1,benign,npm-tarball,False,success,7.884,88.53,10,0,96.417,
+am-i-a-dependency,1.1.2,benign,npm-tarball,False,success,8.138,90.289,10,0,98.429,
+app-root-path,0.0.1,benign,npm-tarball,False,success,7.506,90.531,10,0,98.043,
+app-root-path,1.4.0,benign,npm-tarball,False,success,8.102,89.0,10,0,97.114,
+app-root-path,3.1.0,benign,npm-tarball,False,success,8.233,89.815,10,0,98.052,
+arr-union,1.0.0,benign,npm-tarball,False,success,7.749,91.123,10,0,98.876,
+arr-union,2.1.0,benign,npm-tarball,False,success,8.873,89.344,10,0,98.22,
+arr-union,3.1.0,benign,npm-tarball,False,success,8.105,89.672,10,0,97.78,
+array-initial,1.0.0,benign,npm-tarball,False,success,8.644,89.081,10,0,97.73,
+array-initial,1.0.1,benign,npm-tarball,False,success,8.435,90.056,10,0,98.496,
+array-initial,1.1.0,benign,npm-tarball,False,success,8.21,89.329,10,0,97.542,
+array-last,0.1.0,benign,npm-tarball,False,success,8.423,90.116,10,0,98.544,
+array-last,1.1.0,benign,npm-tarball,False,success,8.731,89.872,10,0,98.605,
+array-last,1.3.0,benign,npm-tarball,False,success,8.22,88.995,10,0,97.218,
+ast-monkey-traverse,1.0.1,benign,npm-tarball,False,success,8.474,88.486,10,0,96.964,
+ast-monkey-traverse,1.3.3,benign,npm-tarball,False,success,8.165,88.724,10,0,96.893,
+ast-monkey-traverse,4.3.1,benign,npm-tarball,False,failed,2.99,0.0,0,0,2.994,"raverse/4.3.1/package/dist/ast-monkey-traverse.umd.js (39 ms)
+[2026-10-30 17:50:29] [build-stderr] Skipping file /data/resarch-dataset/benign_packages/ast-monkey-traverse/4.3.1/package/dist/ast-monkey-traverse.esm.js: File appears to be minified.
+[2026-10-30 17:50:29] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/ast-monkey-traverse/4.3.1/package/dist/ast-monkey-traverse.esm.js (52 ms)
+[2026-10-30 17:50:29] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/ast-monkey-traverse/4.3.1/package/package.json (69 ms)
+[2026-10-30 17:50:29] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_ast-monkey-traverse_4.3.1.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/ast-monkey-traverse/4.3.1/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_ast-monkey-traverse_4.3.1.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+ast-monkey-util,1.1.0,benign,npm-tarball,False,success,8.022,89.038,10,0,97.063,
+ast-monkey-util,2.0.11,benign,npm-tarball,False,success,7.803,88.252,10,0,96.062,
+ast-monkey-util,3.3.1,benign,npm-tarball,False,failed,3.197,0.0,0,0,3.2,"h-dataset/benign_packages/ast-monkey-util/3.3.1/package/dist/ast-monkey-util.umd.js: File appears to be minified.
+[2026-10-30 17:51:32] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/ast-monkey-util/3.3.1/package/dist/ast-monkey-util.esm.js (50 ms)
+[2026-10-30 17:51:32] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/ast-monkey-util/3.3.1/package/dist/ast-monkey-util.umd.js (48 ms)
+[2026-10-30 17:51:32] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/ast-monkey-util/3.3.1/package/package.json (81 ms)
+[2026-10-30 17:51:32] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_ast-monkey-util_3.3.1.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/ast-monkey-util/3.3.1/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_ast-monkey-util_3.3.1.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+async,0.1.0,benign,npm-tarball,False,success,8.489,89.027,10,0,97.521,
+async,1.1.0,benign,npm-tarball,False,success,8.174,91.46,10,0,99.65,
+async,3.2.6,benign,npm-tarball,False,success,9.655,95.04,10,0,104.752,
+async-es,2.0.0,benign,npm-tarball,False,success,8.997,92.229,10,0,101.27,
+async-es,2.5.0,benign,npm-tarball,False,success,8.876,91.81,10,0,100.723,
+async-es,3.2.6,benign,npm-tarball,False,success,7.994,91.156,10,0,99.204,
+autonomy,0.1.0,benign,npm-tarball,False,success,8.289,89.003,10,0,97.351,
+autonomy,0.5.0,benign,npm-tarball,False,success,8.121,89.965,10,0,98.093,
+autonomy,2.1.0,benign,npm-tarball,False,success,8.11,89.454,10,0,97.568,
+awaiting,1.0.0,benign,npm-tarball,False,success,8.723,88.647,10,0,97.375,
+awaiting,1.1.7,benign,npm-tarball,False,success,10.179,92.418,10,0,102.618,
+awaiting,3.0.0,benign,npm-tarball,False,success,10.458,93.166,10,0,103.642,
+blacklist,1.0.0,benign,npm-tarball,False,success,8.711,89.558,10,0,98.272,
+blacklist,1.1.1,benign,npm-tarball,False,success,8.721,87.844,10,0,96.569,
+blacklist,1.1.4,benign,npm-tarball,False,success,8.309,87.132,10,0,95.445,
+blingblingjs,1.0.0,benign,npm-tarball,False,success,9.191,87.224,10,0,96.418,
+blingblingjs,2.0.2,benign,npm-tarball,False,success,8.206,89.869,10,0,98.08,
+blingblingjs,2.3.0,benign,npm-tarball,False,success,8.314,88.506,10,0,96.831,
+bytes,0.0.1,benign,npm-tarball,False,success,9.412,87.519,10,0,96.935,
+bytes,2.1.0,benign,npm-tarball,False,success,8.298,89.395,10,0,97.696,
+bytes,3.1.2,benign,npm-tarball,False,success,7.662,88.837,10,0,96.507,
+bytes-iec,3.0.1,benign,npm-tarball,False,success,8.441,89.577,10,0,98.024,
+bytes-iec,3.1.0,benign,npm-tarball,False,success,7.99,89.744,10,0,97.745,
+bytes-iec,3.1.1,benign,npm-tarball,False,success,8.539,88.039,10,0,96.582,
+cabin,0.0.0,benign,npm-tarball,False,success,9.117,88.398,10,0,97.525,
+cabin,2.0.11,benign,npm-tarball,False,success,15.685,98.83,10,0,114.527,
+cabin,9.1.2,benign,npm-tarball,False,success,10.504,92.731,10,0,103.242,
+chromatism,1.10.0,benign,npm-tarball,False,success,8.922,90.473,10,0,99.405,
+chromatism,2.2.1,benign,npm-tarball,False,success,8.533,88.087,10,0,96.631,
+chromatism,3.0.0,benign,npm-tarball,False,success,9.421,89.064,10,0,98.563,
+cint,5.0.2,benign,npm-tarball,False,success,11.678,98.316,10,0,110.031,
+cint,8.0.0,benign,npm-tarball,False,success,8.652,90.611,10,0,99.276,
+cint,9.1.0,benign,npm-tarball,False,success,8.2,88.613,10,0,96.816,
+classnames,1.0.0,benign,npm-tarball,False,success,8.553,88.986,10,0,97.546,
+classnames,2.1.5,benign,npm-tarball,False,success,8.122,88.641,10,0,96.769,
+classnames,2.5.1,benign,npm-tarball,False,success,7.909,87.831,10,0,95.749,
+cli-progress,1.0.0,benign,npm-tarball,False,success,9.033,87.246,10,0,96.283,
+cli-progress,3.0.0,benign,npm-tarball,False,success,8.334,88.591,10,0,96.932,
+cli-progress,3.9.1,benign,npm-tarball,False,success,8.04,88.131,10,0,96.18,
+coalescy,1.0.0,benign,npm-tarball,False,success,8.971,86.872,10,0,95.85,
+cog,0.0.0,benign,npm-tarball,False,success,8.484,88.541,10,0,97.031,
+cog,0.3.2,benign,npm-tarball,False,success,8.013,89.358,10,0,97.379,
+cog,1.1.0,benign,npm-tarball,False,success,9.57,88.422,10,0,98.037,
+combine-lists,1.0.0,benign,npm-tarball,False,success,8.81,87.896,10,0,96.712,
+combine-lists,1.0.1,benign,npm-tarball,False,success,7.797,86.869,10,0,94.669,
+current-week-number,0.1.0,benign,npm-tarball,False,success,9.133,86.077,10,0,95.216,
+current-week-number,1.0.3,benign,npm-tarball,False,success,8.565,86.963,10,0,95.542,
+current-week-number,1.0.7,benign,npm-tarball,False,success,7.571,88.971,10,0,96.549,
+cypress-failed-log,1.0.0,benign,npm-tarball,False,success,9.247,86.339,10,0,95.589,
+cypress-failed-log,2.10.0,benign,npm-tarball,False,success,8.811,87.723,10,0,96.544,
+cypress-failed-log,2.9.5,benign,npm-tarball,False,success,7.501,90.015,10,0,97.519,
+date-and-time,0.1.0,benign,npm-tarball,False,success,10.134,89.437,10,0,99.584,
+date-and-time,2.1.2,benign,npm-tarball,False,success,10.051,89.722,10,0,99.834,
+date-and-time,4.7.0,benign,npm-tarball,False,success,11.992,89.281,10,0,101.908,
+db_csstools_postcss-progressive-custom-properties,db-javascript,benign,npm-tarball,False,failed,3.055,0.0,0,0,3.98,"[2026-10-30 18:21:05] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-30 18:21:05] [build-stderr] No JavaScript or TypeScript code found.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_db_csstools_postcss-progressive-custom-properties_db-javascript.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/db_csstools_postcss-progressive-custom-properties/db-javascript: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_db_csstools_postcss-progressive-custom-properties_db-javascript.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+db_csstools_postcss-progressive-custom-properties,diagnostic,benign,npm-tarball,False,failed,2.775,0.0,0,0,2.779,"[2026-10-30 18:21:08] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-30 18:21:08] [build-stderr] No JavaScript or TypeScript code found.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_db_csstools_postcss-progressive-custom-properties_diagnostic.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/db_csstools_postcss-progressive-custom-properties/diagnostic: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_db_csstools_postcss-progressive-custom-properties_diagnostic.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+db_csstools_postcss-progressive-custom-properties,log,benign,npm-tarball,False,failed,2.896,0.0,0,0,2.912,"[2026-10-30 18:21:11] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-30 18:21:11] [build-stderr] No JavaScript or TypeScript code found.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_db_csstools_postcss-progressive-custom-properties_log.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/db_csstools_postcss-progressive-custom-properties/log: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_db_csstools_postcss-progressive-custom-properties_log.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+detector,1.0.0,benign,npm-tarball,False,success,8.057,89.208,10,0,97.268,
+detector,2.2.2,benign,npm-tarball,False,success,8.178,90.724,10,0,98.92,
+detector,2.5.0,benign,npm-tarball,False,success,8.578,89.558,10,0,98.143,
+end-with,0.0.0,benign,npm-tarball,False,failed,3.257,0.0,0,0,3.262,"[2026-10-30 18:22:52] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-30 18:22:52] [build-stdout] Extracting /data/resarch-dataset/benign_packages/end-with/0.0.0/package/package.json
+[2026-10-30 18:22:52] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/end-with/0.0.0/package/package.json (60 ms)
+[2026-10-30 18:22:52] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_end-with_0.0.0.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/end-with/0.0.0/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_end-with_0.0.0.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+end-with,1.0.1,benign,npm-tarball,False,success,7.842,88.383,10,0,96.23,
+end-with,1.0.2,benign,npm-tarball,False,success,8.433,88.224,10,0,96.659,
+ends-with,0.1.0,benign,npm-tarball,False,success,8.362,88.325,10,0,96.704,
+ends-with,1.0.0,benign,npm-tarball,False,success,8.066,89.478,10,0,97.546,
+ends-with,1.0.1,benign,npm-tarball,False,success,7.851,89.131,10,0,96.987,
+escape-goat,1.0.0,benign,npm-tarball,False,success,8.477,88.034,10,0,96.514,
+escape-goat,2.0.0,benign,npm-tarball,False,success,7.843,87.747,10,0,95.63,
+escape-goat,4.0.0,benign,npm-tarball,False,success,8.114,87.168,10,0,95.286,
+escape-html,0.0.1,benign,npm-tarball,False,success,8.348,88.302,10,0,96.655,
+escape-html,1.0.1,benign,npm-tarball,False,success,8.327,88.114,10,0,96.445,
+escape-html,1.0.3,benign,npm-tarball,False,success,8.022,90.593,10,0,98.618,
+eslint-ast-utils,1.0.0,benign,npm-tarball,False,success,8.524,89.456,10,0,97.987,
+eslint-ast-utils,1.1.0,benign,npm-tarball,False,success,8.353,89.954,10,0,98.317,
+estree-util-visit,1.0.0,benign,npm-tarball,False,success,7.762,88.31,10,0,96.076,
+estree-util-visit,1.2.0,benign,npm-tarball,False,success,8.322,89.339,10,0,97.666,
+estree-util-visit,2.0.0,benign,npm-tarball,False,success,8.086,88.195,10,0,96.287,
+eth-rpc-errors,2.1.0,benign,npm-tarball,False,success,7.691,89.455,10,0,97.161,
+eth-rpc-errors,4.0.0,benign,npm-tarball,False,success,8.281,89.14,10,0,97.431,
+eth-rpc-errors,4.0.3,benign,npm-tarball,False,success,8.337,89.26,10,0,97.605,
+extend-shallow,0.1.0,benign,npm-tarball,False,success,7.718,89.041,10,0,96.765,
+extend-shallow,1.1.2,benign,npm-tarball,False,success,7.956,87.273,10,0,95.24,
+extend-shallow,3.0.2,benign,npm-tarball,False,success,7.803,88.848,10,0,96.656,
+fast-loops,1.0.0,benign,npm-tarball,False,success,7.699,88.704,10,0,96.412,
+fast-loops,1.1.1,benign,npm-tarball,False,success,8.419,88.951,10,0,97.386,
+fast-loops,1.1.4,benign,npm-tarball,False,success,8.016,89.296,10,0,97.332,
+fastify-error,0.1.0,benign,npm-tarball,False,success,7.915,90.292,10,0,98.212,
+fastify-error,0.3.1,benign,npm-tarball,False,success,8.489,88.363,10,0,96.857,
+fastify-error,1.2.0,benign,npm-tarball,False,success,8.025,89.177,10,0,97.204,
+fb-watchman,0.0.0,benign,npm-tarball,False,success,7.293,91.531,10,0,98.83,
+fb-watchman,1.7.0,benign,npm-tarball,False,success,8.609,91.67,10,0,100.281,
+fb-watchman,2.0.4,benign,npm-tarball,False,success,8.368,91.352,10,0,99.727,
+filelist,0.0.1,benign,npm-tarball,False,success,7.542,90.38,10,0,97.925,
+filelist,1.0.2,benign,npm-tarball,False,success,8.314,88.318,10,0,96.685,
+filelist,2.0.2,benign,npm-tarball,False,success,8.089,89.569,10,0,97.661,
+fizzy-ui-utils,0.1.0,benign,npm-tarball,False,success,7.795,89.222,10,0,97.02,
+fizzy-ui-utils,2.0.2,benign,npm-tarball,False,success,8.311,88.901,10,0,97.218,
+fizzy-ui-utils,3.0.0,benign,npm-tarball,False,success,7.947,90.729,10,0,98.68,
+flat-util,1.0.0,benign,npm-tarball,False,success,7.998,88.932,10,0,96.936,
+flat-util,1.1.10,benign,npm-tarball,False,success,8.009,89.493,10,0,97.505,
+flat-util,1.1.9,benign,npm-tarball,False,success,7.4,88.935,10,0,96.339,
+follow-redirects,0.0.1,benign,npm-tarball,False,success,7.473,89.66,10,0,97.136,
+follow-redirects,1.15.4,benign,npm-tarball,False,success,8.168,89.2,10,0,97.372,
+follow-redirects,1.9.1,benign,npm-tarball,False,success,7.697,89.802,10,0,97.503,
+get-symlinks,0.1.0,benign,npm-tarball,False,success,7.513,89.175,10,0,96.693,
+get-symlinks,1.0.2,benign,npm-tarball,False,success,8.375,88.375,10,0,96.772,
+get-symlinks,3.0.1,benign,npm-tarball,False,success,7.683,88.702,10,0,96.388,
+gh-got,1.0.0,benign,npm-tarball,False,success,7.368,90.671,10,0,98.045,
+gh-got,2.3.0,benign,npm-tarball,False,success,8.327,89.936,10,0,98.266,
+gh-got,9.0.0,benign,npm-tarball,False,success,7.981,87.475,10,0,95.458,
+globalize,0.1.0-a1,benign,npm-tarball,False,success,19.775,112.285,10,0,132.222,
+globalize,1.1.0-rc.7,benign,npm-tarball,False,success,8.162,95.809,10,0,103.997,
+globalize,1.7.1,benign,npm-tarball,False,success,9.869,98.151,10,0,108.055,
+globby,0.1.0,benign,npm-tarball,False,success,7.709,87.441,10,0,95.152,
+globby,14.0.1,benign,npm-tarball,False,success,9.432,87.964,10,0,97.401,
+globby,9.2.0,benign,npm-tarball,False,success,7.544,89.447,10,0,97.003,
+haraka-utils,1.0.0,benign,npm-tarball,False,success,8.611,88.667,10,0,97.283,
+haraka-utils,1.1.3,benign,npm-tarball,False,success,9.303,87.9,10,0,97.208,
+haraka-utils,2.2.1,benign,npm-tarball,False,success,7.761,89.126,10,0,96.894,
+has-only,1.0.0,benign,npm-tarball,False,success,8.313,87.834,10,0,96.155,
+has-only,1.1.0,benign,npm-tarball,False,success,9.064,87.182,10,0,96.249,
+has-only,1.1.1,benign,npm-tarball,False,success,7.714,88.016,10,0,95.733,
+has-values,0.1.1,benign,npm-tarball,False,success,8.661,88.092,10,0,96.757,
+has-values,0.1.4,benign,npm-tarball,False,success,9.367,86.477,10,0,95.856,
+has-values,2.0.1,benign,npm-tarball,False,success,7.975,88.906,10,0,96.884,
+hast-to-hyperscript,1.0.0,benign,npm-tarball,False,success,8.278,89.176,10,0,97.457,
+hast-to-hyperscript,3.0.2,benign,npm-tarball,False,success,9.428,87.998,10,0,97.429,
+hast-to-hyperscript,9.0.1,benign,npm-tarball,False,success,7.465,88.629,10,0,96.101,
+hast-util-embedded,1.0.0,benign,npm-tarball,False,success,8.182,88.859,10,0,97.044,
+hast-util-embedded,1.0.5,benign,npm-tarball,False,success,8.894,86.499,10,0,95.396,
+hast-util-embedded,3.0.0,benign,npm-tarball,False,success,7.279,87.163,10,0,94.45,
+hast-util-find-and-replace,1.0.0,benign,npm-tarball,False,success,7.923,89.748,10,0,97.716,
+hast-util-find-and-replace,3.2.1,benign,npm-tarball,False,success,9.505,88.612,10,0,98.12,
+hast-util-find-and-replace,5.0.3,benign,npm-tarball,False,success,7.695,90.082,10,0,97.787,
+hast-util-from-dom,1.0.0,benign,npm-tarball,False,success,7.752,89.438,10,0,97.195,
+hast-util-from-dom,2.0.5,benign,npm-tarball,False,success,9.371,88.432,10,0,97.806,
+hast-util-from-dom,5.0.1,benign,npm-tarball,False,success,7.459,89.665,10,0,97.133,
+hast-util-from-parse5,1.0.0,benign,npm-tarball,False,success,7.445,89.588,10,0,97.037,
+hast-util-from-parse5,5.0.2,benign,npm-tarball,False,success,9.454,87.425,10,0,96.882,
+hast-util-from-parse5,8.0.3,benign,npm-tarball,False,success,7.781,89.283,10,0,97.068,
+hast-util-from-string,1.0.0,benign,npm-tarball,False,success,7.602,88.359,10,0,96.008,
+hast-util-from-string,1.0.4,benign,npm-tarball,False,success,9.35,87.711,10,0,97.064,
+hast-util-from-string,3.0.1,benign,npm-tarball,False,success,7.782,89.681,10,0,97.51,
+hast-util-has-property,1.0.0,benign,npm-tarball,False,success,7.902,88.32,10,0,96.228,
+hast-util-has-property,1.0.4,benign,npm-tarball,False,success,9.363,86.986,10,0,96.352,
+hast-util-has-property,3.0.0,benign,npm-tarball,False,success,7.903,89.14,10,0,97.05,
+hast-util-heading,1.0.0,benign,npm-tarball,False,success,8.326,89.396,10,0,97.726,
+hast-util-heading,1.0.4,benign,npm-tarball,False,success,9.022,86.623,10,0,95.649,
+hast-util-heading,3.0.0,benign,npm-tarball,False,success,7.684,89.558,10,0,97.247,
+hast-util-heading-rank,1.0.0,benign,npm-tarball,False,success,7.884,88.563,10,0,96.45,
+hast-util-heading-rank,2.1.0,benign,npm-tarball,False,success,9.355,86.989,10,0,96.347,
+hast-util-heading-rank,3.0.0,benign,npm-tarball,False,success,7.719,88.982,10,0,96.705,
+hast-util-is-body-ok-link,1.0.0,benign,npm-tarball,False,success,8.084,87.747,10,0,95.837,
+hast-util-is-body-ok-link,1.0.4,benign,npm-tarball,False,success,9.095,87.565,10,0,96.663,
+hast-util-is-body-ok-link,3.0.1,benign,npm-tarball,False,success,7.75,89.107,10,0,96.861,
+hast-util-is-conditional-comment,1.0.0,benign,npm-tarball,False,success,8.147,88.673,10,0,96.824,
+hast-util-is-conditional-comment,1.0.4,benign,npm-tarball,False,success,9.26,87.827,10,0,97.092,
+hast-util-is-conditional-comment,3.0.1,benign,npm-tarball,False,success,7.444,89.199,10,0,96.647,
+hast-util-is-css-link,1.0.0,benign,npm-tarball,False,success,8.102,88.696,10,0,96.804,
+hast-util-is-css-link,1.0.4,benign,npm-tarball,False,success,9.265,87.292,10,0,96.559,
+hast-util-is-css-link,3.0.1,benign,npm-tarball,False,success,7.567,88.792,10,0,96.365,
+hast-util-is-css-style,1.0.0,benign,npm-tarball,False,success,7.981,88.574,10,0,96.558,
+hast-util-is-css-style,1.0.4,benign,npm-tarball,False,success,9.16,87.927,10,0,97.09,
+hast-util-is-css-style,3.0.1,benign,npm-tarball,False,success,7.459,90.113,10,0,97.581,
+hast-util-is-element,1.0.0,benign,npm-tarball,False,success,7.912,89.795,10,0,97.721,
+hast-util-is-element,2.0.0,benign,npm-tarball,False,success,9.465,87.811,10,0,97.282,
+hast-util-is-element,3.0.0,benign,npm-tarball,False,success,7.433,89.333,10,0,96.77,
+hast-util-is-event-handler,1.0.0,benign,npm-tarball,False,success,8.232,88.491,10,0,96.727,
+hast-util-is-event-handler,1.0.4,benign,npm-tarball,False,success,9.456,87.545,10,0,97.004,
+hast-util-is-event-handler,3.0.1,benign,npm-tarball,False,success,7.299,89.519,10,0,96.823,
+hast-util-is-javascript,1.0.0,benign,npm-tarball,False,success,8.199,87.993,10,0,96.194,
+hast-util-is-javascript,1.0.4,benign,npm-tarball,False,success,9.375,87.717,10,0,97.095,
+hast-util-is-javascript,3.0.1,benign,npm-tarball,False,success,7.472,87.479,10,0,94.956,
+hast-util-parse-selector,1.0.0,benign,npm-tarball,False,success,8.285,88.931,10,0,97.222,
+hast-util-parse-selector,2.2.3,benign,npm-tarball,False,success,9.345,87.636,10,0,96.986,
+hast-util-parse-selector,4.0.0,benign,npm-tarball,False,success,7.869,89.269,10,0,97.149,
+hast-util-phrasing,1.0.0,benign,npm-tarball,False,success,7.764,89.285,10,0,97.052,
+hast-util-phrasing,1.0.5,benign,npm-tarball,False,success,8.949,86.934,10,0,95.888,
+hast-util-phrasing,3.0.1,benign,npm-tarball,False,success,7.707,88.485,10,0,96.197,
+hast-util-raw,1.0.0,benign,npm-tarball,False,success,7.934,90.026,10,0,97.965,
+hast-util-raw,6.1.0,benign,npm-tarball,False,success,9.63,87.979,10,0,97.614,
+hast-util-raw,9.1.0,benign,npm-tarball,False,success,7.801,90.577,10,0,98.385,
+hast-util-sanitize,1.0.0,benign,npm-tarball,False,success,7.467,88.877,10,0,96.349,
+hast-util-sanitize,2.0.2,benign,npm-tarball,False,success,9.219,87.967,10,0,97.191,
+hast-util-sanitize,5.0.2,benign,npm-tarball,False,success,7.874,89.591,10,0,97.472,
+hast-util-select,1.0.0,benign,npm-tarball,False,success,8.115,91.046,10,0,99.168,
+hast-util-select,5.0.1,benign,npm-tarball,False,success,9.218,88.103,10,0,97.337,
+hast-util-select,6.0.4,benign,npm-tarball,False,success,7.456,90.82,10,0,98.292,
+hast-util-to-dom,1.0.0,benign,npm-tarball,False,success,7.713,89.367,10,0,97.084,
+hast-util-to-dom,2.0.3,benign,npm-tarball,False,failed,2.607,0.0,0,0,2.61,"[2026-10-30 19:32:11] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-30 19:32:11] [build-stdout] Extracting /data/resarch-dataset/benign_packages/hast-util-to-dom/2.0.3/package/package.json
+[2026-10-30 19:32:11] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/hast-util-to-dom/2.0.3/package/package.json (50 ms)
+[2026-10-30 19:32:11] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_hast-util-to-dom_2.0.3.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/hast-util-to-dom/2.0.3/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_hast-util-to-dom_2.0.3.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+hast-util-to-dom,4.0.1,benign,npm-tarball,False,success,9.659,88.146,10,0,97.81,
+hast-util-to-estree,1.0.0,benign,npm-tarball,False,success,7.832,89.103,10,0,96.941,
+hast-util-to-estree,2.0.1,benign,npm-tarball,False,success,8.236,88.264,10,0,96.506,
+hast-util-to-estree,3.1.3,benign,npm-tarball,False,success,9.317,88.406,10,0,97.743,
+hast-util-to-html,1.0.0,benign,npm-tarball,False,success,8.004,89.578,10,0,97.588,
+hast-util-to-html,7.0.0,benign,npm-tarball,False,success,8.394,89.784,10,0,98.187,
+hast-util-to-html,9.0.5,benign,npm-tarball,False,success,8.88,88.884,10,0,97.779,
+hast-util-to-nlcst,1.0.0,benign,npm-tarball,False,success,7.791,88.459,10,0,96.257,
+hast-util-to-nlcst,1.2.6,benign,npm-tarball,False,success,7.897,88.135,10,0,96.035,
+hast-util-to-nlcst,4.0.0,benign,npm-tarball,False,success,8.681,89.159,10,0,97.844,
+hast-util-to-parse5,1.0.0,benign,npm-tarball,False,success,8.417,89.662,10,0,98.085,
+hast-util-to-parse5,5.1.0,benign,npm-tarball,False,success,8.201,90.594,10,0,98.798,
+hast-util-to-parse5,8.0.1,benign,npm-tarball,False,success,8.213,88.085,10,0,96.306,
+hast-util-to-string,1.0.0,benign,npm-tarball,False,success,8.058,89.559,10,0,97.62,
+hast-util-to-string,1.0.4,benign,npm-tarball,False,success,8.077,89.634,10,0,97.714,
+hast-util-to-string,3.0.1,benign,npm-tarball,False,success,8.923,87.474,10,0,96.402,
+hast-util-to-text,1.0.0,benign,npm-tarball,False,success,8.245,90.705,10,0,98.955,
+hast-util-to-text,3.1.1,benign,npm-tarball,False,success,7.902,89.283,10,0,97.189,
+hast-util-to-text,4.0.3,benign,npm-tarball,False,success,9.15,87.927,10,0,97.084,
+hast-util-whitespace,1.0.0,benign,npm-tarball,False,success,7.51,89.251,10,0,96.764,
+hast-util-whitespace,1.0.4,benign,npm-tarball,False,success,7.758,89.835,10,0,97.597,
+hast-util-whitespace,3.0.0,benign,npm-tarball,False,success,9.669,88.775,10,0,98.448,
+hastscript,1.0.0,benign,npm-tarball,False,success,7.642,90.079,10,0,97.73,
+hastscript,5.1.1,benign,npm-tarball,False,success,8.189,90.545,10,0,98.739,
+hastscript,9.0.1,benign,npm-tarball,False,success,9.368,87.818,10,0,97.199,
+haute,1.0.0,benign,npm-tarball,False,success,7.879,89.195,10,0,97.12,
+haute,2.0.0,benign,npm-tarball,False,success,7.736,90.187,10,0,97.934,
+haute,4.0.0,benign,npm-tarball,False,success,9.582,87.689,10,0,97.278,
+html-crush,0.1.0,benign,npm-tarball,False,success,7.873,91.027,10,0,98.926,
+html-crush,2.0.6,benign,npm-tarball,False,success,9.337,93.553,10,0,102.9,
+html-crush,6.3.5,benign,npm-tarball,False,failed,2.874,0.0,0,0,2.878,"9:48:28] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/html-crush/6.3.5/package/dist/html-crush.esm.js (36 ms)
+[2026-10-30 19:48:28] [build-stderr] Skipping file /data/resarch-dataset/benign_packages/html-crush/6.3.5/package/dist/html-crush.umd.js: File appears to be minified.
+[2026-10-30 19:48:28] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/html-crush/6.3.5/package/dist/html-crush.umd.js (51 ms)
+[2026-10-30 19:48:28] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/html-crush/6.3.5/package/package.json (57 ms)
+[2026-10-30 19:48:28] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_html-crush_6.3.5.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/html-crush/6.3.5/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_html-crush_6.3.5.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+interlude,0.0.3,benign,npm-tarball,False,success,9.069,88.587,10,0,97.658,
+interlude,0.7.0,benign,npm-tarball,False,success,7.702,88.173,10,0,95.88,
+interlude,2.0.0,benign,npm-tarball,False,success,7.419,89.338,10,0,96.76,
+is-fork-pr,1.0.0,benign,npm-tarball,False,success,8.888,87.693,10,0,96.584,
+is-fork-pr,2.0.0,benign,npm-tarball,False,success,8.013,87.935,10,0,95.953,
+is-fork-pr,2.5.0,benign,npm-tarball,False,success,7.368,89.435,10,0,96.815,
+json-sort-cli,1.0.1,benign,npm-tarball,False,success,8.825,88.076,10,0,96.904,
+json-sort-cli,1.18.11,benign,npm-tarball,False,success,8.502,89.459,10,0,97.964,
+json-sort-cli,4.3.1,benign,npm-tarball,False,success,7.944,95.519,10,0,103.468,
+jsonabc,2.3.0,benign,npm-tarball,False,success,9.05,88.208,10,0,97.307,
+jsonabc,2.3.1,benign,npm-tarball,False,success,8.909,90.689,10,0,99.604,
+koalas,0.0.1,benign,npm-tarball,False,success,7.925,89.341,10,0,97.27,
+koalas,0.0.6,benign,npm-tarball,False,success,8.401,88.647,10,0,97.065,
+koalas,1.0.2,benign,npm-tarball,False,success,7.924,89.037,10,0,96.967,
+kyanite,0.1.0,benign,npm-tarball,False,success,7.909,90.532,10,0,98.471,
+kyanite,0.7.0,benign,npm-tarball,False,success,10.272,90.99,10,0,101.408,
+kyanite,3.2.0,benign,npm-tarball,False,success,10.024,91.588,10,0,101.7,
+log-utils,0.1.0,benign,npm-tarball,False,success,7.37,89.71,10,0,97.083,
+log-utils,0.1.5,benign,npm-tarball,False,success,8.345,88.028,10,0,96.38,
+log-utils,1.0.0,benign,npm-tarball,False,success,7.972,89.255,10,0,97.233,
+mdast-comment-marker,1.0.0,benign,npm-tarball,False,success,7.267,91.374,10,0,98.644,
+mdast-comment-marker,1.1.2,benign,npm-tarball,False,success,8.223,90.819,10,0,99.046,
+mdast-comment-marker,3.0.0,benign,npm-tarball,False,success,7.538,93.519,10,0,101.061,
+mdast-normalize-headings,0.1.0,benign,npm-tarball,False,success,7.565,97.286,10,0,104.854,
+mdast-normalize-headings,1.0.2,benign,npm-tarball,False,success,10.258,93.109,10,0,103.37,
+mdast-normalize-headings,4.0.0,benign,npm-tarball,False,success,8.006,95.816,10,0,103.83,
+mdast-squeeze-paragraphs,1.0.0,benign,npm-tarball,False,success,7.831,148.76,10,0,156.594,
+mdast-squeeze-paragraphs,3.0.3,benign,npm-tarball,False,success,8.963,150.562,10,0,159.528,
+mdast-squeeze-paragraphs,6.0.0,benign,npm-tarball,False,success,10.781,163.978,10,0,174.763,
+mdast-util-compact,1.0.0,benign,npm-tarball,False,success,13.54,161.437,10,0,174.988,
+mdast-util-compact,2.0.1,benign,npm-tarball,False,success,13.956,160.954,10,0,174.913,
+mdast-util-compact,5.0.0,benign,npm-tarball,False,success,13.019,163.457,10,0,176.482,
+mdast-util-definitions,0.1.0,benign,npm-tarball,False,success,13.764,159.148,10,0,172.935,
+mdast-util-definitions,2.0.0,benign,npm-tarball,False,success,13.652,158.416,10,0,172.071,
+mdast-util-definitions,6.0.0,benign,npm-tarball,False,success,13.532,157.037,10,0,170.58,
+mdast-util-directive,1.0.0,benign,npm-tarball,False,success,14.045,159.696,10,0,173.781,
+mdast-util-directive,2.2.1,benign,npm-tarball,False,success,13.964,157.652,10,0,171.62,
+mdast-util-directive,3.1.1,benign,npm-tarball,False,success,13.584,159.143,10,0,172.731,
+mdast-util-find-and-replace,1.0.0,benign,npm-tarball,False,success,13.38,159.777,10,0,173.161,
+mdast-util-find-and-replace,2.2.1,benign,npm-tarball,False,success,14.264,156.277,10,0,170.544,
+mdast-util-find-and-replace,3.0.4,benign,npm-tarball,False,success,12.603,158.965,10,0,171.572,
+mdast-util-footnote,0.1.0,benign,npm-tarball,False,success,14.01,118.091,10,0,132.106,
+mdast-util-footnote,0.1.6,benign,npm-tarball,False,success,14.85,121.931,10,0,136.79,
+mdast-util-footnote,2.0.0,benign,npm-tarball,False,failed,4.827,0.0,0,0,4.828,"[2026-10-30 20:18:09] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-30 20:18:09] [build-stdout] Extracting /data/resarch-dataset/benign_packages/mdast-util-footnote/2.0.0/package/package.json
+[2026-10-30 20:18:09] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/mdast-util-footnote/2.0.0/package/package.json (71 ms)
+[2026-10-30 20:18:09] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_mdast-util-footnote_2.0.0.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/mdast-util-footnote/2.0.0/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_mdast-util-footnote_2.0.0.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+mdast-util-from-markdown,0.1.0,benign,npm-tarball,False,success,14.057,121.563,10,0,135.622,
+mdast-util-from-markdown,1.0.0-beta.1,benign,npm-tarball,False,success,14.527,162.824,10,0,177.356,
+mdast-util-from-markdown,2.1.0,benign,npm-tarball,False,success,15.663,160.152,10,0,175.845,
+mdast-util-frontmatter,0.1.0,benign,npm-tarball,False,success,12.978,157.96,10,0,170.942,
+mdast-util-frontmatter,1.0.1,benign,npm-tarball,False,success,13.506,155.5,10,0,169.016,
+mdast-util-frontmatter,2.0.1,benign,npm-tarball,False,success,14.752,158.873,10,0,173.629,
+mdast-util-gfm,0.1.0,benign,npm-tarball,False,success,13.35,156.119,10,0,169.476,
+mdast-util-gfm,2.0.0,benign,npm-tarball,False,success,14.004,157.721,10,0,171.729,
+mdast-util-gfm,3.1.0,benign,npm-tarball,False,success,13.94,157.412,10,0,171.355,
+mdast-util-gfm-autolink-literal,0.1.0,benign,npm-tarball,False,success,13.779,158.417,10,0,172.199,
+mdast-util-gfm-autolink-literal,1.0.1,benign,npm-tarball,False,success,14.185,159.363,10,0,173.553,
+mdast-util-gfm-autolink-literal,2.0.1,benign,npm-tarball,False,success,14.354,157.026,10,0,171.388,
+mdast-util-gfm-footnote,1.0.0,benign,npm-tarball,False,success,13.324,157.728,10,0,171.065,
+mdast-util-gfm-footnote,1.0.2,benign,npm-tarball,False,success,14.597,159.288,10,0,173.893,
+mdast-util-gfm-footnote,2.1.0,benign,npm-tarball,False,success,14.5,159.287,10,0,173.793,
+mdast-util-gfm-strikethrough,0.1.0,benign,npm-tarball,False,success,13.368,159.316,10,0,172.692,
+mdast-util-gfm-strikethrough,1.0.0,benign,npm-tarball,False,success,14.178,146.037,10,0,160.22,
+mdast-util-gfm-strikethrough,2.0.1,benign,npm-tarball,False,success,14.073,144.537,10,0,158.654,
+mdast-util-gfm-table,0.1.0,benign,npm-tarball,False,success,12.809,137.808,10,0,150.619,
+mdast-util-gfm-table,1.0.1,benign,npm-tarball,False,success,10.384,120.755,10,0,131.144,
+mdast-util-gfm-table,2.0.0,benign,npm-tarball,False,success,10.882,119.56,10,0,130.446,
+mdast-util-gfm-task-list-item,0.1.0,benign,npm-tarball,False,success,10.212,120.549,10,0,130.765,
+mdast-util-gfm-task-list-item,0.1.5,benign,npm-tarball,False,success,10.359,119.569,10,0,129.932,
+mdast-util-gfm-task-list-item,2.0.0,benign,npm-tarball,False,success,10.736,117.205,10,0,127.945,
+mdast-util-heading-range,1.0.0,benign,npm-tarball,False,success,10.291,121.179,10,0,131.482,
+mdast-util-heading-range,2.1.2,benign,npm-tarball,False,success,10.488,119.338,10,0,129.828,
+mdast-util-heading-range,4.0.0,benign,npm-tarball,False,success,11.173,117.388,10,0,128.569,
+mdast-util-heading-style,0.1.0,benign,npm-tarball,False,success,9.837,118.435,10,0,128.275,
+mdast-util-heading-style,1.0.4,benign,npm-tarball,False,success,10.473,117.816,10,0,128.291,
+mdast-util-heading-style,3.0.0,benign,npm-tarball,False,success,10.868,117.139,10,0,128.013,
+mdast-util-math,0.1.0,benign,npm-tarball,False,success,9.453,118.774,10,0,128.231,
+mdast-util-math,1.1.0,benign,npm-tarball,False,success,10.856,117.296,10,0,128.156,
+mdast-util-math,3.0.0,benign,npm-tarball,False,success,11.105,117.697,10,0,128.805,
+mdast-util-mdx,0.1.0,benign,npm-tarball,False,success,9.766,118.492,10,0,128.263,
+mdast-util-mdx,1.1.0,benign,npm-tarball,False,success,10.468,119.392,10,0,129.868,
+mdast-util-mdx,3.0.0,benign,npm-tarball,False,success,10.494,116.903,10,0,127.404,
+mdast-util-mdx-expression,0.1.0,benign,npm-tarball,False,success,9.538,118.962,10,0,128.504,
+mdast-util-mdx-expression,1.2.1,benign,npm-tarball,False,success,10.518,117.956,10,0,128.48,
+mdast-util-mdx-expression,2.0.1,benign,npm-tarball,False,success,10.68,117.795,10,0,128.479,
+mdast-util-mdx-jsx,0.1.0,benign,npm-tarball,False,success,9.562,117.302,10,0,126.868,
+mdast-util-mdx-jsx,2.0.1,benign,npm-tarball,False,success,10.984,117.245,10,0,128.232,
+mdast-util-mdx-jsx,3.2.0,benign,npm-tarball,False,success,11.123,116.823,10,0,127.951,
+mdast-util-mdxjs-esm,0.1.0,benign,npm-tarball,False,success,9.871,119.293,10,0,129.168,
+mdast-util-mdxjs-esm,1.2.0,benign,npm-tarball,False,success,10.913,116.367,10,0,127.286,
+mdast-util-mdxjs-esm,2.0.1,benign,npm-tarball,False,success,10.588,116.931,10,0,127.524,
+mdast-util-phrasing,1.0.0,benign,npm-tarball,False,success,9.292,117.384,10,0,126.681,
+mdast-util-phrasing,2.0.0,benign,npm-tarball,False,success,11.441,116.37,10,0,127.816,
+mdast-util-phrasing,4.1.0,benign,npm-tarball,False,success,11.336,115.547,10,0,126.891,
+mdast-util-to-hast,1.0.0,benign,npm-tarball,False,success,9.546,118.783,10,0,128.332,
+mdast-util-to-hast,2.0.0,benign,npm-tarball,False,success,11.205,118.482,10,0,129.703,
+mdast-util-to-hast,9.1.2,benign,npm-tarball,False,success,11.028,117.483,10,0,128.526,
+mdast-util-to-markdown,0.1.0,benign,npm-tarball,False,success,9.704,116.104,10,0,125.816,
+mdast-util-to-markdown,1.0.0-beta.1,benign,npm-tarball,False,success,11.237,118.933,10,0,130.207,
+mdast-util-to-markdown,2.2.1,benign,npm-tarball,False,success,11.717,118.885,10,0,130.663,
+mdast-util-to-nlcst,0.1.0,benign,npm-tarball,False,success,10.31,115.198,10,0,125.512,
+mdast-util-to-nlcst,3.2.2,benign,npm-tarball,False,success,10.631,117.346,10,0,127.986,
+mdast-util-to-nlcst,7.0.1,benign,npm-tarball,False,success,10.78,116.908,10,0,127.7,
+mdast-util-to-string,0.1.0,benign,npm-tarball,False,success,11.648,115.04,10,0,126.692,
+mdast-util-to-string,1.0.7,benign,npm-tarball,False,success,10.61,115.931,10,0,126.546,
+mdast-util-to-string,4.0.0,benign,npm-tarball,False,success,10.881,115.987,10,0,126.871,
+mdast-util-toc,0.1.0,benign,npm-tarball,False,success,11.404,116.953,10,0,128.365,
+mdast-util-toc,4.2.0,benign,npm-tarball,False,success,11.208,118.712,10,0,129.925,
+mdast-util-toc,7.1.0,benign,npm-tarball,False,success,10.92,118.967,10,0,129.895,
+mdast-zone,0.1.0,benign,npm-tarball,False,success,11.224,117.322,10,0,128.558,
+mdast-zone,3.0.1,benign,npm-tarball,False,success,9.885,117.149,10,0,127.04,
+mdast-zone,6.1.0,benign,npm-tarball,False,success,10.715,116.203,10,0,126.922,
+meow,1.0.0,benign,npm-tarball,False,success,11.188,115.408,10,0,126.598,
+meow,3.3.0,benign,npm-tarball,False,success,11.005,117.355,10,0,128.363,
+meow,9.0.0,benign,npm-tarball,False,success,10.927,117.278,10,0,128.216,
+meros,0.0.1,benign,npm-tarball,False,success,11.979,121.479,10,0,133.465,
+meros,1.1.0,benign,npm-tarball,False,success,11.814,134.836,10,0,146.661,
+meros,1.3.2,benign,npm-tarball,False,failed,3.845,0.0,0,0,3.855,"n_packages/meros/1.3.2/package/package.json
+[2026-10-30 21:13:09] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/meros/1.3.2/package/browser/index.mjs (50 ms)
+[2026-10-30 21:13:09] [build-stderr] Skipping file /data/resarch-dataset/benign_packages/meros/1.3.2/package/node/index.mjs: File appears to be minified.
+[2026-10-30 21:13:09] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/meros/1.3.2/package/node/index.mjs (9 ms)
+[2026-10-30 21:13:09] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/meros/1.3.2/package/package.json (34 ms)
+[2026-10-30 21:13:09] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_meros_1.3.2.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/meros/1.3.2/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_meros_1.3.2.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+micromark-util-character,1.0.0,benign,npm-tarball,False,success,11.694,134.724,10,0,146.428,
+micromark-util-character,1.1.0,benign,npm-tarball,False,success,14.702,128.5,10,0,143.208,
+micromark-util-character,2.1.1,benign,npm-tarball,False,success,11.368,124.022,10,0,135.399,
+micromark-util-chunked,1.0.0,benign,npm-tarball,False,success,11.246,127.514,10,0,138.77,
+micromark-util-chunked,1.0.0-beta.1,benign,npm-tarball,False,success,13.27,122.665,10,0,135.939,
+micromark-util-chunked,2.0.1,benign,npm-tarball,False,success,10.191,120.805,10,0,131.0,
+micromark-util-classify-character,1.0.0,benign,npm-tarball,False,success,10.104,117.948,10,0,128.058,
+micromark-util-classify-character,1.0.0-beta.1,benign,npm-tarball,False,success,11.741,120.619,10,0,132.364,
+micromark-util-classify-character,2.0.1,benign,npm-tarball,False,success,10.477,119.569,10,0,130.056,
+micromark-util-combine-extensions,1.0.0,benign,npm-tarball,False,success,10.35,118.214,10,0,128.572,
+micromark-util-combine-extensions,1.0.0-beta.1,benign,npm-tarball,False,success,11.337,117.646,10,0,128.991,
+micromark-util-combine-extensions,2.0.1,benign,npm-tarball,False,success,10.758,136.958,10,0,147.72,
+micromark-util-decode-numeric-character-reference,1.0.0,benign,npm-tarball,False,success,10.897,141.31,10,0,152.211,
+micromark-util-decode-numeric-character-reference,2.0.0,benign,npm-tarball,False,success,12.017,144.616,10,0,156.644,
+micromark-util-decode-numeric-character-reference,2.0.2,benign,npm-tarball,False,success,13.281,156.428,10,0,169.717,
+micromark-util-decode-string,1.0.0,benign,npm-tarball,False,success,13.15,157.276,10,0,170.429,
+micromark-util-decode-string,1.1.0,benign,npm-tarball,False,success,15.062,157.696,10,0,172.761,
+micromark-util-decode-string,2.0.1,benign,npm-tarball,False,success,13.786,156.895,10,0,170.685,
+micromark-util-encode,1.0.0,benign,npm-tarball,False,success,13.876,156.19,10,0,170.068,
+micromark-util-encode,1.0.0-beta.1,benign,npm-tarball,False,success,14.428,157.069,10,0,171.5,
+micromark-util-encode,2.0.1,benign,npm-tarball,False,success,13.759,155.872,10,0,169.634,
+micromark-util-html-tag-name,1.0.0,benign,npm-tarball,False,success,13.792,155.052,10,0,168.851,
+micromark-util-html-tag-name,1.0.0-beta.1,benign,npm-tarball,False,success,13.533,155.995,10,0,169.531,
+micromark-util-html-tag-name,2.0.1,benign,npm-tarball,False,success,14.149,156.581,10,0,170.733,
+micromark-util-normalize-identifier,1.0.0,benign,npm-tarball,False,success,13.818,155.32,10,0,169.14,
+micromark-util-normalize-identifier,1.0.0-beta.1,benign,npm-tarball,False,success,13.265,153.832,10,0,167.104,
+micromark-util-normalize-identifier,2.0.1,benign,npm-tarball,False,success,14.238,160.221,10,0,174.464,
+micromark-util-resolve-all,1.0.0,benign,npm-tarball,False,success,13.815,157.352,10,0,171.175,
+micromark-util-resolve-all,1.0.0-beta.1,benign,npm-tarball,False,success,14.817,154.102,10,0,168.922,
+micromark-util-resolve-all,2.0.1,benign,npm-tarball,False,success,13.594,129.197,10,0,142.795,
+micromark-util-sanitize-uri,1.0.0,benign,npm-tarball,False,success,13.758,128.52,10,0,142.281,
+micromark-util-sanitize-uri,1.0.0-beta.1,benign,npm-tarball,False,success,14.449,121.781,10,0,136.233,
+micromark-util-sanitize-uri,2.0.1,benign,npm-tarball,False,success,10.636,117.587,10,0,128.227,
+micromark-util-subtokenize,1.0.0,benign,npm-tarball,False,success,10.732,116.462,10,0,127.197,
+micromark-util-subtokenize,1.1.0,benign,npm-tarball,False,success,12.444,115.373,10,0,127.823,
+micromark-util-subtokenize,2.1.0,benign,npm-tarball,False,success,10.273,117.481,10,0,127.76,
+micromark-util-symbol,1.0.0,benign,npm-tarball,False,success,10.338,117.208,10,0,127.551,
+micromark-util-symbol,1.0.0-beta.1,benign,npm-tarball,False,success,11.657,112.349,10,0,124.019,
+micromark-util-symbol,2.0.1,benign,npm-tarball,False,success,10.644,117.434,10,0,128.085,
+micromark-util-types,1.0.0,benign,npm-tarball,False,success,10.326,116.689,10,0,127.018,
+micromark-util-types,1.0.2,benign,npm-tarball,False,success,12.002,116.652,10,0,128.661,
+micromark-util-types,2.0.3,benign,npm-tarball,False,success,10.51,114.661,10,0,125.174,
+min-dash,0.1.0,benign,npm-tarball,False,success,10.863,116.879,10,0,127.782,
+min-dash,3.5.0,benign,npm-tarball,False,success,12.639,116.459,10,0,129.105,
+min-dash,5.1.0,benign,npm-tarball,False,success,11.22,119.221,10,0,130.447,
+mo-walk,1.0.0,benign,npm-tarball,False,success,11.011,116.519,10,0,127.533,
+mo-walk,1.1.1,benign,npm-tarball,False,success,12.395,115.142,10,0,127.54,
+mo-walk,1.2.0,benign,npm-tarball,False,success,10.871,118.065,10,0,128.938,
+mocked-env,1.0.0,benign,npm-tarball,False,success,10.601,116.944,10,0,127.548,
+mocked-env,1.2.4,benign,npm-tarball,False,success,12.397,113.47,10,0,125.87,
+mocked-env,1.3.5,benign,npm-tarball,False,success,10.172,117.104,10,0,127.28,
+modern-async,0.0.0,benign,npm-tarball,False,success,10.583,118.707,10,0,129.297,
+modern-async,1.0.4,benign,npm-tarball,False,success,14.384,119.992,10,0,134.414,
+modern-async,2.0.4,benign,npm-tarball,False,success,12.115,122.81,10,0,134.968,
+nanopop,1.0.0,benign,npm-tarball,False,success,11.462,115.37,10,0,126.838,
+nanopop,2.0.0,benign,npm-tarball,False,success,13.066,116.631,10,0,129.703,
+nanopop,2.4.2,benign,npm-tarball,False,success,11.555,118.201,10,0,129.767,
+nlcst-affix-emoticon-modifier,0.1.0,benign,npm-tarball,False,success,10.544,117.892,10,0,128.439,
+nlcst-affix-emoticon-modifier,1.1.3,benign,npm-tarball,False,success,12.091,113.255,10,0,125.349,
+nlcst-affix-emoticon-modifier,3.0.0,benign,npm-tarball,False,success,10.505,118.043,10,0,128.556,
+nlcst-emoji-modifier,0.0.1,benign,npm-tarball,False,success,10.428,117.736,10,0,128.169,
+nlcst-emoji-modifier,2.0.3,benign,npm-tarball,False,success,12.097,116.192,10,0,128.292,
+nlcst-emoji-modifier,6.0.2,benign,npm-tarball,False,success,9.929,119.323,10,0,129.256,
+nlcst-emoticon-modifier,0.1.0,benign,npm-tarball,False,success,10.715,117.584,10,0,128.303,
+nlcst-emoticon-modifier,1.1.3,benign,npm-tarball,False,success,12.514,115.385,10,0,127.904,
+nlcst-emoticon-modifier,3.0.1,benign,npm-tarball,False,success,9.924,118.616,10,0,128.551,
+nlcst-is-literal,1.0.0,benign,npm-tarball,False,success,10.547,118.558,10,0,129.119,
+nlcst-is-literal,1.2.1,benign,npm-tarball,False,success,12.108,116.38,10,0,128.502,
+nlcst-is-literal,3.0.0,benign,npm-tarball,False,success,10.22,118.747,10,0,128.975,
+nlcst-normalize,1.0.0,benign,npm-tarball,False,success,10.796,119.869,10,0,130.722,
+nlcst-normalize,2.1.3,benign,npm-tarball,False,success,12.173,120.329,10,0,132.505,
+nlcst-normalize,4.0.0,benign,npm-tarball,False,success,9.995,118.822,10,0,128.821,
+nlcst-search,1.0.0,benign,npm-tarball,False,success,10.364,119.372,10,0,129.739,
+nlcst-search,1.4.3,benign,npm-tarball,False,success,12.645,116.965,10,0,129.612,
+nlcst-search,4.0.0,benign,npm-tarball,False,success,10.35,119.525,10,0,129.882,
+nlcst-to-string,0.0.1,benign,npm-tarball,False,success,10.603,120.815,10,0,131.423,
+nlcst-to-string,1.1.0,benign,npm-tarball,False,success,12.275,118.284,10,0,130.562,
+nlcst-to-string,4.0.0,benign,npm-tarball,False,success,9.711,118.8,10,0,128.517,
+normalize-range,0.1.0,benign,npm-tarball,False,success,10.22,116.709,10,0,126.932,
+normalize-range,0.1.1,benign,npm-tarball,False,success,11.888,117.186,10,0,129.076,
+normalize-range,0.1.2,benign,npm-tarball,False,success,10.425,118.884,10,0,129.315,
+oas-kit-common,1.0.0,benign,npm-tarball,False,success,10.699,117.023,10,0,127.724,
+oas-kit-common,1.0.5,benign,npm-tarball,False,success,12.073,119.59,10,0,131.666,
+oas-kit-common,1.0.8,benign,npm-tarball,False,success,10.588,117.288,10,0,127.884,
+omit-empty,0.1.0,benign,npm-tarball,False,success,10.445,118.522,10,0,128.983,
+omit-empty,0.3.3,benign,npm-tarball,False,success,11.941,115.536,10,0,127.482,
+omit-empty,1.0.0,benign,npm-tarball,False,success,10.381,121.133,10,0,131.516,
+openapi-enforcer,0.0.1,benign,npm-tarball,False,failed,3.968,0.0,0,0,3.969,"[2026-10-30 22:19:56] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-30 22:19:56] [build-stdout] Extracting /data/resarch-dataset/benign_packages/openapi-enforcer/0.0.1/package/package.json
+[2026-10-30 22:19:56] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/openapi-enforcer/0.0.1/package/package.json (74 ms)
+[2026-10-30 22:19:56] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_openapi-enforcer_0.0.1.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/openapi-enforcer/0.0.1/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_openapi-enforcer_0.0.1.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+openapi-enforcer,1.14.3,benign,npm-tarball,False,success,15.605,138.243,10,0,153.983,
+openapi-enforcer,1.9.0,benign,npm-tarball,False,success,15.53,132.63,10,0,148.226,
+ow,0.0.1,benign,npm-tarball,False,success,11.361,116.724,10,0,128.092,
+ow,0.23.1,benign,npm-tarball,False,success,10.642,120.109,10,0,130.781,
+ow,3.1.1,benign,npm-tarball,False,success,11.192,117.986,10,0,129.208,
+pad-start,0.0.0,benign,npm-tarball,False,failed,3.944,0.0,0,0,3.956,"[2026-10-30 22:24:11] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-30 22:24:11] [build-stdout] Extracting /data/resarch-dataset/benign_packages/pad-start/0.0.0/package/package.json
+[2026-10-30 22:24:11] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/pad-start/0.0.0/package/package.json (60 ms)
+[2026-10-30 22:24:11] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_pad-start_0.0.0.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/pad-start/0.0.0/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_pad-start_0.0.0.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+pad-start,1.0.1,benign,npm-tarball,False,success,10.029,114.972,10,0,125.004,
+pad-start,1.0.2,benign,npm-tarball,False,success,9.872,117.63,10,0,127.505,
+parse-numeric-range,0.0.1,benign,npm-tarball,False,success,10.464,116.71,10,0,127.177,
+parse-numeric-range,1.1.0,benign,npm-tarball,False,success,9.609,116.734,10,0,126.346,
+parse-numeric-range,1.3.0,benign,npm-tarball,False,success,9.691,118.31,10,0,128.048,
+path-starts-with,1.0.0,benign,npm-tarball,False,success,10.418,117.547,10,0,127.968,
+path-starts-with,2.0.0,benign,npm-tarball,False,success,10.442,118.583,10,0,129.028,
+path-starts-with,2.0.1,benign,npm-tarball,False,success,9.681,117.419,10,0,127.104,
+pick-util,1.0.0,benign,npm-tarball,False,success,10.125,119.812,10,0,129.947,
+pick-util,1.1.1,benign,npm-tarball,False,success,10.806,118.107,10,0,128.916,
+pick-util,1.1.5,benign,npm-tarball,False,success,10.146,116.46,10,0,126.611,
+playwright-testing-library,1.0.0,benign,npm-tarball,False,success,17.268,128.098,10,0,145.407,
+playwright-testing-library,4.0.0-beta.5,benign,npm-tarball,False,success,17.959,129.84,10,0,147.817,
+playwright-testing-library,4.5.0,benign,npm-tarball,False,success,18.875,134.203,10,0,153.107,
+postman-request,2.74.1-postman.1,benign,npm-tarball,False,success,12.137,122.605,10,0,134.756,
+postman-request,2.88.1-postman.25,benign,npm-tarball,False,success,11.628,120.51,10,0,132.147,
+postman-request,2.88.1-postman.9,benign,npm-tarball,False,success,10.863,117.94,10,0,128.813,
+prelude-ls,0.2.0,benign,npm-tarball,False,success,10.89,112.024,10,0,122.918,
+prelude-ls,1.0.2,benign,npm-tarball,False,success,9.626,109.035,10,0,118.667,
+prelude-ls,1.2.1,benign,npm-tarball,False,success,9.461,110.385,10,0,119.852,
+process-warning,1.0.0,benign,npm-tarball,False,success,10.155,108.93,10,0,119.093,
+process-warning,2.3.2,benign,npm-tarball,False,success,9.575,108.025,10,0,117.616,
+process-warning,5.1.1,benign,npm-tarball,False,success,10.353,108.734,10,0,119.099,
+protochain,1.0.0,benign,npm-tarball,False,success,9.671,108.298,10,0,117.973,
+protochain,1.0.3,benign,npm-tarball,False,success,9.203,108.828,10,0,118.049,
+protochain,1.0.5,benign,npm-tarball,False,success,8.932,108.929,10,0,117.868,
+rambda,0.1.0,benign,npm-tarball,False,success,9.179,112.023,10,0,121.205,
+rambda,2.13.0,benign,npm-tarball,False,success,10.59,112.26,10,0,122.937,
+rambda,9.4.2,benign,npm-tarball,False,success,10.363,114.39,10,0,124.85,
+rambdax,0.1.0,benign,npm-tarball,False,success,9.199,109.165,10,0,118.369,
+rambdax,0.8.3,benign,npm-tarball,False,success,10.296,110.555,10,0,120.903,
+rambdax,9.1.1,benign,npm-tarball,False,success,11.794,113.149,10,0,125.092,
+react-flatten-children,1.0.0,benign,npm-tarball,False,success,10.313,107.087,10,0,117.405,
+react-flatten-children,1.1.1,benign,npm-tarball,False,success,9.872,108.729,10,0,118.609,
+react-flatten-children,1.1.2,benign,npm-tarball,False,success,9.708,108.555,10,0,118.268,
+react-keyed-flatten-children,1.0.0,benign,npm-tarball,False,success,9.142,109.213,10,0,118.358,
+react-keyed-flatten-children,3.0.2,benign,npm-tarball,False,success,9.907,119.214,10,0,129.132,
+react-keyed-flatten-children,5.1.4,benign,npm-tarball,False,success,9.58,134.031,10,0,143.619,
+react-merge-refs,1.0.0,benign,npm-tarball,False,success,9.766,136.118,10,0,145.894,
+react-merge-refs,2.1.0,benign,npm-tarball,False,success,12.904,158.464,10,0,171.376,
+react-merge-refs,3.0.2,benign,npm-tarball,False,success,13.141,157.291,10,0,170.436,
+react-native-flash-message,0.1.0,benign,npm-tarball,False,success,14.093,156.372,10,0,170.468,
+react-native-flash-message,0.1.23,benign,npm-tarball,False,success,13.035,158.21,10,0,171.255,
+react-native-flash-message,0.4.2,benign,npm-tarball,False,success,13.868,158.688,10,0,172.561,
+react-use-cookie,1.0.0,benign,npm-tarball,False,success,13.763,156.668,10,0,170.44,
+react-use-cookie,1.2.0,benign,npm-tarball,False,success,13.187,161.491,10,0,174.689,
+react-use-cookie,1.6.1,benign,npm-tarball,False,success,15.133,164.578,10,0,179.716,
+request,0.10.0,benign,npm-tarball,False,success,15.239,165.12,10,0,180.363,
+request,2.40.0,benign,npm-tarball,False,success,14.516,165.093,10,0,179.624,
+request,2.9.3,benign,npm-tarball,False,success,14.231,159.504,10,0,173.744,
+secure-pin,1.0.0,benign,npm-tarball,False,success,15.843,155.65,10,0,171.499,
+secure-pin,1.0.2,benign,npm-tarball,False,success,14.176,135.916,10,0,150.104,
+secure-pin,1.0.9,benign,npm-tarball,False,success,13.078,130.899,10,0,143.988,
+serializerr,1.0.0,benign,npm-tarball,False,success,12.496,130.764,10,0,143.266,
+serializerr,1.0.2,benign,npm-tarball,False,success,11.073,130.932,10,0,142.008,
+serializerr,1.0.3,benign,npm-tarball,False,success,11.329,130.324,10,0,141.657,
+simple-bin-help,1.0.0,benign,npm-tarball,False,success,11.15,129.98,10,0,141.132,
+simple-bin-help,1.6.0,benign,npm-tarball,False,success,11.249,125.584,10,0,136.835,
+simple-bin-help,1.8.0,benign,npm-tarball,False,success,21.362,129.618,10,0,150.989,
+sort-es,0.0.1,benign,npm-tarball,False,success,11.324,118.545,10,0,129.873,
+sort-es,1.4.0,benign,npm-tarball,False,success,8.715,101.598,10,0,110.325,
+sort-es,1.7.9,benign,npm-tarball,False,success,8.883,100.618,10,0,109.52,
+start-server-and-test,1.0.0,benign,npm-tarball,False,success,9.857,100.689,10,0,110.549,
+start-server-and-test,1.7.10,benign,npm-tarball,False,success,9.344,100.578,10,0,109.927,
+start-server-and-test,3.0.9,benign,npm-tarball,False,success,8.61,99.282,10,0,107.896,
+starts-with,0.0.0,benign,npm-tarball,False,success,9.982,96.931,10,0,106.915,
+starts-with,1.0.0,benign,npm-tarball,False,success,9.375,99.838,10,0,109.224,
+starts-with,1.0.2,benign,npm-tarball,False,success,8.493,98.471,10,0,106.97,
+string-match-left-right,1.0.1,benign,npm-tarball,False,success,10.265,97.972,10,0,108.248,
+string-match-left-right,3.6.6,benign,npm-tarball,False,success,9.124,99.779,10,0,108.908,
+string-match-left-right,9.2.6,benign,npm-tarball,False,failed,2.968,0.0,0,0,2.974,"tch-left-right.esm.js (50 ms)
+[2026-10-30 23:16:18] [build-stderr] Skipping file /data/resarch-dataset/benign_packages/string-match-left-right/9.2.6/package/dist/string-match-left-right.umd.js: File appears to be minified.
+[2026-10-30 23:16:18] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/string-match-left-right/9.2.6/package/dist/string-match-left-right.umd.js (49 ms)
+[2026-10-30 23:16:18] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/string-match-left-right/9.2.6/package/package.json (66 ms)
+[2026-10-30 23:16:18] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_string-match-left-right_9.2.6.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/string-match-left-right/9.2.6/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_string-match-left-right_9.2.6.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+string.prototype.trimend,0.0.1,benign,npm-tarball,False,success,8.557,98.209,10,0,106.769,
+string.prototype.trimend,1.0.3,benign,npm-tarball,False,success,10.362,98.823,10,0,109.201,
+string.prototype.trimend,1.0.9,benign,npm-tarball,False,success,8.663,100.43,10,0,109.098,
+string.prototype.trimstart,0.0.1,benign,npm-tarball,False,success,8.487,98.812,10,0,107.31,
+string.prototype.trimstart,1.0.3,benign,npm-tarball,False,success,9.974,95.696,10,0,105.682,
+string.prototype.trimstart,1.0.8,benign,npm-tarball,False,success,8.475,94.927,10,0,103.411,
+style-it,1.2.0,benign,npm-tarball,False,success,12.766,140.832,10,0,153.623,
+style-it,1.5.3,benign,npm-tarball,False,success,9.847,130.149,10,0,140.013,
+style-it,2.1.4,benign,npm-tarball,False,success,15.219,160.784,10,0,176.034,
+task-easy,0.1.0,benign,npm-tarball,False,success,14.335,157.117,10,0,171.462,
+task-easy,0.2.1,benign,npm-tarball,False,success,13.818,156.955,10,0,170.777,
+task-easy,1.0.1,benign,npm-tarball,False,success,14.148,155.789,10,0,169.947,
+to-vfile,1.0.0,benign,npm-tarball,False,success,13.479,155.716,10,0,169.203,
+to-vfile,5.0.3,benign,npm-tarball,False,success,14.819,155.903,10,0,170.726,
+to-vfile,8.0.0,benign,npm-tarball,False,success,13.689,163.794,10,0,177.49,
+trim-off-newlines,0.0.0,benign,npm-tarball,False,success,14.618,155.028,10,0,169.649,
+trim-off-newlines,1.0.1,benign,npm-tarball,False,success,14.62,154.475,10,0,169.109,
+trim-off-newlines,1.0.3,benign,npm-tarball,False,success,14.285,162.642,10,0,176.938,
+tstl,0.0.0,benign,npm-tarball,False,success,14.242,154.447,10,0,168.692,
+tstl,2.0.6,benign,npm-tarball,False,success,16.566,161.91,10,0,178.692,
+tstl,3.0.1-dev.20240330,benign,npm-tarball,False,success,33.631,166.757,10,0,200.836,
+tui-code-snippet,1.0.6,benign,npm-tarball,False,success,12.358,174.064,10,0,186.46,
+tui-code-snippet,1.5.1,benign,npm-tarball,False,success,15.727,174.268,10,0,190.02,
+tui-code-snippet,2.3.3,benign,npm-tarball,False,success,15.039,160.436,10,0,175.526,
+type-fest,0.1.0,benign,npm-tarball,False,failed,4.825,0.0,0,0,4.83,"[2026-10-30 23:36:56] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-30 23:36:56] [build-stdout] Extracting /data/resarch-dataset/benign_packages/type-fest/0.1.0/package/package.json
+[2026-10-30 23:36:56] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/type-fest/0.1.0/package/package.json (74 ms)
+[2026-10-30 23:36:56] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_type-fest_0.1.0.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/type-fest/0.1.0/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_type-fest_0.1.0.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+type-fest,3.5.3,benign,npm-tarball,False,failed,4.815,0.0,0,0,4.846,"[2026-10-30 23:37:00] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-30 23:37:00] [build-stdout] Extracting /data/resarch-dataset/benign_packages/type-fest/3.5.3/package/package.json
+[2026-10-30 23:37:01] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/type-fest/3.5.3/package/package.json (76 ms)
+[2026-10-30 23:37:01] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_type-fest_3.5.3.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/type-fest/3.5.3/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_type-fest_3.5.3.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+type-fest,5.9.0,benign,npm-tarball,False,failed,4.803,0.0,0,0,4.903,"[2026-10-30 23:37:05] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-30 23:37:05] [build-stdout] Extracting /data/resarch-dataset/benign_packages/type-fest/5.9.0/package/package.json
+[2026-10-30 23:37:05] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/type-fest/5.9.0/package/package.json (80 ms)
+[2026-10-30 23:37:05] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_type-fest_5.9.0.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/type-fest/5.9.0/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_type-fest_5.9.0.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+typechecker,2.0.0,benign,npm-tarball,False,success,13.763,160.004,10,0,173.772,
+typechecker,7.14.0-next.1597703049.972d2bbe360e27feb7d623889988f063e70d635a,benign,npm-tarball,False,success,15.714,160.142,10,0,175.872,
+typechecker,9.4.0-next.1703778254.acb9c34358ef897fb27cdc9a030bda131e6cab12,benign,npm-tarball,False,success,14.564,160.375,10,0,174.967,
+typed-graphqlify,0.0.1,benign,npm-tarball,True,success,15.215,159.945,10,0,175.53,
+typed-graphqlify,2.0.8-alpha,benign,npm-tarball,False,success,14.88,161.36,10,0,176.248,
+typed-graphqlify,3.1.6,benign,npm-tarball,False,success,14.604,148.827,10,0,163.451,
+unist-builder,1.0.0,benign,npm-tarball,False,success,13.631,140.21,10,0,153.844,
+unist-builder,2.0.1,benign,npm-tarball,False,success,14.313,138.79,10,0,153.11,
+unist-builder,4.0.0,benign,npm-tarball,False,success,12.172,131.312,10,0,143.496,
+unist-util-assert,1.0.0,benign,npm-tarball,False,success,10.684,128.852,10,0,139.538,
+unist-util-assert,2.0.0,benign,npm-tarball,False,success,12.027,124.744,10,0,136.778,
+unist-util-assert,4.0.0,benign,npm-tarball,False,success,11.782,120.824,10,0,132.622,
+unist-util-filter,0.1.0,benign,npm-tarball,False,success,10.619,118.965,10,0,129.586,
+unist-util-filter,2.0.1,benign,npm-tarball,False,success,11.234,120.352,10,0,131.595,
+unist-util-filter,5.0.1,benign,npm-tarball,False,success,10.451,120.513,10,0,130.97,
+unist-util-find-after,1.0.0,benign,npm-tarball,False,success,10.366,120.609,10,0,130.979,
+unist-util-find-after,2.0.3,benign,npm-tarball,False,success,10.563,121.645,10,0,132.217,
+unist-util-find-after,5.0.0,benign,npm-tarball,False,success,11.36,117.205,10,0,128.569,
+unist-util-find-all-after,1.0.0,benign,npm-tarball,False,success,10.698,122.146,10,0,132.847,
+unist-util-find-all-after,2.0.0,benign,npm-tarball,False,success,10.717,119.487,10,0,130.21,
+unist-util-find-all-after,5.0.0,benign,npm-tarball,False,success,11.707,119.439,10,0,131.151,
+unist-util-find-all-before,0.0.0,benign,npm-tarball,False,success,10.656,119.17,10,0,129.83,
+unist-util-find-all-before,2.0.4,benign,npm-tarball,False,success,11.093,119.649,10,0,130.754,
+unist-util-find-all-before,5.0.0,benign,npm-tarball,False,success,11.358,119.862,10,0,131.23,
+unist-util-find-all-between,1.0.0,benign,npm-tarball,False,success,10.561,119.683,10,0,130.253,
+unist-util-find-all-between,1.0.4,benign,npm-tarball,False,success,11.43,120.112,10,0,131.551,
+unist-util-find-all-between,2.1.0,benign,npm-tarball,False,success,11.477,120.704,10,0,132.184,
+unist-util-find-before,1.0.0,benign,npm-tarball,False,success,10.178,120.879,10,0,131.06,
+unist-util-find-before,2.0.4,benign,npm-tarball,False,success,10.9,118.263,10,0,129.175,
+unist-util-find-before,4.0.1,benign,npm-tarball,False,success,10.44,120.292,10,0,130.736,
+unist-util-generated,1.0.0,benign,npm-tarball,False,success,10.461,119.515,10,0,129.98,
+unist-util-generated,1.1.4,benign,npm-tarball,False,success,11.35,120.553,10,0,131.913,
+unist-util-generated,3.0.0,benign,npm-tarball,False,success,11.234,121.199,10,0,132.439,
+unist-util-index,0.1.0,benign,npm-tarball,False,success,10.569,119.414,10,0,129.993,
+unist-util-index,2.0.0,benign,npm-tarball,False,success,10.436,120.183,10,0,130.624,
+unist-util-index,4.0.0,benign,npm-tarball,False,success,11.071,121.507,10,0,132.582,
+unist-util-inspect,1.0.0,benign,npm-tarball,False,success,10.059,120.719,10,0,130.783,
+unist-util-inspect,4.1.4,benign,npm-tarball,False,success,10.37,118.859,10,0,129.231,
+unist-util-inspect,8.1.0,benign,npm-tarball,False,success,10.677,119.499,10,0,130.181,
+unist-util-is,1.0.0,benign,npm-tarball,False,success,10.28,119.881,10,0,130.205,
+unist-util-is,4.0.3,benign,npm-tarball,False,success,10.779,118.514,10,0,129.305,
+unist-util-is,6.0.1,benign,npm-tarball,False,success,10.329,120.835,10,0,131.171,
+unist-util-map,1.0.1,benign,npm-tarball,False,success,10.865,118.734,10,0,129.612,
+unist-util-map,3.0.0,benign,npm-tarball,False,success,10.65,118.159,10,0,128.818,
+unist-util-map,4.0.0,benign,npm-tarball,False,success,10.436,117.405,10,0,127.844,
+unist-util-modify-children,1.0.0,benign,npm-tarball,False,success,10.476,119.58,10,0,130.062,
+unist-util-modify-children,1.1.5,benign,npm-tarball,False,success,10.824,120.113,10,0,130.939,
+unist-util-modify-children,4.0.0,benign,npm-tarball,False,success,11.031,117.589,10,0,128.624,
+unist-util-parents,0.1.0,benign,npm-tarball,False,success,10.76,118.125,10,0,128.889,
+unist-util-parents,1.0.2,benign,npm-tarball,False,success,10.43,120.037,10,0,130.514,
+unist-util-parents,3.0.0,benign,npm-tarball,False,success,10.579,118.093,10,0,128.675,
+unist-util-position,2.0.1,benign,npm-tarball,False,success,10.336,120.687,10,0,131.028,
+unist-util-position,3.1.0,benign,npm-tarball,False,success,10.277,118.752,10,0,129.032,
+unist-util-position,5.0.0,benign,npm-tarball,False,success,10.543,120.784,10,0,131.336,
+unist-util-position-from-estree,1.0.0,benign,npm-tarball,False,success,11.215,120.143,10,0,131.361,
+unist-util-position-from-estree,1.1.1,benign,npm-tarball,False,success,11.373,118.72,10,0,130.1,
+unist-util-position-from-estree,2.0.0,benign,npm-tarball,False,success,10.572,121.607,10,0,132.182,
+unist-util-remove,0.1.0,benign,npm-tarball,False,success,10.448,120.0,10,0,130.457,
+unist-util-remove,2.0.0,benign,npm-tarball,False,success,10.664,120.071,10,0,130.742,
+unist-util-remove,4.0.0,benign,npm-tarball,False,success,10.493,118.38,10,0,128.877,
+unist-util-remove-position,1.0.0,benign,npm-tarball,False,success,10.381,119.032,10,0,129.416,
+unist-util-remove-position,2.0.0,benign,npm-tarball,False,success,10.801,118.137,10,0,128.941,
+unist-util-remove-position,5.0.0,benign,npm-tarball,False,success,9.906,117.793,10,0,127.708,
+unist-util-select,0.1.0,benign,npm-tarball,False,success,10.208,118.76,10,0,128.972,
+unist-util-select,3.0.0,benign,npm-tarball,False,success,10.452,118.943,10,0,129.403,
+unist-util-select,5.1.0,benign,npm-tarball,False,success,10.685,114.069,10,0,124.764,
+unist-util-source,1.0.0,benign,npm-tarball,False,failed,3.52,0.0,0,0,3.522,"[2026-10-31 00:26:57] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-31 00:26:57] [build-stdout] Extracting /data/resarch-dataset/benign_packages/unist-util-source/1.0.0/package/package.json
+[2026-10-31 00:26:57] [build-stdout] Done extracting /data/resarch-dataset/benign_packages/unist-util-source/1.0.0/package/package.json (63 ms)
+[2026-10-31 00:26:57] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_unist-util-source_1.0.0.
+Running build command: []
+Running command in /data/resarch-dataset/benign_packages/unist-util-source/1.0.0/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_unist-util-source_1.0.0.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+unist-util-source,2.0.0,benign,npm-tarball,False,success,10.451,117.893,10,0,128.35,
+unist-util-source,5.0.0,benign,npm-tarball,False,success,10.531,117.381,10,0,127.919,
+unist-util-stringify-position,1.0.0,benign,npm-tarball,False,success,12.047,115.241,10,0,127.292,
+unist-util-stringify-position,2.0.2,benign,npm-tarball,False,success,10.629,116.873,10,0,127.507,
+unist-util-stringify-position,4.0.0,benign,npm-tarball,False,success,11.017,116.885,10,0,127.912,
+unist-util-visit,1.0.0,benign,npm-tarball,False,success,11.589,116.018,10,0,127.61,
+unist-util-visit,2.0.1,benign,npm-tarball,False,success,10.664,116.865,10,0,127.532,
+unist-util-visit,5.2.0,benign,npm-tarball,False,success,10.77,116.384,10,0,127.159,
+unist-util-visit-children,1.0.0,benign,npm-tarball,False,success,11.01,114.928,10,0,125.94,
+unist-util-visit-children,1.1.4,benign,npm-tarball,False,success,10.948,116.577,10,0,127.53,
+unist-util-visit-children,3.0.0,benign,npm-tarball,False,success,11.059,116.805,10,0,127.87,
+unist-util-visit-parents,1.0.0,benign,npm-tarball,False,success,10.863,116.024,10,0,126.89,
+unist-util-visit-parents,3.1.1,benign,npm-tarball,False,success,10.731,119.358,10,0,130.094,
+unist-util-visit-parents,6.1.0,benign,npm-tarball,False,success,11.043,116.881,10,0,127.935,
+utility,0.0.1,benign,npm-tarball,False,success,10.719,115.822,10,0,126.549,
+utility,1.10.0,benign,npm-tarball,False,success,11.0,119.808,10,0,130.816,
+utility,2.5.0,benign,npm-tarball,False,success,12.638,120.027,10,0,132.698,
+utils-copy-error,0.0.0,benign,npm-tarball,False,success,10.45,118.819,10,0,129.272,
+utils-copy-error,1.0.0,benign,npm-tarball,False,success,10.422,118.453,10,0,128.878,
+utils-copy-error,1.0.1,benign,npm-tarball,False,success,11.176,117.336,10,0,128.52,
+utils-indexof,0.0.0,benign,npm-tarball,False,success,10.035,119.148,10,0,129.186,
+utils-indexof,1.0.0,benign,npm-tarball,False,success,10.009,116.515,10,0,126.527,
+utils-regex-from-string,0.0.0,benign,npm-tarball,False,success,10.824,116.181,10,0,127.009,
+utils-regex-from-string,1.0.0,benign,npm-tarball,False,success,10.492,118.253,10,0,128.748,
+vandium-utils,1.0.0,benign,npm-tarball,False,success,10.984,112.309,10,0,123.296,
+vandium-utils,1.1.1,benign,npm-tarball,False,success,11.034,112.059,10,0,123.097,
+vandium-utils,2.0.0,benign,npm-tarball,False,success,9.697,108.12,10,0,117.828,
+vfile-find-down,1.0.0,benign,npm-tarball,False,success,10.499,109.195,10,0,119.697,
+vfile-find-down,4.0.1,benign,npm-tarball,False,success,9.938,109.203,10,0,119.144,
+vfile-find-down,7.1.0,benign,npm-tarball,False,success,9.114,109.009,10,0,118.13,
+vfile-find-up,1.0.0,benign,npm-tarball,False,success,9.74,110.115,10,0,119.859,
+vfile-find-up,5.0.0,benign,npm-tarball,False,success,10.598,108.976,10,0,119.577,
+vfile-find-up,7.1.0,benign,npm-tarball,False,success,9.534,107.093,10,0,116.632,
+vfile-location,2.0.0,benign,npm-tarball,False,success,9.762,107.626,10,0,117.393,
+vfile-location,3.1.0,benign,npm-tarball,False,success,9.712,107.716,10,0,117.432,
+vfile-location,5.0.3,benign,npm-tarball,False,success,9.768,108.17,10,0,117.943,
+vfile-matter,1.0.0,benign,npm-tarball,False,success,9.783,107.125,10,0,116.913,
+vfile-matter,3.0.0,benign,npm-tarball,False,success,10.363,108.002,10,0,118.379,
+vfile-matter,5.0.1,benign,npm-tarball,False,success,9.649,107.794,10,0,117.452,
+vfile-message,1.0.0,benign,npm-tarball,False,success,9.678,108.34,10,0,118.021,
+vfile-message,3.0.1,benign,npm-tarball,False,success,10.489,106.202,10,0,116.697,
+vfile-message,4.0.3,benign,npm-tarball,False,success,9.684,107.135,10,0,116.826,
+vfile-reporter,1.0.0,benign,npm-tarball,False,success,9.535,107.994,10,0,117.532,
+vfile-reporter,5.1.0,benign,npm-tarball,False,success,10.501,107.904,10,0,118.409,
+vfile-reporter,8.1.1,benign,npm-tarball,False,success,9.562,107.013,10,0,116.589,
+vfile-reporter-json,1.0.0,benign,npm-tarball,False,success,9.69,107.618,10,0,117.311,
+vfile-reporter-json,2.0.1,benign,npm-tarball,False,success,10.309,108.075,10,0,118.386,
+vfile-reporter-json,4.0.0,benign,npm-tarball,False,success,10.195,107.463,10,0,117.667,
+vfile-reporter-pretty,0.1.0,benign,npm-tarball,False,success,9.419,106.999,10,0,116.42,
+vfile-reporter-pretty,3.0.1,benign,npm-tarball,False,success,10.564,106.823,10,0,117.39,
+vfile-reporter-pretty,7.0.0,benign,npm-tarball,False,success,9.903,107.56,10,0,117.471,
+vfile-sort,1.0.0,benign,npm-tarball,False,success,9.399,108.592,10,0,118.0,
+vfile-sort,2.2.0,benign,npm-tarball,False,success,9.977,105.601,10,0,115.581,
+vfile-sort,4.0.0,benign,npm-tarball,False,success,10.015,106.044,10,0,116.065,
+vfile-statistics,1.0.0,benign,npm-tarball,False,success,9.624,107.761,10,0,117.388,
+vfile-statistics,1.1.3,benign,npm-tarball,False,success,10.637,105.58,10,0,116.223,
+vfile-statistics,3.0.0,benign,npm-tarball,False,success,9.45,108.139,10,0,117.598,
+vfile-to-eslint,0.1.0,benign,npm-tarball,False,success,9.501,105.581,10,0,115.085,
+vfile-to-eslint,2.0.2,benign,npm-tarball,False,success,10.346,107.63,10,0,117.98,
+vfile-to-eslint,4.0.0,benign,npm-tarball,False,success,9.745,108.874,10,0,118.623,
+waterline-criteria,0.0.0,benign,npm-tarball,False,success,9.683,110.504,10,0,120.194,
+waterline-criteria,0.11.2,benign,npm-tarball,False,success,10.527,110.715,10,0,121.254,
+waterline-criteria,2.0.0,benign,npm-tarball,False,success,9.984,110.43,10,0,120.424,
+xbytes,1.0.0,benign,npm-tarball,False,success,9.479,107.821,10,0,117.305,
+xbytes,1.5.0,benign,npm-tarball,False,success,9.937,105.888,10,0,115.829,
+xbytes,1.9.1,benign,npm-tarball,False,success,10.466,110.237,10,0,120.711,
+yeoman-assert,1.0.0,benign,npm-tarball,False,success,10.133,108.681,10,0,118.817,
+yeoman-assert,2.2.1,benign,npm-tarball,False,success,10.111,107.456,10,0,117.575,
+yeoman-assert,3.1.1,benign,npm-tarball,False,success,9.612,74.086,10,0,83.705,

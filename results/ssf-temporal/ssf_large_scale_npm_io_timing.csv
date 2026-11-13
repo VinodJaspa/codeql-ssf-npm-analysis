@@ -1,0 +1,2 @@
+package_versions,database_success_or_cached,fresh_databases_built,cached_databases,database_failures,hash_failures,wall_clock_seconds,wall_clock_minutes,average_package_seconds,average_fresh_database_build_seconds,average_query_processing_seconds,sum_package_processing_seconds,codeql_queries_per_package,max_workers,database_threads
+874,836,0,836,38,0,3397.795,56.63,11.656,0,11.476,10187.632,10,3,3

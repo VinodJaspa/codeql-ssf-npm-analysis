@@ -1,0 +1,109 @@
+{
+  "columns": [
+    {
+      "width": 53,
+      "minWidth": 40,
+      "download": false,
+      "formatter": "rowSelection",
+      "titleFormatter": "rowSelection",
+      "resizable": true,
+      "headerSort": false
+    },
+    {
+      "field": "package",
+      "title": "package",
+      "width": 511,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "version",
+      "title": "version",
+      "width": 104,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "label",
+      "title": "label",
+      "width": 88,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "tool",
+      "title": "tool",
+      "width": 82,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "status",
+      "title": "status",
+      "width": 98,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "detected",
+      "title": "detected",
+      "width": 116,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "num_findings",
+      "title": "num_findings",
+      "width": 145,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "error",
+      "title": "error",
+      "width": 89,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "path",
+      "title": "path",
+      "width": 799,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "hash",
+      "title": "hash",
+      "width": 531,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    }
+  ],
+  "sort": [
+    {
+      "column": "detected",
+      "dir": "asc"
+    }
+  ]
+}

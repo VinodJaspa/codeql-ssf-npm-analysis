@@ -1,0 +1,283 @@
+package,version,label,source_type,node_modules_present,database_status,build_time_seconds,query_time_seconds,queries_processed,queries_failed,package_time_seconds,error_message
+airbnb-dev,package,malicious,npm-tarball,False,success,9.643,98.485,10,0,108.131,
+airbnb-i18n,package,malicious,npm-tarball,False,success,9.948,98.336,10,0,108.287,
+ansi-styles,package,malicious,npm-tarball,False,failed,2.784,0.0,0,0,2.793,"a/resarch-dataset/validation-set/ansi-styles/package/index.js
+[2026-10-31 11:26:25] [build-stdout] Extracting /data/resarch-dataset/validation-set/ansi-styles/package/package.json
+[2026-10-31 11:26:25] [build-stderr] Skipping file /data/resarch-dataset/validation-set/ansi-styles/package/index.js: File appears to be minified.
+[2026-10-31 11:26:25] [build-stdout] Done extracting /data/resarch-dataset/validation-set/ansi-styles/package/index.js (38 ms)
+[2026-10-31 11:26:25] [build-stdout] Done extracting /data/resarch-dataset/validation-set/ansi-styles/package/package.json (47 ms)
+[2026-10-31 11:26:25] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_ansi-styles_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/ansi-styles/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_ansi-styles_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+astar-portal-test-depconf,package,malicious,npm-tarball,False,success,10.107,99.692,10,0,109.801,
+axios-proxy,package,malicious,npm-tarball,False,success,10.52,112.777,10,0,123.312,
+brock-loader,package,malicious,npm-tarball,False,success,10.021,102.514,10,0,112.537,
+bytectfxwan4n,package,malicious,npm-tarball,False,success,10.049,108.036,10,0,118.092,
+chawla-init,package,malicious,npm-tarball,False,success,12.972,148.912,10,0,161.886,
+circle-admin-web-app,package,malicious,npm-tarball,False,success,14.381,144.09,10,0,158.473,
+coa,package,malicious,npm-tarball,False,success,14.831,141.909,10,0,156.749,
+colors-help,package,malicious,npm-tarball,False,success,8.359,101.392,10,0,109.764,
+components-flexibility,package,malicious,npm-tarball,False,success,9.67,100.872,10,0,110.597,
+core-http,package,malicious,npm-tarball,False,success,9.32,99.641,10,0,108.965,
+core-xml,package,malicious,npm-tarball,False,success,7.51,92.887,10,0,100.399,
+cron-guru,package,malicious,npm-tarball,False,success,8.438,90.673,10,0,99.113,
+cxf-plugins,package,malicious,npm-tarball,False,success,8.462,90.744,10,0,99.21,
+deasyncp,package,malicious,npm-tarball,False,success,7.434,90.608,10,0,98.044,
+deere-i18n,package,malicious,npm-tarball,False,success,7.381,89.312,10,0,96.695,
+deneuve-test,package,malicious,npm-tarball,False,failed,3.182,0.0,0,0,3.184,"[2026-10-31 11:36:23] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-31 11:36:23] [build-stdout] Extracting /data/resarch-dataset/validation-set/deneuve-test/package/package.json
+[2026-10-31 11:36:23] [build-stdout] Done extracting /data/resarch-dataset/validation-set/deneuve-test/package/package.json (75 ms)
+[2026-10-31 11:36:23] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_deneuve-test_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/deneuve-test/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_deneuve-test_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+destroyer-of-worlds,package,malicious,npm-tarball,False,success,8.638,87.051,10,0,95.691,
+discord-protection,package,malicious,npm-tarball,False,success,11.444,105.993,10,0,117.498,
+discord-vilao,package,malicious,npm-tarball,False,success,9.085,90.917,10,0,100.035,
+discord.js-discord-selfbot-v4,package,malicious,npm-tarball,False,success,11.692,107.172,10,0,118.951,
+discord.js-user,package,malicious,npm-tarball,False,success,10.401,105.813,10,0,116.297,
+discordsystem,package,malicious,npm-tarball,False,success,12.107,104.835,10,0,117.022,
+elysium-ui,package,malicious,npm-tarball,False,success,8.19,91.802,10,0,99.994,
+eslint-plugin-seller-ui-eslint-plugin,package,malicious,npm-tarball,False,success,7.326,94.821,10,0,102.153,
+eslint-scope,package,malicious,npm-tarball,False,success,8.535,94.771,10,0,103.319,
+faizee.asad,package,malicious,npm-tarball,False,success,9.455,89.628,10,0,99.085,
+fast-requests,package,malicious,npm-tarball,False,failed,2.125,0.0,0,0,2.128,"quests/package/package.json
+[2026-10-31 11:43:17] [build-stdout] Extracting /data/resarch-dataset/validation-set/fast-requests/package/fast-requests.js
+[2026-10-31 11:43:17] [build-stderr] Skipping file /data/resarch-dataset/validation-set/fast-requests/package/fast-requests.js: File appears to be minified.
+[2026-10-31 11:43:17] [build-stdout] Done extracting /data/resarch-dataset/validation-set/fast-requests/package/fast-requests.js (31 ms)
+[2026-10-31 11:43:17] [build-stdout] Done extracting /data/resarch-dataset/validation-set/fast-requests/package/package.json (36 ms)
+[2026-10-31 11:43:17] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_fast-requests_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/fast-requests/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_fast-requests_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+fetch-string,package,malicious,npm-tarball,False,failed,2.743,0.0,0,0,2.751,"/fetch-string/package/lib/src/index.js
+[2026-10-31 11:43:19] [build-stdout] Extracting /data/resarch-dataset/validation-set/fetch-string/package/package.json
+[2026-10-31 11:43:19] [build-stdout] Done extracting /data/resarch-dataset/validation-set/fetch-string/package/package.json (64 ms)
+[2026-10-31 11:43:19] [build-stderr] Skipping file /data/resarch-dataset/validation-set/fetch-string/package/lib/src/index.js: File appears to be minified.
+[2026-10-31 11:43:19] [build-stdout] Done extracting /data/resarch-dataset/validation-set/fetch-string/package/lib/src/index.js (90 ms)
+[2026-10-31 11:43:19] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_fetch-string_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/fetch-string/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_fetch-string_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+finco,package,malicious,npm-tarball,False,success,7.183,92.596,10,0,99.784,
+fix-error,package,malicious,npm-tarball,False,failed,2.879,0.0,0,0,2.881," Extracting /data/resarch-dataset/validation-set/fix-error/package/index.js
+[2026-10-31 11:43:24] [build-stdout] Extracting /data/resarch-dataset/validation-set/fix-error/package/package.json
+[2026-10-31 11:43:24] [build-stdout] Done extracting /data/resarch-dataset/validation-set/fix-error/package/package.json (38 ms)
+[2026-10-31 11:43:24] [build-stdout] Done extracting /data/resarch-dataset/validation-set/fix-error/package/index.js (50 ms)
+[2026-10-31 11:43:24] [build-stderr] Skipping file /data/resarch-dataset/validation-set/fix-error/package/index.js: File appears to be minified.
+[2026-10-31 11:43:24] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_fix-error_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/fix-error/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_fix-error_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+flashloan,package,malicious,npm-tarball,False,failed,2.773,0.0,0,0,2.778,"[2026-10-31 11:43:27] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-31 11:43:27] [build-stdout] Extracting /data/resarch-dataset/validation-set/flashloan/package/package.json
+[2026-10-31 11:43:27] [build-stdout] Done extracting /data/resarch-dataset/validation-set/flashloan/package/package.json (25 ms)
+[2026-10-31 11:43:27] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_flashloan_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/flashloan/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_flashloan_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+flatmap-stream,package,malicious,npm-tarball,False,success,7.728,90.167,10,0,97.897,
+freekws-devportal-api-client-angular,package,malicious,npm-tarball,False,failed,2.252,0.0,0,0,2.253,"[2026-10-31 11:43:29] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-31 11:43:29] [build-stdout] Extracting /data/resarch-dataset/validation-set/freekws-devportal-api-client-angular/package/package.json
+[2026-10-31 11:43:29] [build-stdout] Done extracting /data/resarch-dataset/validation-set/freekws-devportal-api-client-angular/package/package.json (58 ms)
+[2026-10-31 11:43:29] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_freekws-devportal-api-client-angular_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/freekws-devportal-api-client-angular/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_freekws-devportal-api-client-angular_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+frontend-style-janus,package,malicious,npm-tarball,False,success,9.187,89.946,10,0,99.135,
+gctor-storage,package,malicious,npm-tarball,False,success,7.368,92.919,10,0,100.29,
+gen-mapping,package,malicious,npm-tarball,False,success,7.957,92.364,10,0,100.323,
+header-footer-paypal,package,malicious,npm-tarball,False,success,8.663,90.348,10,0,99.013,
+horizon_dev,package,malicious,npm-tarball,False,success,7.437,90.775,10,0,98.215,
+hyperwallet-node,package,malicious,npm-tarball,False,success,7.882,91.264,10,0,99.149,
+icondepan,package,malicious,npm-tarball,False,failed,2.845,0.0,0,0,2.847,"[2026-10-31 11:46:50] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-31 11:46:50] [build-stdout] Extracting /data/resarch-dataset/validation-set/icondepan/package/package.json
+[2026-10-31 11:46:50] [build-stdout] Done extracting /data/resarch-dataset/validation-set/icondepan/package/package.json (29 ms)
+[2026-10-31 11:46:50] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_icondepan_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/icondepan/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_icondepan_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+ikst,package,malicious,npm-tarball,False,success,9.422,90.317,10,0,99.743,
+jquery-airload,package,malicious,npm-tarball,False,failed,2.149,0.0,0,0,2.152,"et/jquery-airload/package/package.json
+[2026-10-31 11:48:20] [build-stdout] Extracting /data/resarch-dataset/validation-set/jquery-airload/package/airload.js
+[2026-10-31 11:48:20] [build-stderr] Skipping file /data/resarch-dataset/validation-set/jquery-airload/package/airload.js: File appears to be minified.
+[2026-10-31 11:48:20] [build-stdout] Done extracting /data/resarch-dataset/validation-set/jquery-airload/package/airload.js (40 ms)
+[2026-10-31 11:48:20] [build-stdout] Done extracting /data/resarch-dataset/validation-set/jquery-airload/package/package.json (52 ms)
+[2026-10-31 11:48:20] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_jquery-airload_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/jquery-airload/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_jquery-airload_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+lbc-git,package,malicious,npm-tarball,False,success,7.584,90.133,10,0,97.719,
+leetlog,package,malicious,npm-tarball,False,failed,2.768,0.0,0,0,2.769,"] [build-stdout] Extracting /data/resarch-dataset/validation-set/leetlog/package/index.js
+[2026-10-31 11:48:27] [build-stdout] Extracting /data/resarch-dataset/validation-set/leetlog/package/package.json
+[2026-10-31 11:48:27] [build-stderr] Skipping file /data/resarch-dataset/validation-set/leetlog/package/index.js: File appears to be minified.
+[2026-10-31 11:48:27] [build-stdout] Done extracting /data/resarch-dataset/validation-set/leetlog/package/index.js (27 ms)
+[2026-10-31 11:48:27] [build-stdout] Done extracting /data/resarch-dataset/validation-set/leetlog/package/package.json (35 ms)
+[2026-10-31 11:48:27] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_leetlog_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/leetlog/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_leetlog_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+majuro,package,malicious,npm-tarball,False,success,9.412,92.458,10,0,101.954,
+malicious-do-not-install,package,malicious,npm-tarball,False,failed,3.457,0.0,0,0,3.46,"[2026-10-31 11:48:33] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-31 11:48:33] [build-stdout] Extracting /data/resarch-dataset/validation-set/malicious-do-not-install/package/package.json
+[2026-10-31 11:48:33] [build-stdout] Done extracting /data/resarch-dataset/validation-set/malicious-do-not-install/package/package.json (40 ms)
+[2026-10-31 11:48:33] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_malicious-do-not-install_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/malicious-do-not-install/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_malicious-do-not-install_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+markedjs,package,malicious,npm-tarball,False,success,10.914,98.207,10,0,109.13,
+mattermost-mobile,package,malicious,npm-tarball,False,success,7.753,90.231,10,0,97.986,
+mattermost-mobile-e2e,package,malicious,npm-tarball,False,success,8.659,88.497,10,0,97.158,
+momnet,package,malicious,npm-tarball,False,success,18.648,113.715,10,0,132.562,
+move-analyzer,package,malicious,npm-tarball,False,success,7.715,92.056,10,0,99.774,
+mozi-metrics,package,malicious,npm-tarball,False,failed,2.863,0.0,0,0,2.865,"[2026-10-31 11:51:49] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-31 11:51:49] [build-stdout] Extracting /data/resarch-dataset/validation-set/mozi-metrics/package/package.json
+[2026-10-31 11:51:49] [build-stdout] Done extracting /data/resarch-dataset/validation-set/mozi-metrics/package/package.json (42 ms)
+[2026-10-31 11:51:49] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_mozi-metrics_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/mozi-metrics/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_mozi-metrics_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+mrg-message-broker,package,malicious,npm-tarball,False,failed,2.994,0.0,0,0,2.996,"[2026-10-31 11:51:51] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-31 11:51:51] [build-stdout] Extracting /data/resarch-dataset/validation-set/mrg-message-broker/package/package.json
+[2026-10-31 11:51:52] [build-stdout] Done extracting /data/resarch-dataset/validation-set/mrg-message-broker/package/package.json (91 ms)
+[2026-10-31 11:51:52] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_mrg-message-broker_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/mrg-message-broker/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_mrg-message-broker_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+ngx-context-menu,package,malicious,npm-tarball,False,success,9.687,88.639,10,0,98.336,
+nocuzune,package,malicious,npm-tarball,False,success,9.421,92.473,10,0,101.908,
+node-cron-master,package,malicious,npm-tarball,False,failed,2.696,0.0,0,0,2.697,"[2026-10-31 11:53:18] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-31 11:53:18] [build-stdout] Extracting /data/resarch-dataset/validation-set/node-cron-master/package/index.js
+[2026-10-31 11:53:18] [build-stdout] Extracting /data/resarch-dataset/validation-set/node-cron-master/package/package.json
+[2026-10-31 11:53:18] [build-stdout] Done extracting /data/resarch-dataset/validation-set/node-cron-master/package/package.json (31 ms)
+[2026-10-31 11:53:18] [build-stdout] Done extracting /data/resarch-dataset/validation-set/node-cron-master/package/index.js (374 ms)
+[2026-10-31 11:53:18] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_node-cron-master_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/node-cron-master/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_node-cron-master_package.
+Error: CodeQL detected code written in JavaScript/TypeScript but could not process any of it. Check the logs. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+npm_scripts_test_metrics,package,malicious,npm-tarball,False,failed,2.734,0.0,0,0,2.736,"[2026-10-31 11:53:21] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-31 11:53:21] [build-stdout] Extracting /data/resarch-dataset/validation-set/npm_scripts_test_metrics/package/package.json
+[2026-10-31 11:53:21] [build-stdout] Done extracting /data/resarch-dataset/validation-set/npm_scripts_test_metrics/package/package.json (52 ms)
+[2026-10-31 11:53:21] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_npm_scripts_test_metrics_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/npm_scripts_test_metrics/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_npm_scripts_test_metrics_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+on-running-script-context,package,malicious,npm-tarball,False,success,7.66,94.085,10,0,101.747,
+p4d-rpi-tools,package,malicious,npm-tarball,False,success,8.594,88.96,10,0,97.564,
+paychex-framework,package,malicious,npm-tarball,False,success,8.122,90.993,10,0,99.117,
+paychex-framework-approvals,package,malicious,npm-tarball,False,success,7.591,91.28,10,0,98.875,
+paychex-framework-forms,package,malicious,npm-tarball,False,success,8.616,90.912,10,0,99.532,
+pizza-pasta,package,malicious,npm-tarball,False,failed,2.606,0.0,0,0,2.61,"[2026-10-31 11:55:59] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-31 11:55:59] [build-stdout] Extracting /data/resarch-dataset/validation-set/pizza-pasta/package/package.json
+[2026-10-31 11:55:59] [build-stdout] Done extracting /data/resarch-dataset/validation-set/pizza-pasta/package/package.json (29 ms)
+[2026-10-31 11:55:59] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_pizza-pasta_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/pizza-pasta/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_pizza-pasta_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+portionfatty12,package,malicious,npm-tarball,False,success,8.499,91.219,10,0,99.721,
+pyramid-proportion,package,malicious,npm-tarball,False,success,7.736,91.501,10,0,99.242,
+radar-cms,package,malicious,npm-tarball,False,success,10.502,92.454,10,0,103.054,
+razer-xdk,package,malicious,npm-tarball,False,success,7.964,89.547,10,0,97.514,
+rc,package,malicious,npm-tarball,False,success,8.45,90.722,10,0,99.182,
+react-dom-router-compatibility,package,malicious,npm-tarball,False,success,7.992,93.554,10,0,101.549,
+rphzfwtcqgidmank,package,malicious,npm-tarball,False,success,7.924,93.686,10,0,101.695,
+sa-dashboard,package,malicious,npm-tarball,False,failed,3.034,0.0,0,0,3.036,"[2026-10-31 12:00:03] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-31 12:00:03] [build-stdout] Extracting /data/resarch-dataset/validation-set/sa-dashboard/package/package.json
+[2026-10-31 12:00:03] [build-stdout] Done extracting /data/resarch-dataset/validation-set/sa-dashboard/package/package.json (51 ms)
+[2026-10-31 12:00:03] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_sa-dashboard_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/sa-dashboard/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_sa-dashboard_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+sailclothjs,package,malicious,npm-tarball,False,success,7.889,91.071,10,0,98.969,
+sixt,package,malicious,npm-tarball,False,success,8.029,91.817,10,0,99.849,
+stream-combine,package,malicious,npm-tarball,False,success,7.875,91.091,10,0,98.974,
+support-colors,package,malicious,npm-tarball,False,success,7.701,91.551,10,0,99.263,
+sushi-client,package,malicious,npm-tarball,False,success,8.532,91.702,10,0,100.237,
+tangeshaiou,package,malicious,npm-tarball,False,failed,2.98,0.0,0,0,2.981,"[2026-10-31 12:02:40] [build-stdout] Parallel extraction with 3 threads.
+[2026-10-31 12:02:40] [build-stdout] Extracting /data/resarch-dataset/validation-set/tangeshaiou/package/package.json
+[2026-10-31 12:02:40] [build-stdout] Done extracting /data/resarch-dataset/validation-set/tangeshaiou/package/package.json (27 ms)
+[2026-10-31 12:02:40] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_tangeshaiou_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/tangeshaiou/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_tangeshaiou_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+teams-data,package,malicious,npm-tarball,False,success,8.344,93.413,10,0,101.759,
+tomtom-rk,package,malicious,npm-tarball,False,success,8.334,91.958,10,0,100.294,
+tttestsupport-common,package,malicious,npm-tarball,False,success,9.202,91.108,10,0,100.313,
+tysapi,package,malicious,npm-tarball,False,success,9.507,94.223,10,0,103.756,
+ual-content-page,package,malicious,npm-tarball,False,success,7.593,92.23,10,0,99.825,
+ui-ace,package,malicious,npm-tarball,False,success,9.386,89.473,10,0,98.861,
+unodep,package,malicious,npm-tarball,False,success,8.289,91.337,10,0,99.628,
+uploader-plugin,package,malicious,npm-tarball,False,success,10.813,98.62,10,0,109.448,
+vazgarules,package,malicious,npm-tarball,False,success,7.846,90.758,10,0,98.605,
+wafer-toggle,package,malicious,npm-tarball,False,failed,2.906,0.0,0,0,2.908,"set/validation-set/wafer-toggle/package/ncxogsz.js
+[2026-10-31 12:07:48] [build-stdout] Extracting /data/resarch-dataset/validation-set/wafer-toggle/package/package.json
+[2026-10-31 12:07:48] [build-stderr] Skipping file /data/resarch-dataset/validation-set/wafer-toggle/package/ncxogsz.js: File appears to be minified.
+[2026-10-31 12:07:48] [build-stdout] Done extracting /data/resarch-dataset/validation-set/wafer-toggle/package/ncxogsz.js (25 ms)
+[2026-10-31 12:07:48] [build-stdout] Done extracting /data/resarch-dataset/validation-set/wafer-toggle/package/package.json (32 ms)
+[2026-10-31 12:07:48] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_wafer-toggle_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/wafer-toggle/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_wafer-toggle_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+web-design-system,package,malicious,npm-tarball,False,success,8.534,93.517,10,0,102.065,
+web-pubsub,package,malicious,npm-tarball,False,success,8.613,92.497,10,0,101.113,
+wsbd.js,package,malicious,npm-tarball,False,success,8.591,92.68,10,0,101.278,
+xo-twofa,package,malicious,npm-tarball,False,success,8.401,75.549,10,0,83.952,
+yummy-bolts,package,malicious,npm-tarball,False,success,6.737,58.506,10,0,65.245,

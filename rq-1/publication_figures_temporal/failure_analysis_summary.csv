@@ -1,0 +1,7 @@
+corpus,codeql_message,class,entries,with_install_hook,without_install_hook,packages_never_built
+benign,extraction_error,not_inspected,42,0,42,42
+benign,no_code_detected,not_inspected,30,0,30,30
+benign,other,not_inspected,2,0,2,2
+malicious,extraction_error,not_inspected,2,0,2,2
+malicious,no_code_detected,not_inspected,35,0,35,35
+malicious,other,not_inspected,1,0,1,1

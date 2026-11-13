@@ -1,0 +1,130 @@
+{
+  "columns": [
+    {
+      "field": "TP",
+      "title": "TP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 75
+    },
+    {
+      "field": "FN",
+      "title": "FN",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 76
+    },
+    {
+      "field": "FP",
+      "title": "FP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 74
+    },
+    {
+      "field": "TN",
+      "title": "TN",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 77
+    },
+    {
+      "field": "recall",
+      "title": "recall",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 155
+    },
+    {
+      "field": "recall_lo",
+      "title": "recall_lo",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 159
+    },
+    {
+      "field": "recall_hi",
+      "title": "recall_hi",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 161
+    },
+    {
+      "field": "FPR",
+      "title": "FPR",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 161
+    },
+    {
+      "field": "FPR_lo",
+      "title": "FPR_lo",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 167
+    },
+    {
+      "field": "FPR_hi",
+      "title": "FPR_hi",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 162
+    },
+    {
+      "field": "precision",
+      "title": "precision",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 158
+    },
+    {
+      "field": "F1",
+      "title": "F1",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 153
+    },
+    {
+      "field": "MCC",
+      "title": "MCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 167
+    },
+    {
+      "field": "tool",
+      "title": "tool",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 82
+    }
+  ]
+}

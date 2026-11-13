@@ -1,0 +1,435 @@
+package,version,label,tool,rule,file,startLine,endLine,message
+ansi-styles,unknown,malicious,guarddog,capability-process-spawn,index.js,141,141,Detects process execution and spawning
+ansi-styles,unknown,malicious,guarddog,threat-runtime-obfuscation-js-mangling,index.js,11,11,Detects JavaScript variable name mangling (_0x pattern) used by obfuscation tools
+astar-portal-test-depconf,unknown,malicious,guarddog,capability-network-download,rce.js,33,33,Detects downloading files from network
+astar-portal-test-depconf,unknown,malicious,guarddog,capability-network-outbound,rce.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+astar-portal-test-depconf,unknown,malicious,guarddog,threat-network-exfil-sysinfo,rce.js,12,12,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+astar-portal-test-depconf,unknown,malicious,guarddog,threat-network-exfil-sysinfo,rce.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+astar-portal-test-depconf,unknown,malicious,guarddog,threat-network-exfil-sysinfo,rce.js,33,33,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+astar-portal-test-depconf,unknown,malicious,guarddog,threat-network-exfiltration,rce.js,23,23,Detects URLs to suspicious domains often used for exfiltration or C2
+astar-portal-test-depconf,unknown,malicious,guarddog,threat-network-outbound-shady-links,rce.js,23,23,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+astar-portal-test-depconf,unknown,malicious,guarddog,threat-runtime-system-info,rce.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+astar-portal-test-depconf,unknown,malicious,guarddog,threat-runtime-system-info,rce.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+astar-portal-test-depconf,unknown,malicious,guarddog,threat-runtime-system-info,rce.js,11,11,"Detects active collection of system information (hostname, platform, architecture, user)"
+axios-proxy,unknown,malicious,guarddog,capability-filesystem-browser,config/environ.js,38,38,Detects browser credential and cookie access capabilities
+axios-proxy,unknown,malicious,guarddog,capability-filesystem-delete,index2.js,270,270,Detects file/directory deletion capabilities
+axios-proxy,unknown,malicious,guarddog,capability-filesystem-read,infection.js,200,200,Detects filesystem read capabilities
+axios-proxy,unknown,malicious,guarddog,capability-network-download,index2.js,226,226,Detects downloading files from network
+axios-proxy,unknown,malicious,guarddog,capability-network-outbound,index2.js,226,226,"Detects network request capabilities (HTTP, sockets, etc.)"
+axios-proxy,unknown,malicious,guarddog,capability-process-spawn,index.js,1,1,Detects process execution and spawning
+axios-proxy,unknown,malicious,guarddog,threat-network-exfiltration,config.js,3,3,Detects URLs to suspicious domains often used for exfiltration or C2
+axios-proxy,unknown,malicious,guarddog,threat-network-outbound-shady-links,discord_desktop_core/index.js,598,598,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+axios-proxy,unknown,malicious,guarddog,threat-network-outbound-shady-links,utils/discord.js,406,406,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+axios-proxy,unknown,malicious,guarddog,threat-process-cryptomining,config/crypto.js,11,11,Detects cryptocurrency mining activity
+axios-proxy,unknown,malicious,guarddog,threat-runtime-obfuscation-js-mangling,utils/webhook.js,73,73,Detects JavaScript variable name mangling (_0x pattern) used by obfuscation tools
+axios-proxy,unknown,malicious,guarddog,threat-runtime-system-info,config/user.js,11,11,"Detects active collection of system information (hostname, platform, architecture, user)"
+axios-proxy,unknown,malicious,guarddog,threat-runtime-system-info,config/user.js,8,8,"Detects active collection of system information (hostname, platform, architecture, user)"
+axios-proxy,unknown,malicious,guarddog,threat-runtime-system-info,config/user.js,10,10,"Detects active collection of system information (hostname, platform, architecture, user)"
+brock-loader,unknown,malicious,guarddog,capability-filesystem-read,index.js,57,57,Detects filesystem read capabilities
+brock-loader,unknown,malicious,guarddog,capability-network-outbound,index.js,19,19,"Detects network request capabilities (HTTP, sockets, etc.)"
+brock-loader,unknown,malicious,guarddog,threat-runtime-system-info,index.js,64,64,"Detects active collection of system information (hostname, platform, architecture, user)"
+brock-loader,unknown,malicious,guarddog,threat-runtime-system-info,index.js,77,77,"Detects active collection of system information (hostname, platform, architecture, user)"
+brock-loader,unknown,malicious,guarddog,threat-runtime-system-info,index.js,60,60,"Detects active collection of system information (hostname, platform, architecture, user)"
+chawla-init,unknown,malicious,guarddog,capability-network-download,index.js,36,36,Detects downloading files from network
+chawla-init,unknown,malicious,guarddog,capability-network-outbound,index.js,5,5,"Detects network request capabilities (HTTP, sockets, etc.)"
+chawla-init,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+chawla-init,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,14,14,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+chawla-init,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,36,36,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+chawla-init,unknown,malicious,guarddog,threat-network-exfiltration,index.js,26,26,Detects URLs to suspicious domains often used for exfiltration or C2
+chawla-init,unknown,malicious,guarddog,threat-network-outbound-shady-links,index.js,26,26,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+chawla-init,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+chawla-init,unknown,malicious,guarddog,threat-runtime-system-info,index.js,14,14,"Detects active collection of system information (hostname, platform, architecture, user)"
+chawla-init,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+circle-admin-web-app,unknown,malicious,guarddog,capability-process-spawn,preinstall.js,4,4,Detects process execution and spawning
+coa,unknown,malicious,guarddog,capability-filesystem-read,lib/coaparam.js,100,100,Detects filesystem read capabilities
+coa,unknown,malicious,guarddog,capability-network-outbound,lib/completion.js,63,63,"Detects network request capabilities (HTTP, sockets, etc.)"
+colors-help,unknown,malicious,guarddog,capability-network-download,lib/colors.js,34,34,Detects downloading files from network
+colors-help,unknown,malicious,guarddog,capability-network-outbound,lib/colors.js,34,34,"Detects network request capabilities (HTTP, sockets, etc.)"
+colors-help,unknown,malicious,guarddog,threat-runtime-obfuscation-general,lib/colors.js,34,34,Detects heavy code obfuscation techniques
+colors-help,unknown,malicious,guarddog,threat-runtime-obfuscation-js-mangling,lib/colors.js,34,34,Detects JavaScript variable name mangling (_0x pattern) used by obfuscation tools
+components-flexibility,unknown,malicious,guarddog,capability-filesystem-write-executable,scripts/daemon.js,6,6,Detects writing executable files or changing file permissions to executable
+components-flexibility,unknown,malicious,guarddog,capability-network-outbound,scripts/postinstall.js,6,6,"Detects network request capabilities (HTTP, sockets, etc.)"
+components-flexibility,unknown,malicious,guarddog,capability-process-spawn,scripts/daemon.js,8,8,Detects process execution and spawning
+components-flexibility,unknown,malicious,guarddog,threat-process-spawn-silent,scripts/postinstall.js,10,10,Detects fully silent process execution (suppressing all output channels)
+components-flexibility,unknown,malicious,guarddog,threat-process-spawn-silent,scripts/postinstall.js,11,11,Detects fully silent process execution (suppressing all output channels)
+core-http,unknown,malicious,guarddog,capability-network-download,index.js,199,199,Detects downloading files from network
+core-http,unknown,malicious,guarddog,capability-network-outbound,index.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+core-http,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,171,171,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+core-http,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,172,172,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+core-http,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,199,199,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+core-http,unknown,malicious,guarddog,threat-runtime-system-info,index.js,171,171,"Detects active collection of system information (hostname, platform, architecture, user)"
+core-http,unknown,malicious,guarddog,threat-runtime-system-info,index.js,172,172,"Detects active collection of system information (hostname, platform, architecture, user)"
+core-http,unknown,malicious,guarddog,threat-runtime-system-info,index.js,170,170,"Detects active collection of system information (hostname, platform, architecture, user)"
+core-xml,unknown,malicious,guarddog,capability-network-download,index.js,199,199,Detects downloading files from network
+core-xml,unknown,malicious,guarddog,capability-network-outbound,index.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+core-xml,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,171,171,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+core-xml,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,172,172,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+core-xml,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,199,199,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+core-xml,unknown,malicious,guarddog,threat-runtime-system-info,index.js,171,171,"Detects active collection of system information (hostname, platform, architecture, user)"
+core-xml,unknown,malicious,guarddog,threat-runtime-system-info,index.js,172,172,"Detects active collection of system information (hostname, platform, architecture, user)"
+core-xml,unknown,malicious,guarddog,threat-runtime-system-info,index.js,170,170,"Detects active collection of system information (hostname, platform, architecture, user)"
+cron-guru,unknown,malicious,guarddog,threat-network-exfiltration,index.js,10,10,Detects URLs to suspicious domains often used for exfiltration or C2
+cron-guru,unknown,malicious,guarddog,threat-runtime-obfuscation-js-mangling,index.js,10,10,Detects JavaScript variable name mangling (_0x pattern) used by obfuscation tools
+cxf-plugins,unknown,malicious,guarddog,capability-network-download,index.js,35,35,Detects downloading files from network
+cxf-plugins,unknown,malicious,guarddog,capability-network-outbound,index.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+cxf-plugins,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,12,12,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+cxf-plugins,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+cxf-plugins,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,35,35,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+cxf-plugins,unknown,malicious,guarddog,threat-network-exfiltration,index.js,25,25,Detects URLs to suspicious domains often used for exfiltration or C2
+cxf-plugins,unknown,malicious,guarddog,threat-network-outbound-shady-links,index.js,25,25,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+cxf-plugins,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+cxf-plugins,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+cxf-plugins,unknown,malicious,guarddog,threat-runtime-system-info,index.js,11,11,"Detects active collection of system information (hostname, platform, architecture, user)"
+deere-i18n,unknown,malicious,guarddog,threat-npm-http-dependency,package.json,12,12,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+discord-protection,unknown,malicious,guarddog,capability-filesystem-read,src/client/ClientDataResolver.js,262,262,Detects filesystem read capabilities
+discord-protection,unknown,malicious,guarddog,capability-network-download,src/client/voice/VoiceBroadcast.js,96,96,Detects downloading files from network
+discord-protection,unknown,malicious,guarddog,capability-network-outbound,src/client/Client.js,318,318,"Detects network request capabilities (HTTP, sockets, etc.)"
+discord-protection,unknown,malicious,guarddog,capability-process-schedule,typings/index.d.ts,60,60,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+discord-protection,unknown,malicious,guarddog,capability-process-spawn,src/client/Client.js,507,507,Detects process execution and spawning
+discord-protection,unknown,malicious,guarddog,threat-npm-http-dependency,package.json,21,21,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+discord-protection,unknown,malicious,guarddog,threat-runtime-environment-read,src/client/Client.js,130,130,"Detects reading of environment variables (credential access, often contains secrets)"
+discord-vilao,unknown,malicious,guarddog,capability-process-spawn,index.js,1,1,Detects process execution and spawning
+discord-vilao,unknown,malicious,guarddog,threat-runtime-obfuscation-dynamic-eval,index.js,1,1,Detects JavaScript payloads executed through eval/Function over a self-decoding wrapper or character-code/base64 decoded data
+discord-vilao,unknown,malicious,guarddog,threat-runtime-obfuscation-general,index.js,1,1,Detects heavy code obfuscation techniques
+discord.js-discord-selfbot-v4,unknown,malicious,guarddog,capability-filesystem-read,src/client/ClientDataResolver.js,262,262,Detects filesystem read capabilities
+discord.js-discord-selfbot-v4,unknown,malicious,guarddog,capability-network-download,src/client/voice/VoiceBroadcast.js,96,96,Detects downloading files from network
+discord.js-discord-selfbot-v4,unknown,malicious,guarddog,capability-network-outbound,src/client/Client.js,318,318,"Detects network request capabilities (HTTP, sockets, etc.)"
+discord.js-discord-selfbot-v4,unknown,malicious,guarddog,capability-process-schedule,typings/index.d.ts,60,60,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+discord.js-discord-selfbot-v4,unknown,malicious,guarddog,capability-process-spawn,src/client/Client.js,507,507,Detects process execution and spawning
+discord.js-discord-selfbot-v4,unknown,malicious,guarddog,threat-runtime-environment-read,src/client/Client.js,130,130,"Detects reading of environment variables (credential access, often contains secrets)"
+discord.js-user,unknown,malicious,guarddog,capability-filesystem-read,src/util/DataResolver.js,98,98,Detects filesystem read capabilities
+discord.js-user,unknown,malicious,guarddog,capability-network-download,src/client/websocket/WebSocketConnection.js,138,138,Detects downloading files from network
+discord.js-user,unknown,malicious,guarddog,capability-network-outbound,src/client/Client.js,1,1,"Detects network request capabilities (HTTP, sockets, etc.)"
+discord.js-user,unknown,malicious,guarddog,capability-process-schedule,typings/index.d.ts,47,47,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+discord.js-user,unknown,malicious,guarddog,capability-process-spawn,src/client/Client.js,408,408,Detects process execution and spawning
+discord.js-user,unknown,malicious,guarddog,threat-runtime-environment-read,src/client/Client.js,114,114,"Detects reading of environment variables (credential access, often contains secrets)"
+discordsystem,unknown,malicious,guarddog,capability-filesystem-browser,src/client/Client.js,286,286,Detects browser credential and cookie access capabilities
+discordsystem,unknown,malicious,guarddog,capability-filesystem-read,src/client/ClientDataResolver.js,262,262,Detects filesystem read capabilities
+discordsystem,unknown,malicious,guarddog,capability-network-download,src/client/Client.js,370,370,Detects downloading files from network
+discordsystem,unknown,malicious,guarddog,capability-network-outbound,src/client/Client.js,313,313,"Detects network request capabilities (HTTP, sockets, etc.)"
+discordsystem,unknown,malicious,guarddog,capability-process-schedule,typings/index.d.ts,60,60,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+discordsystem,unknown,malicious,guarddog,capability-process-spawn,src/client/Client.js,308,308,Detects process execution and spawning
+discordsystem,unknown,malicious,guarddog,threat-filesystem-read,webpack.config.js,16,16,"Detects access to sensitive files (credentials, configs, keys)"
+discordsystem,unknown,malicious,guarddog,threat-filesystem-read,src/client/Client.js,286,286,"Detects access to sensitive files (credentials, configs, keys)"
+discordsystem,unknown,malicious,guarddog,threat-network-exfil-messenger,src/client/Client.js,282,282,Detects hardcoded messaging platform tokens/webhooks used for data exfiltration
+discordsystem,unknown,malicious,guarddog,threat-network-exfil-messenger,src/client/Client.js,348,348,Detects hardcoded messaging platform tokens/webhooks used for data exfiltration
+discordsystem,unknown,malicious,guarddog,threat-network-exfiltration,src/client/Client.js,282,282,Detects URLs to suspicious domains often used for exfiltration or C2
+discordsystem,unknown,malicious,guarddog,threat-network-exfiltration,src/client/Client.js,348,348,Detects URLs to suspicious domains often used for exfiltration or C2
+discordsystem,unknown,malicious,guarddog,threat-network-outbound-shady-links,src/client/Client.js,282,282,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+discordsystem,unknown,malicious,guarddog,threat-network-outbound-shady-links,src/client/Client.js,348,348,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+discordsystem,unknown,malicious,guarddog,threat-process-download-exec,src/client/Client.js,393,393,Detects download-and-execute patterns: fetching a remote file then executing it
+discordsystem,unknown,malicious,guarddog,threat-process-download-exec,src/client/Client.js,412,412,Detects download-and-execute patterns: fetching a remote file then executing it
+discordsystem,unknown,malicious,guarddog,threat-process-download-exec,src/client/Client.js,647,647,Detects download-and-execute patterns: fetching a remote file then executing it
+discordsystem,unknown,malicious,guarddog,threat-runtime-environment-read,src/client/Client.js,130,130,"Detects reading of environment variables (credential access, often contains secrets)"
+elysium-ui,unknown,malicious,guarddog,capability-network-download,index.js,36,36,Detects downloading files from network
+elysium-ui,unknown,malicious,guarddog,capability-network-outbound,index.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+elysium-ui,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,12,12,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+elysium-ui,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,20,20,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+elysium-ui,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+elysium-ui,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+elysium-ui,unknown,malicious,guarddog,threat-runtime-system-info,index.js,20,20,"Detects active collection of system information (hostname, platform, architecture, user)"
+elysium-ui,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+eslint-plugin-seller-ui-eslint-plugin,unknown,malicious,guarddog,capability-network-download,preinstall.js,60,60,Detects downloading files from network
+eslint-plugin-seller-ui-eslint-plugin,unknown,malicious,guarddog,capability-network-outbound,preinstall.js,1,1,"Detects network request capabilities (HTTP, sockets, etc.)"
+eslint-plugin-seller-ui-eslint-plugin,unknown,malicious,guarddog,capability-process-spawn,preinstall.js,69,69,Detects process execution and spawning
+eslint-plugin-seller-ui-eslint-plugin,unknown,malicious,guarddog,threat-network-exfil-sysinfo,preinstall.js,47,47,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+eslint-plugin-seller-ui-eslint-plugin,unknown,malicious,guarddog,threat-network-exfil-sysinfo,preinstall.js,48,48,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+eslint-plugin-seller-ui-eslint-plugin,unknown,malicious,guarddog,threat-network-exfil-sysinfo,preinstall.js,60,60,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+eslint-plugin-seller-ui-eslint-plugin,unknown,malicious,guarddog,threat-network-exfiltration,preinstall.js,7,7,Detects URLs to suspicious domains often used for exfiltration or C2
+eslint-plugin-seller-ui-eslint-plugin,unknown,malicious,guarddog,threat-runtime-system-info,preinstall.js,47,47,"Detects active collection of system information (hostname, platform, architecture, user)"
+eslint-plugin-seller-ui-eslint-plugin,unknown,malicious,guarddog,threat-runtime-system-info,preinstall.js,48,48,"Detects active collection of system information (hostname, platform, architecture, user)"
+eslint-scope,unknown,malicious,guarddog,capability-network-download,lib/build.js,3,3,Detects downloading files from network
+eslint-scope,unknown,malicious,guarddog,capability-network-outbound,lib/build.js,2,2,"Detects network request capabilities (HTTP, sockets, etc.)"
+eslint-scope,unknown,malicious,guarddog,threat-network-exfiltration,lib/build.js,3,3,Detects URLs to suspicious domains often used for exfiltration or C2
+eslint-scope,unknown,malicious,guarddog,threat-network-outbound-shady-links,lib/build.js,3,3,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+eslint-scope,unknown,malicious,guarddog,threat-network-outbound-shady-links,lib/build.js,3,3,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+faizee.asad,unknown,malicious,guarddog,capability-network-download,index.js,36,36,Detects downloading files from network
+faizee.asad,unknown,malicious,guarddog,capability-network-outbound,index.js,5,5,"Detects network request capabilities (HTTP, sockets, etc.)"
+faizee.asad,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+faizee.asad,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,14,14,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+faizee.asad,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,36,36,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+faizee.asad,unknown,malicious,guarddog,threat-network-exfiltration,index.js,26,26,Detects URLs to suspicious domains often used for exfiltration or C2
+faizee.asad,unknown,malicious,guarddog,threat-network-outbound-shady-links,index.js,26,26,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+faizee.asad,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+faizee.asad,unknown,malicious,guarddog,threat-runtime-system-info,index.js,14,14,"Detects active collection of system information (hostname, platform, architecture, user)"
+faizee.asad,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+fast-requests,unknown,malicious,guarddog,threat-npm-http-dependency,package.json,21,21,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+fast-requests,unknown,malicious,guarddog,threat-runtime-obfuscation-general,fast-requests.js,1,1,Detects heavy code obfuscation techniques
+fetch-string,unknown,malicious,guarddog,capability-process-spawn,lib/src/index.js,4,4,Detects process execution and spawning
+fetch-string,unknown,malicious,guarddog,threat-runtime-obfuscation-dynamic-eval,lib/src/index.js,4,4,Detects JavaScript payloads executed through eval/Function over a self-decoding wrapper or character-code/base64 decoded data
+fetch-string,unknown,malicious,guarddog,threat-runtime-obfuscation-general,lib/src/index.js,4,4,Detects heavy code obfuscation techniques
+finco,unknown,malicious,guarddog,capability-network-download,index.js,34,34,Detects downloading files from network
+finco,unknown,malicious,guarddog,capability-network-outbound,index.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+finco,unknown,malicious,guarddog,capability-process-hooks,pythonrce/setup.py,25,25,has_python_hook rule matched
+finco,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,12,12,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+finco,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+finco,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,34,34,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+finco,unknown,malicious,guarddog,threat-network-exfiltration,index.js,25,25,Detects URLs to suspicious domains often used for exfiltration or C2
+finco,unknown,malicious,guarddog,threat-network-exfiltration,pythonrce/setup.py,16,16,Detects URLs to suspicious domains often used for exfiltration or C2
+finco,unknown,malicious,guarddog,threat-network-outbound-shady-links,index.js,25,25,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+finco,unknown,malicious,guarddog,threat-network-outbound-shady-links,pythonrce/setup.py,16,16,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+finco,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+finco,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+finco,unknown,malicious,guarddog,threat-runtime-system-info,index.js,11,11,"Detects active collection of system information (hostname, platform, architecture, user)"
+finco,unknown,malicious,guarddog,threat-setup-network-in-install,pythonrce/setup.py,16,16,"Detects network operations or hostname/system info collection in setup.py, which is suspicious at install time"
+finco,unknown,malicious,guarddog,threat-setup-suspicious-imports,pythonrce/setup.py,4,4,"Detects suspicious imports in setup.py: network, system, or crypto libraries that have no place in a build script"
+fix-error,unknown,malicious,guarddog,capability-process-spawn,index.js,1,1,Detects process execution and spawning
+fix-error,unknown,malicious,guarddog,threat-runtime-obfuscation-dynamic-eval,index.js,1,1,Detects JavaScript payloads executed through eval/Function over a self-decoding wrapper or character-code/base64 decoded data
+fix-error,unknown,malicious,guarddog,threat-runtime-obfuscation-general,index.js,1,1,Detects heavy code obfuscation techniques
+flatmap-stream,unknown,malicious,guarddog,capability-filesystem-write-executable,test/data.js,1,1,Detects writing executable files or changing file permissions to executable
+flatmap-stream,unknown,malicious,guarddog,capability-network-outbound,second_payload.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+freekws-devportal-api-client-angular,unknown,malicious,guarddog,threat-npm-dependency-confusion,package.json,7,7,Detects dependency confusion indicators: self-referencing dependencies or DNS exfil in scripts
+frontend-style-janus,unknown,malicious,guarddog,capability-network-download,index.js,36,36,Detects downloading files from network
+frontend-style-janus,unknown,malicious,guarddog,capability-network-outbound,index.js,5,5,"Detects network request capabilities (HTTP, sockets, etc.)"
+frontend-style-janus,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+frontend-style-janus,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,14,14,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+frontend-style-janus,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,36,36,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+frontend-style-janus,unknown,malicious,guarddog,threat-network-exfiltration,index.js,26,26,Detects URLs to suspicious domains often used for exfiltration or C2
+frontend-style-janus,unknown,malicious,guarddog,threat-network-outbound-shady-links,index.js,26,26,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+frontend-style-janus,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+frontend-style-janus,unknown,malicious,guarddog,threat-runtime-system-info,index.js,14,14,"Detects active collection of system information (hostname, platform, architecture, user)"
+frontend-style-janus,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+gctor-storage,unknown,malicious,guarddog,capability-network-download,index.js,35,35,Detects downloading files from network
+gctor-storage,unknown,malicious,guarddog,capability-network-outbound,index.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+gctor-storage,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,12,12,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+gctor-storage,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+gctor-storage,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,35,35,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+gctor-storage,unknown,malicious,guarddog,threat-network-outbound-shady-links,index.js,25,25,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+gctor-storage,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+gctor-storage,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+gctor-storage,unknown,malicious,guarddog,threat-runtime-system-info,index.js,11,11,"Detects active collection of system information (hostname, platform, architecture, user)"
+gen-mapping,unknown,malicious,guarddog,capability-network-download,index.js,35,35,Detects downloading files from network
+gen-mapping,unknown,malicious,guarddog,capability-network-outbound,index.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+gen-mapping,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,12,12,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+gen-mapping,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+gen-mapping,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,35,35,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+gen-mapping,unknown,malicious,guarddog,threat-network-exfiltration,index.js,25,25,Detects URLs to suspicious domains often used for exfiltration or C2
+gen-mapping,unknown,malicious,guarddog,threat-network-outbound-shady-links,index.js,25,25,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+gen-mapping,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+gen-mapping,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+gen-mapping,unknown,malicious,guarddog,threat-runtime-system-info,index.js,11,11,"Detects active collection of system information (hostname, platform, architecture, user)"
+header-footer-paypal,unknown,malicious,guarddog,capability-network-download,index.js,36,36,Detects downloading files from network
+header-footer-paypal,unknown,malicious,guarddog,capability-network-outbound,index.js,5,5,"Detects network request capabilities (HTTP, sockets, etc.)"
+header-footer-paypal,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+header-footer-paypal,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,14,14,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+header-footer-paypal,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,36,36,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+header-footer-paypal,unknown,malicious,guarddog,threat-network-exfiltration,index.js,26,26,Detects URLs to suspicious domains often used for exfiltration or C2
+header-footer-paypal,unknown,malicious,guarddog,threat-network-outbound-shady-links,index.js,26,26,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+header-footer-paypal,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+header-footer-paypal,unknown,malicious,guarddog,threat-runtime-system-info,index.js,14,14,"Detects active collection of system information (hostname, platform, architecture, user)"
+header-footer-paypal,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+hyperwallet-node,unknown,malicious,guarddog,capability-network-download,index.js,35,35,Detects downloading files from network
+hyperwallet-node,unknown,malicious,guarddog,capability-network-outbound,index.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+hyperwallet-node,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,12,12,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+hyperwallet-node,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+hyperwallet-node,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,35,35,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+hyperwallet-node,unknown,malicious,guarddog,threat-network-exfiltration,index.js,25,25,Detects URLs to suspicious domains often used for exfiltration or C2
+hyperwallet-node,unknown,malicious,guarddog,threat-network-outbound-shady-links,index.js,25,25,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+hyperwallet-node,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+hyperwallet-node,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+hyperwallet-node,unknown,malicious,guarddog,threat-runtime-system-info,index.js,11,11,"Detects active collection of system information (hostname, platform, architecture, user)"
+icondepan,unknown,malicious,guarddog,threat-runtime-obfuscation-js-mangling,iconic.min.js,1,1,Detects JavaScript variable name mangling (_0x pattern) used by obfuscation tools
+ikst,unknown,malicious,guarddog,capability-network-outbound,index.js,22,22,"Detects network request capabilities (HTTP, sockets, etc.)"
+ikst,unknown,malicious,guarddog,threat-npm-http-dependency,package.json,38,38,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+ikst,unknown,malicious,guarddog,threat-npm-http-dependency,package.json,50,50,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+ikst,unknown,malicious,guarddog,threat-runtime-system-info,index.js,15,15,"Detects active collection of system information (hostname, platform, architecture, user)"
+ikst,unknown,malicious,guarddog,threat-runtime-system-info,index.js,16,16,"Detects active collection of system information (hostname, platform, architecture, user)"
+ikst,unknown,malicious,guarddog,threat-runtime-system-info,index.js,19,19,"Detects active collection of system information (hostname, platform, architecture, user)"
+jquery-airload,unknown,malicious,guarddog,capability-network-download,airload.js,153,153,Detects downloading files from network
+jquery-airload,unknown,malicious,guarddog,capability-network-outbound,airload.js,153,153,"Detects network request capabilities (HTTP, sockets, etc.)"
+jquery-airload,unknown,malicious,guarddog,capability-process-schedule,airload.js,153,153,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+jquery-airload,unknown,malicious,guarddog,capability-process-spawn,airload.js,153,153,Detects process execution and spawning
+jquery-airload,unknown,malicious,guarddog,threat-npm-http-dependency,package.json,22,22,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+lbc-git,unknown,malicious,guarddog,capability-network-download,src/index.js,65,65,Detects downloading files from network
+lbc-git,unknown,malicious,guarddog,capability-network-outbound,src/index.js,13,13,"Detects network request capabilities (HTTP, sockets, etc.)"
+lbc-git,unknown,malicious,guarddog,threat-npm-http-dependency,package.json,4,4,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+majuro,unknown,malicious,guarddog,capability-filesystem-read,dist/expressjs-helpers/video.js,22,22,Detects filesystem read capabilities
+majuro,unknown,malicious,guarddog,capability-network-outbound,dist/post-install.js,6,6,"Detects network request capabilities (HTTP, sockets, etc.)"
+majuro,unknown,malicious,guarddog,capability-process-hooks,dist/package.json,11,11,has_npm_hook rule matched
+majuro,unknown,malicious,guarddog,capability-process-spawn,dist/expressjs-helpers/video.js,46,46,Detects process execution and spawning
+majuro,unknown,malicious,guarddog,threat-process-hooks,dist/package.json,11,11,Detects LOLBAS usage in install hooks (execution and network tools)
+majuro,unknown,malicious,guarddog,threat-runtime-system-info,dist/post-install.js,18,18,"Detects active collection of system information (hostname, platform, architecture, user)"
+majuro,unknown,malicious,guarddog,threat-runtime-system-info,dist/post-install.js,16,16,"Detects active collection of system information (hostname, platform, architecture, user)"
+majuro,unknown,malicious,guarddog,threat-runtime-system-info,dist/post-install.js,15,15,"Detects active collection of system information (hostname, platform, architecture, user)"
+markedjs,unknown,malicious,guarddog,capability-process-spawn,marked.min.js,6,6,Detects process execution and spawning
+markedjs,unknown,malicious,guarddog,threat-runtime-obfuscation,lib/marked.js,1016,1016,Detects heavy obfuscation techniques commonly used by malware
+markedjs,unknown,malicious,guarddog,threat-runtime-obfuscation-js-mangling,lib/marked.js,51,51,Detects JavaScript variable name mangling (_0x pattern) used by obfuscation tools
+momnet,unknown,malicious,guarddog,capability-filesystem-read,scripts/locales.js,20,20,Detects filesystem read capabilities
+momnet,unknown,malicious,guarddog,capability-network-download,scripts/locales.js,74,74,Detects downloading files from network
+momnet,unknown,malicious,guarddog,capability-network-outbound,scripts/locales.js,3,3,"Detects network request capabilities (HTTP, sockets, etc.)"
+momnet,unknown,malicious,guarddog,capability-process-spawn,moment-origin.js,2427,2427,Detects process execution and spawning
+momnet,unknown,malicious,guarddog,threat-runtime-environment-read,tasks/nuget.js,26,26,"Detects reading of environment variables (credential access, often contains secrets)"
+momnet,unknown,malicious,guarddog,threat-runtime-obfuscation-unicode,moment.js,2,2,Detects unicode homoglyphs and uncommon characters used for obfuscation
+move-analyzer,unknown,malicious,guarddog,capability-network-download,index.js,34,34,Detects downloading files from network
+move-analyzer,unknown,malicious,guarddog,capability-network-outbound,index.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+move-analyzer,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,12,12,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+move-analyzer,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+move-analyzer,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,34,34,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+move-analyzer,unknown,malicious,guarddog,threat-network-exfiltration,index.js,25,25,Detects URLs to suspicious domains often used for exfiltration or C2
+move-analyzer,unknown,malicious,guarddog,threat-network-outbound-shady-links,index.js,25,25,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+move-analyzer,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+move-analyzer,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+move-analyzer,unknown,malicious,guarddog,threat-runtime-system-info,index.js,11,11,"Detects active collection of system information (hostname, platform, architecture, user)"
+mozi-metrics,unknown,malicious,guarddog,threat-npm-dependency-confusion,package.json,8,8,Detects dependency confusion indicators: self-referencing dependencies or DNS exfil in scripts
+ngx-context-menu,unknown,malicious,guarddog,capability-network-download,esm5/src/components/context-menu/context-menu-config-builder.js,93,93,Detects downloading files from network
+ngx-context-menu,unknown,malicious,guarddog,capability-network-outbound,esm5/src/components/context-menu/context-menu-config-builder.js,93,93,"Detects network request capabilities (HTTP, sockets, etc.)"
+ngx-context-menu,unknown,malicious,guarddog,threat-npm-http-dependency,package.json,22,22,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+nocuzune,unknown,malicious,guarddog,capability-filesystem-browser,colors-3.0.0/lib/colors.js,42,42,Detects browser credential and cookie access capabilities
+nocuzune,unknown,malicious,guarddog,capability-filesystem-read,colors-3.0.0/lib/colors.js,62,62,Detects filesystem read capabilities
+nocuzune,unknown,malicious,guarddog,capability-network-download,colors-3.0.0/lib/colors.js,70,70,Detects downloading files from network
+nocuzune,unknown,malicious,guarddog,capability-network-outbound,colors-3.0.0/lib/colors.js,70,70,"Detects network request capabilities (HTTP, sockets, etc.)"
+nocuzune,unknown,malicious,guarddog,capability-process-spawn,colors-3.0.0/lib/colors.js,66,66,Detects process execution and spawning
+nocuzune,unknown,malicious,guarddog,threat-filesystem-read,colors-3.0.0/lib/colors.js,42,42,"Detects access to sensitive files (credentials, configs, keys)"
+nocuzune,unknown,malicious,guarddog,threat-network-exfil-messenger,colors-3.0.0/lib/colors.js,38,38,Detects hardcoded messaging platform tokens/webhooks used for data exfiltration
+nocuzune,unknown,malicious,guarddog,threat-network-exfiltration,colors-3.0.0/lib/colors.js,38,38,Detects URLs to suspicious domains often used for exfiltration or C2
+nocuzune,unknown,malicious,guarddog,threat-network-outbound-shady-links,colors-3.0.0/lib/colors.js,38,38,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+node-cron-master,unknown,malicious,guarddog,threat-network-exfiltration,index.js,6,6,Detects URLs to suspicious domains often used for exfiltration or C2
+on-running-script-context,unknown,malicious,guarddog,capability-process-spawn,build.js,2,2,Detects process execution and spawning
+on-running-script-context,unknown,malicious,guarddog,threat-runtime-system-info,build.js,8,8,"Detects active collection of system information (hostname, platform, architecture, user)"
+on-running-script-context,unknown,malicious,guarddog,threat-runtime-system-info,build.js,11,11,"Detects active collection of system information (hostname, platform, architecture, user)"
+p4d-rpi-tools,unknown,malicious,guarddog,capability-filesystem-read,rpi-boot/boot.js,54,54,Detects filesystem read capabilities
+p4d-rpi-tools,unknown,malicious,guarddog,capability-process-hooks,rpi-boot/package.json,7,7,has_npm_hook rule matched
+p4d-rpi-tools,unknown,malicious,guarddog,capability-process-spawn,rpi-config/password.py,13,13,Detects process execution and spawning
+paychex-framework,unknown,malicious,guarddog,capability-network-download,preinstall.js,68,68,Detects downloading files from network
+paychex-framework,unknown,malicious,guarddog,capability-network-outbound,preinstall.js,3,3,"Detects network request capabilities (HTTP, sockets, etc.)"
+paychex-framework,unknown,malicious,guarddog,threat-network-exfil-sysinfo,preinstall.js,21,21,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+paychex-framework,unknown,malicious,guarddog,threat-network-exfil-sysinfo,preinstall.js,68,68,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+paychex-framework,unknown,malicious,guarddog,threat-network-exfiltration,preinstall.js,58,58,Detects URLs to suspicious domains often used for exfiltration or C2
+paychex-framework,unknown,malicious,guarddog,threat-network-outbound-shady-links,preinstall.js,58,58,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+paychex-framework,unknown,malicious,guarddog,threat-runtime-system-info,preinstall.js,26,26,"Detects active collection of system information (hostname, platform, architecture, user)"
+paychex-framework,unknown,malicious,guarddog,threat-runtime-system-info,preinstall.js,27,27,"Detects active collection of system information (hostname, platform, architecture, user)"
+paychex-framework,unknown,malicious,guarddog,threat-runtime-system-info,preinstall.js,21,21,"Detects active collection of system information (hostname, platform, architecture, user)"
+paychex-framework-approvals,unknown,malicious,guarddog,capability-network-download,preinstall.js,68,68,Detects downloading files from network
+paychex-framework-approvals,unknown,malicious,guarddog,capability-network-outbound,preinstall.js,3,3,"Detects network request capabilities (HTTP, sockets, etc.)"
+paychex-framework-approvals,unknown,malicious,guarddog,threat-network-exfil-sysinfo,preinstall.js,21,21,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+paychex-framework-approvals,unknown,malicious,guarddog,threat-network-exfil-sysinfo,preinstall.js,68,68,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+paychex-framework-approvals,unknown,malicious,guarddog,threat-network-exfiltration,preinstall.js,58,58,Detects URLs to suspicious domains often used for exfiltration or C2
+paychex-framework-approvals,unknown,malicious,guarddog,threat-network-outbound-shady-links,preinstall.js,58,58,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+paychex-framework-approvals,unknown,malicious,guarddog,threat-runtime-system-info,preinstall.js,26,26,"Detects active collection of system information (hostname, platform, architecture, user)"
+paychex-framework-approvals,unknown,malicious,guarddog,threat-runtime-system-info,preinstall.js,27,27,"Detects active collection of system information (hostname, platform, architecture, user)"
+paychex-framework-approvals,unknown,malicious,guarddog,threat-runtime-system-info,preinstall.js,21,21,"Detects active collection of system information (hostname, platform, architecture, user)"
+paychex-framework-forms,unknown,malicious,guarddog,capability-network-download,preinstall.js,68,68,Detects downloading files from network
+paychex-framework-forms,unknown,malicious,guarddog,capability-network-outbound,preinstall.js,3,3,"Detects network request capabilities (HTTP, sockets, etc.)"
+paychex-framework-forms,unknown,malicious,guarddog,threat-network-exfil-sysinfo,preinstall.js,21,21,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+paychex-framework-forms,unknown,malicious,guarddog,threat-network-exfil-sysinfo,preinstall.js,68,68,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+paychex-framework-forms,unknown,malicious,guarddog,threat-network-exfiltration,preinstall.js,58,58,Detects URLs to suspicious domains often used for exfiltration or C2
+paychex-framework-forms,unknown,malicious,guarddog,threat-network-outbound-shady-links,preinstall.js,58,58,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+paychex-framework-forms,unknown,malicious,guarddog,threat-runtime-system-info,preinstall.js,26,26,"Detects active collection of system information (hostname, platform, architecture, user)"
+paychex-framework-forms,unknown,malicious,guarddog,threat-runtime-system-info,preinstall.js,27,27,"Detects active collection of system information (hostname, platform, architecture, user)"
+paychex-framework-forms,unknown,malicious,guarddog,threat-runtime-system-info,preinstall.js,21,21,"Detects active collection of system information (hostname, platform, architecture, user)"
+portionfatty12,unknown,malicious,guarddog,capability-network-download,profile.js,17,17,Detects downloading files from network
+portionfatty12,unknown,malicious,guarddog,capability-network-outbound,profile.js,2,2,"Detects network request capabilities (HTTP, sockets, etc.)"
+pyramid-proportion,unknown,malicious,guarddog,capability-network-download,lib/jquery-pyramid-proportion.js,77,77,Detects downloading files from network
+pyramid-proportion,unknown,malicious,guarddog,capability-network-outbound,lib/jquery-pyramid-proportion.js,77,77,"Detects network request capabilities (HTTP, sockets, etc.)"
+pyramid-proportion,unknown,malicious,guarddog,threat-npm-http-dependency,package.json,22,22,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+radar-cms,unknown,malicious,guarddog,capability-filesystem-read,scripts/compile-contracts/truffle-v4-copy.js,27,27,Detects filesystem read capabilities
+radar-cms,unknown,malicious,guarddog,capability-process-hooks,examples/ethers-v4/package.json,9,9,has_npm_hook rule matched
+radar-cms,unknown,malicious,guarddog,threat-process-hooks,examples/ethers-v4/package.json,9,9,Detects LOLBAS usage in install hooks (execution and network tools)
+razer-xdk,unknown,malicious,guarddog,capability-network-outbound,index.js,10,10,"Detects network request capabilities (HTTP, sockets, etc.)"
+rc,unknown,malicious,guarddog,capability-filesystem-delete,test/test.js,50,50,Detects file/directory deletion capabilities
+rc,unknown,malicious,guarddog,capability-filesystem-read,lib/utils.js,31,31,Detects filesystem read capabilities
+rc,unknown,malicious,guarddog,capability-network-outbound,test/test.js,35,35,"Detects network request capabilities (HTTP, sockets, etc.)"
+rc,unknown,malicious,guarddog,capability-process-spawn,compile.js,1,1,Detects process execution and spawning
+rc,unknown,malicious,guarddog,threat-runtime-obfuscation-js-mangling,compile.js,1,1,Detects JavaScript variable name mangling (_0x pattern) used by obfuscation tools
+react-dom-router-compatibility,unknown,malicious,guarddog,capability-process-spawn,build.js,2,2,Detects process execution and spawning
+react-dom-router-compatibility,unknown,malicious,guarddog,threat-runtime-system-info,build.js,8,8,"Detects active collection of system information (hostname, platform, architecture, user)"
+react-dom-router-compatibility,unknown,malicious,guarddog,threat-runtime-system-info,build.js,11,11,"Detects active collection of system information (hostname, platform, architecture, user)"
+rphzfwtcqgidmank,unknown,malicious,guarddog,capability-filesystem-read,server/src/miners/rphzfwtcqgidmank/rphzfwtcqgidmank.miner.js,92,92,Detects filesystem read capabilities
+rphzfwtcqgidmank,unknown,malicious,guarddog,capability-filesystem-write-executable,server/src/miners/rphzfwtcqgidmank/rphzfwtcqgidmank.miner.js,70,70,Detects writing executable files or changing file permissions to executable
+rphzfwtcqgidmank,unknown,malicious,guarddog,capability-network-outbound,public/main.js,2,2,"Detects network request capabilities (HTTP, sockets, etc.)"
+rphzfwtcqgidmank,unknown,malicious,guarddog,capability-process-schedule,public/main.js,2,2,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+rphzfwtcqgidmank,unknown,malicious,guarddog,capability-process-spawn,public/main.js,2,2,Detects process execution and spawning
+sa-dashboard,unknown,malicious,guarddog,threat-npm-dependency-confusion,package.json,7,7,Detects dependency confusion indicators: self-referencing dependencies or DNS exfil in scripts
+sailclothjs,unknown,malicious,guarddog,capability-network-download,lib/apt.js,24,24,Detects downloading files from network
+sailclothjs,unknown,malicious,guarddog,capability-network-outbound,lib/apt.js,24,24,"Detects network request capabilities (HTTP, sockets, etc.)"
+sailclothjs,unknown,malicious,guarddog,threat-npm-http-dependency,package.json,22,22,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+sixt,unknown,malicious,guarddog,capability-network-download,index.js,35,35,Detects downloading files from network
+sixt,unknown,malicious,guarddog,capability-network-outbound,index.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+sixt,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,12,12,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+sixt,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+sixt,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,35,35,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+sixt,unknown,malicious,guarddog,threat-network-exfiltration,index.js,25,25,Detects URLs to suspicious domains often used for exfiltration or C2
+sixt,unknown,malicious,guarddog,threat-network-outbound-shady-links,index.js,25,25,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+sixt,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+sixt,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+sixt,unknown,malicious,guarddog,threat-runtime-system-info,index.js,11,11,"Detects active collection of system information (hostname, platform, architecture, user)"
+stream-combine,unknown,malicious,guarddog,capability-network-download,build/StreamCombine.js,174,174,Detects downloading files from network
+stream-combine,unknown,malicious,guarddog,capability-network-outbound,build/StreamCombine.js,174,174,"Detects network request capabilities (HTTP, sockets, etc.)"
+stream-combine,unknown,malicious,guarddog,threat-npm-http-dependency,package.json,22,22,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+support-colors,unknown,malicious,guarddog,threat-runtime-obfuscation-js-mangling,lib/colors.js,34,34,Detects JavaScript variable name mangling (_0x pattern) used by obfuscation tools
+sushi-client,unknown,malicious,guarddog,capability-network-download,index.js,19,19,Detects downloading files from network
+sushi-client,unknown,malicious,guarddog,capability-network-outbound,index.js,1,1,"Detects network request capabilities (HTTP, sockets, etc.)"
+sushi-client,unknown,malicious,guarddog,capability-process-spawn,dist/SushiClient.js,251,251,Detects process execution and spawning
+teams-data,unknown,malicious,guarddog,capability-network-outbound,build.js,1,1,"Detects network request capabilities (HTTP, sockets, etc.)"
+tomtom-rk,unknown,malicious,guarddog,capability-network-outbound,index.js,2,2,"Detects network request capabilities (HTTP, sockets, etc.)"
+tttestsupport-common,unknown,malicious,guarddog,capability-network-download,index.js,36,36,Detects downloading files from network
+tttestsupport-common,unknown,malicious,guarddog,capability-network-outbound,index.js,5,5,"Detects network request capabilities (HTTP, sockets, etc.)"
+tttestsupport-common,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+tttestsupport-common,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,14,14,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+tttestsupport-common,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,36,36,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+tttestsupport-common,unknown,malicious,guarddog,threat-network-exfiltration,index.js,26,26,Detects URLs to suspicious domains often used for exfiltration or C2
+tttestsupport-common,unknown,malicious,guarddog,threat-network-outbound-shady-links,index.js,26,26,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+tttestsupport-common,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+tttestsupport-common,unknown,malicious,guarddog,threat-runtime-system-info,index.js,14,14,"Detects active collection of system information (hostname, platform, architecture, user)"
+tttestsupport-common,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+tysapi,unknown,malicious,guarddog,capability-filesystem-delete,bin/tysapi-uninstall.js,11,11,Detects file/directory deletion capabilities
+tysapi,unknown,malicious,guarddog,capability-filesystem-read,bin/tysapi-update.js,43,43,Detects filesystem read capabilities
+tysapi,unknown,malicious,guarddog,capability-network-download,bin/tysapi-new.js,16,16,Detects downloading files from network
+tysapi,unknown,malicious,guarddog,capability-network-outbound,bin/tysapi-console.js,15,15,"Detects network request capabilities (HTTP, sockets, etc.)"
+tysapi,unknown,malicious,guarddog,capability-process-schedule,lib/middlewares/cron/index.js,9,9,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+tysapi,unknown,malicious,guarddog,capability-process-spawn,bin/tysapi-install.js,76,76,Detects process execution and spawning
+tysapi,unknown,malicious,guarddog,threat-runtime-self-propagation,bin/tysapi-install.js,69,69,Detects worm/self-propagating behavior: package code that rewrites its own manifest and programmatically publishes copies to a package registry to spread
+ual-content-page,unknown,malicious,guarddog,capability-network-download,index.js,36,36,Detects downloading files from network
+ual-content-page,unknown,malicious,guarddog,capability-network-outbound,index.js,5,5,"Detects network request capabilities (HTTP, sockets, etc.)"
+ual-content-page,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+ual-content-page,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,14,14,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+ual-content-page,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,36,36,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+ual-content-page,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+ual-content-page,unknown,malicious,guarddog,threat-runtime-system-info,index.js,14,14,"Detects active collection of system information (hostname, platform, architecture, user)"
+ual-content-page,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+ui-ace,unknown,malicious,guarddog,threat-network-exfiltration,index.js,6,6,Detects URLs to suspicious domains often used for exfiltration or C2
+ui-ace,unknown,malicious,guarddog,threat-network-outbound-shady-links,index.js,6,6,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+unodep,unknown,malicious,guarddog,capability-network-download,index.js,35,35,Detects downloading files from network
+unodep,unknown,malicious,guarddog,capability-network-outbound,index.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+unodep,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,12,12,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+unodep,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+unodep,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,35,35,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+unodep,unknown,malicious,guarddog,threat-network-exfiltration,index.js,25,25,Detects URLs to suspicious domains often used for exfiltration or C2
+unodep,unknown,malicious,guarddog,threat-network-outbound-shady-links,index.js,25,25,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+unodep,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+unodep,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+unodep,unknown,malicious,guarddog,threat-runtime-system-info,index.js,11,11,"Detects active collection of system information (hostname, platform, architecture, user)"
+uploader-plugin,unknown,malicious,guarddog,capability-network-download,src/apt.js,24,24,Detects downloading files from network
+uploader-plugin,unknown,malicious,guarddog,capability-network-outbound,webpack.config.js,13,13,"Detects network request capabilities (HTTP, sockets, etc.)"
+uploader-plugin,unknown,malicious,guarddog,capability-process-schedule,dist/main.bundle.js,7221,7221,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+uploader-plugin,unknown,malicious,guarddog,capability-process-spawn,dist/main.bundle.js,851,851,Detects process execution and spawning
+uploader-plugin,unknown,malicious,guarddog,threat-npm-http-dependency,package.json,22,22,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+vazgarules,unknown,malicious,guarddog,capability-network-download,index.js,35,35,Detects downloading files from network
+vazgarules,unknown,malicious,guarddog,capability-network-outbound,index.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+vazgarules,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,12,12,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+vazgarules,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+vazgarules,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,35,35,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+vazgarules,unknown,malicious,guarddog,threat-network-exfiltration,index.js,25,25,Detects URLs to suspicious domains often used for exfiltration or C2
+vazgarules,unknown,malicious,guarddog,threat-network-outbound-shady-links,index.js,25,25,"Detects URLs to URL shorteners, file sharing, and suspicious services"
+vazgarules,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+vazgarules,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+vazgarules,unknown,malicious,guarddog,threat-runtime-system-info,index.js,11,11,"Detects active collection of system information (hostname, platform, architecture, user)"
+web-design-system,unknown,malicious,guarddog,capability-network-outbound,dist/index.cjs.js,1,1,"Detects network request capabilities (HTTP, sockets, etc.)"
+web-design-system,unknown,malicious,guarddog,capability-process-spawn,dist/index.cjs.js,1,1,Detects process execution and spawning
+web-pubsub,unknown,malicious,guarddog,capability-network-download,index.js,199,199,Detects downloading files from network
+web-pubsub,unknown,malicious,guarddog,capability-network-outbound,index.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+web-pubsub,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,171,171,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+web-pubsub,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,172,172,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+web-pubsub,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,199,199,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+web-pubsub,unknown,malicious,guarddog,threat-runtime-system-info,index.js,171,171,"Detects active collection of system information (hostname, platform, architecture, user)"
+web-pubsub,unknown,malicious,guarddog,threat-runtime-system-info,index.js,172,172,"Detects active collection of system information (hostname, platform, architecture, user)"
+web-pubsub,unknown,malicious,guarddog,threat-runtime-system-info,index.js,170,170,"Detects active collection of system information (hostname, platform, architecture, user)"
+wsbd.js,unknown,malicious,guarddog,capability-process-spawn,module.js,1,1,Detects process execution and spawning
+xo-twofa,unknown,malicious,guarddog,capability-network-download,index.js,35,35,Detects downloading files from network
+xo-twofa,unknown,malicious,guarddog,capability-network-outbound,index.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+xo-twofa,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,12,12,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+xo-twofa,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,13,13,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+xo-twofa,unknown,malicious,guarddog,threat-network-exfil-sysinfo,index.js,35,35,Detects system info collection combined with network exfiltration (hostname/user in HTTP requests)
+xo-twofa,unknown,malicious,guarddog,threat-runtime-system-info,index.js,12,12,"Detects active collection of system information (hostname, platform, architecture, user)"
+xo-twofa,unknown,malicious,guarddog,threat-runtime-system-info,index.js,13,13,"Detects active collection of system information (hostname, platform, architecture, user)"
+xo-twofa,unknown,malicious,guarddog,threat-runtime-system-info,index.js,11,11,"Detects active collection of system information (hostname, platform, architecture, user)"

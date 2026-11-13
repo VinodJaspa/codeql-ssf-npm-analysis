@@ -1,0 +1,4 @@
+query,unique_packages,percentage_of_detected_packages
+os-fingerprinting-exfiltration,1,25.0
+pre-post-source-sink-execution,1,25.0
+credential-harvest-exfil,2,50.0

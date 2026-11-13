@@ -1,0 +1,4 @@
+corpus,entries,built,failed,built_pct,packages,packages_never_built,codeql_no_code_detected,codeql_extraction_error,codeql_other,inspected_no_js,inspected_types_only,inspected_minified,inspected_obfuscated,inspected_syntax_error,inspected_js_other,inspected_not_inspected
+malicious,95,76,19,80.0,95,19,18,1,0,10,0,4,4,1,0,0
+benign,887,867,20,97.74520856820745,300,2,20,0,0,6,3,11,0,0,0,0
+all,982,943,39,96.02851323828921,395,21,38,1,0,16,3,15,4,1,0,0

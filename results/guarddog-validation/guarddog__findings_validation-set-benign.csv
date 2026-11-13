@@ -1,0 +1,326 @@
+package,version,label,tool,rule,file,startLine,endLine,message
+@bahmutov/all-paths,0.0.0-development,benign,guarddog,threat-npm-http-dependency,package.json,44,44,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+@bahmutov/all-paths,1.0.1,benign,guarddog,threat-npm-http-dependency,package.json,44,44,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+@bahmutov/all-paths,1.0.2,benign,guarddog,threat-npm-http-dependency,package.json,44,44,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+@bahmutov/data-driven,1.0.0,benign,guarddog,threat-npm-http-dependency,package.json,45,45,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+@cypress/request,2.88.10,benign,guarddog,capability-filesystem-read,lib/har.js,177,177,Detects filesystem read capabilities
+@cypress/request,2.88.10,benign,guarddog,capability-network-outbound,request.js,3,3,"Detects network request capabilities (HTTP, sockets, etc.)"
+@cypress/request,2.88.10,benign,guarddog,capability-process-spawn,lib/auth.js,66,66,Detects process execution and spawning
+@cypress/request,3.0.1,benign,guarddog,capability-filesystem-read,lib/har.js,177,177,Detects filesystem read capabilities
+@cypress/request,3.0.1,benign,guarddog,capability-network-outbound,request.js,3,3,"Detects network request capabilities (HTTP, sockets, etc.)"
+@cypress/request,3.0.1,benign,guarddog,capability-process-spawn,lib/auth.js,66,66,Detects process execution and spawning
+@cypress/request,4.0.1,benign,guarddog,capability-filesystem-read,lib/har.js,177,177,Detects filesystem read capabilities
+@cypress/request,4.0.1,benign,guarddog,capability-network-outbound,request.js,3,3,"Detects network request capabilities (HTTP, sockets, etc.)"
+@cypress/request,4.0.1,benign,guarddog,capability-process-spawn,lib/auth.js,66,66,Detects process execution and spawning
+@delon/util,1.0.0-beta.10,benign,guarddog,capability-network-outbound,bundles/util.umd.js,75,75,"Detects network request capabilities (HTTP, sockets, etc.)"
+@delon/util,17.0.1,benign,guarddog,capability-network-outbound,esm2022/browser/copy.mjs,19,19,"Detects network request capabilities (HTTP, sockets, etc.)"
+@delon/util,9.5.5,benign,guarddog,capability-network-outbound,bundles/util.umd.js,96,96,"Detects network request capabilities (HTTP, sockets, etc.)"
+@fastify/error,4.2.1,benign,guarddog,capability-filesystem-delete,test/instanceof.test.js,261,261,Detects file/directory deletion capabilities
+@fastify/error,4.2.1,benign,guarddog,capability-network-outbound,test/instanceof.test.js,129,129,"Detects network request capabilities (HTTP, sockets, etc.)"
+@felte/common,0.1.1,benign,guarddog,capability-network-outbound,dist/index.js,1,1,"Detects network request capabilities (HTTP, sockets, etc.)"
+@felte/common,0.1.1,benign,guarddog,capability-process-spawn,dist/index.js,1,1,Detects process execution and spawning
+@mobily/ts-belt,4.0.0-rc.5,benign,guarddog,capability-network-outbound,dist/Result.bs-94c3b0cf.js,316,316,"Detects network request capabilities (HTTP, sockets, etc.)"
+@playwright-testing-library/test,4.0.0-beta.10,benign,guarddog,capability-filesystem-read,playwright-test/package.js,6,6,Detects filesystem read capabilities
+@playwright-testing-library/test,4.0.0-beta.10,benign,guarddog,capability-network-outbound,.eslintrc.js,2,2,"Detects network request capabilities (HTTP, sockets, etc.)"
+@playwright-testing-library/test,4.0.0-beta.10,benign,guarddog,capability-process-spawn,dom-testing-library.js,7659,7659,Detects process execution and spawning
+@playwright-testing-library/test,4.3.0-beta.1,benign,guarddog,capability-filesystem-read,lib/fixture/locator.ts,115,115,Detects filesystem read capabilities
+@playwright-testing-library/test,4.3.0-beta.1,benign,guarddog,capability-network-outbound,.eslintrc.js,3,3,"Detects network request capabilities (HTTP, sockets, etc.)"
+@playwright-testing-library/test,4.3.0-beta.1,benign,guarddog,capability-process-spawn,dom-testing-library.js,8074,8074,Detects process execution and spawning
+@playwright-testing-library/test,4.5.0,benign,guarddog,capability-filesystem-read,lib/fixture/locator/helpers.ts,11,11,Detects filesystem read capabilities
+@playwright-testing-library/test,4.5.0,benign,guarddog,capability-network-outbound,.eslintrc.js,3,3,"Detects network request capabilities (HTTP, sockets, etc.)"
+@playwright-testing-library/test,4.5.0,benign,guarddog,capability-process-spawn,dom-testing-library.js,8074,8074,Detects process execution and spawning
+@stdlib/process-read-stdin,0.0.1,benign,guarddog,capability-filesystem-read,lib/main.js,117,117,Detects filesystem read capabilities
+@stdlib/process-read-stdin,0.0.7,benign,guarddog,capability-filesystem-read,lib/main.js,117,117,Detects filesystem read capabilities
+@stdlib/process-read-stdin,0.2.3,benign,guarddog,capability-filesystem-read,dist/index.js,2,2,Detects filesystem read capabilities
+@stdlib/utils-constructor-name,0.0.1,benign,guarddog,capability-process-spawn,lib/main.js,66,66,Detects process execution and spawning
+@stdlib/utils-constructor-name,0.0.8,benign,guarddog,capability-process-spawn,lib/main.js,66,66,Detects process execution and spawning
+@stdlib/utils-constructor-name,0.2.3,benign,guarddog,capability-process-spawn,dist/index.js,2,2,Detects process execution and spawning
+@stdlib/utils-convert-path,0.0.1,benign,guarddog,capability-process-spawn,lib/convert_path.js,85,85,Detects process execution and spawning
+@stdlib/utils-convert-path,0.0.8,benign,guarddog,capability-process-spawn,lib/convert_path.js,85,85,Detects process execution and spawning
+@stdlib/utils-convert-path,0.2.3,benign,guarddog,capability-process-spawn,dist/index.js,2,2,Detects process execution and spawning
+@stdlib/utils-global,0.0.1,benign,guarddog,capability-process-spawn,lib/codegen.js,30,30,Detects process execution and spawning
+@stdlib/utils-global,0.0.7,benign,guarddog,capability-process-spawn,lib/codegen.js,30,30,Detects process execution and spawning
+@stdlib/utils-global,0.2.3,benign,guarddog,capability-process-spawn,dist/index.js,1,1,Detects process execution and spawning
+@stdlib/utils-regexp-from-string,0.0.1,benign,guarddog,capability-process-spawn,lib/from_string.js,45,45,Detects process execution and spawning
+@stdlib/utils-regexp-from-string,0.0.8,benign,guarddog,capability-process-spawn,lib/from_string.js,45,45,Detects process execution and spawning
+@stdlib/utils-regexp-from-string,0.2.3,benign,guarddog,capability-process-spawn,dist/index.js,2,2,Detects process execution and spawning
+@swan-io/boxed,0.1.0,benign,guarddog,capability-network-outbound,src/Future.js,70,70,"Detects network request capabilities (HTTP, sockets, etc.)"
+@swan-io/boxed,0.6.2,benign,guarddog,capability-network-outbound,dist/Boxed.esm.js,1,1,"Detects network request capabilities (HTTP, sockets, etc.)"
+@swan-io/boxed,3.2.1,benign,guarddog,capability-network-outbound,dist/Boxed.js,1,1,"Detects network request capabilities (HTTP, sockets, etc.)"
+@ungap/promise-all-settled,0.1.1,benign,guarddog,capability-network-outbound,index.js,5,5,"Detects network request capabilities (HTTP, sockets, etc.)"
+@ungap/promise-all-settled,1.1.0,benign,guarddog,capability-network-outbound,index.js,6,6,"Detects network request capabilities (HTTP, sockets, etc.)"
+@ungap/promise-all-settled,1.1.2,benign,guarddog,capability-network-outbound,index.js,6,6,"Detects network request capabilities (HTTP, sockets, etc.)"
+am-i-a-dependency,1.0.0,benign,guarddog,threat-npm-http-dependency,package.json,44,44,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+am-i-a-dependency,1.1.1,benign,guarddog,threat-npm-http-dependency,package.json,43,43,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+am-i-a-dependency,1.1.2,benign,guarddog,threat-npm-http-dependency,package.json,43,43,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+app-root-path,0.0.1,benign,guarddog,capability-network-outbound,index.js,2,2,"Detects network request capabilities (HTTP, sockets, etc.)"
+app-root-path,1.4.0,benign,guarddog,capability-network-outbound,browser-shim.js,10,10,"Detects network request capabilities (HTTP, sockets, etc.)"
+app-root-path,3.1.0,benign,guarddog,capability-network-outbound,browser-shim.js,13,13,"Detects network request capabilities (HTTP, sockets, etc.)"
+ast-monkey-traverse,1.0.1,benign,guarddog,capability-network-outbound,dist/ast-monkey-traverse.umd.js,1,1,"Detects network request capabilities (HTTP, sockets, etc.)"
+ast-monkey-traverse,1.0.1,benign,guarddog,capability-process-spawn,dist/ast-monkey-traverse.umd.js,1,1,Detects process execution and spawning
+ast-monkey-traverse,1.3.3,benign,guarddog,capability-network-outbound,dist/ast-monkey-traverse.umd.js,1,1,"Detects network request capabilities (HTTP, sockets, etc.)"
+ast-monkey-traverse,1.3.3,benign,guarddog,capability-process-spawn,dist/ast-monkey-traverse.umd.js,1,1,Detects process execution and spawning
+async,0.1.0,benign,guarddog,threat-npm-http-dependency,1289344584245-0.9916652461979538/package.json,8,8,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+async,0.1.0,benign,guarddog,threat-npm-http-dependency,1289344584245-0.9916652461979538/package.json,10,10,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+async,0.1.0,benign,guarddog,threat-npm-http-dependency,1289344584245-0.9916652461979538/package.json,13,13,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+async,3.2.6,benign,guarddog,capability-network-outbound,dist/async.js,218,218,"Detects network request capabilities (HTTP, sockets, etc.)"
+async-es,3.2.6,benign,guarddog,capability-network-outbound,internal/awaitify.js,14,14,"Detects network request capabilities (HTTP, sockets, etc.)"
+awaiting,1.1.7,benign,guarddog,capability-filesystem-read,test/browser/test.js,1763,1763,Detects filesystem read capabilities
+awaiting,1.1.7,benign,guarddog,capability-network-outbound,browser/awaiting.js,75,75,"Detects network request capabilities (HTTP, sockets, etc.)"
+awaiting,1.1.7,benign,guarddog,capability-process-spawn,test/browser/test.js,3636,3636,Detects process execution and spawning
+awaiting,3.0.0,benign,guarddog,capability-filesystem-read,test/browser/test.js,1966,1966,Detects filesystem read capabilities
+awaiting,3.0.0,benign,guarddog,capability-network-outbound,dist/awaiting.common.js,142,142,"Detects network request capabilities (HTTP, sockets, etc.)"
+awaiting,3.0.0,benign,guarddog,capability-process-spawn,test/browser/test.js,3839,3839,Detects process execution and spawning
+bytes,3.1.2,benign,guarddog,capability-process-spawn,index.js,151,151,Detects process execution and spawning
+bytes-iec,3.0.1,benign,guarddog,capability-process-spawn,index.js,317,317,Detects process execution and spawning
+bytes-iec,3.1.0,benign,guarddog,capability-process-spawn,index.js,317,317,Detects process execution and spawning
+bytes-iec,3.1.1,benign,guarddog,capability-process-spawn,index.js,340,340,Detects process execution and spawning
+cabin,0.0.0,benign,guarddog,capability-filesystem-delete,lib/new.js,192,192,Detects file/directory deletion capabilities
+cabin,0.0.0,benign,guarddog,capability-filesystem-read,lib/utils.js,20,20,Detects filesystem read capabilities
+cabin,0.0.0,benign,guarddog,capability-network-outbound,lib/new.js,7,7,"Detects network request capabilities (HTTP, sockets, etc.)"
+cabin,0.0.0,benign,guarddog,capability-process-spawn,lib/new.js,4,4,Detects process execution and spawning
+cabin,2.0.11,benign,guarddog,capability-network-outbound,dist/cabin.js,16720,16720,"Detects network request capabilities (HTTP, sockets, etc.)"
+cabin,2.0.11,benign,guarddog,capability-process-spawn,dist/cabin.js,15938,15938,Detects process execution and spawning
+cabin,2.0.11,benign,guarddog,threat-runtime-obfuscation-log-suppress,dist/cabin.js,7153,7153,"Detects log/console suppression combined with obfuscated code, a common malware evasion pattern"
+cabin,9.1.2,benign,guarddog,capability-network-outbound,dist/cabin.js,7021,7021,"Detects network request capabilities (HTTP, sockets, etc.)"
+cabin,9.1.2,benign,guarddog,capability-process-spawn,dist/cabin.js,2335,2335,Detects process execution and spawning
+cabin,9.1.2,benign,guarddog,threat-runtime-obfuscation-log-suppress,dist/cabin.js,1062,1062,"Detects log/console suppression combined with obfuscated code, a common malware evasion pattern"
+chromatism,3.0.0,benign,guarddog,capability-network-outbound,rollup.config.js,14,14,"Detects network request capabilities (HTTP, sockets, etc.)"
+cint,5.0.2,benign,guarddog,capability-network-outbound,test/jquery-1.6.2.min.js,16,16,"Detects network request capabilities (HTTP, sockets, etc.)"
+cint,5.0.2,benign,guarddog,capability-process-schedule,test/jquery-1.6.2.min.js,18,18,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+cint,5.0.2,benign,guarddog,capability-process-spawn,test/jquery-1.6.2.min.js,16,16,Detects process execution and spawning
+cint,8.0.0,benign,guarddog,capability-filesystem-read,gulpfile.js,22,22,Detects filesystem read capabilities
+cint,8.0.0,benign,guarddog,capability-network-outbound,test/jquery-1.6.2.min.js,16,16,"Detects network request capabilities (HTTP, sockets, etc.)"
+cint,8.0.0,benign,guarddog,capability-process-schedule,test/jquery-1.6.2.min.js,18,18,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+cint,8.0.0,benign,guarddog,capability-process-spawn,test/jquery-1.6.2.min.js,16,16,Detects process execution and spawning
+cli-progress,1.0.0,benign,guarddog,capability-process-schedule,lib/Bar.js,7,7,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+cli-progress,3.0.0,benign,guarddog,capability-process-schedule,lib/multi-bar.js,22,22,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+cli-progress,3.9.1,benign,guarddog,capability-process-schedule,lib/multi-bar.js,25,25,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+cog,0.0.0,benign,guarddog,capability-network-outbound,fns/jsonp.js,57,57,"Detects network request capabilities (HTTP, sockets, etc.)"
+cog,0.0.0,benign,guarddog,capability-process-spawn,fns/parseprops.js,12,12,Detects process execution and spawning
+cypress-failed-log,1.0.0,benign,guarddog,capability-process-spawn,src/index.js,28,28,Detects process execution and spawning
+cypress-failed-log,1.0.0,benign,guarddog,threat-npm-http-dependency,package.json,46,46,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+date-and-time,2.1.2,benign,guarddog,capability-process-spawn,date-and-time.js,98,98,Detects process execution and spawning
+date-and-time,4.7.0,benign,guarddog,capability-process-spawn,dist/index.cjs,2,2,Detects process execution and spawning
+detector,1.0.0,benign,guarddog,capability-process-spawn,src/detector.js,98,98,Detects process execution and spawning
+detector,2.2.2,benign,guarddog,capability-process-spawn,detector.js,181,181,Detects process execution and spawning
+detector,2.5.0,benign,guarddog,capability-process-spawn,lib/detector.js,52,52,Detects process execution and spawning
+ends-with,0.1.0,benign,guarddog,capability-filesystem-read,benchmark/benchmark.js,38,38,Detects filesystem read capabilities
+ends-with,0.1.0,benign,guarddog,capability-process-spawn,benchmark/implementations/re-exec.js,13,13,Detects process execution and spawning
+escape-html,1.0.3,benign,guarddog,capability-process-spawn,index.js,35,35,Detects process execution and spawning
+fb-watchman,0.0.0,benign,guarddog,capability-process-spawn,index.js,127,127,Detects process execution and spawning
+fb-watchman,1.7.0,benign,guarddog,capability-process-spawn,index.js,9,9,Detects process execution and spawning
+fb-watchman,2.0.4,benign,guarddog,capability-process-spawn,index.js,13,13,Detects process execution and spawning
+filelist,0.0.1,benign,guarddog,capability-network-outbound,filelist-v0.0.1/index.js,101,101,"Detects network request capabilities (HTTP, sockets, etc.)"
+filelist,1.0.2,benign,guarddog,capability-network-outbound,FileList-v1.0.2/index.d.ts,21,21,"Detects network request capabilities (HTTP, sockets, etc.)"
+filelist,2.0.2,benign,guarddog,capability-network-outbound,FileList-v2.0.2/index.d.ts,106,106,"Detects network request capabilities (HTTP, sockets, etc.)"
+follow-redirects,0.0.1,benign,guarddog,capability-network-download,test/index.js,63,63,Detects downloading files from network
+follow-redirects,0.0.1,benign,guarddog,capability-network-outbound,index.js,1,1,"Detects network request capabilities (HTTP, sockets, etc.)"
+follow-redirects,1.15.4,benign,guarddog,capability-network-outbound,index.js,3,3,"Detects network request capabilities (HTTP, sockets, etc.)"
+follow-redirects,1.9.1,benign,guarddog,capability-network-outbound,index.js,3,3,"Detects network request capabilities (HTTP, sockets, etc.)"
+get-symlinks,0.1.0,benign,guarddog,capability-network-outbound,index.js,13,13,"Detects network request capabilities (HTTP, sockets, etc.)"
+get-symlinks,1.0.2,benign,guarddog,capability-network-outbound,index.js,15,15,"Detects network request capabilities (HTTP, sockets, etc.)"
+get-symlinks,3.0.1,benign,guarddog,capability-network-outbound,index.js,11,11,"Detects network request capabilities (HTTP, sockets, etc.)"
+gh-got,1.0.0,benign,guarddog,capability-network-download,index.js,34,34,Detects downloading files from network
+gh-got,2.3.0,benign,guarddog,capability-network-download,index.js,37,37,Detects downloading files from network
+gh-got,9.0.0,benign,guarddog,threat-runtime-environment-read,index.js,17,17,"Detects reading of environment variables (credential access, often contains secrets)"
+globalize,0.1.0-a1,benign,guarddog,capability-process-schedule,examples/browser/jquery-1.4.4.js,6504,6504,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+globalize,0.1.0-a1,benign,guarddog,capability-process-spawn,examples/browser/jquery-1.4.4.js,3060,3060,Detects process execution and spawning
+globalize,0.1.0-a1,benign,guarddog,threat-npm-http-dependency,package.json,13,13,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+globalize,0.1.0-a1,benign,guarddog,threat-npm-http-dependency,package.json,32,32,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+globalize,0.1.0-a1,benign,guarddog,threat-npm-http-dependency,package.json,41,41,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+globalize,1.1.0-rc.7,benign,guarddog,capability-process-spawn,dist/globalize/message.js,1588,1588,Detects process execution and spawning
+globalize,1.1.0-rc.7,benign,guarddog,threat-npm-http-dependency,package.json,40,40,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+globalize,1.1.0-rc.7,benign,guarddog,threat-npm-http-dependency,package.json,45,45,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+globalize,1.1.0-rc.7,benign,guarddog,threat-npm-http-dependency,package.json,72,72,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+globalize,1.7.1,benign,guarddog,capability-process-spawn,dist/globalize.js,227,227,Detects process execution and spawning
+globalize,1.7.1,benign,guarddog,threat-npm-http-dependency,package.json,43,43,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+globalize,1.7.1,benign,guarddog,threat-npm-http-dependency,package.json,48,48,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+globalize,1.7.1,benign,guarddog,threat-npm-http-dependency,package.json,39,39,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+globby,14.0.1,benign,guarddog,capability-filesystem-read,ignore.js,102,102,Detects filesystem read capabilities
+globby,9.2.0,benign,guarddog,capability-filesystem-read,gitignore.js,17,17,Detects filesystem read capabilities
+globby,9.2.0,benign,guarddog,capability-network-outbound,index.js,95,95,"Detects network request capabilities (HTTP, sockets, etc.)"
+haraka-utils,1.1.3,benign,guarddog,capability-filesystem-read,index.js,377,377,Detects filesystem read capabilities
+haraka-utils,1.1.3,benign,guarddog,capability-process-spawn,index.js,3,3,Detects process execution and spawning
+haraka-utils,2.2.1,benign,guarddog,capability-filesystem-read,index.js,266,266,Detects filesystem read capabilities
+haraka-utils,2.2.1,benign,guarddog,capability-network-outbound,lib/fsync_writestream.js,25,25,"Detects network request capabilities (HTTP, sockets, etc.)"
+haraka-utils,2.2.1,benign,guarddog,capability-process-schedule,index.js,12,12,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+haraka-utils,2.2.1,benign,guarddog,capability-process-spawn,lib/rfc1869.js,51,51,Detects process execution and spawning
+has-only,1.0.0,benign,guarddog,threat-npm-http-dependency,package.json,46,46,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+has-only,1.1.0,benign,guarddog,threat-npm-http-dependency,package.json,46,46,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+has-only,1.1.1,benign,guarddog,threat-npm-http-dependency,package.json,46,46,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+hast-util-find-and-replace,1.0.0,benign,guarddog,capability-process-spawn,index.js,52,52,Detects process execution and spawning
+hast-util-find-and-replace,3.2.1,benign,guarddog,capability-process-spawn,index.js,50,50,Detects process execution and spawning
+hast-util-find-and-replace,5.0.3,benign,guarddog,capability-process-spawn,lib/index.js,136,136,Detects process execution and spawning
+hast-util-parse-selector,4.0.0,benign,guarddog,capability-process-spawn,lib/index.js,57,57,Detects process execution and spawning
+hast-util-to-text,3.1.1,benign,guarddog,capability-process-spawn,index.js,367,367,Detects process execution and spawning
+hast-util-to-text,4.0.3,benign,guarddog,capability-process-spawn,lib/index.js,495,495,Detects process execution and spawning
+haute,2.0.0,benign,guarddog,capability-network-outbound,lib/index.js,26,26,"Detects network request capabilities (HTTP, sockets, etc.)"
+html-crush,0.1.0,benign,guarddog,capability-network-outbound,dist/html-crush.umd.js,1,1,"Detects network request capabilities (HTTP, sockets, etc.)"
+html-crush,0.1.0,benign,guarddog,capability-process-spawn,dist/html-crush.umd.js,1,1,Detects process execution and spawning
+html-crush,2.0.6,benign,guarddog,capability-network-outbound,dist/html-crush.dev.umd.js,2715,2715,"Detects network request capabilities (HTTP, sockets, etc.)"
+html-crush,2.0.6,benign,guarddog,capability-process-spawn,dist/html-crush.dev.umd.js,1747,1747,Detects process execution and spawning
+html-crush,6.3.5,benign,guarddog,capability-process-spawn,dist/html-crush.umd.js,10,10,Detects process execution and spawning
+is-fork-pr,1.0.0,benign,guarddog,threat-npm-http-dependency,package.json,46,46,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+is-fork-pr,2.0.0,benign,guarddog,threat-npm-http-dependency,package.json,46,46,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+is-fork-pr,2.5.0,benign,guarddog,threat-npm-http-dependency,package.json,49,49,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+json-sort-cli,1.18.11,benign,guarddog,capability-network-outbound,cli.js,197,197,"Detects network request capabilities (HTTP, sockets, etc.)"
+json-sort-cli,4.3.1,benign,guarddog,capability-filesystem-read,cli-update-notifier.js,664,664,Detects filesystem read capabilities
+json-sort-cli,4.3.1,benign,guarddog,capability-filesystem-write-executable,process-files.js,96,96,Detects writing executable files or changing file permissions to executable
+json-sort-cli,4.3.1,benign,guarddog,capability-network-outbound,cli-update-notifier.js,690,690,"Detects network request capabilities (HTTP, sockets, etc.)"
+json-sort-cli,4.3.1,benign,guarddog,capability-process-spawn,cli-update-notifier.js,34,34,Detects process execution and spawning
+json-sort-cli,4.3.1,benign,guarddog,threat-process-spawn-silent,cli-update-notifier.js,521,521,Detects fully silent process execution (suppressing all output channels)
+json-sort-cli,4.3.1,benign,guarddog,threat-process-spawn-silent,cli-update-notifier.js,522,522,Detects fully silent process execution (suppressing all output channels)
+json-sort-cli,4.3.1,benign,guarddog,threat-process-spawn-silent,cli-update-notifier.js,523,523,Detects fully silent process execution (suppressing all output channels)
+koalas,0.0.1,benign,guarddog,capability-network-outbound,test/main.js,73,73,"Detects network request capabilities (HTTP, sockets, etc.)"
+koalas,0.0.6,benign,guarddog,capability-network-outbound,test/main.js,95,95,"Detects network request capabilities (HTTP, sockets, etc.)"
+kyanite,3.2.0,benign,guarddog,capability-network-outbound,dist/kyanite.iife.min.js,1,1,"Detects network request capabilities (HTTP, sockets, etc.)"
+log-utils,0.1.5,benign,guarddog,capability-process-schedule,index.js,227,227,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+mdast-util-find-and-replace,1.0.0,benign,guarddog,capability-process-spawn,index.js,49,49,Detects process execution and spawning
+mdast-util-find-and-replace,2.2.1,benign,guarddog,capability-process-spawn,lib/index.js,148,148,Detects process execution and spawning
+mdast-util-find-and-replace,3.0.4,benign,guarddog,capability-process-spawn,lib/index.js,124,124,Detects process execution and spawning
+mdast-util-gfm-autolink-literal,1.0.1,benign,guarddog,capability-process-spawn,index.js,196,196,Detects process execution and spawning
+mdast-util-gfm-autolink-literal,2.0.1,benign,guarddog,capability-process-spawn,lib/index.js,242,242,Detects process execution and spawning
+mdast-util-math,3.0.0,benign,guarddog,capability-process-spawn,lib/index.js,293,293,Detects process execution and spawning
+mdast-util-mdx-expression,0.1.0,benign,guarddog,capability-process-spawn,from-markdown.js,41,41,Detects process execution and spawning
+mdast-util-mdx-jsx,0.1.0,benign,guarddog,capability-process-spawn,to-markdown.js,91,91,Detects process execution and spawning
+mdast-util-to-markdown,1.0.0-beta.1,benign,guarddog,capability-process-spawn,lib/handle/inline-code.js,54,54,Detects process execution and spawning
+mdast-util-to-markdown,2.2.1,benign,guarddog,capability-process-spawn,lib/handle/inline-code.js,60,60,Detects process execution and spawning
+meros,0.0.1,benign,guarddog,capability-filesystem-read,dist/index.js,15,15,Detects filesystem read capabilities
+meros,0.0.1,benign,guarddog,capability-network-outbound,bench/index.ts,22,22,"Detects network request capabilities (HTTP, sockets, etc.)"
+meros,1.1.0,benign,guarddog,capability-filesystem-read,browser/index.js,8,8,Detects filesystem read capabilities
+meros,1.3.2,benign,guarddog,capability-filesystem-read,browser/index.js,1,1,Detects filesystem read capabilities
+micromark-util-resolve-all,1.0.0,benign,guarddog,capability-network-outbound,index.js,24,24,"Detects network request capabilities (HTTP, sockets, etc.)"
+micromark-util-resolve-all,1.0.0-beta.1,benign,guarddog,capability-network-outbound,index.js,24,24,"Detects network request capabilities (HTTP, sockets, etc.)"
+micromark-util-resolve-all,2.0.1,benign,guarddog,capability-network-outbound,index.js,26,26,"Detects network request capabilities (HTTP, sockets, etc.)"
+mo-walk,1.0.0,benign,guarddog,capability-network-outbound,lib/index.js,79,79,"Detects network request capabilities (HTTP, sockets, etc.)"
+mo-walk,1.1.1,benign,guarddog,capability-network-outbound,lib/index.js,13,13,"Detects network request capabilities (HTTP, sockets, etc.)"
+mo-walk,1.2.0,benign,guarddog,capability-network-outbound,lib/index.js,13,13,"Detects network request capabilities (HTTP, sockets, etc.)"
+mocked-env,1.0.0,benign,guarddog,threat-npm-http-dependency,package.json,48,48,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+mocked-env,1.2.4,benign,guarddog,threat-filesystem-read,src/index.js,78,78,"Detects access to sensitive files (credentials, configs, keys)"
+mocked-env,1.2.4,benign,guarddog,threat-npm-http-dependency,package.json,48,48,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+mocked-env,1.3.5,benign,guarddog,threat-filesystem-read,src/index.js,95,95,"Detects access to sensitive files (credentials, configs, keys)"
+mocked-env,1.3.5,benign,guarddog,threat-npm-http-dependency,package.json,26,26,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+modern-async,1.0.4,benign,guarddog,capability-network-outbound,dist/modern-async.cjs,138,138,"Detects network request capabilities (HTTP, sockets, etc.)"
+modern-async,1.0.4,benign,guarddog,capability-process-spawn,dist/modern-async.cjs,430,430,Detects process execution and spawning
+modern-async,2.0.4,benign,guarddog,capability-network-download,dist/modern-async.cjs,744,744,Detects downloading files from network
+modern-async,2.0.4,benign,guarddog,capability-network-outbound,modern-async.d.ts,23,23,"Detects network request capabilities (HTTP, sockets, etc.)"
+modern-async,2.0.4,benign,guarddog,capability-process-spawn,dist/modern-async.cjs,427,427,Detects process execution and spawning
+nlcst-emoji-modifier,6.0.2,benign,guarddog,capability-process-spawn,lib/index.js,245,245,Detects process execution and spawning
+openapi-enforcer,1.14.3,benign,guarddog,capability-filesystem-read,src/ref-parser.js,399,399,Detects filesystem read capabilities
+openapi-enforcer,1.14.3,benign,guarddog,capability-network-download,src/ref-parser.js,371,371,Detects downloading files from network
+openapi-enforcer,1.14.3,benign,guarddog,capability-network-outbound,src/ref-parser.js,371,371,"Detects network request capabilities (HTTP, sockets, etc.)"
+openapi-enforcer,1.14.3,benign,guarddog,capability-process-spawn,index.js,68,68,Detects process execution and spawning
+openapi-enforcer,1.9.0,benign,guarddog,capability-network-outbound,test/enforcer.response.test.js,127,127,"Detects network request capabilities (HTTP, sockets, etc.)"
+openapi-enforcer,1.9.0,benign,guarddog,capability-process-spawn,index.js,57,57,Detects process execution and spawning
+ow,0.23.1,benign,guarddog,capability-filesystem-read,dist/utils/infer-label.js,35,35,Detects filesystem read capabilities
+ow,0.23.1,benign,guarddog,capability-process-spawn,dist/utils/infer-label.js,46,46,Detects process execution and spawning
+ow,3.1.1,benign,guarddog,capability-filesystem-read,dist/utils/infer-label.js,31,31,Detects filesystem read capabilities
+ow,3.1.1,benign,guarddog,capability-process-spawn,dist/utils/infer-label.js,42,42,Detects process execution and spawning
+playwright-testing-library,1.0.0,benign,guarddog,capability-network-outbound,dom-testing-library.js,3829,3829,"Detects network request capabilities (HTTP, sockets, etc.)"
+playwright-testing-library,1.0.0,benign,guarddog,capability-process-spawn,dom-testing-library.js,12904,12904,Detects process execution and spawning
+playwright-testing-library,4.0.0-beta.5,benign,guarddog,capability-filesystem-read,playwright-test/package.js,6,6,Detects filesystem read capabilities
+playwright-testing-library,4.0.0-beta.5,benign,guarddog,capability-network-outbound,.eslintrc.js,2,2,"Detects network request capabilities (HTTP, sockets, etc.)"
+playwright-testing-library,4.0.0-beta.5,benign,guarddog,capability-process-spawn,dom-testing-library.js,7659,7659,Detects process execution and spawning
+playwright-testing-library,4.5.0,benign,guarddog,capability-filesystem-read,lib/fixture/locator/helpers.ts,11,11,Detects filesystem read capabilities
+playwright-testing-library,4.5.0,benign,guarddog,capability-network-outbound,.eslintrc.js,3,3,"Detects network request capabilities (HTTP, sockets, etc.)"
+playwright-testing-library,4.5.0,benign,guarddog,capability-process-spawn,dom-testing-library.js,8074,8074,Detects process execution and spawning
+postman-request,2.74.1-postman.1,benign,guarddog,capability-filesystem-read,lib/har.js,191,191,Detects filesystem read capabilities
+postman-request,2.74.1-postman.1,benign,guarddog,capability-network-outbound,request.js,3,3,"Detects network request capabilities (HTTP, sockets, etc.)"
+postman-request,2.74.1-postman.1,benign,guarddog,capability-process-spawn,lib/auth.js,67,67,Detects process execution and spawning
+postman-request,2.88.1-postman.25,benign,guarddog,capability-filesystem-read,lib/har.js,182,182,Detects filesystem read capabilities
+postman-request,2.88.1-postman.25,benign,guarddog,capability-network-outbound,request.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+postman-request,2.88.1-postman.25,benign,guarddog,capability-process-spawn,lib/auth.js,66,66,Detects process execution and spawning
+postman-request,2.88.1-postman.9,benign,guarddog,capability-filesystem-read,lib/har.js,182,182,Detects filesystem read capabilities
+postman-request,2.88.1-postman.9,benign,guarddog,capability-network-outbound,request.js,4,4,"Detects network request capabilities (HTTP, sockets, etc.)"
+postman-request,2.88.1-postman.9,benign,guarddog,capability-process-spawn,lib/auth.js,66,66,Detects process execution and spawning
+process-warning,2.3.2,benign,guarddog,capability-network-outbound,test/no-warnings.test.js,7,7,"Detects network request capabilities (HTTP, sockets, etc.)"
+process-warning,2.3.2,benign,guarddog,capability-process-spawn,test/no-warnings.test.js,4,4,Detects process execution and spawning
+process-warning,5.1.1,benign,guarddog,capability-network-outbound,test/emit-interpolated-string.test.js,30,30,"Detects network request capabilities (HTTP, sockets, etc.)"
+process-warning,5.1.1,benign,guarddog,capability-process-spawn,test/no-warnings.test.js,4,4,Detects process execution and spawning
+protochain,1.0.5,benign,guarddog,capability-network-outbound,test.js,99,99,"Detects network request capabilities (HTTP, sockets, etc.)"
+protochain,1.0.5,benign,guarddog,capability-process-spawn,test.js,18,18,Detects process execution and spawning
+rambda,2.13.0,benign,guarddog,capability-network-outbound,src/_build.spec.js,5,5,"Detects network request capabilities (HTTP, sockets, etc.)"
+rambdax,0.8.3,benign,guarddog,capability-filesystem-read,files/generateRambdaExports.js,14,14,Detects filesystem read capabilities
+rambdax,0.8.3,benign,guarddog,capability-network-outbound,index.d.ts,209,209,"Detects network request capabilities (HTTP, sockets, etc.)"
+rambdax,9.1.1,benign,guarddog,capability-network-outbound,dist/rambdax.js,461,461,"Detects network request capabilities (HTTP, sockets, etc.)"
+request,0.10.0,benign,guarddog,capability-network-outbound,1289345679745-0.6631237138062716/lib/main.js,1,1,"Detects network request capabilities (HTTP, sockets, etc.)"
+request,2.40.0,benign,guarddog,capability-network-outbound,request.js,2,2,"Detects network request capabilities (HTTP, sockets, etc.)"
+request,2.40.0,benign,guarddog,capability-process-spawn,request.js,850,850,Detects process execution and spawning
+request,2.9.3,benign,guarddog,capability-filesystem-delete,tests/test-pipes.js,146,146,Detects file/directory deletion capabilities
+request,2.9.3,benign,guarddog,capability-filesystem-read,tests/server.js,23,23,Detects filesystem read capabilities
+request,2.9.3,benign,guarddog,capability-network-download,main.js,549,549,Detects downloading files from network
+request,2.9.3,benign,guarddog,capability-network-outbound,main.js,15,15,"Detects network request capabilities (HTTP, sockets, etc.)"
+simple-bin-help,1.8.0,benign,guarddog,capability-filesystem-read,dist/index.js,774,774,Detects filesystem read capabilities
+simple-bin-help,1.8.0,benign,guarddog,capability-network-download,dist/index.js,13614,13614,Detects downloading files from network
+simple-bin-help,1.8.0,benign,guarddog,capability-network-outbound,dist/index.js,6417,6417,"Detects network request capabilities (HTTP, sockets, etc.)"
+simple-bin-help,1.8.0,benign,guarddog,capability-process-spawn,dist/index.js,2264,2264,Detects process execution and spawning
+simple-bin-help,1.8.0,benign,guarddog,threat-filesystem-read,dist/index.js,8550,8550,"Detects access to sensitive files (credentials, configs, keys)"
+simple-bin-help,1.8.0,benign,guarddog,threat-filesystem-read,dist/index.js,8587,8587,"Detects access to sensitive files (credentials, configs, keys)"
+simple-bin-help,1.8.0,benign,guarddog,threat-filesystem-read,dist/index.js,8595,8595,"Detects access to sensitive files (credentials, configs, keys)"
+simple-bin-help,1.8.0,benign,guarddog,threat-filesystem-read,dist/index.js,8643,8643,"Detects access to sensitive files (credentials, configs, keys)"
+simple-bin-help,1.8.0,benign,guarddog,threat-filesystem-read,dist/index.js,8644,8644,"Detects access to sensitive files (credentials, configs, keys)"
+simple-bin-help,1.8.0,benign,guarddog,threat-process-spawn-silent,dist/index.js,18125,18125,Detects fully silent process execution (suppressing all output channels)
+simple-bin-help,1.8.0,benign,guarddog,threat-process-spawn-silent,dist/index.js,18126,18126,Detects fully silent process execution (suppressing all output channels)
+simple-bin-help,1.8.0,benign,guarddog,threat-runtime-obfuscation,dist/index.js,9107,9107,Detects heavy obfuscation techniques commonly used by malware
+start-server-and-test,1.0.0,benign,guarddog,capability-network-outbound,src/index.js,41,41,"Detects network request capabilities (HTTP, sockets, etc.)"
+start-server-and-test,1.0.0,benign,guarddog,threat-npm-http-dependency,package.json,1,1,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+start-server-and-test,1.7.10,benign,guarddog,capability-network-outbound,src/index.js,83,83,"Detects network request capabilities (HTTP, sockets, etc.)"
+start-server-and-test,1.7.10,benign,guarddog,threat-npm-http-dependency,package.json,53,53,"Detects HTTP/HTTPS URL dependencies in package.json (dependency confusion, untrusted sources)"
+start-server-and-test,3.0.9,benign,guarddog,capability-network-outbound,src/index.js,63,63,"Detects network request capabilities (HTTP, sockets, etc.)"
+starts-with,1.0.0,benign,guarddog,capability-process-spawn,benchmark/implementations-browser.js,18,18,Detects process execution and spawning
+string-match-left-right,1.0.1,benign,guarddog,capability-process-spawn,dist/string-match-left-right.umd.js,1,1,Detects process execution and spawning
+string-match-left-right,3.6.6,benign,guarddog,capability-network-outbound,dist/string-match-left-right.umd.js,1,1,"Detects network request capabilities (HTTP, sockets, etc.)"
+string-match-left-right,3.6.6,benign,guarddog,capability-process-spawn,dist/string-match-left-right.umd.js,1,1,Detects process execution and spawning
+style-it,1.2.0,benign,guarddog,capability-process-spawn,dist/style-it-standalone.js,4095,4095,Detects process execution and spawning
+style-it,1.2.0,benign,guarddog,threat-filesystem-read,webpack.config.js,43,43,"Detects access to sensitive files (credentials, configs, keys)"
+style-it,1.5.3,benign,guarddog,threat-filesystem-read,webpack.config.js,54,54,"Detects access to sensitive files (credentials, configs, keys)"
+style-it,2.1.4,benign,guarddog,threat-filesystem-read,webpack.config.js,54,54,"Detects access to sensitive files (credentials, configs, keys)"
+task-easy,0.1.0,benign,guarddog,capability-network-outbound,micro-queue/index.js,119,119,"Detects network request capabilities (HTTP, sockets, etc.)"
+task-easy,0.2.1,benign,guarddog,capability-network-outbound,src/index.js,120,120,"Detects network request capabilities (HTTP, sockets, etc.)"
+task-easy,1.0.1,benign,guarddog,capability-network-outbound,src/index.js,112,112,"Detects network request capabilities (HTTP, sockets, etc.)"
+to-vfile,1.0.0,benign,guarddog,capability-filesystem-read,index.js,14,14,Detects filesystem read capabilities
+to-vfile,5.0.3,benign,guarddog,capability-filesystem-read,lib/async.js,38,38,Detects filesystem read capabilities
+to-vfile,5.0.3,benign,guarddog,capability-network-outbound,lib/async.js,25,25,"Detects network request capabilities (HTTP, sockets, etc.)"
+to-vfile,8.0.0,benign,guarddog,capability-filesystem-read,lib/index.js,139,139,Detects filesystem read capabilities
+to-vfile,8.0.0,benign,guarddog,capability-network-outbound,lib/index.js,116,116,"Detects network request capabilities (HTTP, sockets, etc.)"
+tstl,2.0.6,benign,guarddog,capability-network-outbound,experimental/thread/Semaphore.js,6,6,"Detects network request capabilities (HTTP, sockets, etc.)"
+tstl,3.0.1-dev.20240330,benign,guarddog,capability-network-outbound,lib/index.mjs,5379,5379,"Detects network request capabilities (HTTP, sockets, etc.)"
+tui-code-snippet,1.0.6,benign,guarddog,capability-filesystem-read,demo/postBridge/server.js,20,20,Detects filesystem read capabilities
+tui-code-snippet,1.0.6,benign,guarddog,capability-process-spawn,code-snippet.js,168,168,Detects process execution and spawning
+tui-code-snippet,1.0.6,benign,guarddog,threat-network-exfiltration,test/object.test.js,7,7,Detects URLs to suspicious domains often used for exfiltration or C2
+tui-code-snippet,1.0.6,benign,guarddog,threat-network-exfiltration,test/object.test.js,8,8,Detects URLs to suspicious domains often used for exfiltration or C2
+tui-code-snippet,1.0.6,benign,guarddog,threat-network-exfiltration,test/object.test.js,9,9,Detects URLs to suspicious domains often used for exfiltration or C2
+tui-code-snippet,1.0.6,benign,guarddog,threat-network-exfiltration,test/object.test.js,10,10,Detects URLs to suspicious domains often used for exfiltration or C2
+tui-code-snippet,1.0.6,benign,guarddog,threat-network-exfiltration,test/object.test.js,14,14,Detects URLs to suspicious domains often used for exfiltration or C2
+tui-code-snippet,1.5.1,benign,guarddog,capability-filesystem-read,demo/postBridge/server.js,20,20,Detects filesystem read capabilities
+tui-code-snippet,1.5.1,benign,guarddog,capability-process-spawn,dist/tui-code-snippet.js,1857,1857,Detects process execution and spawning
+tui-code-snippet,1.5.1,benign,guarddog,threat-network-exfiltration,test/object.test.js,14,14,Detects URLs to suspicious domains often used for exfiltration or C2
+tui-code-snippet,1.5.1,benign,guarddog,threat-network-exfiltration,test/object.test.js,19,19,Detects URLs to suspicious domains often used for exfiltration or C2
+tui-code-snippet,1.5.1,benign,guarddog,threat-network-exfiltration,test/object.test.js,24,24,Detects URLs to suspicious domains often used for exfiltration or C2
+tui-code-snippet,1.5.1,benign,guarddog,threat-network-exfiltration,test/object.test.js,29,29,Detects URLs to suspicious domains often used for exfiltration or C2
+tui-code-snippet,1.5.1,benign,guarddog,threat-network-exfiltration,test/object.test.js,35,35,Detects URLs to suspicious domains often used for exfiltration or C2
+tui-code-snippet,2.3.3,benign,guarddog,capability-process-spawn,browser/browser.js,79,79,Detects process execution and spawning
+typed-graphqlify,0.0.1,benign,guarddog,capability-filesystem-delete,examples/node_modules/typescript/lib/tsc.js,2907,2907,Detects file/directory deletion capabilities
+typed-graphqlify,0.0.1,benign,guarddog,capability-filesystem-read,examples/node_modules/typescript/lib/tsc.js,2791,2791,Detects filesystem read capabilities
+typed-graphqlify,0.0.1,benign,guarddog,capability-network-download,examples/node_modules/typescript/lib/lib.dom.d.ts,5654,5654,Detects downloading files from network
+typed-graphqlify,0.0.1,benign,guarddog,capability-network-outbound,examples/node_modules/typescript/lib/lib.dom.d.ts,5654,5654,"Detects network request capabilities (HTTP, sockets, etc.)"
+typed-graphqlify,0.0.1,benign,guarddog,capability-process-schedule,examples/node_modules/typescript/lib/tsserver.js,120077,120077,"Detects ability to create scheduled tasks (cron, at, schtasks)"
+typed-graphqlify,0.0.1,benign,guarddog,capability-process-spawn,examples/node_modules/typescript/lib/lib.es5.d.ts,914,914,Detects process execution and spawning
+typed-graphqlify,0.0.1,benign,guarddog,threat-runtime-system-info,examples/node_modules/typescript/lib/tsserver.js,127453,127453,"Detects active collection of system information (hostname, platform, architecture, user)"
+typed-graphqlify,0.0.1,benign,guarddog,threat-runtime-system-info,examples/node_modules/typescript/lib/tsserver.js,126662,126662,"Detects active collection of system information (hostname, platform, architecture, user)"
+typed-graphqlify,0.0.1,benign,guarddog,threat-runtime-system-info,examples/node_modules/typescript/lib/tsserver.js,126685,126685,"Detects active collection of system information (hostname, platform, architecture, user)"
+utils-regex-from-string,0.0.0,benign,guarddog,capability-process-spawn,lib/index.js,23,23,Detects process execution and spawning
+utils-regex-from-string,1.0.0,benign,guarddog,capability-process-spawn,lib/index.js,23,23,Detects process execution and spawning
+vfile-find-down,1.0.0,benign,guarddog,capability-network-outbound,index.js,179,179,"Detects network request capabilities (HTTP, sockets, etc.)"
+vfile-find-down,4.0.1,benign,guarddog,capability-network-outbound,index.js,69,69,"Detects network request capabilities (HTTP, sockets, etc.)"
+vfile-find-down,7.1.0,benign,guarddog,capability-network-outbound,lib/index.js,334,334,"Detects network request capabilities (HTTP, sockets, etc.)"
+vfile-find-up,1.0.0,benign,guarddog,capability-network-outbound,index.js,148,148,"Detects network request capabilities (HTTP, sockets, etc.)"
+vfile-find-up,5.0.0,benign,guarddog,capability-network-outbound,index.js,42,42,"Detects network request capabilities (HTTP, sockets, etc.)"
+vfile-find-up,7.1.0,benign,guarddog,capability-network-outbound,lib/index.js,259,259,"Detects network request capabilities (HTTP, sockets, etc.)"
+vfile-matter,3.0.0,benign,guarddog,capability-process-spawn,index.js,25,25,Detects process execution and spawning
+vfile-matter,5.0.1,benign,guarddog,capability-process-spawn,lib/index.js,64,64,Detects process execution and spawning
+vfile-reporter,8.1.1,benign,guarddog,capability-process-spawn,lib/index.js,367,367,Detects process execution and spawning
+yeoman-assert,1.0.0,benign,guarddog,capability-filesystem-read,index.js,152,152,Detects filesystem read capabilities
+yeoman-assert,2.2.1,benign,guarddog,capability-filesystem-read,index.js,102,102,Detects filesystem read capabilities
+yeoman-assert,3.1.1,benign,guarddog,capability-filesystem-read,index.js,32,32,Detects filesystem read capabilities

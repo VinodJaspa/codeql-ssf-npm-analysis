@@ -1,0 +1,9 @@
+query_combination,unique_packages,percentage_of_detected_packages
+os-fingerprinting-exfiltration + pre-post-install-scripts,25,42.3728813559322
+pre-post-install-scripts,19,32.20338983050847
+pre-post-install-scripts + pre-post-source-sink-execution,7,11.864406779661017
+computed-property-access + credential-harvest-exfil,2,3.389830508474576
+os-fingerprinting-exfiltration,2,3.389830508474576
+network-response-dynamic-execution + pre-post-install-scripts,2,3.389830508474576
+credential-harvest-exfil,1,1.694915254237288
+computed-property-access,1,1.694915254237288

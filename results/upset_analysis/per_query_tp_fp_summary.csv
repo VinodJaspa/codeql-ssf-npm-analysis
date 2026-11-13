@@ -1,0 +1,7 @@
+query,TP_packages,FP_packages,malicious_units,benign_units,recall_share,FPR
+pre-post-install-scripts,53,0,95,300,0.5578947368421052,0.0
+os-fingerprinting-exfiltration,27,0,95,300,0.28421052631578947,0.0
+pre-post-source-sink-execution,7,1,95,300,0.07368421052631578,0.0033333333333333335
+computed-property-access,3,0,95,300,0.031578947368421054,0.0
+credential-harvest-exfil,3,1,95,300,0.031578947368421054,0.0033333333333333335
+network-response-dynamic-execution,2,0,95,300,0.021052631578947368,0.0

@@ -1,0 +1,65 @@
+Pattern_Code,Exact_Profile,Label,Count,Percentage
+00000,No sensitive categories,malicious,174,12.125435540069686
+00001,Encoding,malicious,20,1.3937282229965158
+00010,Serialization,malicious,21,1.4634146341463414
+00011,Serialization + Encoding,malicious,6,0.4181184668989547
+00100,Network,malicious,23,1.602787456445993
+00101,Network + Encoding,malicious,3,0.20905923344947736
+00110,Network + Serialization,malicious,19,1.32404181184669
+00111,Network + Serialization + Encoding,malicious,13,0.9059233449477352
+01000,Process,malicious,105,7.317073170731708
+01001,Process + Encoding,malicious,6,0.4181184668989547
+01010,Process + Serialization,malicious,9,0.627177700348432
+01011,Process + Serialization + Encoding,malicious,0,0.0
+01100,Process + Network,malicious,6,0.4181184668989547
+01101,Process + Network + Encoding,malicious,4,0.2787456445993031
+01110,Process + Network + Serialization,malicious,13,0.9059233449477352
+01111,Process + Network + Serialization + Encoding,malicious,30,2.0905923344947737
+10000,OS/File,malicious,15,1.0452961672473868
+10001,OS/File + Encoding,malicious,2,0.13937282229965156
+10010,OS/File + Serialization,malicious,16,1.1149825783972125
+10011,OS/File + Serialization + Encoding,malicious,1,0.06968641114982578
+10100,OS/File + Network,malicious,23,1.602787456445993
+10101,OS/File + Network + Encoding,malicious,14,0.975609756097561
+10110,OS/File + Network + Serialization,malicious,319,22.229965156794425
+10111,OS/File + Network + Serialization + Encoding,malicious,34,2.3693379790940767
+11000,OS/File + Process,malicious,7,0.4878048780487805
+11001,OS/File + Process + Encoding,malicious,2,0.13937282229965156
+11010,OS/File + Process + Serialization,malicious,399,27.804878048780488
+11011,OS/File + Process + Serialization + Encoding,malicious,32,2.229965156794425
+11100,OS/File + Process + Network,malicious,10,0.6968641114982579
+11101,OS/File + Process + Network + Encoding,malicious,8,0.5574912891986062
+11110,OS/File + Process + Network + Serialization,malicious,74,5.156794425087108
+11111,OS/File + Process + Network + Serialization + Encoding,malicious,27,1.8815331010452963
+00000,No sensitive categories,benign,243,28.35472578763127
+00001,Encoding,benign,8,0.9334889148191365
+00010,Serialization,benign,98,11.435239206534423
+00011,Serialization + Encoding,benign,51,5.950991831971995
+00100,Network,benign,4,0.46674445740956827
+00101,Network + Encoding,benign,2,0.23337222870478413
+00110,Network + Serialization,benign,32,3.733955659276546
+00111,Network + Serialization + Encoding,benign,68,7.934655775962661
+01000,Process,benign,3,0.3500583430571762
+01001,Process + Encoding,benign,0,0.0
+01010,Process + Serialization,benign,5,0.5834305717619603
+01011,Process + Serialization + Encoding,benign,6,0.7001166861143524
+01100,Process + Network,benign,0,0.0
+01101,Process + Network + Encoding,benign,0,0.0
+01110,Process + Network + Serialization,benign,0,0.0
+01111,Process + Network + Serialization + Encoding,benign,18,2.100350058343057
+10000,OS/File,benign,24,2.8004667444574096
+10001,OS/File + Encoding,benign,0,0.0
+10010,OS/File + Serialization,benign,69,8.051341890315053
+10011,OS/File + Serialization + Encoding,benign,24,2.8004667444574096
+10100,OS/File + Network,benign,0,0.0
+10101,OS/File + Network + Encoding,benign,0,0.0
+10110,OS/File + Network + Serialization,benign,20,2.3337222870478413
+10111,OS/File + Network + Serialization + Encoding,benign,50,5.834305717619603
+11000,OS/File + Process,benign,14,1.633605600933489
+11001,OS/File + Process + Encoding,benign,0,0.0
+11010,OS/File + Process + Serialization,benign,31,3.617269544924154
+11011,OS/File + Process + Serialization + Encoding,benign,7,0.8168028004667445
+11100,OS/File + Process + Network,benign,2,0.23337222870478413
+11101,OS/File + Process + Network + Encoding,benign,0,0.0
+11110,OS/File + Process + Network + Serialization,benign,18,2.100350058343057
+11111,OS/File + Process + Network + Serialization + Encoding,benign,60,7.001166861143524

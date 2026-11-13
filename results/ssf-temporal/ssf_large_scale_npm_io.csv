@@ -1,0 +1,696 @@
+package,version,label,query,file,startLine,endLine,message
+@adobe/aio-lib-state,5.4.0,benign,os-fingerprinting-exfiltration,e2e/e2e.js,38,226,Potential OS/environment/file data exfiltration. Source: process.env (lib/constants.js:38) -> Sink: url
+@agentclientprotocol/claude-agent-acp,0.95.0,benign,pre-post-source-sink-execution,dist/index.js,675,14,Source path process.env flows into sensitive operation
+@argos-ci/core,6.8.8,benign,os-fingerprinting-exfiltration,dist/index.mjs,1324,1329,Potential OS/environment/file data exfiltration. Source: await r ... t.path) (dist/index.mjs:1324) -> Sink: new Uint8Array(file)
+@astryxdesign/cli,0.7.4,benign,pre-post-source-sink-execution,foundation/release/cache.mjs,50,613,Source path process.env flows into sensitive operation
+@astryxdesign/cli,0.7.4,benign,pre-post-source-sink-execution,foundation/release/cache.mjs,50,876,Source path process.env flows into sensitive operation
+@astryxdesign/cli,0.7.4,benign,pre-post-source-sink-execution,foundation/release/cache.mjs,50,1170,Source path process.env flows into sensitive operation
+@astryxdesign/cli,0.7.4,benign,pre-post-source-sink-execution,foundation/release/cache.mjs,77,876,Source path process.env flows into sensitive operation
+@astryxdesign/cli,0.7.4,benign,pre-post-source-sink-execution,foundation/release/global-state.mjs,77,181,Source path process.env flows into sensitive operation
+@astryxdesign/cli,0.7.4,benign,pre-post-source-sink-execution,foundation/doc-compiler/doc-syntax.mjs,50,473,Source path process.env flows into sensitive operation
+@astryxdesign/cli,0.7.4,benign,pre-post-source-sink-execution,foundation/env/package-manager.mjs,389,389,Source path process.env flows into sensitive operation
+@astryxdesign/cli,0.7.4,benign,pre-post-source-sink-execution,foundation/env/package-manager.test.mjs,32,864,Source path process.env flows into sensitive operation
+@astryxdesign/cli,0.7.4,benign,pre-post-source-sink-execution,foundation/env/package-manager.test.mjs,32,884,Source path process.env flows into sensitive operation
+@astryxdesign/cli,0.7.4,benign,pre-post-source-sink-execution,foundation/env/semver.mjs,77,104,Source path process.env flows into sensitive operation
+@astryxdesign/cli,0.7.4,benign,pre-post-source-sink-execution,foundation/env/semver.mjs,156,104,Source path process.env flows into sensitive operation
+@astryxdesign/cli,0.7.4,benign,pre-post-source-sink-execution,foundation/env/user-settings.mjs,77,100,Source path process.env flows into sensitive operation
+@astryxdesign/cli,0.7.4,benign,pre-post-source-sink-execution,foundation/env/user-settings.mjs,360,100,Source path process.env flows into sensitive operation
+@catladder/cli,5.7.1,benign,pre-post-source-sink-execution,src/utils/getEditor.ts,8,15,Source path process.env flows into sensitive operation
+@catladder/cli,5.7.1,benign,pre-post-source-sink-execution,src/utils/getEditor.ts,9,15,Source path process.env flows into sensitive operation
+@cavuno/board,4.53.0,benign,credential-harvest-exfil,,,,
+@circle-fin/bridge-kit,1.16.1,benign,credential-harvest-exfil,,,,
+@earendil-works/pi-coding-agent,1.4.0,benign,os-fingerprinting-exfiltration,dist/modes/interactive/interactive-mode.js,461,1017,"Potential OS/environment/file data exfiltration. Source: readFil ... utf-8"") (dist/config.js:461) -> Sink: `https: ... sion)}`"
+@earendil-works/pi-coding-agent,1.4.0,benign,os-fingerprinting-exfiltration,dist/modes/interactive/session-share.js,105,116,Potential OS/environment/file data exfiltration. Source: fs.read ... mpFile) (dist/modes/interactive/session-share.js:105) -> Sink: body
+@earendil-works/pi-coding-agent,1.4.0,benign,pre-post-source-sink-execution,dist/config.js,317,92,Source path process.env flows into sensitive operation
+@earendil-works/pi-coding-agent,1.4.0,benign,pre-post-source-sink-execution,dist/config.js,317,183,Source path process.env flows into sensitive operation
+@earendil-works/pi-coding-agent,1.4.0,benign,pre-post-source-sink-execution,dist/core/resolve-config-value.js,87,134,Source path process.env flows into sensitive operation
+@earendil-works/pi-coding-agent,1.4.0,benign,pre-post-source-sink-execution,dist/core/resolve-config-value.js,91,134,Source path process.env flows into sensitive operation
+@earendil-works/pi-coding-agent,1.4.0,benign,pre-post-source-sink-execution,dist/core/tools/grep.js,492,103,Source path process.env flows into sensitive operation
+@earendil-works/pi-coding-agent,1.4.0,benign,pre-post-source-sink-execution,dist/core/tools/find.js,492,161,Source path process.env flows into sensitive operation
+@earendil-works/pi-coding-agent,1.4.0,benign,pre-post-source-sink-execution,dist/utils/tools-manager.js,182,169,Source path process.env flows into sensitive operation
+@earendil-works/pi-coding-agent,1.4.0,benign,pre-post-source-sink-execution,examples/extensions/subagent/index.ts,492,344,Source path process.env flows into sensitive operation
+@earendil-works/pi-tui,1.4.0,benign,pre-post-source-sink-execution,native/win32/build.mjs,59,64,Source path process.env flows into sensitive operation
+@earendil-works/pi-tui,1.4.0,benign,pre-post-source-sink-execution,native/win32/build.mjs,111,44,Source path process.env flows into sensitive operation
+@earendil-works/pi-tui,1.4.0,benign,pre-post-source-sink-execution,native/win32/build.mjs,113,44,Source path process.env flows into sensitive operation
+@expo/cli,58.1.15,benign,pre-post-source-sink-execution,build/src/start/platforms/android/emulator.js,116,139,Source path process.env flows into sensitive operation
+@factorialco/shadowdog,0.9.6,benign,pre-post-source-sink-execution,dist/src/plugins/shadowdog-remote-aws-s3-cache.js,49,52,Source path process.env flows into sensitive operation
+@factorialco/shadowdog,0.9.6,benign,pre-post-source-sink-execution,dist/src/plugins/shadowdog-remote-aws-s3-cache.js,49,59,Source path process.env flows into sensitive operation
+@fission-ai/openspec,1.15.0,benign,pre-post-source-sink-execution,dist/core/version-check.js,405,760,Source path process.env flows into sensitive operation
+@fission-ai/openspec,1.15.0,benign,pre-post-source-sink-execution,dist/core/version-check.js,405,862,Source path process.env flows into sensitive operation
+@fission-ai/openspec,1.15.0,benign,pre-post-source-sink-execution,dist/core/version-check.js,411,760,Source path process.env flows into sensitive operation
+@fission-ai/openspec,1.15.0,benign,pre-post-source-sink-execution,dist/core/version-check.js,411,862,Source path process.env flows into sensitive operation
+@fission-ai/openspec,1.15.0,benign,pre-post-source-sink-execution,dist/telemetry/config.js,22,40,Source path process.env flows into sensitive operation
+@fission-ai/openspec,1.15.0,benign,pre-post-source-sink-execution,dist/telemetry/config.js,29,40,Source path process.env flows into sensitive operation
+@go-task/cli,3.54.0,benign,os-fingerprinting-exfiltration,lib.js,14,194,"Potential OS/environment/file data exfiltration. Source: fs.read ... ""utf8"") (lib.js:14) -> Sink: url"
+@go-task/cli,3.54.0,benign,pre-post-install-scripts,package.json,1,108,"Potentially malicious install script in postinstall: ""node install.js""."
+@hiero-ledger/sdk,2.90.1,benign,credential-harvest-exfil,,,,
+@infisical/sdk,5.0.2,benign,credential-harvest-exfil,,,,
+@infrawrench/sdk,1.82.0,benign,credential-harvest-exfil,,,,
+@inquirer/external-editor,3.0.6,benign,pre-post-source-sink-execution,dist/index.js,34,42,Source path process.env flows into sensitive operation
+@inquirer/external-editor,3.0.6,benign,pre-post-source-sink-execution,dist/index.js,35,42,Source path process.env flows into sensitive operation
+@insforge/sdk,1.5.2,benign,credential-harvest-exfil,,,,
+@latitude-data/sdk,9.15.0,benign,credential-harvest-exfil,,,,
+@lingui/cli,6.10.1,benign,os-fingerprinting-exfiltration,dist/services/translationIO/translationio-api.js,35,7,"Potential OS/environment/file data exfiltration. Source: readFil ... ""utf8"") (dist/services/translationIO.js:35) -> Sink: JSON.st ... equest)"
+@lmnr-ai/lmnr,0.8.51,benign,os-fingerprinting-exfiltration,dist/utils-Ch0R_9XE.mjs,600,802,"Potential OS/environment/file data exfiltration. Source: readFil ... utf-8"") (dist/index.mjs:600) -> Sink: `${this ... /cache`"
+@lmnr-ai/lmnr,0.8.51,benign,os-fingerprinting-exfiltration,dist/utils-Ch0R_9XE.mjs,600,809,"Potential OS/environment/file data exfiltration. Source: readFil ... utf-8"") (dist/index.mjs:600) -> Sink: JSON.st ... \n\t\t\t\t})"
+@lmnr-ai/lmnr,0.8.51,benign,os-fingerprinting-exfiltration,dist/utils-Cq24YsD_.cjs,607,807,"Potential OS/environment/file data exfiltration. Source: (0, nod ... utf-8"") (dist/index.cjs:607) -> Sink: `${this ... /cache`"
+@lmnr-ai/lmnr,0.8.51,benign,os-fingerprinting-exfiltration,dist/utils-Cq24YsD_.cjs,607,814,"Potential OS/environment/file data exfiltration. Source: (0, nod ... utf-8"") (dist/index.cjs:607) -> Sink: JSON.st ... \n\t\t\t\t})"
+@lobehub/market-sdk,0.45.0,benign,credential-harvest-exfil,,,,
+@messagebird/sdk,0.106.0,benign,credential-harvest-exfil,,,,
+@mintlify/cli,4.0.1728,benign,os-fingerprinting-exfiltration,src/deploy-github-actions.ts,112,31,Potential OS/environment/file data exfiltration. Source: process.env (src/deploy-github-actions.ts:112) -> Sink: `${requ ... ence)}`
+@mitralab.io/sdk-core,0.3.0,benign,credential-harvest-exfil,,,,
+@morphllm/morphsdk,0.2.198,benign,credential-harvest-exfil,,,,
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,dist/index.js,12198,12205,Source path process.env flows into sensitive operation
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,dist/index.js,12392,3909,Source path process.env flows into sensitive operation
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,dist/index.js,12392,3914,Source path process.env flows into sensitive operation
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,dist/index.js,16059,16062,Source path process.env flows into sensitive operation
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,dist/index.cjs,12224,12231,Source path process.env flows into sensitive operation
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,dist/index.cjs,12418,3935,Source path process.env flows into sensitive operation
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,dist/index.cjs,12418,3940,Source path process.env flows into sensitive operation
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,dist/index.cjs,16085,16088,Source path process.env flows into sensitive operation
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,dist/cli.js,12199,12206,Source path process.env flows into sensitive operation
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,dist/cli.js,12393,3910,Source path process.env flows into sensitive operation
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,dist/cli.js,12393,3915,Source path process.env flows into sensitive operation
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,dist/cli.js,16060,16063,Source path process.env flows into sensitive operation
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,src/api/build.ts,1704,1719,Source path process.env flows into sensitive operation
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,src/api/pre-publish.ts,1655,1663,Source path process.env flows into sensitive operation
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,src/utils/target.ts,2078,198,Source path process.env flows into sensitive operation
+@napi-rs/cli,3.10.9,benign,pre-post-source-sink-execution,src/utils/target.ts,2078,216,Source path process.env flows into sensitive operation
+@nestia/sdk,14.1.0,benign,pre-post-source-sink-execution,lib/executable/internal/NestiaConfigLoader.js,102,120,Source path process.env flows into sensitive operation
+@nestia/sdk,14.1.0,benign,pre-post-source-sink-execution,src/analyses/ConfigAnalyzer.ts,191,205,Source path process.env flows into sensitive operation
+@nestia/sdk,14.1.0,benign,pre-post-source-sink-execution,src/executable/internal/NestiaConfigLoader.ts,124,163,Source path process.env flows into sensitive operation
+@newpeak/barista-cli,0.2.295,benign,pre-post-install-scripts,package.json,1,83,"Potentially malicious install script in postinstall: ""node scripts/postinstall.js""."
+@oh-my-pi/pi-coding-agent,18.12.6,benign,os-fingerprinting-exfiltration,src/mcp/oauth-flow.ts,43,831,"Potential OS/environment/file data exfiltration. Source: await f ... utf-8"") (src/mcp/config-writer.ts:43) -> Sink: tokenUrl"
+@oh-my-pi/pi-coding-agent,18.12.6,benign,os-fingerprinting-exfiltration,src/mcp/transports/header-policy.ts,43,111,"Potential OS/environment/file data exfiltration. Source: await f ... utf-8"") (src/mcp/config-writer.ts:43) -> Sink: mergeMC ... ources)"
+@oh-my-pi/pi-coding-agent,18.12.6,benign,os-fingerprinting-exfiltration,src/mcp/transports/header-policy.ts,43,119,"Potential OS/environment/file data exfiltration. Source: await f ... utf-8"") (src/mcp/config-writer.ts:43) -> Sink: headers"
+@oh-my-pi/pi-coding-agent,18.12.6,benign,pre-post-source-sink-execution,src/discovery/agents.ts,86,60,Source path process.env flows into sensitive operation
+@oh-my-pi/pi-coding-agent,18.12.6,benign,pre-post-source-sink-execution,src/tools/browser/cmux/socket-client.ts,45,181,Source path process.env flows into sensitive operation
+@oh-my-pi/pi-coding-agent,18.12.6,benign,pre-post-source-sink-execution,src/tools/browser/cmux/socket-client.ts,170,181,Source path process.env flows into sensitive operation
+@oh-my-pi/pi-coding-agent,18.12.6,benign,pre-post-source-sink-execution,src/tools/browser/cmux/socket-client.ts,185,181,Source path process.env flows into sensitive operation
+@oh-my-pi/pi-coding-agent,18.12.6,benign,pre-post-source-sink-execution,src/tools/browser/registry.ts,45,347,Source path process.env flows into sensitive operation
+@oh-my-pi/pi-coding-agent,18.12.6,benign,pre-post-source-sink-execution,src/tools/browser/registry.ts,170,347,Source path process.env flows into sensitive operation
+@openrouter/sdk,1.5.7,benign,pre-post-install-scripts,package.json,1,102,"Potentially malicious install script in postinstall: ""node scripts/check-types.js || true""."
+@run402/sdk,4.130.1,benign,credential-harvest-exfil,,,,
+@run402/sdk,4.130.1,benign,os-fingerprinting-exfiltration,dist/node/actions-node.js,2885,2455,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/node/actions-node.js:2885) -> Sink: url"
+@run402/sdk,4.130.1,benign,os-fingerprinting-exfiltration,dist/node/archives-node.js,138,81,"Potential OS/environment/file data exfiltration. Source: await r ... ""utf8"") (dist/node/archives-node.js:138) -> Sink: JSON.st ...      })"
+@run402/sdk,4.130.1,benign,os-fingerprinting-exfiltration,dist/node/tempo.js,64,51,"Potential OS/environment/file data exfiltration. Source: readFil ... utf-8"") (core-dist/wallet.js:64) -> Sink: JSON.st ... d: 1 })"
+@run402/sdk,4.130.1,benign,os-fingerprinting-exfiltration,dist/node/vault-mirror-backend.js,147,187,"Potential OS/environment/file data exfiltration. Source: readFil ... ""utf8"") (dist/node/vault-keystore.js:147) -> Sink: url"
+@run402/sdk,4.130.1,benign,pre-post-source-sink-execution,core-dist/wallet.js,100,50,Source path process.env flows into sensitive operation
+@run402/sdk,4.130.1,benign,pre-post-source-sink-execution,core-dist/wallet.js,106,50,Source path process.env flows into sensitive operation
+@run402/sdk,4.130.1,benign,pre-post-source-sink-execution,core-dist/wallet.js,288,50,Source path process.env flows into sensitive operation
+@salesforce/b2c-tooling-sdk,2.8.3,benign,os-fingerprinting-exfiltration,dist/esm/docs/search.js,194,413,Potential OS/environment/file data exfiltration. Source: fs.read ... utf-8') (dist/esm/docs/search.js:194) -> Sink: fetchUrl
+@se-studio/contentful-rest-api,2.0.7,benign,os-fingerprinting-exfiltration,dist/converters/heroVideoEnricher.js,1,32,Potential OS/environment/file data exfiltration. Source: process.env (dist/converters/heroVideoEnv.js:1) -> Sink: url
+@se-studio/contentful-rest-api,2.0.7,benign,os-fingerprinting-exfiltration,dist/converters/heroVideoEnricher.js,1,43,Potential OS/environment/file data exfiltration. Source: process.env (dist/converters/heroVideoEnv.js:1) -> Sink: `${env. ... -video`
+@se-studio/contentful-rest-api,2.0.7,benign,os-fingerprinting-exfiltration,dist/converters/heroVideoEnricher.js,1,49,Potential OS/environment/file data exfiltration. Source: process.env (dist/converters/heroVideoEnv.js:1) -> Sink: JSON.stringify(body)
+@tencent-ai/workbuddy-cloud-sdk,0.1.4,benign,credential-harvest-exfil,,,,
+@typespec/compiler,1.17.0,benign,pre-post-source-sink-execution,dist/src/core/cli/utils.js,68,103,Source path process.env flows into sensitive operation
+@volter/world-core,3.0.156,benign,computed-property-access,dist/src/world-store.js,69,69,Potential obfuscated access to sensitive 'process' object..
+@volter/world-core,3.0.156,benign,computed-property-access,dist/src/world-store.js,118,118,Potential obfuscated access to sensitive 'process' object..
+@volter/world-core,3.0.156,benign,os-fingerprinting-exfiltration,inject.cjs,22,316,Potential OS/environment/file data exfiltration. Source: fs.read ... 'utf8') (pack-facts.cjs:22) -> Sink: `${origin}${door}`
+@volter/world-core,3.0.156,benign,os-fingerprinting-exfiltration,inject.cjs,1514,316,Potential OS/environment/file data exfiltration. Source: process.env (inject.cjs:1514) -> Sink: `${origin}${door}`
+@volter/world-core,3.0.156,benign,os-fingerprinting-exfiltration,dist/inject.cjs,22,316,Potential OS/environment/file data exfiltration. Source: fs.read ... 'utf8') (dist/pack-facts.cjs:22) -> Sink: `${origin}${door}`
+@volter/world-core,3.0.156,benign,os-fingerprinting-exfiltration,dist/inject.cjs,1514,316,Potential OS/environment/file data exfiltration. Source: process.env (dist/inject.cjs:1514) -> Sink: `${origin}${door}`
+@volter/world-core,3.0.156,benign,os-fingerprinting-exfiltration,dist/src/vendor-call.js,25,62,Potential OS/environment/file data exfiltration. Source: process.env (dist/src/vendor-call.js:25) -> Sink: `${twin ... earch}`
+@volter/world-core,3.0.156,benign,os-fingerprinting-exfiltration,dist/src/vendor-call.js,31,62,Potential OS/environment/file data exfiltration. Source: await r ... 'utf8') (dist/src/vendor-call.js:31) -> Sink: `${twin ... earch}`
+@volter/world-core,3.0.156,benign,os-fingerprinting-exfiltration,src/vendor-call.ts,32,68,Potential OS/environment/file data exfiltration. Source: process.env (src/vendor-call.ts:32) -> Sink: `${twin ... earch}`
+@volter/world-core,3.0.156,benign,os-fingerprinting-exfiltration,src/vendor-call.ts,38,68,Potential OS/environment/file data exfiltration. Source: await r ... 'utf8') (src/vendor-call.ts:38) -> Sink: `${twin ... earch}`
+@volter/world-core,3.0.156,benign,pre-post-source-sink-execution,world-clock.cjs,28,16,Source path process.env flows into sensitive operation
+@volter/world-core,3.0.156,benign,pre-post-source-sink-execution,dist/world-clock.cjs,25,16,Source path process.env flows into sensitive operation
+@workos/oagen,0.31.0,benign,pre-post-source-sink-execution,dist/scripts/smoke/baseline.mjs,5607,1299,Source path process.env flows into sensitive operation
+@workos/oagen,0.31.0,benign,pre-post-source-sink-execution,dist/scripts/smoke/baseline.mjs,5607,3420,Source path process.env flows into sensitive operation
+@workos/oagen,0.31.0,benign,pre-post-source-sink-execution,dist/scripts/smoke/baseline.mjs,5607,3441,Source path process.env flows into sensitive operation
+@workos/oagen,0.31.0,benign,pre-post-source-sink-execution,dist/scripts/smoke/baseline.mjs,5607,3468,Source path process.env flows into sensitive operation
+@workos/oagen,0.31.0,benign,pre-post-source-sink-execution,dist/scripts/smoke/baseline.mjs,5607,4021,Source path process.env flows into sensitive operation
+@workos/oagen,0.31.0,benign,pre-post-source-sink-execution,dist/scripts/smoke/baseline.mjs,5607,4053,Source path process.env flows into sensitive operation
+@workos/oagen,0.31.0,benign,pre-post-source-sink-execution,dist/scripts/smoke/baseline.mjs,5607,4058,Source path process.env flows into sensitive operation
+@workos/oagen,0.31.0,benign,pre-post-source-sink-execution,dist/scripts/smoke/baseline.mjs,5607,4076,Source path process.env flows into sensitive operation
+@xdevplatform/xdk,0.6.6,benign,credential-harvest-exfil,,,,
+@zapier/zapier-sdk,1.1.0,benign,credential-harvest-exfil,,,,
+@zapier/zapier-sdk,1.1.0,benign,os-fingerprinting-exfiltration,dist/index.mjs,4684,4603,Potential OS/environment/file data exfiltration. Source: os.platform() (dist/index.mjs:4684) -> Sink: JSON.st ... ayload)
+@zapier/zapier-sdk,1.1.0,benign,os-fingerprinting-exfiltration,dist/index.mjs,4685,4603,Potential OS/environment/file data exfiltration. Source: os.release() (dist/index.mjs:4685) -> Sink: JSON.st ... ayload)
+@zapier/zapier-sdk,1.1.0,benign,os-fingerprinting-exfiltration,dist/index.mjs,4686,4603,Potential OS/environment/file data exfiltration. Source: os.arch() (dist/index.mjs:4686) -> Sink: JSON.st ... ayload)
+@zapier/zapier-sdk,1.1.0,benign,os-fingerprinting-exfiltration,dist/plugins/eventEmission/transport.js,30,32,Potential OS/environment/file data exfiltration. Source: os.platform() (dist/plugins/eventEmission/utils.js:30) -> Sink: JSON.st ... ayload)
+@zapier/zapier-sdk,1.1.0,benign,os-fingerprinting-exfiltration,dist/plugins/eventEmission/transport.js,31,32,Potential OS/environment/file data exfiltration. Source: os.release() (dist/plugins/eventEmission/utils.js:31) -> Sink: JSON.st ... ayload)
+@zapier/zapier-sdk,1.1.0,benign,os-fingerprinting-exfiltration,dist/plugins/eventEmission/transport.js,32,32,Potential OS/environment/file data exfiltration. Source: os.arch() (dist/plugins/eventEmission/utils.js:32) -> Sink: JSON.st ... ayload)
+@zoom/videosdk-ui-toolkit,2.6.0-1,benign,credential-harvest-exfil,,,,
+agent-browser,0.39.2,benign,os-fingerprinting-exfiltration,scripts/postinstall.js,35,59,Potential OS/environment/file data exfiltration. Source: platform() (scripts/postinstall.js:35) -> Sink: url
+agent-browser,0.39.2,benign,os-fingerprinting-exfiltration,scripts/postinstall.js,38,59,Potential OS/environment/file data exfiltration. Source: arch() (scripts/postinstall.js:38) -> Sink: url
+agent-browser,0.39.2,benign,os-fingerprinting-exfiltration,scripts/postinstall.js,46,59,Potential OS/environment/file data exfiltration. Source: (await  ... 'utf8') (scripts/postinstall.js:46) -> Sink: url
+agent-browser,0.39.2,benign,pre-post-install-scripts,package.json,1,54,"Potentially malicious install script in postinstall: ""node scripts/postinstall.js""."
+agent-browser,0.39.2,benign,pre-post-source-sink-execution,scripts/postinstall.js,27,27,Source path 'ldd -- ... | true' flows into sensitive operation
+agent-browser,0.39.2,benign,pre-post-source-sink-execution,scripts/postinstall.js,177,180,Source path 'chromium' flows into sensitive operation
+agent-browser,0.39.2,benign,pre-post-source-sink-execution,scripts/postinstall.js,178,180,Source path names flows into sensitive operation
+agent-browser,0.39.2,benign,pre-post-source-sink-execution,scripts/postinstall.js,180,180,Source path  2>/dev/null flows into sensitive operation
+agent-browser,0.39.2,benign,pre-post-source-sink-execution,scripts/postinstall.js,243,243,Source path 'npm prefix -g' flows into sensitive operation
+agent-browser,0.39.2,benign,pre-post-source-sink-execution,scripts/postinstall.js,281,281,Source path 'npm prefix -g' flows into sensitive operation
+agent-trajectories,0.7.0,benign,pre-post-source-sink-execution,dist/cli/index.js,600,3327,Source path process.env flows into sensitive operation
+agent-trajectories,0.7.0,benign,pre-post-source-sink-execution,dist/cli/index.js,600,4536,Source path process.env flows into sensitive operation
+agent-trajectories,0.7.0,benign,pre-post-source-sink-execution,dist/cli/index.js,638,3327,Source path process.env flows into sensitive operation
+agent-trajectories,0.7.0,benign,pre-post-source-sink-execution,dist/cli/index.js,638,4536,Source path process.env flows into sensitive operation
+agent-trajectories,0.7.0,benign,pre-post-source-sink-execution,dist/cli/index.js,4513,4536,Source path process.env flows into sensitive operation
+agent-trajectories,0.7.0,benign,pre-post-source-sink-execution,dist/chunk-BFCR6PHT.js,1681,1742,Source path process.env flows into sensitive operation
+attio-ts-sdk,2.3.3,benign,credential-harvest-exfil,,,,
+backport,12.1.2,benign,pre-post-install-scripts,package.json,1,123,"Potentially malicious install script in postinstall: ""test -f ./dist/src/scripts/run-postinstall.js && node ./dist/src/scripts/run-postinstall.js || echo 'Dist folder missing'""."
+box-node-sdk,10.18.0,benign,credential-harvest-exfil,,,,
+browser-use-sdk,3.12.1,benign,os-fingerprinting-exfiltration,dist/v3.cjs,278,282,Potential OS/environment/file data exfiltration. Source: reflective call (dist/v3.cjs:278) -> Sink: body
+browser-use-sdk,3.12.1,benign,os-fingerprinting-exfiltration,dist/v3.js,278,282,Potential OS/environment/file data exfiltration. Source: readFil ... ths[i]) (dist/v3.js:278) -> Sink: body
+browser-use-sdk,3.12.1,benign,os-fingerprinting-exfiltration,dist/v4.cjs,446,455,Potential OS/environment/file data exfiltration. Source: await _ ... ths[i]) (dist/v4.cjs:446) -> Sink: buffer
+browser-use-sdk,3.12.1,benign,os-fingerprinting-exfiltration,dist/v4.js,446,455,Potential OS/environment/file data exfiltration. Source: await r ... ths[i]) (dist/v4.js:446) -> Sink: buffer
+chokidar-cli,3.0.0,benign,pre-post-source-sink-execution,utils.js,8,34,Source path process.env flows into sensitive operation
+cloudflared,0.7.3,benign,pre-post-install-scripts,package.json,1,60,"Potentially malicious install script in postinstall: ""node scripts/postinstall.mjs && node lib/cloudflared.js bin install""."
+codeowners-audit,2.9.0,benign,os-fingerprinting-exfiltration,lib/upload.js,16,35,Potential OS/environment/file data exfiltration. Source: readFil ... 'utf8') (lib/upload.js:16) -> Sink: payload
+configure,1.7.4,benign,credential-harvest-exfil,,,,
+configure,1.7.4,benign,os-fingerprinting-exfiltration,dist/index.mjs,394,285,Potential OS/environment/file data exfiltration. Source: process.env (template/server.mjs:394) -> Sink: `${base ... ntId)}`
+configure,1.7.4,benign,os-fingerprinting-exfiltration,dist/index.mjs,394,288,Potential OS/environment/file data exfiltration. Source: process.env (template/server.mjs:394) -> Sink: JSON.st ... Uri] })
+deepline,0.3.419,benign,credential-harvest-exfil,,,,
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/bundling-sources/shared_libs/play-runtime/runner-app/runtime-heartbeat.ts,4049,167,Potential OS/environment/file data exfiltration. Source: await r ... igPath) (dist/bundling-sources/shared_libs/play-runtime/runner-app/index.ts:4049) -> Sink: url
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/bundling-sources/shared_libs/play-runtime/runner-app/runtime-heartbeat.ts,4049,177,Potential OS/environment/file data exfiltration. Source: await r ... igPath) (dist/bundling-sources/shared_libs/play-runtime/runner-app/index.ts:4049) -> Sink: JSON.st ...      })
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/bundling-sources/shared_libs/play-runtime/runner-app/runtime-terminal-push.ts,4049,714,Potential OS/environment/file data exfiltration. Source: await r ... igPath) (dist/bundling-sources/shared_libs/play-runtime/runner-app/index.ts:4049) -> Sink: url
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/bundling-sources/shared_libs/play-runtime/runner-app/runtime-terminal-push.ts,4049,721,Potential OS/environment/file data exfiltration. Source: await r ... igPath) (dist/bundling-sources/shared_libs/play-runtime/runner-app/index.ts:4049) -> Sink: requestBody
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/bundling-sources/shared_libs/play-runtime/scheduler-backends/postgres.ts,26,23823,Potential OS/environment/file data exfiltration. Source: process.env (dist/bundling-sources/shared_libs/play-runtime/scheduler-backends/absurd-queue-suffix.ts:26) -> Sink: JSON.st ... \n    })
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/bundling-sources/shared_libs/play-runtime/scheduler-backends/postgres.ts,182,23823,Potential OS/environment/file data exfiltration. Source: process.env (dist/bundling-sources/shared_libs/play-runtime/scheduler-backends/absurd-shared.ts:182) -> Sink: JSON.st ... \n    })
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/bundling-sources/shared_libs/play-runtime/scheduler-backends/postgres.ts,8334,23823,Potential OS/environment/file data exfiltration. Source: process.env (dist/bundling-sources/shared_libs/play-runtime/scheduler-backends/absurd-runtime-worker.ts:8334) -> Sink: JSON.st ... \n    })
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/bundling-sources/shared_libs/play-runtime/scheduler-backends/postgres.ts,8399,23823,Potential OS/environment/file data exfiltration. Source: hostname() (dist/bundling-sources/shared_libs/play-runtime/scheduler-backends/absurd-runtime-worker.ts:8399) -> Sink: JSON.st ... \n    })
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-2ADW356Z.mjs,132,75,"Potential OS/environment/file data exfiltration. Source: readFil ... ""utf8"") (dist/cli/chunk-6LLEMZL5.mjs:132) -> Sink: JSON.st ...      })"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-2ADW356Z.mjs,605,75,"Potential OS/environment/file data exfiltration. Source: readFil ... ""utf8"") (dist/cli/chunk-BQIUAAPX.mjs:605) -> Sink: JSON.st ...      })"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-2MQXRENZ.js,132,75,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/chunk-NPXUFHMI.js:132) -> Sink: JSON.st ...      })
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-2MQXRENZ.js,605,75,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/chunk-D4P53G7A.js:605) -> Sink: JSON.st ...      })
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-6LLEMZL5.mjs,749,1598,"Potential OS/environment/file data exfiltration. Source: readFil ... utf-8"") (dist/cli/chunk-KABBXKFO.mjs:749) -> Sink: JSON.st ...      })"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-6LLEMZL5.mjs,784,1598,"Potential OS/environment/file data exfiltration. Source: readFil ... utf-8"") (dist/cli/chunk-KABBXKFO.mjs:784) -> Sink: JSON.st ...      })"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-6LLEMZL5.mjs,821,1598,"Potential OS/environment/file data exfiltration. Source: readFil ... utf-8"") (dist/cli/chunk-KABBXKFO.mjs:821) -> Sink: JSON.st ...      })"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-6LLEMZL5.mjs,830,1598,"Potential OS/environment/file data exfiltration. Source: readFil ... utf-8"") (dist/cli/chunk-KABBXKFO.mjs:830) -> Sink: JSON.st ...      })"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-6LLEMZL5.mjs,838,1598,"Potential OS/environment/file data exfiltration. Source: readFil ... utf-8"") (dist/cli/chunk-KABBXKFO.mjs:838) -> Sink: JSON.st ...      })"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-KABBXKFO.mjs,48,1174,"Potential OS/environment/file data exfiltration. Source: readFil ... ""utf8"") (dist/cli/feedback-WCPPBNAK.mjs:48) -> Sink: requestBody"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-KABBXKFO.mjs,98,1174,"Potential OS/environment/file data exfiltration. Source: readFil ... utf-8"") (dist/cli/chunk-KABBXKFO.mjs:98) -> Sink: requestBody"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-KABBXKFO.mjs,195,1174,"Potential OS/environment/file data exfiltration. Source: await r ... ""utf8"") (dist/cli/secrets-T4DP2OUW.mjs:195) -> Sink: requestBody"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-KABBXKFO.mjs,509,1174,Potential OS/environment/file data exfiltration. Source: readFil ... coding) (dist/cli/settings-RGXD3IYO.mjs:509) -> Sink: requestBody
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-KABBXKFO.mjs,515,1174,Potential OS/environment/file data exfiltration. Source: readFil ... lePath) (dist/cli/chunk-LB7PZRYJ.mjs:515) -> Sink: requestBody
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-KABBXKFO.mjs,767,1174,Potential OS/environment/file data exfiltration. Source: readFil ...       ) (dist/cli/org-UBJ2J7I3.mjs:767) -> Sink: requestBody
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-KABBXKFO.mjs,806,1174,"Potential OS/environment/file data exfiltration. Source: readFil ... ""utf8"") (dist/cli/org-UBJ2J7I3.mjs:806) -> Sink: requestBody"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-KABBXKFO.mjs,808,1174,"Potential OS/environment/file data exfiltration. Source: readFil ... ""utf8"") (dist/cli/chunk-OVMJ57X5.mjs:808) -> Sink: requestBody"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-KABBXKFO.mjs,1664,1174,"Potential OS/environment/file data exfiltration. Source: await r ... ""utf8"") (dist/cli/workflow-DBIMUE7K.mjs:1664) -> Sink: requestBody"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-KABBXKFO.mjs,2009,1174,"Potential OS/environment/file data exfiltration. Source: readFil ... ""utf8"") (dist/cli/chunk-OVMJ57X5.mjs:2009) -> Sink: requestBody"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-NPXUFHMI.js,749,1598,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/chunk-VZSBJVI4.js:749) -> Sink: JSON.st ...      })
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-NPXUFHMI.js,784,1598,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/chunk-VZSBJVI4.js:784) -> Sink: JSON.st ...      })
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-NPXUFHMI.js,821,1598,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/chunk-VZSBJVI4.js:821) -> Sink: JSON.st ...      })
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-NPXUFHMI.js,830,1598,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/chunk-VZSBJVI4.js:830) -> Sink: JSON.st ...      })
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-NPXUFHMI.js,838,1598,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/chunk-VZSBJVI4.js:838) -> Sink: JSON.st ...      })
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-VZSBJVI4.js,48,1174,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/feedback-QW2H7PZ7.js:48) -> Sink: requestBody
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-VZSBJVI4.js,98,1174,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/chunk-VZSBJVI4.js:98) -> Sink: requestBody
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-VZSBJVI4.js,195,1174,"Potential OS/environment/file data exfiltration. Source: await _ ... ""utf8"") (dist/cli/secrets-X4SI4ODH.js:195) -> Sink: requestBody"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-VZSBJVI4.js,509,1174,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/settings-IWEDBHC4.js:509) -> Sink: requestBody
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-VZSBJVI4.js,515,1174,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/chunk-NJI4U7IR.js:515) -> Sink: requestBody
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-VZSBJVI4.js,767,1174,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/org-4JCEJFF4.js:767) -> Sink: requestBody
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-VZSBJVI4.js,806,1174,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/org-4JCEJFF4.js:806) -> Sink: requestBody
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-VZSBJVI4.js,808,1174,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/chunk-LA7V3VIF.js:808) -> Sink: requestBody
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-VZSBJVI4.js,1664,1174,"Potential OS/environment/file data exfiltration. Source: await _ ... ""utf8"") (dist/cli/workflow-LDRMZBCK.js:1664) -> Sink: requestBody"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-VZSBJVI4.js,2009,1174,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/chunk-LA7V3VIF.js:2009) -> Sink: requestBody
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-WPJBDOVV.js,98,236,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/chunk-VZSBJVI4.js:98) -> Sink: body != ...  void 0
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-WPJBDOVV.js,115,236,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/chunk-WPJBDOVV.js:115) -> Sink: body != ...  void 0
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-WPJBDOVV.js,129,236,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/chunk-WPJBDOVV.js:129) -> Sink: body != ...  void 0
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-WPJBDOVV.js,381,236,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/setup-PQHKVOYA.js:381) -> Sink: body != ...  void 0
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-WPJBDOVV.js,385,236,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/chunk-WPJBDOVV.js:385) -> Sink: body != ...  void 0
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-ZCINJS4P.mjs,98,236,"Potential OS/environment/file data exfiltration. Source: readFil ... utf-8"") (dist/cli/chunk-KABBXKFO.mjs:98) -> Sink: body != ...  void 0"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-ZCINJS4P.mjs,115,236,Potential OS/environment/file data exfiltration. Source: readFil ...       ) (dist/cli/chunk-ZCINJS4P.mjs:115) -> Sink: body != ...  void 0
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-ZCINJS4P.mjs,129,236,"Potential OS/environment/file data exfiltration. Source: readFil ... utf-8"") (dist/cli/chunk-ZCINJS4P.mjs:129) -> Sink: body != ...  void 0"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-ZCINJS4P.mjs,381,236,"Potential OS/environment/file data exfiltration. Source: readFil ... ""utf8"") (dist/cli/setup-N6UOP274.mjs:381) -> Sink: body != ...  void 0"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/chunk-ZCINJS4P.mjs,385,236,Potential OS/environment/file data exfiltration. Source: hostname() (dist/cli/chunk-ZCINJS4P.mjs:385) -> Sink: body != ...  void 0
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/csv-JKBKQMJS.mjs,232,266,"Potential OS/environment/file data exfiltration. Source: readFil ... ""utf8"") (dist/cli/csv-JKBKQMJS.mjs:232) -> Sink: `${url}/health`"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/csv-JKBKQMJS.mjs,232,293,"Potential OS/environment/file data exfiltration. Source: readFil ... ""utf8"") (dist/cli/csv-JKBKQMJS.mjs:232) -> Sink: `${url}/health`"
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/csv-SILKSRLY.js,232,266,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/csv-SILKSRLY.js:232) -> Sink: `${url}/health`
+deepline,0.3.419,benign,os-fingerprinting-exfiltration,dist/cli/csv-SILKSRLY.js,232,293,Potential OS/environment/file data exfiltration. Source: reflective call (dist/cli/csv-SILKSRLY.js:232) -> Sink: `${url}/health`
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/bundling-sources/sdk/src/config.ts,305,300,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/bundling-sources/sdk/src/config.ts,325,300,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-2ADW356Z.mjs,529,102,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-6LLEMZL5.mjs,564,1691,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-6LLEMZL5.mjs,564,1738,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-6LLEMZL5.mjs,564,1847,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-BQIUAAPX.mjs,529,504,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-BQIUAAPX.mjs,564,504,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-BQIUAAPX.mjs,564,820,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-BQIUAAPX.mjs,714,504,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-BQIUAAPX.mjs,816,820,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-BQIUAAPX.mjs,874,820,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-BQIUAAPX.mjs,890,820,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-BQIUAAPX.mjs,901,820,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-BQIUAAPX.mjs,980,820,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-EPMYNLKZ.mjs,151,887,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-EPMYNLKZ.mjs,155,887,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-EPMYNLKZ.mjs,185,887,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-EPMYNLKZ.mjs,344,887,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-EPMYNLKZ.mjs,608,887,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-EPMYNLKZ.mjs,608,893,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-JUBHX5FK.js,344,887,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-JUBHX5FK.js,608,887,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-JUBHX5FK.js,608,893,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-KABBXKFO.mjs,155,151,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-KABBXKFO.mjs,171,151,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-LIZP3TPY.mjs,529,17,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-LIZP3TPY.mjs,537,17,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-LIZP3TPY.mjs,564,17,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-PGHT4ESO.mjs,155,186,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-PGHT4ESO.mjs,183,186,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-PGHT4ESO.mjs,185,186,Source path process.env flows into sensitive operation
+deepline,0.3.419,benign,pre-post-source-sink-execution,dist/cli/chunk-PGHT4ESO.mjs,564,186,Source path process.env flows into sensitive operation
+eas-cli,25.3.0,benign,credential-harvest-exfil,,,,
+eas-cli,25.3.0,benign,pre-post-source-sink-execution,build/simulator/egress.js,30,253,Source path process.env flows into sensitive operation
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,18,270,"Potential OS/environment/file data exfiltration. Source: fs.read ... ""utf8"") (lib/appdistribution/options-parser-util.js:18) -> Sink: JSON.st ... s.body)"
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,20,322,"Potential OS/environment/file data exfiltration. Source: fs.read ... ""utf8"") (lib/emulator/hub.js:20) -> Sink: fetchURL"
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,22,259,"Potential OS/environment/file data exfiltration. Source: fs.read ... ""utf8"") (lib/commands/database-rules-stage.js:22) -> Sink: options.body"
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,22,265,"Potential OS/environment/file data exfiltration. Source: fs.read ... ""utf8"") (lib/commands/database-rules-stage.js:22) -> Sink: options.body"
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,22,270,"Potential OS/environment/file data exfiltration. Source: fs.read ... ""utf8"") (lib/commands/database-rules-stage.js:22) -> Sink: JSON.st ... s.body)"
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,50,270,Potential OS/environment/file data exfiltration. Source: os.hostname() (lib/commands/appcheck-debugtokens-create.js:50) -> Sink: JSON.st ... s.body)
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,62,270,"Potential OS/environment/file data exfiltration. Source: await ( ... utf-8"") (lib/commands/dataconnect-execute.js:62) -> Sink: JSON.st ... s.body)"
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,124,270,"Potential OS/environment/file data exfiltration. Source: fs.read ... ""utf8"") (lib/appcheck/providers.js:124) -> Sink: JSON.st ... s.body)"
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,128,259,"Potential OS/environment/file data exfiltration. Source: fs.read ... ""utf8"") (lib/emulator/databaseEmulator.js:128) -> Sink: options.body"
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,128,265,"Potential OS/environment/file data exfiltration. Source: fs.read ... ""utf8"") (lib/emulator/databaseEmulator.js:128) -> Sink: options.body"
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,128,270,"Potential OS/environment/file data exfiltration. Source: fs.read ... ""utf8"") (lib/emulator/databaseEmulator.js:128) -> Sink: JSON.st ... s.body)"
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,130,322,"Potential OS/environment/file data exfiltration. Source: fs.read ... ""utf8"") (lib/init/features/hosting/github.js:130) -> Sink: fetchURL"
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,145,270,"Potential OS/environment/file data exfiltration. Source: await f ... ""utf8"") (lib/firebase_studio/migrate.js:145) -> Sink: JSON.st ... s.body)"
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,145,322,"Potential OS/environment/file data exfiltration. Source: await f ... ""utf8"") (lib/firebase_studio/migrate.js:145) -> Sink: fetchURL"
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,158,270,"Potential OS/environment/file data exfiltration. Source: await f ... ""utf8"") (lib/firebase_studio/migrate.js:158) -> Sink: JSON.st ... s.body)"
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,158,322,"Potential OS/environment/file data exfiltration. Source: await f ... ""utf8"") (lib/firebase_studio/migrate.js:158) -> Sink: fetchURL"
+firebase-tools,15.34.1,benign,os-fingerprinting-exfiltration,lib/apiv2.js,227,270,"Potential OS/environment/file data exfiltration. Source: await ( ... utf-8"") (lib/commands/dataconnect-execute.js:227) -> Sink: JSON.st ... s.body)"
+fx-runner,1.7.0,benign,pre-post-source-sink-execution,lib/run.js,88,29,Source path process.env flows into sensitive operation
+gt,2.26.10,benign,computed-property-access,dist/console/logger.js,135,135,Potential obfuscated access to sensitive 'process' object..
+hammerkit,1.26.0,benign,pre-post-source-sink-execution,dist/server/run-worker.js,6,150,Source path process.env flows into sensitive operation
+hammerkit,1.26.0,benign,pre-post-source-sink-execution,dist/server/run-worker.js,21,150,Source path process.env flows into sensitive operation
+hammerkit,1.26.0,benign,pre-post-source-sink-execution,dist/server/run-worker.js,24,150,Source path process.env flows into sensitive operation
+hammerkit,1.26.0,benign,pre-post-source-sink-execution,dist/server/run-worker.js,27,150,Source path process.env flows into sensitive operation
+hammerkit,1.26.0,benign,pre-post-source-sink-execution,dist/server/run-worker.js,30,150,Source path process.env flows into sensitive operation
+hammerkit,1.26.0,benign,pre-post-source-sink-execution,dist/utils/units.js,6,19,Source path process.env flows into sensitive operation
+hammerkit,1.26.0,benign,pre-post-source-sink-execution,dist/utils/units.js,27,19,Source path process.env flows into sensitive operation
+html-minifier-terser,7.2.0,benign,credential-harvest-exfil,,,,
+hugo-extended,0.168.0,benign,os-fingerprinting-exfiltration,dist/lib/install.mjs,60,59,"Potential OS/environment/file data exfiltration. Source: fs.read ... ""utf8"") (dist/lib/utils.mjs:60) -> Sink: url"
+hugo-extended,0.168.0,benign,os-fingerprinting-exfiltration,dist/lib/install.mjs,60,109,"Potential OS/environment/file data exfiltration. Source: fs.read ... ""utf8"") (dist/lib/utils.mjs:60) -> Sink: checksumUrl"
+hugo-extended,0.168.0,benign,pre-post-install-scripts,package.json,1,97,"Potentially malicious install script in postinstall: ""node postinstall.js""."
+hugo-extended,0.168.0,benign,pre-post-source-sink-execution,dist/hugo.mjs,37,91,Source path process.env flows into sensitive operation
+hugo-extended,0.168.0,benign,pre-post-source-sink-execution,dist/hugo.mjs,37,142,Source path process.env flows into sensitive operation
+hugo-extended,0.168.0,benign,pre-post-source-sink-execution,dist/lib/install.mjs,37,83,Source path process.env flows into sensitive operation
+iii-sdk,0.25.0,benign,pre-post-source-sink-execution,dist/index.cjs,2018,740,Source path process.env flows into sensitive operation
+iii-sdk,0.25.0,benign,pre-post-source-sink-execution,dist/index.cjs,2030,740,Source path process.env flows into sensitive operation
+iii-sdk,0.25.0,benign,pre-post-source-sink-execution,dist/index.mjs,2014,736,Source path process.env flows into sensitive operation
+iii-sdk,0.25.0,benign,pre-post-source-sink-execution,dist/index.mjs,2026,736,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/concurrent.js,4,12,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/concurrent.js,4,17,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/concurrent.js,4,22,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/concurrent.js,4,27,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/concurrent.js,4,32,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/concurrent.js,4,38,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/file_task.js,19,43,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/file_task.js,19,46,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/file_task.js,19,54,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/file_task.js,19,65,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/file_task.js,19,67,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/file_task.js,19,80,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/file_task.js,19,83,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/file_task.js,19,94,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/file_task.js,19,98,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/file_task.js,19,109,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/file_task.js,19,113,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/file_task.js,19,119,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/file_task.js,19,133,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/file_task.js,19,135,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/publish_task.js,5,13,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/publish_task.js,5,29,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/publish_task.js,5,43,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/publish_task.js,5,59,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/publish_task.js,5,67,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/publish_task.js,5,73,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/publish_task.js,5,83,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/rule.js,19,78,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/rule.js,19,92,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/rule.js,19,107,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/rule.js,19,122,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/rule.js,19,139,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/rule.js,19,163,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/rule.js,19,174,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/rule.js,19,186,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/rule.js,19,203,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/selfdep.js,4,24,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/selfdep.js,4,33,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,14,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,16,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,21,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,26,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,30,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,37,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,45,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,53,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,64,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,69,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,74,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,79,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,84,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,89,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,94,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,99,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,104,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,110,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,118,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,124,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,130,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,138,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,143,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,148,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,153,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,158,Source path process.env flows into sensitive operation
+jake,13.0.3,benign,pre-post-source-sink-execution,test/integration/task_base.js,5,163,Source path process.env flows into sensitive operation
+logkitty,0.7.1,benign,pre-post-source-sink-execution,build/android/adb.js,29,40,Source path process.env flows into sensitive operation
+mastra,1.35.0,benign,credential-harvest-exfil,,,,
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,35,5246,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/credentials-C-Kp-Gxe.js:35) -> Sink: { ...op ... aders }"
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,35,5253,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/credentials-C-Kp-Gxe.js:35) -> Sink: {\n\t\t\t\t"" ... rs\n\t\t\t}"
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,3164,5246,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/index.js:3164) -> Sink: { ...op ... aders }"
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,3164,5253,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/index.js:3164) -> Sink: {\n\t\t\t\t"" ... rs\n\t\t\t}"
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,3164,15586,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/index.js:3164) -> Sink: `${getA ... nments`"
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,3164,15617,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/index.js:3164) -> Sink: `${getA ... nments`"
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,3164,17613,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/index.js:3164) -> Sink: `${apiU ... orkers`"
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,3164,17639,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/index.js:3164) -> Sink: `${apiU ... deploy`"
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,3164,17651,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/index.js:3164) -> Sink: `${apiU ... mplete`"
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,3164,17670,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/index.js:3164) -> Sink: url"
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,3164,17732,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/index.js:3164) -> Sink: url"
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,3282,17642,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/index.js:3282) -> Sink: JSON.st ... teBody)"
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,3306,17642,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/index.js:3306) -> Sink: JSON.st ... teBody)"
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,3582,2836,Potential OS/environment/file data exfiltration. Source: await r ... ipPath) (dist/index.js:3582) -> Sink: artifac ... Length)
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,3582,2837,Potential OS/environment/file data exfiltration. Source: await r ... ipPath) (dist/index.js:3582) -> Sink: new Uin ... Length)
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,18105,2836,Potential OS/environment/file data exfiltration. Source: await r ... ipPath) (dist/index.js:18105) -> Sink: artifac ... Length)
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,18105,2837,Potential OS/environment/file data exfiltration. Source: await r ... ipPath) (dist/index.js:18105) -> Sink: new Uin ... Length)
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,18105,17642,Potential OS/environment/file data exfiltration. Source: await r ... ipPath) (dist/index.js:18105) -> Sink: JSON.st ... teBody)
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,18603,2836,Potential OS/environment/file data exfiltration. Source: await r ... ipPath) (dist/index.js:18603) -> Sink: artifac ... Length)
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/index.js,18603,2837,Potential OS/environment/file data exfiltration. Source: await r ... ipPath) (dist/index.js:18603) -> Sink: new Uin ... Length)
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/client-BBiHf0j_.js,3164,72,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/index.js:3164) -> Sink: input"
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/client-BBiHf0j_.js,3164,100,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/index.js:3164) -> Sink: input"
+mastra,1.35.0,benign,os-fingerprinting-exfiltration,dist/credentials-C-Kp-Gxe.js,35,98,"Potential OS/environment/file data exfiltration. Source: await r ... utf-8"") (dist/credentials-C-Kp-Gxe.js:35) -> Sink: JSON.st ... oken })"
+mastra,1.35.0,benign,pre-post-source-sink-execution,dist/index.js,298,16526,Source path process.env flows into sensitive operation
+mastra,1.35.0,benign,pre-post-source-sink-execution,dist/index.js,298,16617,Source path process.env flows into sensitive operation
+mastra,1.35.0,benign,pre-post-source-sink-execution,dist/index.js,298,16632,Source path process.env flows into sensitive operation
+mastra,1.35.0,benign,pre-post-source-sink-execution,dist/index.js,298,16669,Source path process.env flows into sensitive operation
+mcporter,0.16.0,benign,pre-post-source-sink-execution,dist/chrome-devtools-relay-handoff.js,110,90,Source path process.env flows into sensitive operation
+mcporter,0.16.0,benign,pre-post-source-sink-execution,dist/cli/generate/artifacts.js,254,258,Source path process.env flows into sensitive operation
+mcporter,0.16.0,benign,pre-post-source-sink-execution,dist/daemon/process-retirement.js,110,105,Source path process.env flows into sensitive operation
+mcporter,0.16.0,benign,pre-post-source-sink-execution,dist/daemon/socket-rpc.js,9,91,Source path process.env flows into sensitive operation
+mcporter,0.16.0,benign,pre-post-source-sink-execution,dist/daemon/socket-rpc.js,199,91,Source path process.env flows into sensitive operation
+mcporter,0.16.0,benign,pre-post-source-sink-execution,dist/env.js,30,74,Source path process.env flows into sensitive operation
+mcporter,0.16.0,benign,pre-post-source-sink-execution,dist/env.js,42,74,Source path process.env flows into sensitive operation
+mcporter,0.16.0,benign,pre-post-source-sink-execution,dist/env.js,88,74,Source path process.env flows into sensitive operation
+mitra-interactions-sdk,1.0.72,benign,credential-harvest-exfil,,,,
+momentic,3.66.4,benign,credential-harvest-exfil,,,,
+native-run,2.0.3,benign,pre-post-source-sink-execution,dist/android/sdk-info.js,106,21,Source path process.env flows into sensitive operation
+native-run,2.0.3,benign,pre-post-source-sink-execution,dist/android/sdk-info.js,112,21,Source path process.env flows into sensitive operation
+native-run,2.0.3,benign,pre-post-source-sink-execution,dist/android/sdk-info.js,149,21,Source path process.env flows into sensitive operation
+native-run,2.0.3,benign,pre-post-source-sink-execution,dist/android/utils/adb.js,106,114,Source path process.env flows into sensitive operation
+native-run,2.0.3,benign,pre-post-source-sink-execution,dist/android/utils/adb.js,112,114,Source path process.env flows into sensitive operation
+native-run,2.0.3,benign,pre-post-source-sink-execution,dist/android/utils/emulator.js,106,44,Source path process.env flows into sensitive operation
+native-run,2.0.3,benign,pre-post-source-sink-execution,dist/android/utils/emulator.js,112,44,Source path process.env flows into sensitive operation
+neon,8.11.3,benign,computed-property-access,dist/_chunks/dev-CSvxAecE.js,767,767,Potential obfuscated access to sensitive 'process' object..
+neon,8.11.3,benign,pre-post-source-sink-execution,dist/_chunks/env-BNm69Qh8.js,46,173,Source path process.env flows into sensitive operation
+neon,8.11.3,benign,pre-post-source-sink-execution,dist/psql/command/cmd_copy.js,165,410,Source path process.env flows into sensitive operation
+neon,8.11.3,benign,pre-post-source-sink-execution,dist/psql/command/cmd_meta.js,74,75,Source path process.env flows into sensitive operation
+neon,8.11.3,benign,pre-post-source-sink-execution,dist/psql/command/cmd_meta.js,713,754,Source path process.env flows into sensitive operation
+neon,8.11.3,benign,pre-post-source-sink-execution,dist/psql/print/pager.js,49,154,Source path process.env flows into sensitive operation
+neon,8.11.3,benign,pre-post-source-sink-execution,dist/psql/scanner/slash.js,313,304,Source path process.env flows into sensitive operation
+neon,8.11.3,benign,pre-post-source-sink-execution,dist/psql/scanner/slash.js,729,304,Source path process.env flows into sensitive operation
+neon,8.11.3,benign,pre-post-source-sink-execution,dist/psql/scanner/slash.js,762,304,Source path process.env flows into sensitive operation
+neon,8.11.3,benign,pre-post-source-sink-execution,dist/utils/esbuild.js,57,69,Source path process.env flows into sensitive operation
+netlify,27.14.2,benign,os-fingerprinting-exfiltration,dist/utils/deploy/upload-source-zip.js,65,74,Potential OS/environment/file data exfiltration. Source: await r ... ipPath) (dist/utils/deploy/upload-source-zip.js:65) -> Sink: zipBuffer
+netlify,27.14.2,benign,pre-post-install-scripts,package.json,1,224,"Potentially malicious install script in postinstall: ""node ./scripts/postinstall.js""."
+netlify,27.14.2,benign,pre-post-source-sink-execution,dist/utils/command-helpers.js,35,122,Source path process.env flows into sensitive operation
+netlify,27.14.2,benign,pre-post-source-sink-execution,dist/utils/command-helpers.js,73,122,Source path process.env flows into sensitive operation
+netlify,27.14.2,benign,pre-post-source-sink-execution,dist/utils/command-helpers.js,271,122,Source path process.env flows into sensitive operation
+netlify-cli,27.14.2,benign,os-fingerprinting-exfiltration,dist/utils/deploy/upload-source-zip.js,65,74,Potential OS/environment/file data exfiltration. Source: await r ... ipPath) (dist/utils/deploy/upload-source-zip.js:65) -> Sink: zipBuffer
+netlify-cli,27.14.2,benign,pre-post-install-scripts,package.json,1,224,"Potentially malicious install script in postinstall: ""node ./scripts/postinstall.js""."
+netlify-cli,27.14.2,benign,pre-post-source-sink-execution,dist/utils/command-helpers.js,35,122,Source path process.env flows into sensitive operation
+netlify-cli,27.14.2,benign,pre-post-source-sink-execution,dist/utils/command-helpers.js,73,122,Source path process.env flows into sensitive operation
+netlify-cli,27.14.2,benign,pre-post-source-sink-execution,dist/utils/command-helpers.js,271,122,Source path process.env flows into sensitive operation
+next,16.4.3,benign,computed-property-access,dist/esm/server/web/sandbox/context.js,100,100,Potential obfuscated access to sensitive 'process' object..
+next,16.4.3,benign,computed-property-access,dist/server/web/sandbox/context.js,130,130,Potential obfuscated access to sensitive 'process' object..
+next,16.4.3,benign,os-fingerprinting-exfiltration,dist/compiled/@vercel/og/index.node.js,20532,20258,Potential OS/environment/file data exfiltration. Source: fs2.rea ... url))\n) (dist/compiled/@vercel/og/index.node.js:20532) -> Sink: input
+next,16.4.3,benign,os-fingerprinting-exfiltration,dist/trace/trace-uploader.js,79,175,Potential OS/environment/file data exfiltration. Source: await _ ... 'utf8') (dist/trace/trace-uploader.js:79) -> Sink: JSON.stringify(body)
+next,16.4.3,benign,os-fingerprinting-exfiltration,dist/trace/trace-uploader.js,82,175,Potential OS/environment/file data exfiltration. Source: await _ ... utf-8') (dist/trace/trace-uploader.js:82) -> Sink: JSON.stringify(body)
+next,16.4.3,benign,pre-post-source-sink-execution,dist/esm/next-devtools/server/launch-editor.js,283,391,Source path process.env flows into sensitive operation
+next,16.4.3,benign,pre-post-source-sink-execution,dist/esm/next-devtools/server/launch-editor.js,287,391,Source path process.env flows into sensitive operation
+next,16.4.3,benign,pre-post-source-sink-execution,dist/esm/server/app-render/encryption-utils-server.js,81,27,Source path process.env flows into sensitive operation
+next,16.4.3,benign,pre-post-source-sink-execution,dist/esm/server/lib/chrome-devtools-workspace.js,665,12,Source path process.env flows into sensitive operation
+next,16.4.3,benign,pre-post-source-sink-execution,dist/esm/server/lib/chrome-devtools-workspace.js,1172,12,Source path process.env flows into sensitive operation
+next,16.4.3,benign,pre-post-source-sink-execution,dist/next-devtools/server/launch-editor.js,310,418,Source path process.env flows into sensitive operation
+next,16.4.3,benign,pre-post-source-sink-execution,dist/next-devtools/server/launch-editor.js,314,418,Source path process.env flows into sensitive operation
+next,16.4.3,benign,pre-post-source-sink-execution,dist/server/app-render/encryption-utils-server.js,96,42,Source path process.env flows into sensitive operation
+novita-sandbox,2.1.1,benign,credential-harvest-exfil,,,,
+oc-vite,7.1.13,benign,pre-post-source-sink-execution,dist/node/chunks/config.js,12425,12399,Source path process.env flows into sensitive operation
+oclif,6.0.14,benign,pre-post-source-sink-execution,lib/commands/pack/macos.js,265,267,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,lib/Common.js,13,301,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,lib/Common.js,15,301,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,lib/Common.js,75,301,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,lib/Common.js,75,411,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,lib/Common.js,385,411,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,lib/ProcessContainer.js,19,102,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,lib/ProcessContainerBun.js,14,97,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,lib/tools/sexec.js,13,35,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,lib/tools/sexec.js,15,35,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,lib/tools/sexec.js,33,35,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,lib/tools/sexec.js,68,35,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,lib/tools/sexec.js,75,35,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,lib/tools/sexec.js,146,35,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,lib/tools/typestrip.js,62,43,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,modules/pm2-io-agent/src/InteractorClient.js,75,402,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,modules/pm2-io-agent/src/InteractorClient.js,84,402,Source path process.env flows into sensitive operation
+pm2,7.1.1,benign,pre-post-source-sink-execution,modules/pm2-io-agent/src/InteractorClient.js,188,190,Source path process.env flows into sensitive operation
+postman-cli,1.76.0,benign,pre-post-install-scripts,package.json,1,71,"Potentially malicious install script in postinstall: ""node ./scripts/post-npm-installation.js""."
+prisma,7.10.1,benign,pre-post-install-scripts,package.json,1,206,"Potentially malicious install script in preinstall: ""node scripts/preinstall-entry.js""."
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-BkHnvubU.cjs,2140,313,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-BkHnvubU.cjs,2140,12516,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-BkHnvubU.cjs,2140,12521,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-BkHnvubU.cjs,15883,313,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-BkHnvubU.cjs,15883,12516,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-BkHnvubU.cjs,15883,12521,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-BkHnvubU.cjs,20913,313,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-BkHnvubU.cjs,20913,12516,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-BkHnvubU.cjs,20913,12521,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-BkHnvubU.cjs,30451,313,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-BkHnvubU.cjs,30451,12516,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-BkHnvubU.cjs,30451,12521,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-Dbtm2Et1.js,2118,291,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-Dbtm2Et1.js,2118,12494,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-Dbtm2Et1.js,2118,12499,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-Dbtm2Et1.js,15861,291,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-Dbtm2Et1.js,15861,12494,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-Dbtm2Et1.js,15861,12499,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-Dbtm2Et1.js,20891,291,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-Dbtm2Et1.js,20891,12494,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-Dbtm2Et1.js,20891,12499,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-Dbtm2Et1.js,30429,291,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-Dbtm2Et1.js,30429,12494,Source path process.env flows into sensitive operation
+rulesync,41.0.0,benign,pre-post-source-sink-execution,dist/import-Dbtm2Et1.js,30429,12499,Source path process.env flows into sensitive operation
+svelte-check,4.7.7,benign,credential-harvest-exfil,,,,
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,9,2200,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,9,2327,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,9,3441,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,9,3469,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,9,4692,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,9,5662,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,10,936,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,10,2718,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,10,4184,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,10,6412,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,11,2380,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,11,3546,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,11,4440,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,11,4469,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,11,4498,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,11,5444,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,11,5754,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,11,5935,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,723,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,783,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,918,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,1015,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,1182,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,1200,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,1320,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,1338,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,1476,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,1587,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,1605,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,1642,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,1679,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,1697,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,1715,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,1860,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,1998,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2091,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2109,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2145,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2182,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2218,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2237,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2255,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2362,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2399,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2435,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2453,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2589,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2624,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2707,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2769,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2870,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2881,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2954,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,2965,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3073,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3084,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3106,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3128,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3139,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3150,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3239,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3309,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3375,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3386,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3408,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3430,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3480,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3491,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3502,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3535,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3557,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3579,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3590,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3634,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3909,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,3985,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,4161,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,4288,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,4527,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,4550,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,4573,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,4709,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,4732,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,4761,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,4912,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,5106,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,5135,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,5197,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,5259,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,5282,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,5305,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,5386,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,5519,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,5783,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,5912,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,5958,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,6004,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,6027,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,6074,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,6136,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,6165,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,6217,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,6389,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,12,6435,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,822,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,842,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,861,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,975,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,1033,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,2327,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,2647,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,2659,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,2671,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,2741,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,2780,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,3469,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,4043,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,4066,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,4090,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,4236,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,4311,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,13,4692,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,14,994,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,14,1106,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,14,2752,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,14,2825,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,14,4265,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,14,4381,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,15,955,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,15,1751,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,15,2729,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,15,3173,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,15,4207,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,15,5363,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,19,5415,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,20,1878,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,20,3250,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,20,5542,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,21,1383,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,21,3001,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,21,4823,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,21,5077,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,23,1420,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,23,3034,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,23,5015,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,26,1356,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,26,2976,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,26,5048,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,26,6458,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,1239,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,1286,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,1383,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,1420,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,1623,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,1660,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,1896,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,2072,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,2163,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,2273,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,2531,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,4599,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,4663,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,4790,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,4823,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,5015,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,5565,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,27,6103,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,28,6194,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,36,880,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,36,2683,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,36,4114,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,45,1733,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,45,3161,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,45,5334,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,46,1269,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,46,1374,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,46,1458,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,46,1494,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,46,4885,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,46,4935,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,46,6329,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,46,6487,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,51,2016,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,51,3331,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,51,5708,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,52,1532,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,52,2035,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,52,3342,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,52,3668,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,52,4992,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,52,5731,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,58,1979,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,58,3320,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,58,5685,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,71,2471,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,71,5810,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,73,2512,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,73,6296,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,80,741,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,80,2600,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/cli/main.js,80,3932,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/core/command-match.js,376,336,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/core/command-shell.js,376,229,Source path process.env flows into sensitive operation
+tokenjuice,0.8.5,benign,pre-post-source-sink-execution,dist/hosts/vscode-copilot/index.js,362,414,Source path process.env flows into sensitive operation
+twenty-sdk,2.51.1,benign,os-fingerprinting-exfiltration,dist/login-CNV69o8l.mjs,339,403,"Potential OS/environment/file data exfiltration. Source: await X ... ""utf8"") (dist/login-CNV69o8l.mjs:339) -> Sink: a"
+twenty-sdk,2.51.1,benign,os-fingerprinting-exfiltration,dist/login-CNV69o8l.mjs,339,561,"Potential OS/environment/file data exfiltration. Source: await X ... ""utf8"") (dist/login-CNV69o8l.mjs:339) -> Sink: `${e.ap ... /token`"
+twenty-sdk,2.51.1,benign,os-fingerprinting-exfiltration,dist/login-CNV69o8l.mjs,339,1410,"Potential OS/environment/file data exfiltration. Source: await X ... ""utf8"") (dist/login-CNV69o8l.mjs:339) -> Sink: `${t.re ... }${Pn}`"
+twenty-sdk,2.51.1,benign,os-fingerprinting-exfiltration,dist/login-CNV69o8l.mjs,1047,1048,Potential OS/environment/file data exfiltration. Source: await z ... File(e) (dist/login-CNV69o8l.mjs:1047) -> Sink: r
+vite,8.3.5,benign,pre-post-source-sink-execution,dist/node/chunks/node.js,6076,6049,Source path process.env flows into sensitive operation
+vite,8.3.5,benign,pre-post-source-sink-execution,dist/node/chunks/node.js,15297,15564,Source path process.env flows into sensitive operation
+whatshell,0.1.2,benign,pre-post-install-scripts,package.json,1,52,"Potentially malicious install script in postinstall: ""node npm/install.js""."
+whatshell,0.1.2,benign,pre-post-source-sink-execution,npm/install.js,13,13,"Source path ""cargo"" flows into sensitive operation"

@@ -1,0 +1,57 @@
+{
+  "fields": [
+    {
+      "name": "package",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "version",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "label",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "tool",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "detected",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "num_findings",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "error",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "path",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "hash",
+      "type": "string",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

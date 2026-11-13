@@ -1,0 +1,405 @@
+package,version,label,source_type,node_modules_present,database_status,build_time_seconds,query_time_seconds,queries_processed,queries_failed,package_time_seconds,error_message
+angluar-cli,0.0.2,malicious,npm-tarball,False,failed,5.5,0.0,0,0,5.511,"json
+[2026-11-07 10:46:05] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/angluar-cli/0.0.2/post.js
+[2026-11-07 10:46:05] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/angluar-cli/0.0.2/post.js: File appears to be minified.
+[2026-11-07 10:46:05] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/angluar-cli/0.0.2/post.js (52 ms)
+[2026-11-07 10:46:05] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/angluar-cli/0.0.2/package.json (87 ms)
+[2026-11-07 10:46:05] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_angluar-cli_0.0.2.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/angluar-cli/0.0.2: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_angluar-cli_0.0.2.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+angluar-cli,0.0.3,malicious,npm-tarball,False,cached,0.0,0.014,10,0,0.037,
+angular-location-update,0.0.3,malicious,npm-tarball,False,cached,0.0,0.03,10,0,0.039,
+ansi-styles,6.2.2,malicious,npm-tarball,False,failed,4.681,0.0,0,0,4.688,"026-11-07 10:46:05] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/ansi-styles/6.2.2/package.json
+[2026-11-07 10:46:05] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/ansi-styles/6.2.2/index.js: File appears to be minified.
+[2026-11-07 10:46:05] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/ansi-styles/6.2.2/package.json (89 ms)
+[2026-11-07 10:46:05] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/ansi-styles/6.2.2/index.js (94 ms)
+[2026-11-07 10:46:05] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_ansi-styles_6.2.2.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/ansi-styles/6.2.2: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_ansi-styles_6.2.2.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+browserift,16.2.2,malicious,npm-tarball,False,failed,5.828,0.0,0,0,5.833,"[2026-11-07 10:46:05] [build-stdout] Parallel extraction with 3 threads.
+[2026-11-07 10:46:05] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/browserift/16.2.2/index.js
+[2026-11-07 10:46:05] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/browserift/16.2.2/package.json
+[2026-11-07 10:46:05] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/browserift/16.2.2/index.js: File appears to be minified.
+[2026-11-07 10:46:05] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/browserift/16.2.2/index.js (102 ms)
+[2026-11-07 10:46:05] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/browserift/16.2.2/package.json (122 ms)
+[2026-11-07 10:46:05] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_browserift_16.2.2.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/browserift/16.2.2: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_browserift_16.2.2.
+Error: CodeQL detected code written in JavaScript/TypeScript but could not process any of it. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+colors_express,1.4.5,malicious,npm-tarball,False,cached,0.0,0.001,10,0,0.018,
+colour-string,1.5.3,malicious,npm-tarball,False,cached,0.0,0.025,10,0,0.035,
+colro-name,9.0.0,malicious,npm-tarball,False,cached,0.0,0.014,10,0,0.028,
+com.google.play.comon,1.0.0,malicious,npm-tarball,False,cached,0.0,0.013,10,0,0.014,
+com.google.play.comon,2.0.0,malicious,npm-tarball,False,cached,0.0,0.029,10,0,0.031,
+com.google.play.comon,3.0.0,malicious,npm-tarball,False,cached,0.0,0.01,10,0,0.014,
+conventional-changelog,1.2.0,malicious,npm-tarball,False,cached,0.0,0.023,10,0,0.026,
+device-mqtt,1.0.11,malicious,npm-tarball,False,cached,0.0,72.132,10,0,72.136,
+discord-lofy,11.5.1,malicious,npm-tarball,False,success,29.641,274.366,10,0,304.055,
+discord-selfbot-v14,12.0.3,malicious,npm-tarball,False,success,30.82,274.791,10,0,305.665,
+discord-vilao,1.0.0,malicious,npm-tarball,False,success,21.942,237.092,10,0,259.058,
+discordsystem,11.5.1,malicious,npm-tarball,False,success,30.9,271.618,10,0,302.553,
+electorn,10.0.0,malicious,npm-tarball,False,success,24.806,238.162,10,0,262.97,
+elm-combine,0.0.0,malicious,npm-tarball,False,success,25.358,234.895,10,0,260.254,
+elm-combine,1.0.0,malicious,npm-tarball,False,success,24.699,234.941,10,0,259.641,
+elm-combine,2.0.0,malicious,npm-tarball,False,success,18.68,234.876,10,0,253.56,
+elm-combine,3.0.0,malicious,npm-tarball,False,success,17.877,243.995,10,0,261.897,
+fast-requests,1.0.1,malicious,npm-tarball,False,failed,6.953,0.0,0,0,6.958,"out] Extracting /mnt/nvme-data/resarch-dataset/training-packages/fast-requests/1.0.1/package.json
+[2026-11-07 10:50:32] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/fast-requests/1.0.1/fast-requests.js: File appears to be minified.
+[2026-11-07 10:50:32] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/fast-requests/1.0.1/fast-requests.js (58 ms)
+[2026-11-07 10:50:32] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/fast-requests/1.0.1/package.json (76 ms)
+[2026-11-07 10:50:32] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_fast-requests_1.0.1.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/fast-requests/1.0.1: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_fast-requests_1.0.1.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+fix-error,1.0.0,malicious,npm-tarball,False,failed,6.659,0.0,0,0,6.662,".0/index.js
+[2026-11-07 10:50:32] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/fix-error/1.0.0/package.json
+[2026-11-07 10:50:32] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/fix-error/1.0.0/index.js: File appears to be minified.
+[2026-11-07 10:50:32] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/fix-error/1.0.0/package.json (93 ms)
+[2026-11-07 10:50:32] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/fix-error/1.0.0/index.js (89 ms)
+[2026-11-07 10:50:32] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_fix-error_1.0.0.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/fix-error/1.0.0: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_fix-error_1.0.0.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+foever,0.15.3,malicious,npm-tarball,False,success,19.728,255.564,10,0,275.319,
+froever,2.3.1,malicious,npm-tarball,False,success,20.483,256.532,10,0,277.029,
+getcookies,1.12.1,malicious,npm-tarball,False,success,21.559,242.295,10,0,263.858,
+getcookies,1.12.3,malicious,npm-tarball,False,success,24.725,244.078,10,0,268.818,
+grunt-radic,0.1.1,malicious,npm-tarball,False,success,29.38,263.703,10,0,293.15,
+grunt-radical,0.0.14,malicious,npm-tarball,False,success,30.172,266.468,10,0,296.723,
+headcache,2.0.0,malicious,npm-tarball,False,failed,9.933,0.0,0,0,9.936,"[2026-11-07 10:51:35] [build-stdout] Parallel extraction with 3 threads.
+[2026-11-07 10:51:35] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/headcache/2.0.0/index.js
+[2026-11-07 10:51:35] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/headcache/2.0.0/package.json
+[2026-11-07 10:51:35] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/headcache/2.0.0/index.js: File appears to be minified.
+[2026-11-07 10:51:35] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/headcache/2.0.0/index.js (120 ms)
+[2026-11-07 10:51:35] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/headcache/2.0.0/package.json (158 ms)
+[2026-11-07 10:51:35] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_headcache_2.0.0.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/headcache/2.0.0: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_headcache_2.0.0.
+Error: CodeQL detected code written in JavaScript/TypeScript but could not process any of it. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+http-proxy-middelware,2.9.0,malicious,npm-tarball,False,success,19.878,245.001,10,0,264.882,
+hulp,1.0.0,malicious,npm-tarball,False,failed,7.802,0.0,0,0,7.805,"dataset/training-packages/hulp/1.0.0/package.json
+[2026-11-07 10:54:48] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/hulp/1.0.0/index.js
+[2026-11-07 10:54:48] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/hulp/1.0.0/index.js: File appears to be minified.
+[2026-11-07 10:54:48] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/hulp/1.0.0/index.js (98 ms)
+[2026-11-07 10:54:49] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/hulp/1.0.0/package.json (134 ms)
+[2026-11-07 10:54:49] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_hulp_1.0.0.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/hulp/1.0.0: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_hulp_1.0.0.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+jekyll-for-github-projects,0.2.12,malicious,npm-tarball,False,success,21.883,244.128,10,0,266.064,
+jqeury,3.3.1,malicious,npm-tarball,False,success,25.528,256.305,10,0,281.898,
+jquerry,2.0.0,malicious,npm-tarball,False,success,22.469,243.207,10,0,265.678,
+jquery-airload,0.2.5,malicious,npm-tarball,False,failed,8.706,0.0,0,0,8.709,"ild-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/jquery-airload/0.2.5/airload.js
+[2026-11-07 10:55:18] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/jquery-airload/0.2.5/airload.js: File appears to be minified.
+[2026-11-07 10:55:18] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/jquery-airload/0.2.5/package.json (95 ms)
+[2026-11-07 10:55:18] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/jquery-airload/0.2.5/airload.js (90 ms)
+[2026-11-07 10:55:18] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_jquery-airload_0.2.5.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/jquery-airload/0.2.5: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_jquery-airload_0.2.5.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+jquerz,1.0.1,malicious,npm-tarball,False,success,21.693,237.0,10,0,258.7,
+leetlog,0.1.2,malicious,npm-tarball,False,failed,9.471,0.0,0,0,9.474,"es/leetlog/0.1.2/index.js
+[2026-11-07 10:55:41] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/leetlog/0.1.2/package.json
+[2026-11-07 10:55:41] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/leetlog/0.1.2/index.js: File appears to be minified.
+[2026-11-07 10:55:41] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/leetlog/0.1.2/index.js (83 ms)
+[2026-11-07 10:55:41] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/leetlog/0.1.2/package.json (96 ms)
+[2026-11-07 10:55:41] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_leetlog_0.1.2.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/leetlog/0.1.2: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_leetlog_0.1.2.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+leetlog,0.1.3,malicious,npm-tarball,False,failed,7.906,0.0,0,0,7.912,"s/leetlog/0.1.3/package.json
+[2026-11-07 10:55:48] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/leetlog/0.1.3/index.js
+[2026-11-07 10:55:48] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/leetlog/0.1.3/index.js: File appears to be minified.
+[2026-11-07 10:55:48] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/leetlog/0.1.3/index.js (92 ms)
+[2026-11-07 10:55:48] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/leetlog/0.1.3/package.json (152 ms)
+[2026-11-07 10:55:48] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_leetlog_0.1.3.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/leetlog/0.1.3: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_leetlog_0.1.3.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+loadyaml,1.0.2,malicious,npm-tarball,False,success,24.392,235.808,10,0,260.204,
+loadyml,1.0.2,malicious,npm-tarball,False,success,24.484,233.966,10,0,258.452,
+lodashs,1.0.2,malicious,npm-tarball,False,success,24.459,236.671,10,0,261.133,
+logsymbles,2.2.0,malicious,npm-tarball,False,success,21.891,237.623,10,0,259.54,
+m-backdoor,1.0.0,malicious,npm-tarball,False,success,17.979,227.062,10,0,245.047,
+m-backdoor,1.0.1,malicious,npm-tarball,False,success,20.977,222.093,10,0,243.078,
+mendiff,2.0.1,malicious,npm-tarball,False,failed,8.246,0.0,0,0,8.251,"es/mendiff/2.0.1/index.js
+[2026-11-07 10:59:45] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/mendiff/2.0.1/package.json
+[2026-11-07 10:59:45] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/mendiff/2.0.1/index.js: File appears to be minified.
+[2026-11-07 10:59:45] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/mendiff/2.0.1/package.json (80 ms)
+[2026-11-07 10:59:45] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/mendiff/2.0.1/index.js (82 ms)
+[2026-11-07 10:59:45] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_mendiff_2.0.1.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/mendiff/2.0.1: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_mendiff_2.0.1.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+momnet,1.12.1,malicious,npm-tarball,False,success,55.474,1583.01,10,0,1638.776,
+momnet,1.12.2,malicious,npm-tarball,False,success,56.339,1579.0,10,0,1635.619,
+momnet,2.12.2,malicious,npm-tarball,False,success,52.126,265.966,10,0,318.381,
+momnet,2.27.0,malicious,npm-tarball,False,success,52.198,257.743,10,0,310.234,
+momnet,2.28.0,malicious,npm-tarball,False,success,49.34,244.661,10,0,294.356,
+momnet,2.29.1,malicious,npm-tarball,False,success,50.166,254.26,10,0,304.67,
+monent,2.0.0,malicious,npm-tarball,False,failed,8.215,0.0,0,0,8.216,"[2026-11-07 11:03:27] [build-stdout] Parallel extraction with 3 threads.
+[2026-11-07 11:03:28] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/monent/2.0.0/package.json
+[2026-11-07 11:03:28] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/monent/2.0.0/index.js
+[2026-11-07 11:03:28] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/monent/2.0.0/index.js: File appears to be minified.
+[2026-11-07 11:03:28] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/monent/2.0.0/index.js (134 ms)
+[2026-11-07 11:03:28] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/monent/2.0.0/package.json (168 ms)
+[2026-11-07 11:03:28] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_monent_2.0.0.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/monent/2.0.0: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_monent_2.0.0.
+Error: CodeQL detected code written in JavaScript/TypeScript but could not process any of it. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+motiv.scss,0.4.20,malicious,npm-tarball,False,success,16.524,208.603,10,0,225.171,
+mrg-message-broker,9998.987.376,malicious,npm-tarball,False,failed,5.965,0.0,0,0,5.978,"sage-broker/9998.987.376/package.json
+[2026-11-07 11:03:38] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/mrg-message-broker/9998.987.376/botpssc.js: File appears to be minified.
+[2026-11-07 11:03:38] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/mrg-message-broker/9998.987.376/botpssc.js (69 ms)
+[2026-11-07 11:03:38] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/mrg-message-broker/9998.987.376/package.json (80 ms)
+[2026-11-07 11:03:38] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_mrg-message-broker_9998.987.376.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/mrg-message-broker/9998.987.376: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_mrg-message-broker_9998.987.376.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+ng-ui-library,1.0.987,malicious,npm-tarball,False,success,23.078,210.722,10,0,233.884,
+nginxbeautifier,1.0.14,malicious,npm-tarball,False,success,16.94,209.556,10,0,226.5,
+noblox.js-proxy,1.0.1,malicious,npm-tarball,False,success,24.21,221.264,10,0,245.591,
+noblox.js-proxy,1.0.2,malicious,npm-tarball,False,success,23.755,215.228,10,0,239.079,
+noblox.js-proxy,1.0.3,malicious,npm-tarball,False,success,25.016,220.03,10,0,245.183,
+noblox.js-proxy,1.0.5,malicious,npm-tarball,False,success,22.054,219.528,10,0,241.722,
+octavius-public,1.836.609,malicious,npm-tarball,False,failed,6.423,0.0,0,0,6.436,"/resarch-dataset/training-packages/octavius-public/1.836.609/pyenxxe.js
+[2026-11-07 11:07:38] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/octavius-public/1.836.609/pyenxxe.js: File appears to be minified.
+[2026-11-07 11:07:38] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/octavius-public/1.836.609/pyenxxe.js (132 ms)
+[2026-11-07 11:07:38] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/octavius-public/1.836.609/package.json (160 ms)
+[2026-11-07 11:07:38] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_octavius-public_1.836.609.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/octavius-public/1.836.609: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_octavius-public_1.836.609.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+pegleg_heart,0.0.12,malicious,npm-tarball,False,success,18.934,206.434,10,0,225.371,
+pegleg_heart,0.0.6,malicious,npm-tarball,False,success,17.226,206.616,10,0,223.845,
+plutov-slack-client,1.0.0,malicious,npm-tarball,False,failed,6.789,0.0,0,0,6.793,"nt/1.0.0/install.js
+[2026-11-07 11:09:32] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/plutov-slack-client/1.0.0/package.json
+[2026-11-07 11:09:32] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/plutov-slack-client/1.0.0/install.js: File appears to be minified.
+[2026-11-07 11:09:32] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/plutov-slack-client/1.0.0/install.js (46 ms)
+[2026-11-07 11:09:32] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/plutov-slack-client/1.0.0/package.json (61 ms)
+[2026-11-07 11:09:32] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/plutov-slack-client/1.0.0/index.js (379 ms)
+[2026-11-07 11:09:32] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_plutov-slack-client_1.0.0.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/plutov-slack-client/1.0.0: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_plutov-slack-client_1.0.0.
+Error: CodeQL detected code written in JavaScript/TypeScript but could not process any of it. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+plutov-slack-client,1.0.1,malicious,npm-tarball,False,failed,6.481,0.0,0,0,6.483,"nt/1.0.1/install.js
+[2026-11-07 11:09:37] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/plutov-slack-client/1.0.1/package.json
+[2026-11-07 11:09:37] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/plutov-slack-client/1.0.1/install.js: File appears to be minified.
+[2026-11-07 11:09:37] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/plutov-slack-client/1.0.1/install.js (47 ms)
+[2026-11-07 11:09:37] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/plutov-slack-client/1.0.1/package.json (79 ms)
+[2026-11-07 11:09:38] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/plutov-slack-client/1.0.1/index.js (320 ms)
+[2026-11-07 11:09:38] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_plutov-slack-client_1.0.1.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/plutov-slack-client/1.0.1: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_plutov-slack-client_1.0.1.
+Error: CodeQL detected code written in JavaScript/TypeScript but could not process any of it. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+pm-controls,1.1.8,malicious,npm-tarball,False,success,147.632,449.21,10,0,597.556,
+precode.js,1.1.1,malicious,npm-tarball,False,success,17.602,205.805,10,0,223.412,
+prerequests-xcode,1.0.4,malicious,npm-tarball,False,failed,7.444,0.0,0,0,7.446,"cting /mnt/nvme-data/resarch-dataset/training-packages/prerequests-xcode/1.0.4/index.js
+[2026-11-07 11:09:45] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/prerequests-xcode/1.0.4/index.js (125 ms)
+[2026-11-07 11:09:45] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/prerequests-xcode/1.0.4/index.js: File appears to be minified.
+[2026-11-07 11:09:45] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/prerequests-xcode/1.0.4/package.json (159 ms)
+[2026-11-07 11:09:45] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_prerequests-xcode_1.0.4.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/prerequests-xcode/1.0.4: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_prerequests-xcode_1.0.4.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+rate-map,1.0.3,malicious,npm-tarball,False,success,20.173,205.554,10,0,225.732,
+rate-map,1.0.4,malicious,npm-tarball,False,success,18.728,197.395,10,0,216.13,
+regenraotr,6.0.0,malicious,npm-tarball,False,success,18.519,201.979,10,0,220.5,
+regenrator,6.0.0,malicious,npm-tarball,False,success,17.94,201.459,10,0,219.402,
+require-ports,10.4.0,malicious,npm-tarball,False,success,20.948,205.52,10,0,226.501,
+rrgod,1.0.0,malicious,npm-tarball,False,failed,6.811,0.0,0,0,6.816,"[2026-11-07 11:13:38] [build-stdout] Parallel extraction with 3 threads.
+[2026-11-07 11:13:38] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/rrgod/1.0.0/package.json
+[2026-11-07 11:13:38] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/rrgod/1.0.0/package.json (112 ms)
+[2026-11-07 11:13:38] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_rrgod_1.0.0.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/rrgod/1.0.0: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_rrgod_1.0.0.
+Error: CodeQL detected code written in Python, but not any written in JavaScript/TypeScript. Confirm that there is some source code for JavaScript/TypeScript in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+sameethinghere101,99.10.9,malicious,npm-tarball,False,success,16.243,195.83,10,0,212.081,
+soket.io,2.1.1,malicious,npm-tarball,False,success,18.451,212.579,10,0,231.04,
+soket.js,1.9.0,malicious,npm-tarball,False,success,18.101,215.128,10,0,233.233,
+stautses,2.3.1,malicious,npm-tarball,False,failed,6.089,0.0,0,0,6.091,"ses/2.3.1/index.js
+[2026-11-07 11:16:31] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/stautses/2.3.1/package.json
+[2026-11-07 11:16:32] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/stautses/2.3.1/index.js (68 ms)
+[2026-11-07 11:16:32] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/stautses/2.3.1/index.js: File appears to be minified.
+[2026-11-07 11:16:32] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/stautses/2.3.1/package.json (71 ms)
+[2026-11-07 11:16:32] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_stautses_2.3.1.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/stautses/2.3.1: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_stautses_2.3.1.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+stream-combine,2.0.2,malicious,npm-tarball,False,success,18.991,204.865,10,0,223.865,
+tensorplow,1.0.0,malicious,npm-tarball,False,failed,6.513,0.0,0,0,6.515,"x.js
+[2026-11-07 11:17:09] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/tensorplow/1.0.0/package.json
+[2026-11-07 11:17:09] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/tensorplow/1.0.0/index.js: File appears to be minified.
+[2026-11-07 11:17:09] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/tensorplow/1.0.0/index.js (64 ms)
+[2026-11-07 11:17:09] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/tensorplow/1.0.0/package.json (77 ms)
+[2026-11-07 11:17:09] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_tensorplow_1.0.0.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/tensorplow/1.0.0: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_tensorplow_1.0.0.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+tensorplow,1.0.1,malicious,npm-tarball,False,success,20.226,192.772,10,0,213.001,
+tensorplow,1.0.2,malicious,npm-tarball,False,failed,6.866,0.0,0,0,6.875,"age.json
+[2026-11-07 11:17:16] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/tensorplow/1.0.2/index.js
+[2026-11-07 11:17:16] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/tensorplow/1.0.2/index.js: File appears to be minified.
+[2026-11-07 11:17:16] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/tensorplow/1.0.2/index.js (72 ms)
+[2026-11-07 11:17:16] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/tensorplow/1.0.2/package.json (98 ms)
+[2026-11-07 11:17:16] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_tensorplow_1.0.2.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/tensorplow/1.0.2: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_tensorplow_1.0.2.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+uglyfi-js,3.4.6,malicious,npm-tarball,False,success,24.375,200.287,10,0,224.699,
+vue-backbone,0.1.2,malicious,npm-tarball,False,success,16.981,150.394,10,0,167.378,
+wafer-beacon,1.3.3,malicious,npm-tarball,False,failed,6.041,0.0,0,0,6.056,"1:19:03] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-beacon/1.3.3/package.json
+[2026-11-07 11:19:03] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/wafer-beacon/1.3.3/mlbnzhz.js: File appears to be minified.
+[2026-11-07 11:19:03] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-beacon/1.3.3/mlbnzhz.js (61 ms)
+[2026-11-07 11:19:03] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+[2026-11-07 11:19:03] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-beacon/1.3.3/package.json (78 ms)
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-beacon_1.3.3.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/wafer-beacon/1.3.3: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-beacon_1.3.3.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+wafer-bind,1.1.2,malicious,npm-tarball,False,failed,6.514,0.0,0,0,6.516,"
+[2026-11-07 11:19:09] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-bind/1.1.2/package.json
+[2026-11-07 11:19:09] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/wafer-bind/1.1.2/kdoixna.js: File appears to be minified.
+[2026-11-07 11:19:09] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-bind/1.1.2/kdoixna.js (84 ms)
+[2026-11-07 11:19:09] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-bind/1.1.2/package.json (89 ms)
+[2026-11-07 11:19:09] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-bind_1.1.2.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/wafer-bind/1.1.2: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-bind_1.1.2.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+wafer-caas,1.14.20,malicious,npm-tarball,False,failed,6.435,0.0,0,0,6.436," 11:19:16] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-caas/1.14.20/dwxtysb.js
+[2026-11-07 11:19:16] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/wafer-caas/1.14.20/dwxtysb.js: File appears to be minified.
+[2026-11-07 11:19:16] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-caas/1.14.20/dwxtysb.js (85 ms)
+[2026-11-07 11:19:16] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-caas/1.14.20/package.json (98 ms)
+[2026-11-07 11:19:16] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-caas_1.14.20.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/wafer-caas/1.14.20: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-caas_1.14.20.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+wafer-form,1.30.1,malicious,npm-tarball,False,failed,6.422,0.0,0,0,6.425,"-11-07 11:19:22] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-form/1.30.1/vinlcym.js
+[2026-11-07 11:19:22] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/wafer-form/1.30.1/vinlcym.js: File appears to be minified.
+[2026-11-07 11:19:22] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-form/1.30.1/vinlcym.js (86 ms)
+[2026-11-07 11:19:22] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-form/1.30.1/package.json (102 ms)
+[2026-11-07 11:19:22] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-form_1.30.1.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/wafer-form/1.30.1: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-form_1.30.1.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+wafer-geolocation,1.2.10,malicious,npm-tarball,False,failed,5.923,0.0,0,0,5.927,"me-data/resarch-dataset/training-packages/wafer-geolocation/1.2.10/package.json
+[2026-11-07 11:19:28] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/wafer-geolocation/1.2.10/ckmhtfk.js: File appears to be minified.
+[2026-11-07 11:19:28] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-geolocation/1.2.10/package.json (67 ms)
+[2026-11-07 11:19:28] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-geolocation/1.2.10/ckmhtfk.js (62 ms)
+[2026-11-07 11:19:28] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-geolocation_1.2.10.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/wafer-geolocation/1.2.10: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-geolocation_1.2.10.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+wafer-image,1.2.2,malicious,npm-tarball,False,failed,6.341,0.0,0,0,6.343,"11-07 11:19:34] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-image/1.2.2/package.json
+[2026-11-07 11:19:34] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/wafer-image/1.2.2/hsxmjio.js: File appears to be minified.
+[2026-11-07 11:19:34] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-image/1.2.2/package.json (63 ms)
+[2026-11-07 11:19:34] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-image/1.2.2/hsxmjio.js (59 ms)
+[2026-11-07 11:19:34] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-image_1.2.2.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/wafer-image/1.2.2: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-image_1.2.2.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+wafer-lightbox,1.5.4,malicious,npm-tarball,False,failed,6.633,0.0,0,0,6.635,"ld-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-lightbox/1.5.4/eogtktu.js
+[2026-11-07 11:19:37] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/wafer-lightbox/1.5.4/eogtktu.js: File appears to be minified.
+[2026-11-07 11:19:37] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-lightbox/1.5.4/eogtktu.js (93 ms)
+[2026-11-07 11:19:37] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-lightbox/1.5.4/package.json (124 ms)
+[2026-11-07 11:19:37] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-lightbox_1.5.4.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/wafer-lightbox/1.5.4: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-lightbox_1.5.4.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+wafer-toggle,1.15.4,malicious,npm-tarball,False,failed,6.383,0.0,0,0,6.384,"] [build-stdout] Extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-toggle/1.15.4/package.json
+[2026-11-07 11:19:41] [build-stderr] Skipping file /mnt/nvme-data/resarch-dataset/training-packages/wafer-toggle/1.15.4/ncxogsz.js: File appears to be minified.
+[2026-11-07 11:19:41] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-toggle/1.15.4/ncxogsz.js (64 ms)
+[2026-11-07 11:19:41] [build-stdout] Done extracting /mnt/nvme-data/resarch-dataset/training-packages/wafer-toggle/1.15.4/package.json (83 ms)
+[2026-11-07 11:19:41] [build-stderr] Only found JavaScript or TypeScript files that were empty or contained syntax errors.
+
+Initializing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-toggle_1.15.4.
+Running build command: []
+Running command in /mnt/nvme-data/resarch-dataset/training-packages/wafer-toggle/1.15.4: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /mnt/nvme-data/resarch-dataset/audit_workspace/codeql/db_wafer-toggle_1.15.4.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+yeoman-genrator,3.1.1,malicious,npm-tarball,False,success,17.137,113.949,10,0,131.098,

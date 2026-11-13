@@ -1,0 +1,8 @@
+corpus,codeql_message,class,entries,with_install_hook,packages_never_built
+benign,no_code_detected,minified,11,0,3
+benign,no_code_detected,no_js,6,0,0
+benign,no_code_detected,types_only,3,0,3
+malicious,extraction_error,syntax_error,1,0,1
+malicious,no_code_detected,minified,4,0,4
+malicious,no_code_detected,no_js,10,10,10
+malicious,no_code_detected,obfuscated,4,1,4

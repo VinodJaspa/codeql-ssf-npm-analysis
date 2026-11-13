@@ -1,0 +1,172 @@
+package,version,label,source_type,node_modules_present,database_status,build_time_seconds,query_time_seconds,queries_processed,package_time_seconds,error_message
+airbnb-dev,package,malicious,npm-tarball,False,success,9.513,118.678,10,128.193,
+airbnb-i18n,package,malicious,npm-tarball,False,success,9.262,119.198,10,128.463,
+ansi-styles,package,malicious,npm-tarball,False,failed,2.36,0.0,0,2.364,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_ansi-styles_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/ansi-styles/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_ansi-styles_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+astar-portal-test-depconf,package,malicious,npm-tarball,False,success,10.411,120.096,10,130.507,
+axios-proxy,package,malicious,npm-tarball,False,success,9.717,106.892,10,116.611,
+brock-loader,package,malicious,npm-tarball,False,success,9.513,101.732,10,111.245,
+bytectfxwan4n,package,malicious,npm-tarball,False,success,9.427,99.687,10,109.115,
+chawla-init,package,malicious,npm-tarball,False,success,8.559,102.14,10,110.699,
+circle-admin-web-app,package,malicious,npm-tarball,False,success,10.291,100.57,10,110.862,
+coa,package,malicious,npm-tarball,False,success,10.761,100.473,10,111.235,
+colors-help,package,malicious,npm-tarball,False,success,8.358,98.572,10,106.931,
+components-flexibility,package,malicious,npm-tarball,False,success,10.154,99.516,10,109.692,
+core-http,package,malicious,npm-tarball,False,success,9.912,96.29,10,106.203,
+core-xml,package,malicious,npm-tarball,False,success,7.875,100.692,10,108.567,
+cron-guru,package,malicious,npm-tarball,False,success,9.48,97.168,10,106.649,
+cxf-plugins,package,malicious,npm-tarball,False,success,9.887,97.781,10,107.669,
+deasyncp,package,malicious,npm-tarball,False,success,8.396,98.143,10,106.539,
+deere-i18n,package,malicious,npm-tarball,False,success,9.423,96.909,10,106.333,
+deneuve-test,package,malicious,npm-tarball,False,failed,3.59,0.0,0,3.591,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_deneuve-test_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/deneuve-test/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_deneuve-test_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+destroyer-of-worlds,package,malicious,npm-tarball,False,success,9.858,95.683,10,105.541,
+discord-protection,package,malicious,npm-tarball,False,success,12.113,113.294,10,125.415,
+discord-vilao,package,malicious,npm-tarball,False,success,9.456,98.142,10,107.604,
+discord.js-discord-selfbot-v4,package,malicious,npm-tarball,False,success,12.72,114.311,10,127.048,
+discord.js-user,package,malicious,npm-tarball,False,success,10.228,113.084,10,123.322,
+discordsystem,package,malicious,npm-tarball,False,success,13.863,112.085,10,125.958,
+elysium-ui,package,malicious,npm-tarball,False,success,10.227,96.624,10,106.852,
+eslint-plugin-seller-ui-eslint-plugin,package,malicious,npm-tarball,False,success,7.844,103.923,10,111.768,
+eslint-scope,package,malicious,npm-tarball,False,success,9.327,101.17,10,110.497,
+faizee.asad,package,malicious,npm-tarball,False,success,10.372,96.045,10,106.418,
+fast-requests,package,malicious,npm-tarball,False,failed,2.27,0.0,0,2.27,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_fast-requests_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/fast-requests/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_fast-requests_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+fetch-string,package,malicious,npm-tarball,False,failed,3.117,0.0,0,3.123,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_fetch-string_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/fetch-string/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_fetch-string_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+finco,package,malicious,npm-tarball,False,success,7.342,100.83,10,108.173,
+fix-error,package,malicious,npm-tarball,False,failed,2.737,0.0,0,2.738,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_fix-error_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/fix-error/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_fix-error_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+flashloan,package,malicious,npm-tarball,False,failed,3.524,0.0,0,3.524,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_flashloan_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/flashloan/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_flashloan_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+flatmap-stream,package,malicious,npm-tarball,False,success,9.304,100.652,10,109.957,
+freekws-devportal-api-client-angular,package,malicious,npm-tarball,False,failed,2.949,0.0,0,2.952,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_freekws-devportal-api-client-angular_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/freekws-devportal-api-client-angular/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_freekws-devportal-api-client-angular_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+frontend-style-janus,package,malicious,npm-tarball,False,success,10.701,98.625,10,109.327,
+gctor-storage,package,malicious,npm-tarball,False,success,7.796,103.135,10,110.933,
+gen-mapping,package,malicious,npm-tarball,False,success,10.749,102.291,10,113.047,
+header-footer-paypal,package,malicious,npm-tarball,False,success,12.19,101.965,10,114.156,
+horizon_dev,package,malicious,npm-tarball,False,success,8.193,104.763,10,112.956,
+hyperwallet-node,package,malicious,npm-tarball,False,success,9.948,105.64,10,115.589,
+icondepan,package,malicious,npm-tarball,False,failed,4.298,0.0,0,4.299,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_icondepan_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/icondepan/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_icondepan_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+ikst,package,malicious,npm-tarball,False,success,10.307,104.201,10,114.508,
+jquery-airload,package,malicious,npm-tarball,False,failed,2.856,0.0,0,2.86,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_jquery-airload_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/jquery-airload/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_jquery-airload_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+lbc-git,package,malicious,npm-tarball,False,success,7.381,107.191,10,114.58,
+leetlog,package,malicious,npm-tarball,False,failed,3.646,0.0,0,3.647,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_leetlog_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/leetlog/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_leetlog_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+majuro,package,malicious,npm-tarball,False,success,12.535,108.412,10,120.964,
+malicious-do-not-install,package,malicious,npm-tarball,False,failed,4.231,0.0,0,4.232,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_malicious-do-not-install_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/malicious-do-not-install/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_malicious-do-not-install_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+markedjs,package,malicious,npm-tarball,False,success,12.09,119.889,10,131.981,
+mattermost-mobile,package,malicious,npm-tarball,False,success,9.774,108.438,10,118.213,
+mattermost-mobile-e2e,package,malicious,npm-tarball,False,success,11.934,102.882,10,114.816,
+momnet,package,malicious,npm-tarball,False,success,22.648,132.922,10,155.6,
+move-analyzer,package,malicious,npm-tarball,False,success,8.374,108.015,10,116.393,
+mozi-metrics,package,malicious,npm-tarball,False,failed,3.387,0.0,0,3.389,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_mozi-metrics_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/mozi-metrics/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_mozi-metrics_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+mrg-message-broker,package,malicious,npm-tarball,False,failed,4.103,0.0,0,4.104,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_mrg-message-broker_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/mrg-message-broker/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_mrg-message-broker_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+ngx-context-menu,package,malicious,npm-tarball,False,success,10.925,103.315,10,114.251,
+nocuzune,package,malicious,npm-tarball,False,success,8.759,102.735,10,111.509,
+node-cron-master,package,malicious,npm-tarball,False,failed,3.427,0.0,0,3.43,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_node-cron-master_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/node-cron-master/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_node-cron-master_package.
+Error: CodeQL detected code written in JavaScript/TypeScript but could not process any of it. Check the logs. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+npm_scripts_test_metrics,package,malicious,npm-tarball,False,failed,2.982,0.0,0,2.984,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_npm_scripts_test_metrics_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/npm_scripts_test_metrics/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_npm_scripts_test_metrics_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+on-running-script-context,package,malicious,npm-tarball,False,success,8.32,108.227,10,116.548,
+p4d-rpi-tools,package,malicious,npm-tarball,False,success,10.679,105.791,10,116.475,
+paychex-framework,package,malicious,npm-tarball,False,success,8.236,114.617,10,122.857,
+paychex-framework-approvals,package,malicious,npm-tarball,False,success,8.525,117.168,10,125.696,
+paychex-framework-forms,package,malicious,npm-tarball,False,success,10.971,112.776,10,123.752,
+pizza-pasta,package,malicious,npm-tarball,False,failed,3.497,0.0,0,3.502,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_pizza-pasta_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/pizza-pasta/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_pizza-pasta_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+portionfatty12,package,malicious,npm-tarball,False,success,10.083,151.581,10,161.667,
+pyramid-proportion,package,malicious,npm-tarball,False,success,9.693,190.627,10,200.324,
+radar-cms,package,malicious,npm-tarball,False,success,18.112,192.805,10,210.998,
+razer-xdk,package,malicious,npm-tarball,False,success,15.941,147.721,10,163.664,
+rc,package,malicious,npm-tarball,False,success,14.7,106.021,10,120.74,
+react-dom-router-compatibility,package,malicious,npm-tarball,False,success,11.168,103.551,10,114.725,
+rphzfwtcqgidmank,package,malicious,npm-tarball,False,success,8.307,107.963,10,116.366,
+sa-dashboard,package,malicious,npm-tarball,False,failed,3.128,0.0,0,3.131,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_sa-dashboard_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/sa-dashboard/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_sa-dashboard_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+sailclothjs,package,malicious,npm-tarball,False,success,8.751,107.573,10,116.337,
+sixt,package,malicious,npm-tarball,False,success,11.471,103.934,10,115.407,
+stream-combine,package,malicious,npm-tarball,False,success,9.378,105.756,10,115.139,
+support-colors,package,malicious,npm-tarball,False,success,8.246,105.173,10,113.432,
+sushi-client,package,malicious,npm-tarball,False,success,11.412,104.046,10,115.463,
+tangeshaiou,package,malicious,npm-tarball,False,failed,2.942,0.0,0,2.943,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_tangeshaiou_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/tangeshaiou/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_tangeshaiou_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+teams-data,package,malicious,npm-tarball,False,success,8.756,103.588,10,112.346,
+tomtom-rk,package,malicious,npm-tarball,False,success,8.521,103.236,10,111.759,
+tttestsupport-common,package,malicious,npm-tarball,False,success,10.102,100.738,10,110.848,
+tysapi,package,malicious,npm-tarball,False,success,10.323,105.841,10,116.205,
+ual-content-page,package,malicious,npm-tarball,False,success,7.829,99.847,10,107.678,
+ui-ace,package,malicious,npm-tarball,False,success,10.904,95.065,10,105.975,
+unodep,package,malicious,npm-tarball,False,success,8.161,100.466,10,108.632,
+uploader-plugin,package,malicious,npm-tarball,False,success,10.859,110.663,10,121.547,
+vazgarules,package,malicious,npm-tarball,False,success,9.893,101.361,10,111.256,
+wafer-toggle,package,malicious,npm-tarball,False,failed,2.801,0.0,0,2.803,"Initializing database at /data/resarch-dataset/audit_workspace/codeql/db_wafer-toggle_package.
+Running build command: []
+Running command in /data/resarch-dataset/validation-set/wafer-toggle/package: [/data/codeql/javascript/tools/autobuild.sh]
+Finalizing database at /data/resarch-dataset/audit_workspace/codeql/db_wafer-toggle_package.
+Error: CodeQL did not detect any code written in languages supported by this CodeQL distribution (Swift, Java Properties Files, GitHub Actions, Go, C#, HTML, Python, Rust, YAML, C/C++, XML, Ruby, JavaScript/TypeScript, CSV or Java/Kotlin). Confirm that there is some source code for one of these languages in the project. For more information, review our troubleshooting guide at https://gh.io/troubleshooting-code-scanning/no-source-code-seen-during-build."
+web-design-system,package,malicious,npm-tarball,False,success,9.22,105.406,10,114.646,
+web-pubsub,package,malicious,npm-tarball,False,success,10.256,103.213,10,113.473,
+wsbd.js,package,malicious,npm-tarball,False,success,9.487,101.009,10,110.506,
+xo-twofa,package,malicious,npm-tarball,False,success,8.939,81.016,10,89.957,
+yummy-bolts,package,malicious,npm-tarball,False,success,6.425,62.256,10,68.683,
