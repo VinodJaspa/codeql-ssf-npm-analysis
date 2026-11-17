@@ -1,0 +1,85 @@
+{
+  "columns": [
+    {
+      "field": "package",
+      "title": "package",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 268
+    },
+    {
+      "field": "version",
+      "title": "version",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 104
+    },
+    {
+      "field": "label",
+      "title": "label",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 88
+    },
+    {
+      "field": "tool",
+      "title": "tool",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 82
+    },
+    {
+      "field": "rule",
+      "title": "rule",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 226
+    },
+    {
+      "field": "file",
+      "title": "file",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 258
+    },
+    {
+      "field": "startLine",
+      "title": "startLine",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 115
+    },
+    {
+      "field": "endLine",
+      "title": "endLine",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 109
+    },
+    {
+      "field": "message",
+      "title": "message",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 665
+    }
+  ]
+}
